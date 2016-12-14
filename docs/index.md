@@ -10,11 +10,13 @@ But we do it using custom.css
 Welcome to Modelur!
 ===================
 
+[Modelur](https://modelur.eu) is a parametric urban design tool that helps architects, urban designers and planners quickly develop urban design projects. Its primary purpose is to help designers quickly create urban design proposals and take well-informed decisions during the early stages of the process, while design is still evolving. This is possible due to its real-time survey, which calculates urban control indicators, such as Floor Space Index, Built-up Area or Required number of Parking Lots on-the-fly.
 
 Modelur is implemented as a plug-in for [Trimble SketchUp](http://www.sketchup.com).
 
 ![Modelur screenshot](img/modelur_beta.png)
 
+Although we strive to make Modelur as intuitive as possible, we can not escape the need for good user documentation. And here it is! As this documentation is a part of our Beta release of Modelur, it is subject to changes in the future. If you find some mistake or you miss some explanation, please drop us an [e-mail](mailto:support@modelur.com).
 
 Using this guide
 ----------------
