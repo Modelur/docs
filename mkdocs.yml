@@ -10,7 +10,7 @@ pages:
 theme: 'readthedocs'
 extra_css:
 - custom.css
-copyright: Copyright 2016 by URBS. All Rights Reserved.
+copyright: Copyright 2016 by <a href="https://modelur.eu">URBS</a>. All Rights Reserved.
 site_favicon: modelur.ico
 site_author: The Modelur Team
 extra:
