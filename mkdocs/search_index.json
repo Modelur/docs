@@ -1,0 +1,79 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to Modelur!\n\n\nModelur\n is a parametric urban design tool that helps architects, urban designers and planners quickly develop urban design projects. Its primary purpose is to help designers quickly create urban design proposals and take well-informed decisions during the early stages of the process, while design is still evolving. This is possible due to its real-time survey, which calculates urban control indicators, such as Floor Space Index, Built-up Area or Required number of Parking Lots on-the-fly.\n\n\nModelur is implemented as a plug-in for \nTrimble SketchUp\n.\n\n\n\n\nAlthough we strive to make Modelur as intuitive as possible, we can not escape the need for good user documentation. And here it is! As this documentation is a part of our Beta release of Modelur, it is subject to changes in the future. If you find some mistake or you miss some explanation, please drop us an \ne-mail\n.\n\n\nUsing this guide\n\n\nThis guide can be used in several ways. You can use it as a \nquick start guide\n, to get you up-and-running with Modelur fast. If you want to get help and more details about some functionality of Modelur, \nDetailed Workflow\n section is for you. It explains every detail of how Modelur works and how urban control values are calculated. In between, there are Menu and Tabs sections, which provide more detail on Modelur user interface.",
+            "title": "Introduction"
+        },
+        {
+            "location": "/#welcome-to-modelur",
+            "text": "Modelur  is a parametric urban design tool that helps architects, urban designers and planners quickly develop urban design projects. Its primary purpose is to help designers quickly create urban design proposals and take well-informed decisions during the early stages of the process, while design is still evolving. This is possible due to its real-time survey, which calculates urban control indicators, such as Floor Space Index, Built-up Area or Required number of Parking Lots on-the-fly.  Modelur is implemented as a plug-in for  Trimble SketchUp .   Although we strive to make Modelur as intuitive as possible, we can not escape the need for good user documentation. And here it is! As this documentation is a part of our Beta release of Modelur, it is subject to changes in the future. If you find some mistake or you miss some explanation, please drop us an  e-mail .",
+            "title": "Welcome to Modelur!"
+        },
+        {
+            "location": "/#using-this-guide",
+            "text": "This guide can be used in several ways. You can use it as a  quick start guide , to get you up-and-running with Modelur fast. If you want to get help and more details about some functionality of Modelur,  Detailed Workflow  section is for you. It explains every detail of how Modelur works and how urban control values are calculated. In between, there are Menu and Tabs sections, which provide more detail on Modelur user interface.",
+            "title": "Using this guide"
+        },
+        {
+            "location": "/getting-started/",
+            "text": "System requirements\n\n\nIn order to run Modelur, you will need:\n\n\n\n\nSketchUp\n 2014 or above,\n\n\nInternet Explorer 10 or above (Windows) / Safari 5 or above (OS X).\n\n\n\n\nModelur works well with both, Make (free) and Pro (commercial) versions of SketchUp.\n\n\nInstallation\n\n\nThere are several ways you can install Modelur:\n\n\n\n\nUsing universal \n.rbz\n installer.\n\n\nUsing Windows \n.exe\n installer.\n\n\nVia \nExtension Warehouse\n.\n\n\nVia \nSketchUcation Plugin Store\n.\n\n\n\n\nTo install a SketchUp Ruby plugin script with the .rbz format use the standard SketchUp \ninstallation procedure\n:\n\n\n\n\n\n\nWe recommend logging into your computer as an admin before installing any Ruby scripts. This will make the installation go more smoothly and ensure that files get installed in the proper places.\n\n\nSketchUp 2016 and below:\n Select \nWindow > Preferences\n (Windows) or \nSketchUp > Preferences\n (OS X).\nSketchUp 2017 and above:\n Select \nWindow > Extension Manager\n (Windows) or \nSketchUp > Extension Manager\n (OS X). The Preferences dialog box is displayed.\n\n\nClick on Extensions. The Extensions panel is displayed.\n\n\nClick on the Install Extension button. The Open dialog box is displayed.\n\n\nLocate the Ruby zip file to install (.rbz).\n\n\nClick on the Open button. The Ruby plugin appears in the list of extensions.\n\n\n\n\n\n\nModelur Location\n\n\nUpon installation, Modelur is saved to Sketchup's default Plugins folder, which resides at different locations, depending on the version of SketchUp you use:\n\n\n\n\nOn Windows: \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\SketchUp\\SketchUp ####\\SketchUp\\Plugins\\\n\n\nOn OS X: \n~/Library/Application Support/SketchUp ####/SketchUp/Plugins/\n\n\n\n\nPreferences Location\n\n\nFiles containing your Modelur preferences are stored\n\n\n\n\nOn Windows: \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\Modelur\n\n\nOn OS X: \n~/Library/Application Support/Modelur\n\n\n\n\nAll preferences are stored using standard \nJSON\n data-interchange format. Upon Modelur upgrade, these files will be automatically upated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions > Modelur > Restore default settings.\n\n\nInstallation problems\n\n\nIf you encounter any problems with your Modelur installation, please do the following:\n\n\nOn Windows:\n\n\n\n\nDelete \\Modelur folder and modelur.rb file from \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\SketchUp\\SketchUp ####\\SketchUp\\Plugins\\\n.\n\n\nDelete \\Modelur folder from \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\\n (if it exists).\n\n\nInstall the newest .rbz version of Modelur and try to license it (make sure you are online).\n\n\n\n\nOn OS X:\n\n\n\n\nDelete \\Modelur folder and modelur.rb file from \n~/Library/Application Support/SketchUp ####/SketchUp/Plugins/\n.\n\n\nDelete \\Modelur folder from \n~/Library/Application Support/Modelur/\n (if it exists).\n\n\nInstall the newest .rbz version of Modelur and try to license it (make sure you are online).\n\n\n\n\nLicensing\n\n\nUpon purchase, you should have received a license key. To license your copy of Modelur, please make sure you are online. You need to copy/paste this key into activation window, which opens automatically the first time you initialize Modelur.\n\n\nIn case you are not able to obtain your license key, please contact us at \nsupport@modelur.com\n.\n\n\nTrial License\n\n\nYou can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a \nRequest a Trial License\n link.",
+            "title": "Getting started"
+        },
+        {
+            "location": "/getting-started/#system-requirements",
+            "text": "In order to run Modelur, you will need:   SketchUp  2014 or above,  Internet Explorer 10 or above (Windows) / Safari 5 or above (OS X).   Modelur works well with both, Make (free) and Pro (commercial) versions of SketchUp.",
+            "title": "System requirements"
+        },
+        {
+            "location": "/getting-started/#installation",
+            "text": "There are several ways you can install Modelur:   Using universal  .rbz  installer.  Using Windows  .exe  installer.  Via  Extension Warehouse .  Via  SketchUcation Plugin Store .   To install a SketchUp Ruby plugin script with the .rbz format use the standard SketchUp  installation procedure :    We recommend logging into your computer as an admin before installing any Ruby scripts. This will make the installation go more smoothly and ensure that files get installed in the proper places.  SketchUp 2016 and below:  Select  Window > Preferences  (Windows) or  SketchUp > Preferences  (OS X). SketchUp 2017 and above:  Select  Window > Extension Manager  (Windows) or  SketchUp > Extension Manager  (OS X). The Preferences dialog box is displayed.  Click on Extensions. The Extensions panel is displayed.  Click on the Install Extension button. The Open dialog box is displayed.  Locate the Ruby zip file to install (.rbz).  Click on the Open button. The Ruby plugin appears in the list of extensions.    Modelur Location  Upon installation, Modelur is saved to Sketchup's default Plugins folder, which resides at different locations, depending on the version of SketchUp you use:   On Windows:  C:\\Users\\YOUR USERNAME\\AppData\\Roaming\\SketchUp\\SketchUp ####\\SketchUp\\Plugins\\  On OS X:  ~/Library/Application Support/SketchUp ####/SketchUp/Plugins/   Preferences Location  Files containing your Modelur preferences are stored   On Windows:  C:\\Users\\YOUR USERNAME\\AppData\\Roaming\\Modelur  On OS X:  ~/Library/Application Support/Modelur   All preferences are stored using standard  JSON  data-interchange format. Upon Modelur upgrade, these files will be automatically upated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions > Modelur > Restore default settings.",
+            "title": "Installation"
+        },
+        {
+            "location": "/getting-started/#installation-problems",
+            "text": "If you encounter any problems with your Modelur installation, please do the following:  On Windows:   Delete \\Modelur folder and modelur.rb file from  C:\\Users\\YOUR USERNAME\\AppData\\Roaming\\SketchUp\\SketchUp ####\\SketchUp\\Plugins\\ .  Delete \\Modelur folder from  C:\\Users\\YOUR USERNAME\\AppData\\Roaming\\  (if it exists).  Install the newest .rbz version of Modelur and try to license it (make sure you are online).   On OS X:   Delete \\Modelur folder and modelur.rb file from  ~/Library/Application Support/SketchUp ####/SketchUp/Plugins/ .  Delete \\Modelur folder from  ~/Library/Application Support/Modelur/  (if it exists).  Install the newest .rbz version of Modelur and try to license it (make sure you are online).",
+            "title": "Installation problems"
+        },
+        {
+            "location": "/getting-started/#licensing",
+            "text": "Upon purchase, you should have received a license key. To license your copy of Modelur, please make sure you are online. You need to copy/paste this key into activation window, which opens automatically the first time you initialize Modelur.  In case you are not able to obtain your license key, please contact us at  support@modelur.com .  Trial License  You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a  Request a Trial License  link.",
+            "title": "Licensing"
+        },
+        {
+            "location": "/quickstart/",
+            "text": "UI overview\n\n\nIn this section we will quickly introduce you to the structure of Modelur's User Interface. Getting to know its logic will help you easily integrate it into your regular workflow.\n\n\nOnce Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 1). \n\n\n\n\nFigure 1 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu \nView > Toolbars > Modelur\n. To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.\n\n\n\nSecond option to initialize Modelur is to navigate to it through SketchUp menu \nPlugins > Modelur > Initialize Modelur\n (Figure 2).\n\n\n\n\nFigure 2 - Alternative way to initialize Modelur through SketchUp menu \nPlugins > Modelur > Initialize Modelur\n. Please note that Plugins menu was called Extensions in previous versions of SketchUp.",
+            "title": "Quick start"
+        },
+        {
+            "location": "/quickstart/#ui-overview",
+            "text": "In this section we will quickly introduce you to the structure of Modelur's User Interface. Getting to know its logic will help you easily integrate it into your regular workflow.  Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 1).    Figure 1 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu  View > Toolbars > Modelur . To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.  Second option to initialize Modelur is to navigate to it through SketchUp menu  Plugins > Modelur > Initialize Modelur  (Figure 2).   Figure 2 - Alternative way to initialize Modelur through SketchUp menu  Plugins > Modelur > Initialize Modelur . Please note that Plugins menu was called Extensions in previous versions of SketchUp.",
+            "title": "UI overview"
+        },
+        {
+            "location": "/user-interface/",
+            "text": "",
+            "title": "User Interface"
+        },
+        {
+            "location": "/detailed-workflow/",
+            "text": "",
+            "title": "Detailed Workflow"
+        },
+        {
+            "location": "/troubleshooting/",
+            "text": "Known Limitations\n\n\nAlthough we strive to make Modelur flawless, there are some problems we can not bypass. We are aware of the following limitations, and we will do our best to improve them in future versions of Modelur:\n\n\n\n\nUndo/Redo mechanism is not perfect. \nProposed solution:\n avoid using Undo/Redo actions on Modelur objects.\n\n\nWhen using Value Control Box to specify exact distance of pushpull when manually editing the building to add eg. terrace, user can input the exact distance only once. \nProposed solution:\n please re-select face and pushpull the face again.\n\n\nComplex/Mixed-use Buildings currently don't take into account terraces and loggias when calculating Gross Floor Area.",
+            "title": "Troubleshooting"
+        },
+        {
+            "location": "/troubleshooting/#known-limitations",
+            "text": "Although we strive to make Modelur flawless, there are some problems we can not bypass. We are aware of the following limitations, and we will do our best to improve them in future versions of Modelur:   Undo/Redo mechanism is not perfect.  Proposed solution:  avoid using Undo/Redo actions on Modelur objects.  When using Value Control Box to specify exact distance of pushpull when manually editing the building to add eg. terrace, user can input the exact distance only once.  Proposed solution:  please re-select face and pushpull the face again.  Complex/Mixed-use Buildings currently don't take into account terraces and loggias when calculating Gross Floor Area.",
+            "title": "Known Limitations"
+        },
+        {
+            "location": "/appendix/",
+            "text": "",
+            "title": "Appendix"
+        }
+    ]
+}
