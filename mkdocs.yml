@@ -1,0 +1,25 @@
+site_name: Modelur User Guide
+pages:
+- Introduction: index.md
+- Getting started: getting-started.md
+- Quick start: quickstart.md
+- User Interface: user-interface.md
+- Detailed Workflow: detailed-workflow.md
+- Troubleshooting: troubleshooting.md
+- Appendix: appendix.md
+theme: 'readthedocs'
+extra_css:
+- custom.css
+copyright: Copyright 2016 by URBS. All Rights Reserved.
+site_favicon: modelur.ico
+site_author: The Modelur Team
+extra:
+  logo: 'img/modelur_120x120.png'
+  palette:
+      primary: 'light blue'
+      accent: 'cyan'
+  font:
+      text: 'Open Sans'
+      code: 'Ubuntu Mono'
+  author:
+      twitter: '@modelur'
