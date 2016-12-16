@@ -9,7 +9,7 @@ Modelur is implemented as a plug-in for [Trimble SketchUp](http://www.sketchup.c
 
 ![Modelur screenshot](img/modelur_beta.png)
 
-Although we strive to make Modelur as intuitive as possible, we can not escape the need for good user documentation. Please note that this documentation is part of Modelur Beta release. As such, it is still work in progress and it will be updated quite a lot during the following months. If you find some mistake or you miss some explanation, please drop us an [e-mail](mailto:support@modelur.com).
+Although we strive to make Modelur as intuitive as possible, user documentation might sometimes come handy. Please note that this documentation is part of Modelur Beta release. As such, it is still work in progress and it will be updated quite a lot during the following months. If you find some mistake or you miss some explanation, please drop us an [e-mail](mailto:support@modelur.com).
 
 Using this guide
 ----------------
