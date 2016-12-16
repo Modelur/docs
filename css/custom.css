@@ -1,0 +1,67 @@
+/*center images*/
+img {
+    display: block;
+    background-color: transparent;
+    border: none;
+    margin: 0px auto;
+}
+
+/*image description*/
+figcaption {
+    font-size: 90%;
+    margin-top: 0.2em;
+    margin-bottom: 1.2em;
+}
+
+/*Modelur User Guide header*/
+.wy-side-nav-search {
+    font-size: 120%;
+    background-color: #539AC1;
+}
+
+/*remove home icon*/
+.icon-home:before {
+    /*content:"";*/
+    content:"";
+}
+
+/*left side column colors*/
+.wy-nav-side {
+    background: #2c5469;
+}
+.rst-versions .rst-current-version {
+    background: #539AC1;
+}
+.rst-versions {
+    border-top: #539AC1;
+    background: #539AC1;
+}
+
+/*search field*/
+.wy-side-nav-search input[type="text"] {
+    border-radius: 2px;
+}
+/*search result*/
+form .search-query{
+    border-radius: 2px;
+}
+
+/*code text*/
+code, .rst-content tt {
+    white-space: nowrap;
+    max-width: 100%;
+    background: #fff;
+    border: solid 1px #e1e4e5;
+    font-size: 90%;
+    padding: 0 5px;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    color: #384e77;
+    overflow-x: auto;
+}
+
+h1, h2, h3, h4, h5, h6, legend {
+    margin-top: 0;
+    font-weight: 500;
+    color: #2c5469;
+    font-family: "Fira Sans", "Roboto Slab", "Georgia", Arial, sans-serif;
+}
