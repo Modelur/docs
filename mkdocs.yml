@@ -1,4 +1,4 @@
-site_name: Modelur User Guide
+site_name: MODELUR USER GUIDE
 pages:
 - Introduction: index.md
 - Getting started: getting-started.md
@@ -9,7 +9,8 @@ pages:
 - Appendix: appendix.md
 theme: 'readthedocs'
 extra_css:
-- custom.css
+- css/fonts.css
+- css/custom.css
 copyright: Copyright 2016 by URBS. All Rights Reserved.
 site_favicon: modelur.ico
 site_author: The Modelur Team
