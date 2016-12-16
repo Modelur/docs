@@ -59,8 +59,17 @@ code, .rst-content tt {
     overflow-x: auto;
 }
 
-h1, h2, h3, h4, h5, h6, legend {
+h1, h2, h3, legend {
     margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #2c5469;
+    font-family: "Fira Sans", "Roboto Slab", "Georgia", Arial, sans-serif;
+}
+
+h4, h5, h6  {
+    margin-top: 0;
+    margin-bottom: 5px;
     font-weight: 500;
     color: #2c5469;
     font-family: "Fira Sans", "Roboto Slab", "Georgia", Arial, sans-serif;
