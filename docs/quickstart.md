@@ -14,3 +14,20 @@ Second option to initialize Modelur is to navigate to it through SketchUp menu _
 ![Modelur_menu entry](img/modelur_plugins_menu.png)
 
 <figcaption>Figure 2 - Alternative way to initialize Modelur through SketchUp menu <code>Plugins > Modelur > Initialize Modelur</code>. Please note that Plugins menu was called Extensions in previous versions of SketchUp.</figcaption>
+
+Once Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3) is composed of four parts: Menu, Tabs, Panels and Statusbar.
+
+![Modelur_menu entry](img/modelur_ui_annotated.png)
+
+##### Menu
+Menu is located on top of the UI. It is the place where you go to when you want to save data (e.g. export Urban Control Indicators), change preferences (e.g. Language) or get some help (e.g. open this User Guide). Detailed description is available in Menu section.
+
+##### Tabs
+Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are three of them: Input data tab (a place to set default values and Land Use requirements) Building tab (a place to modify selected Buildings) and Survey (a place where you can monitor Urban Control Indicators). Detailed description is available in Tabs section.
+
+##### Panels
+Panels are the windows inside each tab. They represent a way to group related parameters (e.g. Plot parameters or Land Use requirements). Detailed description is available in each of the corresponding Tabs section.
+Figure 3 -  Structure of Modelur User Interface.
+
+##### Statusbar
+Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviations when you hover over them. You can turn Status bar on or of in Menu > Options > Show status bar.
