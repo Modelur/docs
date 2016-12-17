@@ -16,7 +16,7 @@ figcaption {
 /*Modelur User Guide header*/
 .wy-side-nav-search {
     font-size: 120%;
-    background-color: #539AC1;
+    background-color: #599ec6;
 }
 
 /*remove home icon*/
@@ -30,11 +30,11 @@ figcaption {
     background: #2c5469;
 }
 .rst-versions .rst-current-version {
-    background: #539AC1;
+    background: #599ec6;
 }
 .rst-versions {
-    border-top: #539AC1;
-    background: #539AC1;
+    border-top: #599ec6;
+    background: #599ec6;
 }
 
 /*search field*/
