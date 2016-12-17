@@ -1,8 +1,8 @@
 site_name: MODELUR USER GUIDE
 pages:
 - Introduction: index.md
-- Getting started: getting-started.md
-- Quick start: quickstart.md
+- Getting Started: getting-started.md
+- Quick Start: quickstart.md
 - User Interface: user-interface.md
 - Detailed Workflow: detailed-workflow.md
 - Troubleshooting: troubleshooting.md
