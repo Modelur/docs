@@ -16,7 +16,7 @@ figcaption {
 /*Modelur User Guide header*/
 .wy-side-nav-search {
     font-size: 120%;
-    background-color: #539AC1;
+    background-color: #599ec6;
 }
 
 /*remove home icon*/
@@ -30,11 +30,11 @@ figcaption {
     background: #2c5469;
 }
 .rst-versions .rst-current-version {
-    background: #539AC1;
+    background: #599ec6;
 }
 .rst-versions {
-    border-top: #539AC1;
-    background: #539AC1;
+    border-top: #599ec6;
+    background: #599ec6;
 }
 
 /*search field*/
@@ -59,8 +59,17 @@ code, .rst-content tt {
     overflow-x: auto;
 }
 
-h1, h2, h3, h4, h5, h6, legend {
+h1, h2, h3, legend {
     margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #2c5469;
+    font-family: "Fira Sans", "Roboto Slab", "Georgia", Arial, sans-serif;
+}
+
+h4, h5, h6  {
+    margin-top: 0;
+    margin-bottom: 5px;
     font-weight: 500;
     color: #2c5469;
     font-family: "Fira Sans", "Roboto Slab", "Georgia", Arial, sans-serif;

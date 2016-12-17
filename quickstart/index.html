@@ -9,7 +9,7 @@
   <meta name="author" content="The Modelur Team">
   <link rel="shortcut icon" href="../modelur.ico">
   
-  <title>Quick start - MODELUR USER GUIDE</title>
+  <title>Quick Start - MODELUR USER GUIDE</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -20,7 +20,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Quick start";
+    var mkdocs_page_name = "Quick Start";
     var mkdocs_page_input_path = "quickstart.md";
     var mkdocs_page_url = "/quickstart/";
   </script>
@@ -58,18 +58,38 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../getting-started/">Getting started</a>
+        <a class="" href="../getting-started/">Getting Started</a>
         
     </li>
 <li>
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href="./">Quick start</a>
+        <a class="current" href="./">Quick Start</a>
         
             <ul>
             
-                <li class="toctree-l3"><a href="#ui-overview">UI overview</a></li>
+                <li class="toctree-l3"><a href="#ui-overview">UI Overview</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#user-interface-structure">User Interface Structure</a></li>
+                
+                    <li><a class="toctree-l4" href="#menu">Menu</a></li>
+                
+                    <li><a class="toctree-l4" href="#tabs">Tabs</a></li>
+                
+                    <li><a class="toctree-l4" href="#panels">Panels</a></li>
+                
+                    <li><a class="toctree-l4" href="#status-bar">Status Bar</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#quick-start-guide">Quick Start guide</a></li>
+                
+                    <li><a class="toctree-l4" href="#before-you-start">Before you start</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-1-initialize-modelur-model-and-configure-it">Step 1 - Initialize Modelur model and configure it</a></li>
+                
+                    <li><a class="toctree-l4" href="#step-2-create-modelur-building">Step 2 - Create Modelur Building</a></li>
                 
             
             </ul>
@@ -127,7 +147,7 @@
     
       
     
-    <li>Quick start</li>
+    <li>Quick Start</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -137,7 +157,7 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="ui-overview">UI overview</h1>
+                <h1 id="ui-overview">UI Overview</h1>
 <p>In this section we will quickly introduce you to the structure of Modelur's User Interface. Getting to know its logic will help you easily integrate it into your regular workflow.</p>
 <p>Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 1). </p>
 <p><img alt="Modelur_toolbar" src="../img/modelur_toolbar_non_initialized.png" /></p>
@@ -146,6 +166,30 @@
 <p>Second option to initialize Modelur is to navigate to it through SketchUp menu <em>Plugins &gt; Modelur &gt; Initialize Modelur</em> (Figure 2).</p>
 <p><img alt="Modelur_menu entry" src="../img/modelur_plugins_menu.png" /></p>
 <figcaption>Figure 2 - Alternative way to initialize Modelur through SketchUp menu <code>Plugins > Modelur > Initialize Modelur</code>. Please note that Plugins menu was called Extensions in previous versions of SketchUp.</figcaption>
+
+<p>Once Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3) is composed of four parts: Menu, Tabs, Panels and Statusbar.</p>
+<h1 id="user-interface-structure">User Interface Structure</h1>
+<h4 id="menu">Menu</h4>
+<p>Menu is located at the top of the User Interface. It is the place where you go to when you want to save data (e.g. export Urban Control Indicators), change preferences (e.g. Language) or get some help (e.g. open this User Guide). Detailed description is available in the Menu section.</p>
+<h4 id="tabs">Tabs</h4>
+<p>Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: Whole Plot tab (a place to set default values for the whole plot), Land Use tab (a place to create and edit Land Uses and their parameters), Building tab (a place to modify selected Buildings) and Survey (a place where you can monitor Urban Control Indicators). Detailed description is available in the Tabs section.</p>
+<p><img alt="Modelur_User_Interface" src="../img/modelur_ui_annotated.png" /></p>
+<h4 id="panels">Panels</h4>
+<p>Panels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Tabs section.</p>
+<h4 id="status-bar">Status Bar</h4>
+<p>Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu &gt; Options &gt; Show status bar.</p>
+<figcaption>Figure 3 -  Structure of Modelur User Interface.</figcaption>
+
+<h1 id="quick-start-guide">Quick Start guide</h1>
+<h4 id="before-you-start">Before you start</h4>
+<p>Make sure you have <a href="../getting-started/#installation">installed Modelur</a> and quickly check out the <a href="#user-interface-structure">structure of Modelur User Interface</a>, so you get acquainted with basic terminology and UI logic. It should not take you more than two and a half minutes. :-)</p>
+<h4 id="step-1-initialize-modelur-model-and-configure-it">Step 1 - Initialize Modelur model and configure it</h4>
+<p>Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu Plugins &gt; Modelur &gt; Initialize Modelur (as shown in <a href="#ui-overview">UI Overview</a> section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 4).</p>
+<p><img alt="Modelur_options_menu" src="../img/modelur_ui_options_annotated.png" /></p>
+<figcaption>Figure 4 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside <a href="../user-interface" >User Interface</a> section.</figcaption>
+
+<h4 id="step-2-create-modelur-building">Step 2 - Create Modelur Building</h4>
+<p>Once Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur icon in the toolbar (1), by clicking on the Create Building (2) entry in SketchUp menu Plugins &gt; Modelur or by clicking on the Create button (3) inside Building tab of Modelur’s user interface (Figure 5).</p>
               
             </div>
           </div>
@@ -156,7 +200,7 @@
         <a href="../user-interface/" class="btn btn-neutral float-right" title="User Interface">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../getting-started/" class="btn btn-neutral" title="Getting started"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../getting-started/" class="btn btn-neutral" title="Getting Started"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   

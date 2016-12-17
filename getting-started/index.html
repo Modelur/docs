@@ -9,7 +9,7 @@
   <meta name="author" content="The Modelur Team">
   <link rel="shortcut icon" href="../modelur.ico">
   
-  <title>Getting started - MODELUR USER GUIDE</title>
+  <title>Getting Started - MODELUR USER GUIDE</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -20,7 +20,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Getting started";
+    var mkdocs_page_name = "Getting Started";
     var mkdocs_page_input_path = "getting-started.md";
     var mkdocs_page_url = "/getting-started/";
   </script>
@@ -58,7 +58,7 @@
           
             <li>
     <li class="toctree-l1 current">
-        <a class="current" href="./">Getting started</a>
+        <a class="current" href="./">Getting Started</a>
         
             <ul>
             
@@ -67,10 +67,16 @@
             
                 <li class="toctree-l3"><a href="#installation">Installation</a></li>
                 
+                    <li><a class="toctree-l4" href="#modelur-location">Modelur Location</a></li>
+                
+                    <li><a class="toctree-l4" href="#preferences-location">Preferences Location</a></li>
+                
                     <li><a class="toctree-l4" href="#installation-problems">Installation problems</a></li>
                 
             
                 <li class="toctree-l3"><a href="#licensing">Licensing</a></li>
+                
+                    <li><a class="toctree-l4" href="#trial-license">Trial License</a></li>
                 
             
             </ul>
@@ -80,7 +86,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="../quickstart/">Quick start</a>
+        <a class="" href="../quickstart/">Quick Start</a>
         
     </li>
 <li>
@@ -135,7 +141,7 @@
     
       
     
-    <li>Getting started</li>
+    <li>Getting Started</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -148,19 +154,19 @@
                 <h1 id="system-requirements">System requirements</h1>
 <p>In order to run Modelur, you will need:</p>
 <ol>
-<li><a href="http://www.sketchup.com">SketchUp</a> 2014 or above,</li>
+<li><a href="http://www.sketchup.com" target="_blank">SketchUp</a> 2014 or above,</li>
 <li>Internet Explorer 10 or above (Windows) / Safari 5 or above (OS X).</li>
 </ol>
 <p>Modelur works well with both, Make (free) and Pro (commercial) versions of SketchUp.</p>
 <h1 id="installation">Installation</h1>
 <p>There are several ways you can install Modelur:</p>
 <ul>
-<li>Using universal <a href="https://modelur.eu/download/">.rbz</a> installer.</li>
-<li>Using Windows <a href="https://modelur.eu/download/">.exe</a> installer.</li>
-<li>Via <a href="https://extensions.sketchup.com/en/content/modelur-urban-design">Extension Warehouse</a>.</li>
-<li>Via <a href="http://sketchucation.com/resources/plugin-store-download">SketchUcation Plugin Store</a>.</li>
+<li>Using universal <a href="http://download.modelur.com" target="_blank">.rbz</a> installer.</li>
+<li>Using Windows <a href="http://download.modelur.com" target="_blank">.exe</a> installer.</li>
+<li>Via <a href="http://sketchup-ew.modelur.com" target="_blank">Extension Warehouse</a>.</li>
+<li>Via <a href="http://sketchucation-ps.modelur.com" target="_blank">SketchUcation Plugin Store</a>.</li>
 </ul>
-<p>To install a SketchUp Ruby plugin script with the .rbz format use the standard SketchUp <a href="https://help.sketchup.com/en/article/38583">installation procedure</a>:</p>
+<p>To install a SketchUp Ruby plugin script with the .rbz format use the standard SketchUp <a href="https://help.sketchup.com/en/article/38583" target="_blank">installation procedure</a>]:</p>
 <blockquote>
 <ol>
 <li>We recommend logging into your computer as an admin before installing any Ruby scripts. This will make the installation go more smoothly and ensure that files get installed in the proper places.</li>
@@ -171,39 +177,43 @@
 <li>Click on the Open button. The Ruby plugin appears in the list of extensions.</li>
 </ol>
 </blockquote>
-<p><strong>Modelur Location</strong></p>
+<h5 id="modelur-location">Modelur Location</h5>
 <p>Upon installation, Modelur is saved to Sketchup's default Plugins folder, which resides at different locations, depending on the version of SketchUp you use:</p>
 <ul>
 <li>On Windows: <code>C:\Users\YOUR USERNAME\AppData\Roaming\SketchUp\SketchUp ####\SketchUp\Plugins\</code></li>
 <li>On OS X: <code>~/Library/Application Support/SketchUp ####/SketchUp/Plugins/</code></li>
 </ul>
-<p><strong>Preferences Location</strong></p>
+<h5 id="preferences-location">Preferences Location</h5>
 <p>Files containing your Modelur preferences are stored</p>
 <ul>
 <li>On Windows: <code>C:\Users\YOUR USERNAME\AppData\Roaming\Modelur</code></li>
 <li>On OS X: <code>~/Library/Application Support/Modelur</code></li>
 </ul>
-<p>All preferences are stored using standard <a href="http://www.json.org/">JSON</a> data-interchange format. Upon Modelur upgrade, these files will be automatically upated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions &gt; Modelur &gt; Restore default settings.</p>
+<p>All preferences are stored using standard <a href="http://www.json.org/" target="_blank">JSON</a> data-interchange format. Upon Modelur upgrade, these files will be automatically upated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions &gt; Modelur &gt; Restore default settings.</p>
 <h2 id="installation-problems">Installation problems</h2>
 <p>If you encounter any problems with your Modelur installation, please do the following:</p>
-<p><strong>On Windows:</strong></p>
+<h4 id="on-windows">On Windows:</h4>
 <ol>
 <li>Delete \Modelur folder and modelur.rb file from <code>C:\Users\YOUR USERNAME\AppData\Roaming\SketchUp\SketchUp ####\SketchUp\Plugins\</code>.</li>
 <li>Delete \Modelur folder from <code>C:\Users\YOUR USERNAME\AppData\Roaming\</code> (if it exists).</li>
-<li>Install the newest .rbz version of Modelur and try to license it (make sure you are online).</li>
+<li>Install the <a href="http://download.modelur.com" target="_blank">newest .rbz version</a> of Modelur and try to license it (make sure you are online).</li>
 </ol>
-<p><strong>On OS X:</strong></p>
+<h4 id="on-os-x">On OS X:</h4>
 <ol>
 <li>Delete \Modelur folder and modelur.rb file from <code>~/Library/Application Support/SketchUp ####/SketchUp/Plugins/</code>.</li>
 <li>Delete \Modelur folder from <code>~/Library/Application Support/Modelur/</code> (if it exists).</li>
-<li>Install the newest .rbz version of Modelur and try to license it (make sure you are online).</li>
+<li>Install the <a href="http://download.modelur.com" target="_blank">newest .rbz version</a> of Modelur and try to license it (make sure you are online).</li>
 </ol>
 <h1 id="licensing">Licensing</h1>
-<p>Upon purchase, you should have received a license key. To license your copy of Modelur, please make sure you are online. You need to copy/paste this key into activation window, which opens automatically the first time you initialize Modelur.</p>
-<p>In case you are not able to obtain your license key, please contact us at <a href="mailto:support@modelur.com">support@modelur.com</a>.</p>
-<p><strong>Trial License</strong></p>
-<p>You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a <em>Request a Trial License</em> link.</p>
-<p><img alt="Request trial" src="../img/modelur_request_trial.png" /></p>
+<p>Upon purchase, you should have received a License Key. To license your copy of Modelur, please make sure you are online. You need to copy/paste received License Key into activation window, which opens automatically when you first initialize Modelur (Figure 1).</p>
+<p><img alt="Activate Modelur" src="../img/modelur_activate.png" /></p>
+<figcaption>Figure 1 - Modelur Activation window.</figcaption>
+
+<p>In case you are not able to obtain your License Key, please contact us at <a href="mailto:support@modelur.com">support@modelur.com</a>.</p>
+<h4 id="trial-license">Trial License</h4>
+<p>You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a <em>Request a Trial License</em> link as shown below (Figure 2).</p>
+<p><img alt="Request trial" src="../img/modelur_request_trial.png" />
+<figcaption>Figure 2 - Request Trial button.</figcaption></p>
               
             </div>
           </div>
@@ -211,7 +221,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../quickstart/" class="btn btn-neutral float-right" title="Quick start">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../quickstart/" class="btn btn-neutral float-right" title="Quick Start">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href=".." class="btn btn-neutral" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
