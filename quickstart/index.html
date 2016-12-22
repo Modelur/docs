@@ -51,7 +51,7 @@
           
             <li>
     <li class="toctree-l1 ">
-        <a class="" href="..">Introduction</a>
+        <a class="" href="..">Meet Modelur</a>
         
     </li>
 <li>
@@ -189,7 +189,19 @@
 <figcaption>Figure 4 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside <a href="../user-interface" >User Interface</a> section.</figcaption>
 
 <h4 id="step-2-create-modelur-building">Step 2 - Create Modelur Building</h4>
-<p>Once Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur icon in the toolbar (1), by clicking on the Create Building (2) entry in SketchUp menu Plugins &gt; Modelur or by clicking on the Create button (3) inside Building tab of Modelur’s user interface (Figure 5).</p>
+<p>Once Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the Create Building (2) entry in SketchUp menu Plugins &gt; Modelur or by clicking on the Create button (3) inside Building tab of Modelur’s user interface (Figure 5).</p>
+<p><img alt="Modelur_options_menu" src="../img/modelur_create_building_annotated.png" /></p>
+<figcaption>Figure 5 - Buttons through which you can create Modelur Buildings.</figcaption>
+
+<p>Regardless of which way you choose to create Modelur Buildings, there are always two options - you can create a Building based on a predefined floor plan or based on what you draw. We will take a look at these two in the following paragraphs.</p>
+<h5 id="creating-predefined-building">Creating predefined building</h5>
+<p>If nothing is selected in your .skp model, Modelur will create a Building with predefined floor plan. This can be selected under Modelur’s Options &gt; Default building shape as shown below. At the moment (Modelur v0.5.7), you can chose among three basic floor plans - square, circle and L-shape (Figure 6).</p>
+<p>When new Building is initialized this way, it is created based on the default Parameters as specified for the Whole Plot or Parametric Maps (if defined). We will take a look at those later.</p>
+<p><img alt="Modelur_options_menu" src="../img/default_building_shapes_annotated.png" /></p>
+<figcaption>Figure 6 - Different shapes of Buildings when you create a Building and no Face or Edge is selected.</figcaption>
+
+<h5 id="creating-building-based-on-specific-floor-plan">Creating building based on specific floor plan</h5>
+<p>More commonly, you will want to create your own floor plan and create Building based on its shape. To do this, simply draw (or select) arbitrary horizontal face (Modelur will select it automatically if it is being created) using standard SketchUp’s procedure and use one of the aforementioned methods (clicking on one of Create Building buttons) to create Building from it (Figure 7). This will again create new Modelur Building based on default parameters, except that the Built-up Area (and consequently Gross Floor Area) will match the selected floor plan.</p>
               
             </div>
           </div>
