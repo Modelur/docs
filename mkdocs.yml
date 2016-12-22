@@ -1,6 +1,6 @@
 site_name: MODELUR USER GUIDE
 pages:
-- Introduction: index.md
+- Meet Modelur: index.md
 - Getting Started: getting-started.md
 - Quick Start: quickstart.md
 - User Interface: user-interface.md
