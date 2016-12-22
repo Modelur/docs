@@ -20,18 +20,18 @@ Once Modelur is initialized, its user interface is opened. Modelur's main User I
 User Interface Structure
 ========================
 
-#### Menu
+##### Menu
 Menu is located at the top of the User Interface. It is the place where you go to when you want to save data (e.g. export Urban Control Indicators), change preferences (e.g. Language) or get some help (e.g. open this User Guide). Detailed description is available in the Menu section.
 
-#### Tabs
+##### Tabs
 Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: Whole Plot tab (a place to set default values for the whole plot), Land Use tab (a place to create and edit Land Uses and their parameters), Building tab (a place to modify selected Buildings) and Survey (a place where you can monitor Urban Control Indicators). Detailed description is available in the Tabs section.
 
 ![Modelur_User_Interface](img/modelur_ui_annotated.png)
 
-#### Panels
+##### Panels
 Panels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Tabs section.
 
-#### Status Bar
+##### Status Bar
 Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu > Options > Show status bar.
 
 <figcaption>Figure 3 -  Structure of Modelur User Interface.</figcaption>
@@ -74,3 +74,5 @@ When new Building is initialized this way, it is created based on the default Pa
 ##### Creating building based on specific floor plan
 
 More commonly, you will want to create your own floor plan and create Building based on its shape. To do this, simply draw (or select) arbitrary horizontal face (Modelur will select it automatically if it is being created) using standard SketchUp’s procedure and use one of the aforementioned methods (clicking on one of Create Building buttons) to create Building from it (Figure 7). This will again create new Modelur Building based on default parameters, except that the Built-up Area (and consequently Gross Floor Area) will match the selected floor plan.
+
+Alternatively you can also create Building based on selected Edge, which forms a closed loop.
