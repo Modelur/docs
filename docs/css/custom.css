@@ -1,76 +1,104 @@
-/*center images*/
+/*CENTER IMAGES*/
 img {
     display: block;
     background-color: transparent;
     border: none;
     margin: 0px auto;
+    border: 2px solid #dddddd;
 }
 
-/*image description*/
+/*IMAGE DESCRIPTION*/
 figcaption {
-    font-size: 90%;
-    margin-top: 0.2em;
-    margin-bottom: 1.2em;
+    font-size: 80%;
+    font-weight: 300;
+    line-height: 1.2em;
+    margin-top: 10px;
 }
 
-/*Modelur User Guide header*/
-.wy-side-nav-search {
-    font-size: 120%;
-    background-color: #599ec6;
-}
-
-/*remove home icon*/
-.icon-home:before {
-    /*content:"";*/
-    content:"";
-}
-
-/*left side column colors*/
-.wy-nav-side {
-    background: #2c5469;
-}
-.rst-versions .rst-current-version {
-    background: #599ec6;
-}
-.rst-versions {
-    border-top: #599ec6;
-    background: #599ec6;
-}
-
-/*search field*/
-.wy-side-nav-search input[type="text"] {
-    border-radius: 2px;
-}
-/*search result*/
-form .search-query{
-    border-radius: 2px;
-}
-
-/*code text*/
-code, .rst-content tt {
-    white-space: nowrap;
-    max-width: 100%;
-    background: #fff;
-    border: solid 1px #e1e4e5;
-    font-size: 90%;
-    padding: 0 5px;
-    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-    color: #384e77;
-    overflow-x: auto;
-}
-
-h1, h2, h3, legend {
-    margin-top: 0;
-    margin-bottom: 20px;
+/* TOC */
+.project .name {
     font-weight: 600;
-    color: #2c5469;
-    font-family: "Fira Sans", "Roboto Slab", "Georgia", Arial, sans-serif;
+    font-size: 21px;
+}
+.drawer {
+    padding-top: 60px;
+    font-size: 14px;
+    line-height: 0.5em;
 }
 
-h4, h5, h6  {
+/*TEXT*/
+.article {
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+/*PAGE WIDTH*/
+/*BANNER*/
+.bar {
+    display: table;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+}
+@media only screen and (min-width: 960px) {
+    .header {
+        width: 100%
+    }
+    .drawer .scrollable .wrapper hr {
+        width: 48px
+    }
+}
+.project .banner {
+    height: 0px;
+    padding: 37px 20px 3px 0px;
+}
+
+.main {
+    max-width: 960px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+.backdrop-paper {
+    max-width: 960px;
+    height: 100%;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+.admonition {
+    margin: 20px -20px 0px;
+}
+
+/*HEADERS*/
+h1, h2, h3, h4, h5, h6, legend {
     margin-top: 0;
-    margin-bottom: 5px;
-    font-weight: 500;
-    color: #2c5469;
+    margin-bottom: 0;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    color: #03a9f4 !important;
     font-family: "Fira Sans", "Roboto Slab", "Georgia", Arial, sans-serif;
+}
+.article h1 {
+    font-size: 34px;
+    padding-bottom:22px;
+    border-bottom: 2px solid rgba(0,0,0,.12);
+}
+.article h2 {
+    font-size: 28px;
+}
+.article h3 {
+    font-size: 25px;
+}
+.article h4 {
+    font-size: 22px;
+    font-weight: 400 !important;
+}
+.article h5 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400 !important;
+}
+.article .wrapper {
+    padding: 70px 20px 92px;
 }
