@@ -1,4 +1,4 @@
-site_name: MODELUR USER GUIDE
+site_name: Modelur User Guide
 pages:
 - Meet Modelur: index.md
 - Getting Started: getting-started.md
@@ -7,7 +7,7 @@ pages:
 - Detailed Workflow: detailed-workflow.md
 - Troubleshooting: troubleshooting.md
 - Appendix: appendix.md
-theme: 'readthedocs'
+theme: 'material'
 extra_css:
 - css/fonts.css
 - css/custom.css
@@ -15,7 +15,6 @@ copyright: Copyright 2016 by URBS. All Rights Reserved.
 site_favicon: modelur.ico
 site_author: The Modelur Team
 extra:
-  logo: 'img/modelur_120x120.png'
   palette:
       primary: 'light blue'
       accent: 'cyan'
@@ -23,4 +22,6 @@ extra:
       text: 'Open Sans'
       code: 'Ubuntu Mono'
   author:
-      twitter: '@modelur'
+      twitter: 'modelur'
+markdown_extensions:
+  - admonition

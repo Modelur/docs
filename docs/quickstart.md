@@ -1,7 +1,7 @@
-UI Overview
-===========
-
 In this section we will quickly introduce you to the structure of Modelur's User Interface. Getting to know its logic will help you easily integrate it into your regular workflow.
+
+Initialize Modelur
+-----------------------
 
 Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 1). 
 
@@ -17,31 +17,31 @@ Second option to initialize Modelur is to navigate to it through SketchUp menu _
 
 Once Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3) is composed of four parts: Menu, Tabs, Panels and Statusbar.
 
-User Interface Structure
-========================
+User Interface Overview
+-----------------------
 
-##### Menu
+#### Menu
 Menu is located at the top of the User Interface. It is the place where you go to when you want to save data (e.g. export Urban Control Indicators), change preferences (e.g. Language) or get some help (e.g. open this User Guide). Detailed description is available in the Menu section.
 
-##### Tabs
+#### Tabs
 Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: Whole Plot tab (a place to set default values for the whole plot), Land Use tab (a place to create and edit Land Uses and their parameters), Building tab (a place to modify selected Buildings) and Survey (a place where you can monitor Urban Control Indicators). Detailed description is available in the Tabs section.
 
 ![Modelur_User_Interface](img/modelur_ui_annotated.png)
 
-##### Panels
-Panels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Tabs section.
-
-##### Status Bar
-Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu > Options > Show status bar.
-
 <figcaption>Figure 3 -  Structure of Modelur User Interface.</figcaption>
 
-Quick Start guide
-=================
+#### Panels
+Panels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Tabs section.
+
+#### Status Bar
+Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu > Options > Show status bar.
+
+Quick Start Guide
+-----------------
 
 #### Before you start
 
-Make sure you have [installed Modelur](getting-started/#installation) and quickly check out the [structure of Modelur User Interface](#user-interface-structure), so you get acquainted with basic terminology and UI logic. It should not take you more than two and a half minutes. :-)
+Make sure you have [installed Modelur](getting-started/#installation) and quickly check out the [structure of Modelur User Interface](#user-interface-overview), so you get acquainted with basic terminology and UI logic. It should not take you more than two and a half minutes. :-)
 
 #### Step 1 - Initialize Modelur model and configure it
 
@@ -73,10 +73,10 @@ When new Building is initialized this way, it is created based on the default Pa
 
 ##### Creating Building based on specific floor plan shape
 
-More commonly, you will want to create your own floor plan and create Building based on its shape. To do this, simply draw (or select) a horizontal face (Modelur will select it automatically if it is being created) using standard SketchUp’s procedure and click on Create Building button (Figure 7). This will create a new Modelur Building based on selected Face and default parameters.
+More commonly, you will want to create your own floor plan and create Building based on its shape. To do this, simply draw a horizontal face (Modelur will select it automatically if it is being created) using standard SketchUp’s procedure, or select existing face, and click on Create Building button (Figure 7). This will create a new Modelur Building based on selected face and default parameters.
 
-Alternatively you can also create Building based on selected closed Edge loop. To do so, select one Edge of the loop and click on Create Building button.
+Alternatively you can also create Building based on selected closed edge loop. To do so, select at least one edge of the loop and click on Create Building button.
 
 ![Modelur_options_menu](img/create_building_arbitrary_floor_plan.png)
 
-<figcaption>Figure 7 - You can create Modelur Building based on any floor plan shape. Just make sure Face or Edge is selected and click on Create Building button.</figcaption>
+<figcaption>Figure 7 - You can create Modelur Building based on any floor plan shape. Just make sure Face or Edge is selected and click on the Create Building button.</figcaption>

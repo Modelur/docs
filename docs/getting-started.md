@@ -1,5 +1,8 @@
-System requirements
+Getting Started
 ===================
+
+System requirements
+-------------------
 
 In order to run Modelur, you will need:
 
@@ -9,7 +12,7 @@ In order to run Modelur, you will need:
 Modelur works well with both, Make (free) and Pro (commercial) versions of SketchUp.
 
 Installation
-============
+------------
 
 There are several ways you can install Modelur:
 
@@ -28,14 +31,14 @@ To install a SketchUp Ruby plugin script with the .rbz format use the standard S
 > 1. Click on the Open button. The Ruby plugin appears in the list of extensions.
 
 
-##### Modelur Location
+### Modelur Location
 
 Upon installation, Modelur is saved to Sketchup's default Plugins folder, which resides at different locations, depending on the version of SketchUp you use:
 
 * On Windows: `C:\Users\YOUR USERNAME\AppData\Roaming\SketchUp\SketchUp ####\SketchUp\Plugins\ `
 * On OS X: `~/Library/Application Support/SketchUp ####/SketchUp/Plugins/ `
 
-##### Preferences Location
+### Preferences Location
 
 Files containing your Modelur preferences are stored
  
@@ -49,20 +52,20 @@ Installation problems
 
 If you encounter any problems with your Modelur installation, please do the following:
 
-#### On Windows:
+### On Windows:
 
 1. Delete \Modelur folder and modelur.rb file from `C:\Users\YOUR USERNAME\AppData\Roaming\SketchUp\SketchUp ####\SketchUp\Plugins\ `.
 2. Delete \Modelur folder from `C:\Users\YOUR USERNAME\AppData\Roaming\ ` (if it exists).
 3. Install the <a href="http://download.modelur.com" target="_blank">newest .rbz version</a> of Modelur and try to license it (make sure you are online).
 
-#### On OS X:
+### On OS X:
 
 1. Delete \Modelur folder and modelur.rb file from `~/Library/Application Support/SketchUp ####/SketchUp/Plugins/ `.
 2. Delete \Modelur folder from `~/Library/Application Support/Modelur/ ` (if it exists).
 3. Install the <a href="http://download.modelur.com" target="_blank">newest .rbz version</a> of Modelur and try to license it (make sure you are online).
 
 Licensing
-=========
+---------
 
 Upon purchase, you should have received a License Key. To license your copy of Modelur, please make sure you are online. You need to copy/paste received License Key into activation window, which opens automatically when you first initialize Modelur (Figure 1).
 
@@ -72,7 +75,7 @@ Upon purchase, you should have received a License Key. To license your copy of M
 
 In case you are not able to obtain your License Key, please contact us at [support@modelur.com](mailto:support@modelur.com).
 
-#### Trial License
+### Trial License
 
 You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a _Request a Trial License_ link as shown below (Figure 2).
 
