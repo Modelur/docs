@@ -1,164 +1,283 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <meta name="author" content="The Modelur Team">
-  <link rel="shortcut icon" href="../modelur.ico">
-  
-  <title>Getting Started - MODELUR USER GUIDE</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
-  <link href="../css/fonts.css" rel="stylesheet">
-  <link href="../css/custom.css" rel="stylesheet">
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "Getting Started";
-    var mkdocs_page_input_path = "getting-started.md";
-    var mkdocs_page_url = "/getting-started/";
-  </script>
-  
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
-  
-</head>
-
-<body class="wy-body-for-nav" role="document">
-
-  <div class="wy-grid-for-nav">
-
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-      <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> MODELUR USER GUIDE</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
-  </form>
-</div>
+      
+        <title>Getting Started - Modelur User Guide</title>
+      
+      
+      
+      
+        <meta name="author" content="The Modelur Team">
+      
+    
+    <meta property="og:url" content="None">
+    <meta property="og:title" content="Modelur User Guide">
+    <meta property="og:image" content="None/../">
+    <meta name="apple-mobile-web-app-title" content="Modelur User Guide">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../modelur.ico">
+    <link rel="icon" type="image/x-icon" href="../modelur.ico">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../assets/fonts/icon.eot?52m981');
+      	src: url('../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../assets/stylesheets/application-a422ff04cc.css">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/palettes-05ab2406df.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:400,700|Ubuntu+Mono">
+      <style>
+        body, input {
+          font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../css/fonts.css">
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script src="../assets/javascripts/modernizr-4ab42b99fd.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-light-blue palette-accent-cyan">
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+          </span>
+        
+        Getting Started
       </div>
+    </div>
+    
+      
+      <div class="button button-twitter" role="button" aria-label="Twitter">
+        <a href="https://twitter.com/modelur" title="@modelur on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+      </div>
+    
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="/" class="project">
+    <div class="banner">
+      
+      <div class="name">
+        <strong>
+          Modelur User Guide
+          <span class="version">
+            
+          </span>
+        </strong>
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Meet Modelur" href="..">
+      Meet Modelur
+    </a>
+    
+  </li>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
           
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="..">Meet Modelur</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Getting Started</a>
-        
-            <ul>
             
-                <li class="toctree-l3"><a href="#system-requirements">System requirements</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#installation">Installation</a></li>
-                
-                    <li><a class="toctree-l4" href="#modelur-location">Modelur Location</a></li>
-                
-                    <li><a class="toctree-l4" href="#preferences-location">Preferences Location</a></li>
-                
-                    <li><a class="toctree-l4" href="#installation-problems">Installation problems</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#licensing">Licensing</a></li>
-                
-                    <li><a class="toctree-l4" href="#trial-license">Trial License</a></li>
-                
-            
-            </ul>
+  <li>
+    <a class="current" title="Getting Started" href="./">
+      Getting Started
+    </a>
+    
+      
         
-    </li>
-<li>
+      
+      
+        <ul>
           
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../quickstart/">Quick Start</a>
-        
-    </li>
-<li>
+            <li class="anchor">
+              <a title="System requirements" href="#system-requirements">
+                System requirements
+              </a>
+            </li>
           
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../user-interface/">User Interface</a>
-        
-    </li>
-<li>
+            <li class="anchor">
+              <a title="Installation" href="#installation">
+                Installation
+              </a>
+            </li>
           
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../detailed-workflow/">Detailed Workflow</a>
-        
-    </li>
-<li>
+            <li class="anchor">
+              <a title="Installation problems" href="#installation-problems">
+                Installation problems
+              </a>
+            </li>
           
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../troubleshooting/">Troubleshooting</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../appendix/">Appendix</a>
-        
-    </li>
-<li>
+            <li class="anchor">
+              <a title="Licensing" href="#licensing">
+                Licensing
+              </a>
+            </li>
           
         </ul>
-      </div>
-      &nbsp;
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">MODELUR USER GUIDE</a>
-      </nav>
-
-      
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="..">Docs</a> &raquo;</li>
-    
       
     
-    <li>Getting Started</li>
-    <li class="wy-breadcrumbs-aside">
-      
-    </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main">
-            <div class="section">
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Quick Start" href="../quickstart/">
+      Quick Start
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="User Interface" href="../user-interface/">
+      User Interface
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Detailed Workflow" href="../detailed-workflow/">
+      Detailed Workflow
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Troubleshooting" href="../troubleshooting/">
+      Troubleshooting
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Appendix" href="../appendix/">
+      Appendix
+    </a>
+    
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
               
-                <h1 id="system-requirements">System requirements</h1>
+              <li>
+                <a href="https://twitter.com/modelur" target="_blank" title="@modelur on Twitter">
+                  @modelur on Twitter
+                </a>
+              </li>
+            
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <h1 id="getting-started">Getting Started</h1>
+<h2 id="system-requirements">System requirements</h2>
 <p>In order to run Modelur, you will need:</p>
 <ol>
 <li><a href="http://www.sketchup.com" target="_blank">SketchUp</a> 2014 or above,</li>
 <li>Internet Explorer 10 or above (Windows) / Safari 5 or above (OS X).</li>
 </ol>
 <p>Modelur works well with both, Make (free) and Pro (commercial) versions of SketchUp.</p>
-<h1 id="installation">Installation</h1>
+<h2 id="installation">Installation</h2>
 <p>There are several ways you can install Modelur:</p>
 <ul>
 <li>Using universal <a href="http://download.modelur.com" target="_blank">.rbz</a> installer.</li>
@@ -177,13 +296,13 @@
 <li>Click on the Open button. The Ruby plugin appears in the list of extensions.</li>
 </ol>
 </blockquote>
-<h5 id="modelur-location">Modelur Location</h5>
+<h3 id="modelur-location">Modelur Location</h3>
 <p>Upon installation, Modelur is saved to Sketchup's default Plugins folder, which resides at different locations, depending on the version of SketchUp you use:</p>
 <ul>
 <li>On Windows: <code>C:\Users\YOUR USERNAME\AppData\Roaming\SketchUp\SketchUp ####\SketchUp\Plugins\</code></li>
 <li>On OS X: <code>~/Library/Application Support/SketchUp ####/SketchUp/Plugins/</code></li>
 </ul>
-<h5 id="preferences-location">Preferences Location</h5>
+<h3 id="preferences-location">Preferences Location</h3>
 <p>Files containing your Modelur preferences are stored</p>
 <ul>
 <li>On Windows: <code>C:\Users\YOUR USERNAME\AppData\Roaming\Modelur</code></li>
@@ -192,74 +311,103 @@
 <p>All preferences are stored using standard <a href="http://www.json.org/" target="_blank">JSON</a> data-interchange format. Upon Modelur upgrade, these files will be automatically upated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions &gt; Modelur &gt; Restore default settings.</p>
 <h2 id="installation-problems">Installation problems</h2>
 <p>If you encounter any problems with your Modelur installation, please do the following:</p>
-<h4 id="on-windows">On Windows:</h4>
+<h3 id="on-windows">On Windows:</h3>
 <ol>
 <li>Delete \Modelur folder and modelur.rb file from <code>C:\Users\YOUR USERNAME\AppData\Roaming\SketchUp\SketchUp ####\SketchUp\Plugins\</code>.</li>
 <li>Delete \Modelur folder from <code>C:\Users\YOUR USERNAME\AppData\Roaming\</code> (if it exists).</li>
 <li>Install the <a href="http://download.modelur.com" target="_blank">newest .rbz version</a> of Modelur and try to license it (make sure you are online).</li>
 </ol>
-<h4 id="on-os-x">On OS X:</h4>
+<h3 id="on-os-x">On OS X:</h3>
 <ol>
 <li>Delete \Modelur folder and modelur.rb file from <code>~/Library/Application Support/SketchUp ####/SketchUp/Plugins/</code>.</li>
 <li>Delete \Modelur folder from <code>~/Library/Application Support/Modelur/</code> (if it exists).</li>
 <li>Install the <a href="http://download.modelur.com" target="_blank">newest .rbz version</a> of Modelur and try to license it (make sure you are online).</li>
 </ol>
-<h1 id="licensing">Licensing</h1>
+<h2 id="licensing">Licensing</h2>
 <p>Upon purchase, you should have received a License Key. To license your copy of Modelur, please make sure you are online. You need to copy/paste received License Key into activation window, which opens automatically when you first initialize Modelur (Figure 1).</p>
 <p><img alt="Activate Modelur" src="../img/modelur_activate.png" /></p>
 <figcaption>Figure 1 - Modelur Activation window.</figcaption>
 
 <p>In case you are not able to obtain your License Key, please contact us at <a href="mailto:support@modelur.com">support@modelur.com</a>.</p>
-<h4 id="trial-license">Trial License</h4>
+<h3 id="trial-license">Trial License</h3>
 <p>You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a <em>Request a Trial License</em> link as shown below (Figure 2).</p>
 <p><img alt="Request trial" src="../img/modelur_request_trial.png" />
 <figcaption>Figure 2 - Request Trial button.</figcaption></p>
+          <aside class="copyright" role="note">
+            
+              Copyright 2016 by URBS. All Rights Reserved. &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
               
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href=".." title="Meet Modelur">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                Meet Modelur
+              </div>
             </div>
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../quickstart/" class="btn btn-neutral float-right" title="Quick Start">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href=".." class="btn btn-neutral" title="Meet Modelur"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        </a>
       
     </div>
-  
+    <div class="next">
+      
+        <a href="../quickstart/" title="Quick Start">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Quick Start
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
 
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-    
-      <p>Copyright 2016 by URBS. All Rights Reserved.</p>
-    
-  </div>
-
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
-	  
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
         </div>
       </div>
-
-    </section>
+    </main>
+    <script>
+      var base_url = '..';
+      var repo_id  = '';
+    </script>
+    <script src="../assets/javascripts/application-997097ee0c.js"></script>
     
-  </div>
-
-  <div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../quickstart/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
-</div>
-    <script src="../js/theme.js"></script>
-
-</body>
+    
+  </body>
 </html>
