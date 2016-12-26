@@ -14,6 +14,7 @@ extra_css:
 copyright: Copyright 2016 by URBS. All Rights Reserved.
 site_favicon: modelur.ico
 site_author: The Modelur Team
+google_analytics: ['UA-8035020-12', 'auto']
 extra:
   palette:
       primary: 'light blue'
