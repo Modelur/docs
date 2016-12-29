@@ -80,3 +80,19 @@ Alternatively you can also create Building based on selected closed edge loop. T
 ![Modelur_options_menu](img/create_building_arbitrary_floor_plan.png)
 
 <figcaption>Figure 7 - You can create Modelur Building based on any floor plan shape. Just make sure Face or Edge is selected and click on the Create Building button.</figcaption>
+
+#### Step 3 - Changing the Parameters
+
+Parameters work hierarchically in Modelur. What this means is that an object (Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its superior object, which is Parametric Map. If Parametric map does not exist or it is inactive, it takes the value as defined in Whole Plot, which is superior object to Parametric Map. Whole Plot is the topmost object in Modelur.
+
+Object hierarchy for all Building Parameters in current version of Modelur (Beta) is: _Building > Parametric Map > Whole Plot_.
+
+##### Overloaded Parameters
+
+From now on we will call the Parameters that are defined for specific Buildings "overloaded" Parameters. This term applies only to the specific Parameters of specific Buildings. Eg. when we define Parameter for Number of Storeys in Building A, but not in Building B, only the Building A has overloaded parameter for Number of Storeys. We can quickly check which Parameters are overloaded by selecting the Building in question and opening Building tab in Modelur User Interface (Figure 8). There - under Selected Building Parameters panel - all overloaded Parameters are checked and ready to be changed. This is also the place to initialize overloaded Parameters. If we want to change, eg. Land Use of the Building, go ahead - check it and change its value.
+
+![Modelur_options_menu](img/overloaded_parameters.png)
+
+<figcaption>Figure 8 - You can quickly check if some of the Building Parameters are overloaded in Selected Building Parameters panel (under Building tab). If checkbox is marked, the Parameter is overloaded; this means that the Building will not change when value of this parameter is changed in its superior object (Whole Plot or Parametric Map). If you do not want the Building to have any parameter overloaded, simply click on a Restore button inside Selected Building Parameters panel.</figcaption>
+
+Please note that overloading / changing one Parameter might also overload other, connected parameters. For example, when you overload Number of Storeys parameter, this will also overload Building Height and Gross Floor Area Parameters, as they are directly connected to Number of Storeys. In other words, when Number of Storeys change, Building’s Height and Gross Floor Area change, too.
