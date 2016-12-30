@@ -3,7 +3,7 @@
         {
             "location": "/",
             "text": "Meet Modelur\n\n\nWelcome to Modelur User Guide!\n\n\nModelur\n is a parametric urban design tool that helps architects, urban designers and planners quickly create urban design projects and make well-informed decisions during the early stages of urban design. Modelur achieves this by employing parametric modeling approach and real-time calculation of key urban control parameters, such as Floor Area Ratio, Built-up Area or Required number of Parking Lots on-the-fly.\n\n\n\n\nNote\n\n\nPlease note that this documentation is part of Modelur Beta release. As such, it is still work in progress and it will be updated quite a lot during the following months. If you find some mistake or you miss some explanation, please drop us an \ne-mail\n.\n\n\n\n\nModelur is implemented as a plug-in for \nTrimble SketchUp\n.\n\n\n\n\nUsing this guide\n\n\nThis guide can be used in several ways. You can use it as a \nquick start guide\n, to get you up-and-running with Modelur fast. If you want to get help and more details about some functionality of Modelur, \nDetailed Workflow\n section is for you. It explains every detail of how Modelur works and how urban control values are calculated. In between, there are Menu and Tabs sections, which provide more detail on Modelur user interface.",
-            "title": "Meet Modelur"
+            "title": "1. Meet Modelur"
         },
         {
             "location": "/#meet-modelur",
@@ -17,8 +17,8 @@
         },
         {
             "location": "/getting-started/",
-            "text": "Getting Started\n\n\nSystem requirements\n\n\nIn order to run Modelur, you will need:\n\n\n\n\nSketchUp\n 2014 or above,\n\n\nInternet Explorer 10 or above (Windows) / Safari 5 or above (OS X).\n\n\n\n\nModelur works well with both, Make (free) and Pro (commercial) versions of SketchUp.\n\n\nInstallation\n\n\nThere are several ways you can install Modelur:\n\n\n\n\nUsing universal \n.rbz\n installer.\n\n\nUsing Windows \n.exe\n installer.\n\n\nVia \nExtension Warehouse\n.\n\n\nVia \nSketchUcation Plugin Store\n.\n\n\n\n\nTo install a SketchUp Ruby plugin script with the .rbz format use the standard SketchUp \ninstallation procedure\n]:\n\n\n\n\n\n\nWe recommend logging into your computer as an admin before installing any Ruby scripts. This will make the installation go more smoothly and ensure that files get installed in the proper places.\n\n\nSketchUp 2016 and below:\n Select \nWindow > Preferences\n (Windows) or \nSketchUp > Preferences\n (OS X).\nSketchUp 2017 and above:\n Select \nWindow > Extension Manager\n (Windows) or \nSketchUp > Extension Manager\n (OS X). The Preferences dialog box is displayed.\n\n\nClick on Extensions. The Extensions panel is displayed.\n\n\nClick on the Install Extension button. The Open dialog box is displayed.\n\n\nLocate the Ruby zip file to install (.rbz).\n\n\nClick on the Open button. The Ruby plugin appears in the list of extensions.\n\n\n\n\n\n\nModelur Location\n\n\nUpon installation, Modelur is saved to Sketchup's default Plugins folder, which resides at different locations, depending on the version of SketchUp you use:\n\n\n\n\nOn Windows: \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\SketchUp\\SketchUp ####\\SketchUp\\Plugins\\\n\n\nOn OS X: \n~/Library/Application Support/SketchUp ####/SketchUp/Plugins/\n\n\n\n\nPreferences Location\n\n\nFiles containing your Modelur preferences are stored\n\n\n\n\nOn Windows: \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\Modelur\n\n\nOn OS X: \n~/Library/Application Support/Modelur\n\n\n\n\nAll preferences are stored using standard \nJSON\n data-interchange format. Upon Modelur upgrade, these files will be automatically upated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions > Modelur > Restore default settings.\n\n\nInstallation problems\n\n\nIf you encounter any problems with your Modelur installation, please do the following:\n\n\nOn Windows:\n\n\n\n\nDelete \\Modelur folder and modelur.rb file from \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\SketchUp\\SketchUp ####\\SketchUp\\Plugins\\\n.\n\n\nDelete \\Modelur folder from \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\\n (if it exists).\n\n\nInstall the \nnewest .rbz version\n of Modelur and try to license it (make sure you are online).\n\n\n\n\nOn OS X:\n\n\n\n\nDelete \\Modelur folder and modelur.rb file from \n~/Library/Application Support/SketchUp ####/SketchUp/Plugins/\n.\n\n\nDelete \\Modelur folder from \n~/Library/Application Support/Modelur/\n (if it exists).\n\n\nInstall the \nnewest .rbz version\n of Modelur and try to license it (make sure you are online).\n\n\n\n\nLicensing\n\n\nUpon purchase, you should have received a License Key. To license your copy of Modelur, please make sure you are online. You need to copy/paste received License Key into activation window, which opens automatically when you first initialize Modelur (Figure 1).\n\n\n\n\nFigure 1 - Modelur Activation window.\n\n\n\nIn case you are not able to obtain your License Key, please contact us at \nsupport@modelur.com\n.\n\n\nTrial License\n\n\nYou can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a \nRequest a Trial License\n link as shown below (Figure 2).\n\n\n\n\nFigure 2 - Request Trial button.",
-            "title": "Getting Started"
+            "text": "Getting Started\n\n\nSystem requirements\n\n\nIn order to run Modelur, you will need:\n\n\n\n\nSketchUp\n 2014 or above,\n\n\nInternet Explorer 10 or above (Windows) / Safari 5 or above (OS X).\n\n\n\n\nModelur works well with both, Make (free) and Pro (commercial) versions of SketchUp.\n\n\nInstallation\n\n\nThere are several ways you can install Modelur:\n\n\n\n\nUsing universal \n.rbz\n installer.\n\n\nUsing Windows \n.exe\n installer.\n\n\nVia \nExtension Warehouse\n.\n\n\nVia \nSketchUcation Plugin Store\n.\n\n\n\n\nTo install a SketchUp Ruby plugin script with the .rbz format use the standard SketchUp \ninstallation procedure\n]:\n\n\n\n\n\n\nWe recommend logging into your computer as an admin before installing any Ruby scripts. This will make the installation go more smoothly and ensure that files get installed in the proper places.\n\n\nSketchUp 2016 and below:\n Select \nWindow > Preferences\n (Windows) or \nSketchUp > Preferences\n (OS X).\nSketchUp 2017 and above:\n Select \nWindow > Extension Manager\n (Windows) or \nSketchUp > Extension Manager\n (OS X). The Preferences dialog box is displayed.\n\n\nClick on Extensions. The Extensions panel is displayed.\n\n\nClick on the Install Extension button. The Open dialog box is displayed.\n\n\nLocate the Ruby zip file to install (.rbz).\n\n\nClick on the Open button. The Ruby plugin appears in the list of extensions.\n\n\n\n\n\n\nModelur Location\n\n\nUpon installation, Modelur is saved to Sketchup's default Plugins folder, which resides at different locations, depending on the version of SketchUp you use:\n\n\n\n\nOn Windows: \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\SketchUp\\SketchUp ####\\SketchUp\\Plugins\\\n\n\nOn OS X: \n~/Library/Application Support/SketchUp ####/SketchUp/Plugins/\n\n\n\n\nPreferences Location\n\n\nFiles containing your Modelur preferences are stored\n\n\n\n\nOn Windows: \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\Modelur\n\n\nOn OS X: \n~/Library/Application Support/Modelur\n\n\n\n\nAll preferences are stored using standard \nJSON\n data-interchange format. Upon Modelur upgrade, these files will be automatically upated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions > Modelur > Restore default settings.\n\n\nInstallation problems\n\n\nIf you encounter any problems with your Modelur installation, please do the following:\n\n\nOn Windows:\n\n\n\n\nDelete \\Modelur folder and modelur.rb file from \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\SketchUp\\SketchUp ####\\SketchUp\\Plugins\\\n.\n\n\nDelete \\Modelur folder from \nC:\\Users\\YOUR USERNAME\\AppData\\Roaming\\\n (if it exists).\n\n\nInstall the \nnewest .rbz version\n of Modelur and try to license it (make sure you are online).\n\n\n\n\nOn OS X:\n\n\n\n\nDelete \\Modelur folder and modelur.rb file from \n~/Library/Application Support/SketchUp ####/SketchUp/Plugins/\n.\n\n\nDelete \\Modelur folder from \n~/Library/Application Support/Modelur/\n (if it exists).\n\n\nInstall the \nnewest .rbz version\n of Modelur and try to license it (make sure you are online).\n\n\n\n\nLicensing\n\n\nUpon purchase, you should have received a License Key. To license your copy of Modelur, please make sure you are online. You need to copy/paste received License Key into activation window, which opens automatically when you first initialize Modelur (Figure 2.01).\n\n\n\n\nFigure 2.01 - Modelur Activation window.\n\n\n\nIn case you are not able to obtain your License Key, please contact us at \nsupport@modelur.com\n.\n\n\nTrial License\n\n\nYou can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a \nRequest a Trial License\n link as shown below (Figure 2.02).\n\n\n\n\nFigure 2.02 - Request Trial button.",
+            "title": "2. Getting Started"
         },
         {
             "location": "/getting-started/#getting-started",
@@ -62,22 +62,22 @@
         },
         {
             "location": "/getting-started/#licensing",
-            "text": "Upon purchase, you should have received a License Key. To license your copy of Modelur, please make sure you are online. You need to copy/paste received License Key into activation window, which opens automatically when you first initialize Modelur (Figure 1).   Figure 1 - Modelur Activation window.  In case you are not able to obtain your License Key, please contact us at  support@modelur.com .",
+            "text": "Upon purchase, you should have received a License Key. To license your copy of Modelur, please make sure you are online. You need to copy/paste received License Key into activation window, which opens automatically when you first initialize Modelur (Figure 2.01).   Figure 2.01 - Modelur Activation window.  In case you are not able to obtain your License Key, please contact us at  support@modelur.com .",
             "title": "Licensing"
         },
         {
             "location": "/getting-started/#trial-license",
-            "text": "You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a  Request a Trial License  link as shown below (Figure 2).   Figure 2 - Request Trial button.",
+            "text": "You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a  Request a Trial License  link as shown below (Figure 2.02).   Figure 2.02 - Request Trial button.",
             "title": "Trial License"
         },
         {
             "location": "/quickstart/",
-            "text": "In this section we will quickly introduce you to the structure of Modelur's User Interface. Getting to know its logic will help you easily integrate it into your regular workflow.\n\n\nInitialize Modelur\n\n\nOnce Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 1). \n\n\n\n\nFigure 1 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu \nView > Toolbars > Modelur\n. To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.\n\n\n\nSecond option to initialize Modelur is to navigate to it through SketchUp menu \nPlugins > Modelur > Initialize Modelur\n (Figure 2).\n\n\n\n\nFigure 2 - Alternative way to initialize Modelur through SketchUp menu \nPlugins > Modelur > Initialize Modelur\n. Please note that Plugins menu was called Extensions in previous versions of SketchUp.\n\n\n\nOnce Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3) is composed of four parts: Menu, Tabs, Panels and Statusbar.\n\n\nUser Interface Overview\n\n\nMenu\n\n\nMenu is located at the top of the User Interface. It is the place where you go to when you want to save data (e.g. export Urban Control Indicators), change preferences (e.g. Language) or get some help (e.g. open this User Guide). Detailed description is available in the Menu section.\n\n\nTabs\n\n\nTabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: Whole Plot tab (a place to set default values for the whole plot), Land Use tab (a place to create and edit Land Uses and their parameters), Building tab (a place to modify selected Buildings) and Survey (a place where you can monitor Urban Control Indicators). Detailed description is available in the Tabs section.\n\n\n\n\nFigure 3 -  Structure of Modelur User Interface.\n\n\n\nPanels\n\n\nPanels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Tabs section.\n\n\nStatus Bar\n\n\nStatusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu > Options > Show status bar.\n\n\nQuick Start Guide\n\n\nBefore you start\n\n\nMake sure you have \ninstalled Modelur\n and quickly check out the \nstructure of Modelur User Interface\n, so you get acquainted with basic terminology and UI logic. It should not take you more than two and a half minutes. :-)\n\n\nStep 1 - Initialize Modelur model and configure it\n\n\nLet's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu \nExtensions > Modelur > Initialize Modelur\n (as shown in \nUI Overview\n section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 4).\n\n\n\n\nFigure 4 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside \nUser Interface\n section.\n\n\n\nStep 2 - Create Modelur Building\n\n\nOnce Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the \nCreate Building\n (2) entry in SketchUp menu \nExtensions > Modelur\n or by clicking on the Create button (3) inside Building tab of Modelur\u2019s user interface (Figure 5).\n\n\n\n\nFigure 5 - Buttons through which you can create Modelur Buildings.\n\n\n\nRegardless of which way you choose to create Modelur Buildings, there are always two options - you can create a Building based on a predefined floor plan or based on what you draw. We will take a look at these two in the following paragraphs.\n\n\nCreating Building based on predefined shape\n\n\nIf nothing is selected in your .skp model, Modelur will create a Building with predefined floor plan. This can be selected under Modelur\u2019s \nOptions > Default building shape\n as shown below. At the moment (Modelur v0.5.7), you can chose among three basic floor plans - Square, Circle and L-Shape (Figure 6).\n\n\nWhen new Building is initialized this way, it is created based on the default Parameters as specified for the Whole Plot or Parametric Maps (if defined). We will take a look at those later.\n\n\n\n\nFigure 6 - Different shapes of Buildings when you create a Building and no Face or Edge is selected.\n\n\n\nCreating Building based on specific floor plan shape\n\n\nMore commonly, you will want to create your own floor plan and create Building based on its shape. To do this, simply draw a horizontal face (Modelur will select it automatically if it is being created) using standard SketchUp\u2019s procedure, or select existing face, and click on Create Building button (Figure 7). This will create a new Modelur Building based on selected face and default parameters.\n\n\nAlternatively you can also create Building based on selected closed edge loop. To do so, select at least one edge of the loop and click on Create Building button.\n\n\n\n\nFigure 7 - You can create Modelur Building based on any floor plan shape. Just make sure Face or Edge is selected and click on the Create Building button.\n\n\n\nStep 3 - Changing the Parameters\n\n\nParameters work hierarchically in Modelur. What this means is that an object (Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its superior object, which is Parametric Map. If Parametric map does not exist or it is inactive, it takes the value as defined in Whole Plot, which is superior object to Parametric Map. Whole Plot is the topmost object in Modelur.\n\n\nObject hierarchy for all Building Parameters in current version of Modelur (Beta) is: \nBuilding > Parametric Map > Whole Plot\n.\n\n\nOverloaded Parameters\n\n\nFrom now on we will call the Parameters that are defined for specific Buildings \"overloaded\" Parameters. This term applies only to the specific Parameters of specific Buildings. Eg. when we define Parameter for Number of Storeys in Building A, but not in Building B, only the Building A has overloaded parameter for Number of Storeys. We can quickly check which Parameters are overloaded by selecting the Building in question and opening Building tab in Modelur User Interface (Figure 8). There - under Selected Building Parameters panel - all overloaded Parameters are checked and ready to be changed. This is also the place to initialize overloaded Parameters. If we want to change, eg. Land Use of the Building, go ahead - check it and change its value.\n\n\n\n\nFigure 8 - You can quickly check if some of the Building Parameters are overloaded in Selected Building Parameters panel (under Building tab). If checkbox is marked, the Parameter is overloaded; this means that the Building will not change when value of this parameter is changed in its superior object (Whole Plot or Parametric Map). If you do not want the Building to have any parameter overloaded, simply click on a Restore button inside Selected Building Parameters panel.\n\n\n\nPlease note that overloading / changing one Parameter might also overload other, connected parameters. For example, when you overload Number of Storeys parameter, this will also overload Building Height and Gross Floor Area Parameters, as they are directly connected to Number of Storeys. In other words, when Number of Storeys change, Building\u2019s Height and Gross Floor Area change, too.",
-            "title": "Quick Start"
+            "text": "This section will quickly introduce you to the structure of Modelur's User Interface. Getting to know its logic will help you easily integrate it into your regular workflow.\n\n\nInitialize Modelur\n\n\nOnce Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 3.01). \n\n\n\n\nFigure 3.01 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu \nView > Toolbars > Modelur\n. To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.\n\n\n\nSecond option to initialize Modelur is to navigate to it through SketchUp menu \nPlugins > Modelur > Initialize Modelur\n (Figure 3.02).\n\n\n\n\nFigure 3.02 - Alternative way to initialize Modelur through SketchUp menu \nPlugins > Modelur > Initialize Modelur\n. Please note that Plugins menu was called Extensions in previous versions of SketchUp.\n\n\n\nOnce Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3.03) is composed of four parts: Menu, Tabs, Panels and Statusbar.\n\n\nUser Interface Overview\n\n\nMenu\n\n\nMenu is located at the top of the User Interface. It is the place where you go to when you want to save data (e.g. export Urban Control Indicators), change preferences (e.g. Language) or get some help (e.g. open this User Guide). Detailed description is available in the Menu section.\n\n\nTabs\n\n\nTabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: Whole Plot tab (a place to set default values for the whole plot), Land Use tab (a place to create and edit Land Uses and their parameters), Building tab (a place to modify selected Buildings) and Survey (a place where you can monitor Urban Control Indicators). Detailed description is available in the Tabs section.\n\n\n\n\nFigure 3.03 -  Structure of Modelur's User Interface.\n\n\n\nPanels\n\n\nPanels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Tabs section.\n\n\nStatus Bar\n\n\nStatusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu > Options > Show status bar.\n\n\nQuick Start Guide\n\n\nBefore you start\n\n\nMake sure you have \ninstalled Modelur\n and quickly check out the \nstructure of Modelur User Interface\n, so you get acquainted with basic terminology and UI logic. It should not take you more than two and a half minutes. :-)\n\n\nStep 1 - Initialize Modelur model and conFigure 3.0it\n\n\nLet's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu \nExtensions > Modelur > Initialize Modelur\n (as shown in \nUI Overview\n section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).\n\n\n\n\nFigure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside \nUser Interface\n section.\n\n\n\nStep 2 - Create Modelur Building\n\n\nOnce Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the \nCreate Building\n (2) entry in SketchUp menu \nExtensions > Modelur\n or by clicking on the Create button (3) inside Building tab of Modelur\u2019s user interface (Figure 3.05).\n\n\n\n\nFigure 3.05 - Buttons through which you can create Modelur Buildings.\n\n\n\nRegardless of which way you choose to create Modelur Buildings, there are always two options - you can create a Building based on a predefined floor plan or based on what you draw. We will take a look at these two in the following paragraphs.\n\n\nCreating Building based on predefined shape\n\n\nIf nothing is selected in your .skp model, Modelur will create a Building with predefined floor plan. This can be selected under Modelur\u2019s \nOptions > Default building shape\n as shown below. At the moment (Modelur v0.5.7), you can chose among three basic floor plans - Square, Circle and L-Shape (Figure 3.06).\n\n\nWhen new Building is initialized this way, it is created based on the default Parameters as specified for the Whole Plot or Parametric Maps (if defined). We will take a look at those later.\n\n\n\n\nFigure 3.06 - Different shapes of Buildings when you create a Building and no Face or Edge is selected.\n\n\n\nCreating Building based on specific floor plan shape\n\n\nMore commonly, you will want to create your own floor plan and create Building based on its shape. To do this, simply draw a horizontal face (Modelur will select it automatically if it is being created) using standard SketchUp\u2019s procedure, or select existing face, and click on Create Building button (Figure 3.07). This will create a new Modelur Building based on selected face and default parameters.\n\n\nAlternatively you can also create Building based on selected closed edge loop. To do so, select at least one edge of the loop and click on Create Building button.\n\n\n\n\nFigure 3.07 - You can create Modelur Building based on any floor plan shape. Just make sure Face or Edge is selected and click on the Create Building button.\n\n\n\nStep 3 - Changing the Parameters\n\n\nParameters work hierarchically in Modelur. What this means is that an object (Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its superior object, which is Parametric Map. If Parametric map does not exist or it is inactive, it takes the value as defined in Whole Plot, which is superior object to Parametric Map. Whole Plot is the topmost object in Modelur.\n\n\nObject hierarchy for all Building Parameters in current version of Modelur (Beta) is: \nBuilding > Parametric Map > Whole Plot\n.\n\n\nOverloaded Parameters\n\n\nFrom now on we will call the Parameters that are defined for specific Buildings \"overloaded\" Parameters. This term applies only to the specific Parameters of specific Buildings. Eg. when we define Parameter for Number of Storeys in Building A, but not in Building B, only the Building A has overloaded parameter for Number of Storeys. We can quickly check which Parameters are overloaded by selecting the Building in question and opening Building tab in Modelur User Interface (Figure 3.08). There - under Selected Building Parameters panel - all overloaded Parameters are checked and ready to be changed. This is also the place to initialize overloaded Parameters. If we want to change, eg. Land Use of the Building, go ahead - check it and change its value.\n\n\n\n\nFigure 3.08 - You can quickly check if some of the Building Parameters are overloaded in Selected Building Parameters panel (under Building tab). If checkbox is marked, the Parameter is overloaded; this means that the Building will not change when value of this parameter is changed in its superior object (Whole Plot or Parametric Map). If you do not want the Building to have any parameter overloaded, simply click on a Restore button inside Selected Building Parameters panel.\n\n\n\nPlease note that overloading / changing one Parameter might also overload other, connected parameters. For example, when you overload Number of Storeys parameter, this will also overload Building Height and Gross Floor Area Parameters, as they are directly connected to Number of Storeys. In other words, when Number of Storeys change, Building\u2019s Height and Gross Floor Area change, too.",
+            "title": "3. Quick Start"
         },
         {
             "location": "/quickstart/#initialize-modelur",
-            "text": "Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 1).    Figure 1 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu  View > Toolbars > Modelur . To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.  Second option to initialize Modelur is to navigate to it through SketchUp menu  Plugins > Modelur > Initialize Modelur  (Figure 2).   Figure 2 - Alternative way to initialize Modelur through SketchUp menu  Plugins > Modelur > Initialize Modelur . Please note that Plugins menu was called Extensions in previous versions of SketchUp.  Once Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3) is composed of four parts: Menu, Tabs, Panels and Statusbar.",
+            "text": "Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 3.01).    Figure 3.01 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu  View > Toolbars > Modelur . To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.  Second option to initialize Modelur is to navigate to it through SketchUp menu  Plugins > Modelur > Initialize Modelur  (Figure 3.02).   Figure 3.02 - Alternative way to initialize Modelur through SketchUp menu  Plugins > Modelur > Initialize Modelur . Please note that Plugins menu was called Extensions in previous versions of SketchUp.  Once Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3.03) is composed of four parts: Menu, Tabs, Panels and Statusbar.",
             "title": "Initialize Modelur"
         },
         {
@@ -92,7 +92,7 @@
         },
         {
             "location": "/quickstart/#tabs",
-            "text": "Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: Whole Plot tab (a place to set default values for the whole plot), Land Use tab (a place to create and edit Land Uses and their parameters), Building tab (a place to modify selected Buildings) and Survey (a place where you can monitor Urban Control Indicators). Detailed description is available in the Tabs section.   Figure 3 -  Structure of Modelur User Interface.",
+            "text": "Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: Whole Plot tab (a place to set default values for the whole plot), Land Use tab (a place to create and edit Land Uses and their parameters), Building tab (a place to modify selected Buildings) and Survey (a place where you can monitor Urban Control Indicators). Detailed description is available in the Tabs section.   Figure 3.03 -  Structure of Modelur's User Interface.",
             "title": "Tabs"
         },
         {
@@ -116,23 +116,23 @@
             "title": "Before you start"
         },
         {
-            "location": "/quickstart/#step-1-initialize-modelur-model-and-configure-it",
-            "text": "Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu  Extensions > Modelur > Initialize Modelur  (as shown in  UI Overview  section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 4).   Figure 4 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside  User Interface  section.",
-            "title": "Step 1 - Initialize Modelur model and configure it"
+            "location": "/quickstart/#step-1-initialize-modelur-model-and-configure-30it",
+            "text": "Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu  Extensions > Modelur > Initialize Modelur  (as shown in  UI Overview  section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).   Figure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside  User Interface  section.",
+            "title": "Step 1 - Initialize Modelur model and conFigure 3.0it"
         },
         {
             "location": "/quickstart/#step-2-create-modelur-building",
-            "text": "Once Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the  Create Building  (2) entry in SketchUp menu  Extensions > Modelur  or by clicking on the Create button (3) inside Building tab of Modelur\u2019s user interface (Figure 5).   Figure 5 - Buttons through which you can create Modelur Buildings.  Regardless of which way you choose to create Modelur Buildings, there are always two options - you can create a Building based on a predefined floor plan or based on what you draw. We will take a look at these two in the following paragraphs.",
+            "text": "Once Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the  Create Building  (2) entry in SketchUp menu  Extensions > Modelur  or by clicking on the Create button (3) inside Building tab of Modelur\u2019s user interface (Figure 3.05).   Figure 3.05 - Buttons through which you can create Modelur Buildings.  Regardless of which way you choose to create Modelur Buildings, there are always two options - you can create a Building based on a predefined floor plan or based on what you draw. We will take a look at these two in the following paragraphs.",
             "title": "Step 2 - Create Modelur Building"
         },
         {
             "location": "/quickstart/#creating-building-based-on-predefined-shape",
-            "text": "If nothing is selected in your .skp model, Modelur will create a Building with predefined floor plan. This can be selected under Modelur\u2019s  Options > Default building shape  as shown below. At the moment (Modelur v0.5.7), you can chose among three basic floor plans - Square, Circle and L-Shape (Figure 6).  When new Building is initialized this way, it is created based on the default Parameters as specified for the Whole Plot or Parametric Maps (if defined). We will take a look at those later.   Figure 6 - Different shapes of Buildings when you create a Building and no Face or Edge is selected.",
+            "text": "If nothing is selected in your .skp model, Modelur will create a Building with predefined floor plan. This can be selected under Modelur\u2019s  Options > Default building shape  as shown below. At the moment (Modelur v0.5.7), you can chose among three basic floor plans - Square, Circle and L-Shape (Figure 3.06).  When new Building is initialized this way, it is created based on the default Parameters as specified for the Whole Plot or Parametric Maps (if defined). We will take a look at those later.   Figure 3.06 - Different shapes of Buildings when you create a Building and no Face or Edge is selected.",
             "title": "Creating Building based on predefined shape"
         },
         {
             "location": "/quickstart/#creating-building-based-on-specific-floor-plan-shape",
-            "text": "More commonly, you will want to create your own floor plan and create Building based on its shape. To do this, simply draw a horizontal face (Modelur will select it automatically if it is being created) using standard SketchUp\u2019s procedure, or select existing face, and click on Create Building button (Figure 7). This will create a new Modelur Building based on selected face and default parameters.  Alternatively you can also create Building based on selected closed edge loop. To do so, select at least one edge of the loop and click on Create Building button.   Figure 7 - You can create Modelur Building based on any floor plan shape. Just make sure Face or Edge is selected and click on the Create Building button.",
+            "text": "More commonly, you will want to create your own floor plan and create Building based on its shape. To do this, simply draw a horizontal face (Modelur will select it automatically if it is being created) using standard SketchUp\u2019s procedure, or select existing face, and click on Create Building button (Figure 3.07). This will create a new Modelur Building based on selected face and default parameters.  Alternatively you can also create Building based on selected closed edge loop. To do so, select at least one edge of the loop and click on Create Building button.   Figure 3.07 - You can create Modelur Building based on any floor plan shape. Just make sure Face or Edge is selected and click on the Create Building button.",
             "title": "Creating Building based on specific floor plan shape"
         },
         {
@@ -142,28 +142,133 @@
         },
         {
             "location": "/quickstart/#overloaded-parameters",
-            "text": "From now on we will call the Parameters that are defined for specific Buildings \"overloaded\" Parameters. This term applies only to the specific Parameters of specific Buildings. Eg. when we define Parameter for Number of Storeys in Building A, but not in Building B, only the Building A has overloaded parameter for Number of Storeys. We can quickly check which Parameters are overloaded by selecting the Building in question and opening Building tab in Modelur User Interface (Figure 8). There - under Selected Building Parameters panel - all overloaded Parameters are checked and ready to be changed. This is also the place to initialize overloaded Parameters. If we want to change, eg. Land Use of the Building, go ahead - check it and change its value.   Figure 8 - You can quickly check if some of the Building Parameters are overloaded in Selected Building Parameters panel (under Building tab). If checkbox is marked, the Parameter is overloaded; this means that the Building will not change when value of this parameter is changed in its superior object (Whole Plot or Parametric Map). If you do not want the Building to have any parameter overloaded, simply click on a Restore button inside Selected Building Parameters panel.  Please note that overloading / changing one Parameter might also overload other, connected parameters. For example, when you overload Number of Storeys parameter, this will also overload Building Height and Gross Floor Area Parameters, as they are directly connected to Number of Storeys. In other words, when Number of Storeys change, Building\u2019s Height and Gross Floor Area change, too.",
+            "text": "From now on we will call the Parameters that are defined for specific Buildings \"overloaded\" Parameters. This term applies only to the specific Parameters of specific Buildings. Eg. when we define Parameter for Number of Storeys in Building A, but not in Building B, only the Building A has overloaded parameter for Number of Storeys. We can quickly check which Parameters are overloaded by selecting the Building in question and opening Building tab in Modelur User Interface (Figure 3.08). There - under Selected Building Parameters panel - all overloaded Parameters are checked and ready to be changed. This is also the place to initialize overloaded Parameters. If we want to change, eg. Land Use of the Building, go ahead - check it and change its value.   Figure 3.08 - You can quickly check if some of the Building Parameters are overloaded in Selected Building Parameters panel (under Building tab). If checkbox is marked, the Parameter is overloaded; this means that the Building will not change when value of this parameter is changed in its superior object (Whole Plot or Parametric Map). If you do not want the Building to have any parameter overloaded, simply click on a Restore button inside Selected Building Parameters panel.  Please note that overloading / changing one Parameter might also overload other, connected parameters. For example, when you overload Number of Storeys parameter, this will also overload Building Height and Gross Floor Area Parameters, as they are directly connected to Number of Storeys. In other words, when Number of Storeys change, Building\u2019s Height and Gross Floor Area change, too.",
             "title": "Overloaded Parameters"
         },
         {
-            "location": "/user-interface/",
-            "text": "User Interface",
-            "title": "User Interface"
+            "location": "/reference/",
+            "text": "This part contains all the information related to Modelur User Interface window, dialogs and keyboard shortcuts.\n\n\nMenu\n\n\nMenu is the topmost part of Modelur's user interface window (Figure 4.01). It containts four sub-categories: \nFile\n, \nTools\n, \nOptions\n and \nHelp\n, which are explained in detail below.\n\n\n\n\nFigure 4.01 - Location of Modelur Menu.\n\n\nFile\n\n\nFile > Open\n\n\nOpens a dialog window that allows you to open existing SKP file.\n\n\nFile > Export Urban Design Control Values\u2026\n\n\nIs used to export urban control indicators of currently opened model into CSV file, which can be opened by any spreadsheet software (eg. Excel, Google Sheets or LibreOffice Calc). Before exporting the file, you have an option to choose which indicators you want to export (eg. for Whole Plot, for Land Uses or for Buildings and Complex Buildings). By default all indicators are selected for export (Figure 4.02).\n\n\n\n\nFigure 4.02 - You can select which data you want to export to CSV file.\n\n\nTools\n\n\nOptions\n\n\nHelp\n\n\nWhole Plot\n\n\nPlot Parameters\n\n\nParametric Maps\n\n\nDefault Building Parameters\n\n\nLand Use\n\n\nLand Use Requirements\n\n\nBuilding\n\n\nSelected Building Parameters\n\n\nEditing Modes of Building\n\n\nSurvey\n\n\nUrban Control Survey on Screen\n\n\nWarnings\n\n\nUrban Control - Selected Building\n\n\nUrban Control - Plot Area\n\n\nUrban Control - Land Use\n\n\nDevelopment Timeline",
+            "title": "4. Reference"
         },
         {
-            "location": "/user-interface/#user-interface",
-            "text": "",
-            "title": "User Interface"
+            "location": "/reference/#menu",
+            "text": "Menu is the topmost part of Modelur's user interface window (Figure 4.01). It containts four sub-categories:  File ,  Tools ,  Options  and  Help , which are explained in detail below.   Figure 4.01 - Location of Modelur Menu.",
+            "title": "Menu"
         },
         {
-            "location": "/detailed-workflow/",
+            "location": "/reference/#file",
             "text": "",
-            "title": "Detailed Workflow"
+            "title": "File"
+        },
+        {
+            "location": "/reference/#file-open",
+            "text": "Opens a dialog window that allows you to open existing SKP file.",
+            "title": "File &gt; Open"
+        },
+        {
+            "location": "/reference/#file-export-urban-design-control-values",
+            "text": "Is used to export urban control indicators of currently opened model into CSV file, which can be opened by any spreadsheet software (eg. Excel, Google Sheets or LibreOffice Calc). Before exporting the file, you have an option to choose which indicators you want to export (eg. for Whole Plot, for Land Uses or for Buildings and Complex Buildings). By default all indicators are selected for export (Figure 4.02).   Figure 4.02 - You can select which data you want to export to CSV file.",
+            "title": "File &gt; Export Urban Design Control Values\u2026"
+        },
+        {
+            "location": "/reference/#tools",
+            "text": "",
+            "title": "Tools"
+        },
+        {
+            "location": "/reference/#options",
+            "text": "",
+            "title": "Options"
+        },
+        {
+            "location": "/reference/#help",
+            "text": "",
+            "title": "Help"
+        },
+        {
+            "location": "/reference/#whole-plot",
+            "text": "",
+            "title": "Whole Plot"
+        },
+        {
+            "location": "/reference/#plot-parameters",
+            "text": "",
+            "title": "Plot Parameters"
+        },
+        {
+            "location": "/reference/#parametric-maps",
+            "text": "",
+            "title": "Parametric Maps"
+        },
+        {
+            "location": "/reference/#default-building-parameters",
+            "text": "",
+            "title": "Default Building Parameters"
+        },
+        {
+            "location": "/reference/#land-use",
+            "text": "",
+            "title": "Land Use"
+        },
+        {
+            "location": "/reference/#land-use-requirements",
+            "text": "",
+            "title": "Land Use Requirements"
+        },
+        {
+            "location": "/reference/#building",
+            "text": "",
+            "title": "Building"
+        },
+        {
+            "location": "/reference/#selected-building-parameters",
+            "text": "",
+            "title": "Selected Building Parameters"
+        },
+        {
+            "location": "/reference/#editing-modes-of-building",
+            "text": "",
+            "title": "Editing Modes of Building"
+        },
+        {
+            "location": "/reference/#survey",
+            "text": "",
+            "title": "Survey"
+        },
+        {
+            "location": "/reference/#urban-control-survey-on-screen",
+            "text": "",
+            "title": "Urban Control Survey on Screen"
+        },
+        {
+            "location": "/reference/#warnings",
+            "text": "",
+            "title": "Warnings"
+        },
+        {
+            "location": "/reference/#urban-control-selected-building",
+            "text": "",
+            "title": "Urban Control - Selected Building"
+        },
+        {
+            "location": "/reference/#urban-control-plot-area",
+            "text": "",
+            "title": "Urban Control - Plot Area"
+        },
+        {
+            "location": "/reference/#urban-control-land-use",
+            "text": "",
+            "title": "Urban Control - Land Use"
+        },
+        {
+            "location": "/reference/#development-timeline",
+            "text": "",
+            "title": "Development Timeline"
         },
         {
             "location": "/troubleshooting/",
             "text": "Known Limitations\n\n\nAlthough we strive to make Modelur flawless, there are some problems we can not bypass. We are aware of the following limitations, and we will do our best to improve them in future versions of Modelur:\n\n\n\n\nUndo/Redo mechanism is not perfect. \nProposed solution:\n avoid using Undo/Redo actions on Modelur objects.\n\n\nWhen using Value Control Box to specify exact distance of pushpull when manually editing the building to add eg. terrace, user can input the exact distance only once. \nProposed solution:\n please re-select face and pushpull the face again.\n\n\nComplex/Mixed-use Buildings currently don't take into account terraces and loggias when calculating Gross Floor Area.",
-            "title": "Troubleshooting"
+            "title": "5. Troubleshooting"
         },
         {
             "location": "/troubleshooting/#known-limitations",
@@ -173,7 +278,7 @@
         {
             "location": "/appendix/",
             "text": "",
-            "title": "Appendix"
+            "title": "6. Appendix"
         }
     ]
 }

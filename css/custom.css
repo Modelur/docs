@@ -96,7 +96,8 @@ h1, h2, h3, h4, h5, h6, legend {
 }
 .article h5 {
     margin-top: 20px;
-    font-size: 20px;
+    margin-bottom: -15px;
+    font-size: 18px;
     font-weight: 400 !important;
 }
 .article .wrapper {
