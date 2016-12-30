@@ -1,12 +1,11 @@
 site_name: Modelur User Guide
 pages:
-- Meet Modelur: index.md
-- Getting Started: getting-started.md
-- Quick Start: quickstart.md
-- User Interface: user-interface.md
-- Detailed Workflow: detailed-workflow.md
-- Troubleshooting: troubleshooting.md
-- Appendix: appendix.md
+- 1. Meet Modelur: index.md
+- 2. Getting Started: getting-started.md
+- 3. Quick Start: quickstart.md
+- 4. Reference: reference.md
+- 5. Troubleshooting: troubleshooting.md
+- 6. Appendix: appendix.md
 theme: 'material'
 extra_css:
 - css/fonts.css

@@ -67,17 +67,17 @@ If you encounter any problems with your Modelur installation, please do the foll
 Licensing
 ---------
 
-Upon purchase, you should have received a License Key. To license your copy of Modelur, please make sure you are online. You need to copy/paste received License Key into activation window, which opens automatically when you first initialize Modelur (Figure 1).
+Upon purchase, you should have received a License Key. To license your copy of Modelur, please make sure you are online. You need to copy/paste received License Key into activation window, which opens automatically when you first initialize Modelur (Figure 2.01).
 
 ![Activate Modelur](img/modelur_activate.png)
 
-<figcaption>Figure 1 - Modelur Activation window.</figcaption>
+<figcaption>Figure 2.01 - Modelur Activation window.</figcaption>
 
 In case you are not able to obtain your License Key, please contact us at [support@modelur.com](mailto:support@modelur.com).
 
 ### Trial License
 
-You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a _Request a Trial License_ link as shown below (Figure 2).
+You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a _Request a Trial License_ link as shown below (Figure 2.02).
 
 ![Request trial](img/modelur_request_trial.png)
-<figcaption>Figure 2 - Request Trial button.</figcaption>
+<figcaption>Figure 2.02 - Request Trial button.</figcaption>
