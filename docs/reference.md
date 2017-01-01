@@ -14,10 +14,15 @@ Menu is the topmost part of Modelur's user interface window (Figure 4.01). It co
 Opens a dialog window that allows you to open existing SKP file.
 
 ##### File > Export Urban Design Control Values…
-Is used to export urban control indicators of currently opened model into CSV file, which can be opened by any spreadsheet software (eg. Excel, Google Sheets or LibreOffice Calc). Before exporting the file, you have an option to choose which indicators you want to export (eg. for Whole Plot, for Land Uses or for Buildings and Complex Buildings). By default all indicators are selected for export (Figure 4.02).
+This is used to export urban control values (such as Gross Floor Area, FAR, Required number of parking lots, etc.) of currently opened model into CSV file. Before exporting the data, you have an option to choose which values you want to export (Whole Plot, Land Uses, Buildings, Complex Buildings). By default all options are selected for export (Figure 4.02).
 
 ![Urban indicators export](img/export_urban_control_indicators.png)
 <figcaption>Figure 4.02 - You can select which data you want to export to CSV file.</figcaption>
+
+Exported CSV file can then be opened by any major spreadsheet software (eg. Excel, Google Sheets or LibreOffice Calc, Figure 4.03).<br>_Tip: When importing the data, make sure you have semicolon marked as separator sign in the spreadsheet software you are using._
+
+![Exported urban control values](img/exported_urban_control_values.png)
+<figcaption>Figure 4.03 - Example of urban control values exported to raw CSV file (left window) and imported to the spreadsheet software (right window).</figcaption> 
 
 #### Tools
 #### Options

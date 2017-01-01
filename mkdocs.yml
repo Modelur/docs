@@ -25,3 +25,5 @@ extra:
       twitter: 'modelur'
 markdown_extensions:
   - admonition
+  - toc:
+      permalink: True
