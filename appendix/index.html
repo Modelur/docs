@@ -202,6 +202,16 @@
     
       
       
+        <ul>
+          
+            <li class="anchor">
+              <a title="Release notes" href="#release-notes">
+                Release notes
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -232,7 +242,349 @@
           
             <h1>6. Appendix</h1>
           
-          
+          <h2 id="release-notes">Release notes<a class="headerlink" href="#release-notes" title="Permanent link">&para;</a></h2>
+<p><strong>0.5.7 R1 (Beta 1)</strong></p>
+<ul>
+<li>Enhancement: You can now add loggias/cantilevers to only part of Building's wall.</li>
+<li>Enhancement: Added development timeline option. You can set each Building's construction and demolition date. Use Survey &gt; Development Timeline &gt; Slider to show different stages of development construction (urban control parameters are also calculated accordingly).</li>
+<li>Enhancement: Improved Help menu and English translations.</li>
+</ul>
+<p><strong>0.5.6 R3 (Beta 1)</strong></p>
+<ul>
+<li>Enhancement: Added calculation of required Parking Lots based on Net Floor Area.</li>
+<li>Enhancement: Improved trial license request.</li>
+</ul>
+<p><strong>0.5.6 R2 (Beta 1)</strong></p>
+<ul>
+<li>Bugfix: Randomization of Buildings heights.</li>
+<li>Bugfix: Unlimited Land-uses for Student License.</li>
+</ul>
+<p><strong>0.5.6 R1 (Beta 1)</strong></p>
+<ul>
+<li>Enhancement: Improved urban control values CSV export.</li>
+<li>Bugfix: Improved creating and modifying of Complex Buildings when model axes are rotated.</li>
+<li>Bugfix: Improved calculation of Complex Buildings built areas.</li>
+</ul>
+<p><strong>0.5.5 (Beta 1)</strong></p>
+<ul>
+<li>Enhancement: Updated French translation.</li>
+<li>Enhancement: Added floating (network) license option.</li>
+<li>Enhancement: Modelur can be loaded from non-default SketchUp plugins paths.</li>
+<li>Enhancement: Improved online validation so Modelur can be validated behind proxy, too.</li>
+<li>Enhancement: Improved Modelur activation.</li>
+<li>Bugfix: Fixed upgrading of old Modelur models, which didn't contain Mixed-use buildings.</li>
+<li>Bugfix: Fixed Trial License activation problem reported by some users.</li>
+</ul>
+<p><strong>0.5.4 (Beta 1)</strong></p>
+<ul>
+<li>Enhancement: Added an option to request for a trial license during activation.</li>
+<li>Enhancement: Improved licensing.</li>
+</ul>
+<p><strong>0.5.3 (Beta - Release Candidate 2)</strong></p>
+<ul>
+<li>Enhancement: Added license auto update (SketchUp 2014+).</li>
+<li>Bugfix: Marking of Complex Buildings when Urban Control Values are exported.</li>
+<li>Bugfix: Undo after Complex Building is created.</li>
+</ul>
+<p><strong>0.5.2 (Beta - Release Candidate 1)</strong></p>
+<ul>
+<li>Enhancement: Improved automatic updating of Complex Buildings when it's parts are moved around.</li>
+<li>Enhancement: Improved licensing system.</li>
+<li>Enhancement: Improved export of urban control values.</li>
+<li>Bugfix: Calculation of urban control values when all Modelur Buildings are hidden.</li>
+<li>Bugfix: Export of urban control values when SketchUp's model precision is set to integer rounding (no decimal points).</li>
+<li>Bugfix: Built-up area of manually modified Buildings now updates correctly if the Building is lowered to 1 storey (which makes it non-modified).</li>
+</ul>
+<p><strong>0.5.1 (Beta - Technical Preview)</strong></p>
+<ul>
+<li>Enhancement: Updated English and Chinese translation.</li>
+<li>Enhancement: Improved handling of Complex Building Materials.</li>
+<li>Enhancement: Improved automatic rotation of Complex Building Bounding Box.</li>
+<li>Enhancement: Improved initialization of Modelur when it's default settings are corrupt or they can not be upgraded.</li>
+<li>Enhancement: Added information on how to fix Modelur installation if it didn't upgrade properly.</li>
+<li>Bugfix: Creating of Complex Buildings which are not on horizontal plane.</li>
+<li>Bugfix: Proximity check of Complex Buildings that contain manually modified Building Parts.</li>
+<li>Bugfix: Opening of .skp model which includes Buildings and Parametric Maps are present.</li>
+<li>Bugfix: Chekcking if Complex Buildings are inside of Parametric Maps area.</li>
+<li>Bugfix: Updating of Building's overloaded parameters when moved around the Parametric Map area.</li>
+<li>Bugfix: Fixed updating of Buildings when SketchUp's Scale Tool is used in model with Parametric Maps.</li>
+<li>Bugfix: Call to manual license procedure when it can not be generated automatically.</li>
+<li>Bugfix: Opening the .skp model when Parametric Maps and Buildings are already present.</li>
+</ul>
+<p><strong>0.5.0 (Beta - Technical Preview)</strong></p>
+<ul>
+<li>Enhancement: Added Complex (mixed-use) Buildings.</li>
+<li>Enhancement: New licensing system, which enables offline use.</li>
+<li>Enhancement: Buildings can now be created also from edges that form closed loop. You can select one of three options: 1.) don't create Buildings based on selected edges, 2.) create Building if only one edge is selected, 3.) create Building only if complete edges loop is selected.</li>
+<li>Enhancement: Added randomizing of Building's number of storeys (Tools &gt; Randomize Buildings Heights).</li>
+<li>Enhancement: Improved performance when deleting remaining faces after Buildings were exploded.</li>
+<li>Enhancement: SketchUp 2016 specific - when there are many entities in the model, Buildings were updated slowly when number of storeys have changed. This has been greatly improved.</li>
+<li>Enhancement: Improved CSV export.</li>
+<li>Enhancement: Prevented erasing of Modelur Building entities such as faces or edges when editing Buildings manually.</li>
+<li>Enhancement: Added command line functionality to make some changes more quickly. When typing in S(sync) followed by a number in the First Storey Height parameter also changes Other Storeys Height to the same value, and vice versa.</li>
+<li>Enhancement: Added new shortcuts for changing parameters values in input fields: Shift + UP, Shift + DOWN, Ctrl + Shift + UP and Ctrl + Shift + DOWN.</li>
+<li>Enhancement: Improved automatic orientation of new Modelur Buildings.</li>
+<li>Enhancement: Improved copying of Modelur Buildings, which are now moved a bit so you can easily see them.</li>
+<li>Enhancement: Copying of Buildings is now completely transparent so that it does not interfere with SketchUp's undo/redo mechanism.</li>
+<li>Enhancement: Modifying of Buildings using SketchUp's native Scale Tool is now completely transparent so you can now easily change its scale using Value Control Box the same way as with all regular Sketchup objects.</li>
+<li>Enhancement: Improved proximity check between Modelur Buildings.</li>
+<li>Bugfix: Regeneration of Building's Bounding Box if pushpull or storey heights are undone.</li>
+<li>Bugfix: Handling of Modelur Buildings when layers containing them are deleted.</li>
+<li>Bugfix: Modelur materials are now persistent, so there are no more errors when some of them get purged.</li>
+<li>Bugfix: Modelur doesn't crash if some of the parametric maps are missing.</li>
+<li>Bugfix: Copying Modelur Buildings from one .skp model to another.</li>
+</ul>
+<p><strong>0.4.5 (Pre-beta 4)</strong></p>
+<ul>
+<li>Announcement: Please note that this is the last public release in Modelur Pre-Beta series. If you would like to be one of the first to test the upcoming Modelur Beta - which will be available to invited users only - please make sure to reserve your seat by filling out the invitation request form at http://bit.ly/beta-request.</li>
+<li>Enhancement: Modelur updated for SketchUp 2016.</li>
+<li>Enhancement: Better user interface experience when Modelur is not valid anymore.</li>
+<li>Bugfix: Proper initialization of Building's parameters when parametric maps are used.</li>
+<li>Bugfix: No more errors when Building's are dragged out of parametric maps using Modelur move tool.</li>
+<li>Bugfix: Repaired Google Earth export.</li>
+<li>Bugfix: Properly calculated values for Buildings when saved model is opened.</li>
+<li>Bugfix: Updating of secondary control values when Building is scaled only in horizontal direction.</li>
+<li>Bugfix: Manual editing of buildings when terraces are made on all sides of the building.</li>
+</ul>
+<p><strong>0.4.4 (Pre-beta 4)</strong></p>
+<ul>
+<li>Enhancement: Improved handling of empty Buildings (when user erases all faces inside Sketchup Group that represents Modelur Building).</li>
+<li>Enhancement: Added explicit selection of visible Parametric maps - to select Parametric map, which is shown in 3D viewport, just click on its name in Modelur UI.</li>
+<li>Enhancement: Improved proximity check, which now skips Buildings that are hidden.</li>
+<li>Bugfix: Fixed initialization of Modelur if there are some incomplete Land Uses in .skp model.</li>
+<li>Bugfix: Proper calculation of Building's built-up area when it is modified manually.</li>
+<li>Bugfix: Improved handling of manually modified Buildings.</li>
+<li>Bugfix: Cleanup of coplanar faces inside Modelur Building.</li>
+<li>Bugfix: fileutils.rb renamed to modelur_fileutils.rb so that it doesn't clash with the one that comes with SketchUp.</li>
+</ul>
+<p><strong>0.4.3 (Pre-beta 4)</strong></p>
+<ul>
+<li>Enhancement: Buildings will now be created properly even when faces they are created from are not completely horizontal.</li>
+<li>Enhancement: Vertical edges of Buildings with coplanar walls are now automatically erased.</li>
+<li>Enhancement: Rounded Building walls are now smoothed if they their plane angle is below specified angle threshold (20° by default).</li>
+<li>Enhancement: Modelur user interface is properly refreshed when Building is selected before Modelur is initialized.</li>
+<li>Enhancement: Improved Buildings proximity check when Modelur Move Tool is used.</li>
+<li>Enhancement: Improved Urban Control Values .csv export.</li>
+<li>Enhancement: Improved Building warnings when they are outside parametric maps.</li>
+<li>Bugfix: When Buildings are created, they are now properly marked if they are not inside parametric maps.</li>
+<li>Bugfix: Using proper parameter values when rotated Buildings are created on parametric maps.</li>
+<li>Bugfix: Fixed storing of user preferences, a glitch which appeared in v0.4.2.</li>
+<li>Bugfix: Heads-up display of Building control values is refreshed even if Modelur user interface is hidden.</li>
+<li>Bugfix: After Building parameter is changed and confirmed with Enter, no new Buildings are created.</li>
+<li>Bugfix: Refreshing of landuse control values in Modelur user interface.</li>
+<li>Bugfix: Copying Buildings via Value Control Box works properly if Building proximity check is engaged during the process.</li>
+<li>Bugfix: Improved Heads-Up Display of Urban Control Values.</li>
+</ul>
+<p><strong>0.4.2 (Pre-beta 4)</strong></p>
+<ul>
+<li>Enhancement: Some of Modelur buttons and menu items disabled if Modelur is not inizialized.</li>
+<li>Enhancement: All new Buildings are now renamed to Modelur Building upon creation.</li>
+<li>Enhancement: Added Building's name when exporting (Buildings) Urban Control Values to .csv.</li>
+<li>Enhancement: Copy Buildings command, which caused some confusion among Modelur users, moved from Modelur Toolbar to Modelur Plugins/Extensions menu entry.</li>
+<li>Enhancement: No changes in parametric map material when opening skp model.</li>
+<li>Enhancement: Parametric map material hidden when all maps are deactivated.</li>
+<li>Enhancement: Added Modelur options description, which is visible in Status bar.</li>
+<li>Enhancement: Improved checking of distances between Modelur Buildings.</li>
+<li>Enhancement: Proximity check now works in real-time as Buildings heights are being changed.</li>
+<li>Bugfix: No more javascript errors on SketchUp versions 2013 and below when .skp model with Parametric maps is loaded prior to Modelur intialization.</li>
+<li>Bugfix: Restoring of Modelur Buildings, which were created by duplicating existing Buildings.</li>
+<li>Bugfix: Modelur HeadsUp display now works properly if it is deleted when .skp model is loaded prior to Modelur initialization.</li>
+<li>Bugfix: Proper reset of Building to default values (if needed) when undo is called after Scale Tool was used.</li>
+<li>Bugfix: No more distorted SketchUp Entities when creating Modelur Building from Faces that touch other Entities.</li>
+</ul>
+<p><strong>0.4.1 (Pre-beta 4)</strong></p>
+<ul>
+<li>Enhancement: If Modelur UI doesn't show up properly, you can now reset Modelur settings by clicking on Extensions (Plugins prior to SU 2015) &gt; Modelur &gt; Restore default settings in SketchUp's menu.</li>
+<li>Enhancement: Sum of Land Use and Whole Plot values is now calculated only for visible buildings. This way you can now e.g. create different development alternatives and put them on separate layers. Hiding the layer will take all buildings on that layer out of the urban control values calculation for both Land Uses and the Whole Plot.</li>
+<li>Enhancement: Parametric Maps are saved into SketchUp .skp model.</li>
+<li>Enhancement: Optimized performance of Modelur Move Tool.</li>
+<li>Enhancement: Improved creation of new Modelur Buildings. Buildings with selected default floor plan are now created even if some other, non-Face SketchUp objects are selected. They are also properly created when the Face they are made of intersects with some other Face in the Model.</li>
+<li>Bugfix: Bounding Box is now properly shown when Buildings are modified manually.</li>
+<li>Bugfix: Improved Undo/Redo mechanism, which is now better integrated into SketchUp.</li>
+<li>Bugfix: Updating of Building's Built-up Area when ScaleTool is used and "Keep Built-up Area when scaling manually" in turned on.</li>
+<li>Bugfix: Color distance bug with gray images and land uses.</li>
+</ul>
+<p><strong>0.4.0 (Pre-beta 4)</strong></p>
+<ul>
+<li>Enhancement: Added Parametric Maps functionality. To update Modelur Buildings to parameters from Parametric Maps in real-time, use the provided Modelur Move Tool (blue cross arrow in Modelur Toolbar). At the moment .png, .jpg or .gif file formats are supported by Parametric Maps.</li>
+<li>Enhancement: Calculation of building control values displayed inside Modelur UI.</li>
+<li>Enhancement: When creating new building with no faces selected, all Parameters are set to default.</li>
+<li>Enhancement: UI design changes</li>
+<li>Bugfix: Undo works when parameter of Whole Plot or Land Use is changed in the Modelur UI.</li>
+<li>Bugfix: Updating of Urban Control Values when Modelur Buildings are deleted and some other locked entities are selected.</li>
+<li>Bugfix: Updating of Urban Control Values when Modelur Buildings are deleted and deletion is then undone.</li>
+<li>Bugfix: Creating of Buildings with convex floor plan and default Built Area.</li>
+<li>Bugfix: Updating of Buildings when Scale Tool is used together with keep Built-up Area when scaling manually option turned on.</li>
+<li>Bugfix: Importing Google Earth Terrain is not crashing anymore if Modelur is running.</li>
+</ul>
+<p><strong>0.3.6 (Pre-beta 3)</strong></p>
+<ul>
+<li>Update for SketchUp 2014.</li>
+</ul>
+<p><strong>0.3.5 (Pre-beta 3)</strong></p>
+<ul>
+<li>Enhancement: Length units are now recalculated and written to defaults when user switches between metric and feet.</li>
+<li>Enhancement: If .skp model is loaded, only length units preference is loaded from it, while all other preferences (eg. language) are loaded as specified by the user. Of course, user can still switch length units.</li>
+<li>Enhancement: Huge performance improvement on large models when duplicating Modelur Buildings using Value Control Box mechanism.</li>
+<li>Enhancement: Modelur better mimics behavior of SketchUp when using its native Value Control Box mechanism.</li>
+<li>Enhancement: Buildings are not warned anymore when they are touching each other, as we consider them as one building structure.</li>
+<li>Enhancement: Buildings now react to Scale Tool when their height is changed via Value Control Box, too. For example, you can now use Scale Tool to start raising Building and the type in *5 + Enter which will raise the Building five times.</li>
+<li>Enhancement: More intuitive handling of overloaded parameters, when they are set back to default values.</li>
+<li>Bugfix: HeadsUp Display showing Building and Whole Plot values is now loaded properly (as defined by user preferences) when .skp model is opened.</li>
+<li>Bugfix: Fixed Modelur Building copy/paste mechanism.</li>
+<li>Bugfix: Proximity check (warnings when buildings are too close together) is now engaged automatically when Modelur is started if set so by preference.</li>
+<li>Bugfix: Fixed undo mechanism when Modelur building is deleted.</li>
+<li>Bugfix: Fixed updating of manually modified Modelur Building when user moves its corner. Please note that you need to select all vertically aligned edges (whole corner) to use this functionality!</li>
+<li>Bugfix: Overloaded Building parameters are now updated properly when default (Whole Plot) parameters change.</li>
+<li>Bugfix: Fixed updating of terraces and loggias when Building floors are added or removed.</li>
+<li>Bugfix: Fixed restoring of manually modified Modelur Buildings to default values.</li>
+<li>Bugfix: Fixed duplicating Building mechanism when default land use is not the same as it was in the previous model.</li>
+<li>Bugfix: Fixed refreshing of terraces and loggias when buildings are stretched in horizontal plane.</li>
+<li>Bugfix: Fixed Building Bounding Box size when buildings are scaled in horizontal plane plane and they are set to keep built area.</li>
+<li>Bugfix: Buildings are now properly duplicated when using Rotate Tool and Value Control Box mechanism to create several instances of selected Building.</li>
+<li>Bugfix: Building terraces and loggias are now properly marked (according to preference) when .skp model is opened.</li>
+<li>Bugfix: Fixed storing of selected Land Uses in both, Land Use requirements and Urban control - Land Use panels when they are not present in preferences.</li>
+</ul>
+<p><strong>0.3.4 (Pre-beta 3)</strong></p>
+<ul>
+<li>Enhancement: Modelur remembers changes on the user interface layout.</li>
+<li>Enhancement: When Modelur is run for the first time, it loads in the language of SketchUp if translation exists.</li>
+<li>Enhancement: Options 'Calculate sum values of selected Buildings', 'Optimize Building for Google Earth', 'Toggle Built-up Area visibility', 'Toggle terraces and loggias' moved from Sketchup Plugins menu to the user interface</li>
+<li>Enhancement: Modelur initialization message is now in the same window as Modelur's user interface itself.</li>
+<li>Bugfix: Bounding box is now properly refreshed when user changes number of storeys or height of the Building if it is selected and Scale tool activated.</li>
+<li>Bugfix: Loggias are now properly defined when user modifies Building manually.</li>
+</ul>
+<p><strong>0.3.3 (Pre-beta 3)</strong></p>
+<ul>
+<li>Enhancement: Added validation check of Modelur Buildings. User is now warned if Modelur finds some corrupted building, which are not parametric anymore.</li>
+<li>Enhancement: User interface is updated with Urban Control Indicators while Modelur Buildings are being manually edited.</li>
+<li>Enhancement: Improved optimization and preparation of 3D model for Google Earth export.</li>
+<li>Bugfix: Neighbor Buildings, which were too close to selected one are now unmarked when the Building is far enough.</li>
+<li>Bugfix: Fixed initialization of .skp models which contain one-storey Modelur Buildings.</li>
+<li>Bugfix: Fixed error when lowering other storeys height in manually modified building.</li>
+</ul>
+<p><strong>0.3.2 (Pre-beta 3)</strong></p>
+<ul>
+<li>Enhancement: Language selection dropdown now sorted alphabetically.</li>
+<li>Enhancement: You can now copy/paste Modelur Buildings between different .skp models.</li>
+<li>Enhancement: Improved Modelur menu behaviour - panels now close automatically after selection is made.</li>
+<li>Enhancement: All Modelur methods moved to MODELUR namespace so there is less chance of Modelur clashing with other plugins.</li>
+<li>Enhancement: Chinese and Spanish translations back to 100%! Thank you Edgar Navas and Xiaoqi Wang!</li>
+<li>Bugfix: Fixed wrong dropdown translations for primary and secondary Land Use units when language is changed.</li>
+<li>Bugfix: No more user interface freezing when the defaulut language is switched to Chinese.</li>
+<li>Bugfix: Land Use Requirements panel is now properly refreshed when last Land Use in dropdown is deleted.</li>
+<li>Bugfix: Primary and secondary units are now refreshed properly when language is changed on Windows platform.</li>
+</ul>
+<p><strong>0.3.1 (Pre-beta 3)</strong></p>
+<ul>
+<li>Enhancement: Added error message when uncompatible version of Modelur model is opened.</li>
+<li>Enhancement: Improved undo mechanism for deleted buildings. They are now recreated properly; nonetheless they should be avoided as much as possible as it might lead to unexpected behaviour when used repeatedly.</li>
+<li>Engancement: Added exporting of Urban control value survey. Users can select which data they would like to export: Whole Plot, Land Uses and Buildings.</li>
+<li>Enhancement: Added option to choose the default shape of the building when creating it with no faces selected. Supported shapes: square, circle and L-shaped building.</li>
+<li>Enhancement: Improved Modelur icons.</li>
+<li>Enhancement: Improved Modelur version upgrade system and initialization methods.</li>
+<li>Enhancement: Added Modelur Help options (video tutorials, forum, blog, ...)</li>
+<li>Bugfix: Fixed Land Use survey calculations when opening saved models.</li>
+<li>Bugfix: Location of built-up area face inside the building if it is not on the horizontal plane.</li>
+<li>Bugfix: Fixed showing of terraces and loggias using materials.</li>
+<li>Bugfix: Calculation of number of primary units (e.g. appartments) and required parking lots due to Length class rounding error.</li>
+<li>Bugfix: Fixed saving of default settings.</li>
+</ul>
+<p><strong>0.3.0 (Pre-beta 3)</strong></p>
+<ul>
+<li>Major Modelur core engine and user interface update. Most of the code rewritten.</li>
+<li>Enhancement: Added dynamic Land Use system, so end-users can add their own land uses. Land uses can also be renamed.</li>
+<li>Enhancement: Added Modelur Toolbar with Initialize Modelur,Create Building and Copy building buttons.</li>
+<li>Enhancement: Improved mechanism for duplicating buildings via Value Control Box.</li>
+<li>Enhancement: If no face is selected when a user wants to create a building Modelur creates it automatically. User can choose between square, circular or L shape.</li>
+<li>Enhancement: Added option to colour terrace and loggia floors so end-users can check if correct faces as marked.</li>
+<li>Enhancement: Renaming land use material in SketchUp also renames the land use itself. Vice versa works only on SketchUp 8M1 and above.</li>
+<li>Enhancement: Added SketchUp Modelur menu language translations.</li>
+<li>Enhancement: Added user interface Status Bar, which explains abbreviations.</li>
+<li>Known limitation: undoing Modelur parameter changes works only partially.</li>
+</ul>
+<p><strong>0.2.9 (Pre-beta 2)</strong></p>
+<ul>
+<li>This is the last version of Modelur Pre-beta 2. It will stop to work on 31st of July 2013. Please note that Modelur Pre-beta 3 will not be backward compatible!</li>
+</ul>
+<p><strong>0.2.8 (Pre-beta 2)</strong></p>
+<ul>
+<li>Bugfix: Multiple buildings can now again be created in one step.</li>
+</ul>
+<p><strong>0.2.7 (Pre-beta 2)</strong></p>
+<ul>
+<li>Exporting urban control values now also exports the values for each building and marks buildings in 3D model by their unique IDs (marks are placed to layer Buildings UIDs).</li>
+</ul>
+<p><strong>0.2.6 (Pre-beta 2)</strong></p>
+<ul>
+<li>Improved performance of realtime distance checking between buildings.</li>
+<li>Improved VCB copying mechanism.</li>
+<li>Improved online validation mechanism, which is now executed only when Modelur is initialized. Additionaly, it fixes an error when Modelur's validation server is unreachable.</li>
+</ul>
+<p><strong>0.2.5 (Pre-beta 2)</strong></p>
+<ul>
+<li>Beginning with version 0.2.5, Modelur works also with Google SketchUp 8.</li>
+<li>Enhancement: Improved Chinese translation of user interface. Thank you Wantao Xiao!</li>
+<li>Fixed changing of metric/imperial units.</li>
+</ul>
+<p><strong>0.2.4 (Pre-beta 2)</strong></p>
+<ul>
+<li>Major stability improvement when buildings are being duplicated extensively in 3d view.</li>
+<li>Enhancement: Dutch translation of user interface. Thank you Gertjan Laurenssen!</li>
+<li>Enhancement: Spanish translation of user interface. Thank you Diego Rodriguez!</li>
+<li>Enhancement: 'Invisible' UI scroller. Usage: select a building, click on input field (i.e. Building &gt; Number of storeys), press Shift key and scroll mouse wheel - selected building will update itself to the new value. Change scroll stepping by holding Ctrl in addition to Shift key.</li>
+<li>Enhancement: Automatic fixing of rotated floor plans when creating building. Modelur now tries to create orthogonal bounding box for buildings, so they can easily be scaled.</li>
+<li>Enhancement: Basic optimization of buildings for Google Earth export. Optimized geometry can be found in Modelur2GE layer. This feature is still in development.</li>
+<li>Enhancement: Improved input parameters handling. User interface can now accept different styles of input data (i.e. decimals written with dot or comma, whitespaces, alphabet characters) and handles them automatically.</li>
+<li>Enhancement: Newly drawn (floor plan) faces are now selected automatically, so it one does not have to select it by hand in order to create Modelur building from it.</li>
+<li>Enhancement: Newly created buildings now get the default name 'Building', so one can easily found them in the Outliner.</li>
+<li>Enhancement: Improved calculation of mixed use ratio.</li>
+<li>Fixed bug which prevented to duplicate last duplicated building in 3d view using Ctrl/Cmd key.</li>
+<li>Fixed bug for 'Manually drawn floor plan assumes default built area' checkbox.</li>
+<li>Fixed creation of building when default number of storeys is 1.</li>
+</ul>
+<p><strong>0.2.3 (Pre-beta 2)</strong></p>
+<ul>
+<li>Hotfix for bug, which prevented to set plot area size and parking lots normatives.</li>
+</ul>
+<p><strong>0.2.2 (Pre-beta 2)</strong></p>
+<ul>
+<li>Huge performance optimization when opening .skp model with many Modelur buildings. Model now opens 10-50 times faster.</li>
+<li>Optimized performance of urban control values calculation (about 30% faster).</li>
+<li>Improved communication speed between Modelur user interface and its engine.</li>
+<li>Improved reaction to scale tool.</li>
+<li>Improved calculation of built area.</li>
+<li>Improved checking of user defined parameter values in user interface.</li>
+<li>Added Chinese translation of user interface. Thank you Huaqiao Wang and James Baq!</li>
+</ul>
+<p><strong>0.2.1 (Pre-beta 2)</strong></p>
+<ul>
+<li>Improved calculation of building volume and built area.</li>
+<li>Fixed bug of gross floor area calculation when terrace or loggia normative is changed.</li>
+<li>Fixed undo/redo stack (SketchUp 7).</li>
+<li>User interface bug fixes.</li>
+<li>Fixed bug that prevented realtime update of building control values when user changed parameter of terrace or loggia percent.</li>
+</ul>
+<p><strong>0.2.0 (Pre-beta 2)</strong></p>
+<ul>
+<li>Advanced manual editing of buildings which enables the creation of terraces and loggias. How much they contribute to gross floor area of building is defined as percentage, in Terrace gross floor area percent and Loggia gross floor area percent, respectively.</li>
+<li>Menus added to the user interface, which now works on Internet Explorer 6 also.</li>
+<li>Modelur now works offline too, yet it has some limitations.</li>
+<li>Export of urban control values to .csv file.</li>
+<li>Calculation of net floor area, based on percentage of gross floor area. Defined as Percent of usable gross floor area.</li>
+<li>Distance units can now be switched between metric (meters) and imperial (feet).</li>
+<li>Warnings about minimal distance between buildings (default 4m).</li>
+<li>Simplified applying of texture to the terrain.</li>
+<li>Polish translation of user interface. Thank you Tomasz Gutowski.</li>
+<li>Duplication of buildings via Value Control Box together with some other minor bugfixes.</li>
+</ul>
+<p><strong>0.1.1 (Pre-beta 1)</strong></p>
+<ul>
+<li>Modelur is now available also on Apple Mac OS X.</li>
+<li>We have also added French, German and Portuguese translations of user interface. Thank you Pilou, Burkhard and Edson from Sketchucation!</li>
+</ul>
+<p><strong>0.1.0 (Pre-beta 1)</strong></p>
+<p>This is the initial release of Modelur Pre-beta version.</p>
           <aside class="copyright" role="note">
             
               Copyright 2016 by URBS. All Rights Reserved. &ndash;
