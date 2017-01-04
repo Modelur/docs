@@ -15,4 +15,3 @@ Modelur is implemented as a plug-in for [Trimble SketchUp](http://www.sketchup.c
 Using this guide
 ----------------
 
-This guide can be used in several ways. You can use it as a [quick start guide](quickstart), to get you up-and-running with Modelur fast. If you want to get help and more details about some functionality of Modelur, [Detailed Workflow](detailed-workflow) section is for you. It explains every detail of how Modelur works and how urban control values are calculated. In between, there are Menu and Tabs sections, which provide more detail on Modelur user interface.
