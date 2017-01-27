@@ -2,3 +2,5 @@
 site/
 Tmp/
 run_mkDocs.bat
+docs/css/custom_temp.css
+docs/img/create_building_arbitrary_floor_plan.skp
