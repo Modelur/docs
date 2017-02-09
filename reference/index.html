@@ -291,7 +291,14 @@
 <h4 id="parametric-maps">Parametric Maps<a class="headerlink" href="#parametric-maps" title="Permanent link">&para;</a></h4>
 <h4 id="default-building-parameters">Default Building Parameters<a class="headerlink" href="#default-building-parameters" title="Permanent link">&para;</a></h4>
 <h2 id="land-use">Land Use<a class="headerlink" href="#land-use" title="Permanent link">&para;</a></h2>
+<p>Under Land Use tab you can add, edit or remove Land Uses used by Modelur. This is the place to fine-tune all the parameters related to Land Uses which are used to calculate urban control values based on your current design in real-time, eg. Net Floor Area, Number of Apartments, Required Number of Parking Lots, etc.</p>
 <h4 id="land-use-requirements">Land Use Requirements<a class="headerlink" href="#land-use-requirements" title="Permanent link">&para;</a></h4>
+<p><strong>Add <em>button</em></strong> creates new Land Use. When creating new Land Use, Modelur will copy parameters of currently selected Land Use into newly created one. Once new Land Use is created, you can change the parameters as with any other Land Use.</p>
+<p><strong>Remove <em>button</em></strong> removes currently selected Land Use from Modelur model. If some of the Buildings have assigned Land Use that is being deleted, it will be replaced by default Land Use as specified in the <em>Whole Plot &gt; Default Building Parameters</em>.</p>
+<p><strong>Edit <em>button</em></strong> opens a panel to rename selected Land Use.</p>
+<p><strong>Land Use <em>dropdown</em></strong> lists all Land Uses in current model. In order to change Land Use parameters you need to select it here. Once Land Use of your choice is selected, you can start editing all of its parameters.</p>
+<p><strong>Color <em>input field</em></strong> specifies the color that is used to mark all Buildings that use selected Land Use. You can specify it directly as a hex value or your can click on the small color button on the left side of this line. Clicking on the button will open up a color picker s you can easily change the color of selected Land Use. Please note that each Land Use is also connected to respective SketchUp Material and that changing either is synced automatically. So, if you change a color of certain Material in SketchUp, the change will be reflected in Land Use color, too, and vice versa.</p>
+<p><strong>Add this Land Use values to the sum total <em>checkbox</em></strong> tells Modelur if the urban control values (eg. Gross Floor Area, Required Number of Parking Lots, etc.) of selected Land Use should be added to the sum of Whole Plot or not. If checkbox is ticked, selected Land Use urban control values will be added to the sum of Whole Plot. If checkbox is not ticked, urban control values will not be added to the sum of Whole Plot.  </p>
 <h2 id="building">Building<a class="headerlink" href="#building" title="Permanent link">&para;</a></h2>
 <h4 id="selected-building-parameters">Selected Building Parameters<a class="headerlink" href="#selected-building-parameters" title="Permanent link">&para;</a></h4>
 <h4 id="editing-modes-of-building">Editing Modes of Building<a class="headerlink" href="#editing-modes-of-building" title="Permanent link">&para;</a></h4>
@@ -307,8 +314,8 @@
 <p>Using the slider you can easily move back and forth in time. Modelur will show only existing buildings at selected time (year) and recalculate all urban control values so they reflect choosen year's state only. </p>
           <aside class="copyright" role="note">
             
-              Copyright 2016 by URBS. All Rights Reserved. &ndash;
-            
+              Copyright 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity</a> d.o.o. (LLC). All Rights Reserved.
+            <br>
             Documentation built with
             <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
             using the
