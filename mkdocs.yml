@@ -10,7 +10,7 @@ theme: 'material'
 extra_css:
 - css/fonts.css
 - css/custom.css
-copyright: Copyright 2016 by URBS. All Rights Reserved.
+copyright: Copyright 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity</a> d.o.o. (LLC). All Rights Reserved.
 site_favicon: modelur.ico
 site_author: The Modelur Team
 google_analytics: ['UA-8035020-12', 'auto']
