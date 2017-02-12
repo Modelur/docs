@@ -13,4 +13,4 @@ Although we strive to make Modelur flawless, there are some problems we can not 
  
  - Manually edited buildings might behave strange or even get corrupted when changing number of storeys. *Proposed solution:* make manual editing only after you will not be changing Building's number of storeys.
  
- - Modelur License can not be read when user has non-ascii characters in username on Windows. *Proposed solution:* move modelur.lic to C:/users/.
+ - Modelur License can not be read when user has non-ascii characters in username on Windows. *Proposed solution:* move modelur.lic to C:/users/.s

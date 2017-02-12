@@ -1,16 +1,21 @@
 site_name: Modelur User Guide
+theme: 'material'
 pages:
 - 1. Meet Modelur: index.md
 - 2. Getting Started: getting-started.md
 - 3. Quick Start: quickstart.md
-- 4. Reference: reference.md
+- 4. Reference:
+  - 'Menu': 'reference/menu.md'
+  - 'Whole Plot': 'reference/whole_plot.md'
+  - 'Land Use': 'reference/land_use.md'
+  - 'Building': 'reference/building.md'
+  - 'Survey': 'reference/survey.md'
 - 5. Troubleshooting: troubleshooting.md
 - 6. Appendix: appendix.md
-theme: 'material'
 extra_css:
 - css/fonts.css
 - css/custom.css
-copyright: Copyright 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity</a> d.o.o. (LLC). All Rights Reserved.
+copyright: Copyright 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
 site_favicon: modelur.ico
 site_author: The Modelur Team
 google_analytics: ['UA-8035020-12', 'auto']
@@ -23,6 +28,11 @@ extra:
       code: 'Ubuntu Mono'
   author:
       twitter: 'modelur'
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/modelur'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/modelur'
 markdown_extensions:
   - admonition
   - toc:
