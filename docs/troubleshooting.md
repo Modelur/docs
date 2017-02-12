@@ -11,4 +11,6 @@ Although we strive to make Modelur flawless, there are some problems we can not 
  
  - Using Modelur Move Tool might bugsplat SketchUp if other Extensions using LayersObserver are used. *Proposed solution:* try disabling other plugins in Preferences > Extensions.
  
- - Modelur License can not be read when user has non-ascii characters in username on Windows. *Proposed solution:* move modelur.lic to C:/users/. 
+ - Manually edited buildings might behave strange or even get corrupted when changing number of storeys. *Proposed solution:* make manual editing only after you will not be changing Building's number of storeys.
+ 
+ - Modelur License can not be read when user has non-ascii characters in username on Windows. *Proposed solution:* move modelur.lic to C:/users/.
