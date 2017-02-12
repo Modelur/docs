@@ -21,7 +21,7 @@ There are several ways you can install Modelur:
 To install a SketchUp Ruby plugin script with the .rbz format use the standard SketchUp <a href="https://help.sketchup.com/en/article/38583" target="_blank">installation procedure</a>]:
 
 > 1. We recommend logging into your computer as an admin before installing any Ruby scripts. This will make the installation go more smoothly and ensure that files get installed in the proper places.
-> 1. **SketchUp 2016 and below:** Select _Window > Preferences_ (Windows) or _SketchUp > Preferences_ (OS X).<br>**SketchUp 2017 and above:** Select _Window > Extension Manager_ (Windows) or _SketchUp > Extension Manager_ (OS X). The Preferences dialog box is displayed.
+> 1. **SketchUp 2016 and below:** Select _Window --> Preferences_ (Windows) or _SketchUp --> Preferences_ (OS X).<br>**SketchUp 2017 and above:** Select _Window --> Extension Manager_ (Windows) or _SketchUp --> Extension Manager_ (OS X). The Preferences dialog box is displayed.
 > 1. Click on Extensions. The Extensions panel is displayed.
 > 1. Click on the Install Extension button. The Open dialog box is displayed.
 > 1. Locate the Ruby zip file to install (.rbz).
@@ -42,7 +42,7 @@ Files containing your Modelur preferences are stored
 * On Windows: `C:\Users\YOUR USERNAME\AppData\Roaming\Modelur`
 * On OS X: `~/Library/Application Support/Modelur`
  
-All preferences are stored using standard <a href="http://www.json.org/" target="_blank">JSON</a> data-interchange format. Upon Modelur upgrade, these files will be automatically upated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions > Modelur > Restore default settings.
+All preferences are stored using standard <a href="http://www.json.org/" target="_blank">JSON</a> data-interchange format. Upon Modelur upgrade, these files will be automatically upated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions --> Modelur --> Restore default settings.
 
 Installation problems
 ---------------------

@@ -7,13 +7,13 @@ Once Modelur is installed you have two options to initialize it. First option is
 
 ![Modelur_toolbar](img/modelur_toolbar_non_initialized.png)
 
-<figcaption>Figure 3.01 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu <i>View > Toolbars > Modelur</i>. To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.</figcaption>
+<figcaption>Figure 3.01 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu View --> Toolbars --> Modelur. To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.</figcaption>
 
-Second option to initialize Modelur is to navigate to it through SketchUp menu _Plugins > Modelur > Initialize Modelur_ (Figure 3.02).
+Second option to initialize Modelur is to navigate to it through SketchUp menu _Plugins --> Modelur --> Initialize Modelur_ (Figure 3.02).
 
 ![Modelur_menu entry](img/modelur_plugins_menu.png)
 
-<figcaption>Figure 3.02 - Alternative way to initialize Modelur through SketchUp menu <code>Plugins > Modelur > Initialize Modelur</code>. Please note that Plugins menu was called Extensions in previous versions of SketchUp.</figcaption>
+<figcaption>Figure 3.02 - Alternative way to initialize Modelur through SketchUp menu Plugins --> Modelur --> Initialize Modelur. Please note that Plugins menu was called Extensions in previous versions of SketchUp.</figcaption>
 
 Once Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3.03) is composed of four parts: Menu, Tabs, Panels and Statusbar.
 
@@ -34,7 +34,7 @@ Tabs are located below the Menu. They represent a groups of similar tasks. Curre
 Panels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Tabs section.
 
 #### Status Bar
-Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu > Options > Show status bar.
+Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu --> Options --> Show status bar.
 
 Quick Start Guide
 -----------------
@@ -45,15 +45,15 @@ Make sure you have [installed Modelur](getting-started/#installation) and quickl
 
 #### Step 1 - Initialize Modelur model and configure it
 
-Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu _Extensions > Modelur > Initialize Modelur_ (as shown in [UI Overview](#ui-overview) section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).
+Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu _Extensions --> Modelur --> Initialize Modelur_ (as shown in [UI Overview](#ui-overview) section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).
  
  ![Modelur_options_menu](img/modelur_ui_options_annotated.png)
  
-<figcaption>Figure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside <a href="../user-interface" >User Interface</a> section.</figcaption>
+<figcaption>Figure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside <a href="../user-interface" -->User Interface</a> section.</figcaption>
 
 #### Step 2 - Create Modelur Building
 
-Once Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the _Create Building_ (2) entry in SketchUp menu _Extensions > Modelur_ or by clicking on the Create button (3) inside Building tab of Modelur’s user interface (Figure 3.05).
+Once Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the _Create Building_ (2) entry in SketchUp menu _Extensions --> Modelur_ or by clicking on the Create button (3) inside Building tab of Modelur’s user interface (Figure 3.05).
 
 ![Modelur_options_menu](img/modelur_create_building_annotated.png)
 
@@ -63,7 +63,7 @@ Regardless of which way you choose to create Modelur Buildings, there are always
 
 **Creating Building based on predefined shape**
 
-If nothing is selected in your .skp model, Modelur will create a Building with predefined floor plan. This can be selected under Modelur’s _Options > Default building shape_ as shown below. At the moment (Modelur v0.5.7), you can chose among three basic floor plans - Square, Circle and L-Shape (Figure 3.06).
+If nothing is selected in your .skp model, Modelur will create a Building with predefined floor plan. This can be selected under Modelur’s _Options --> Default building shape_ as shown below. At the moment (Modelur v0.5.7), you can chose among three basic floor plans - Square, Circle and L-Shape (Figure 3.06).
 
 When new Building is initialized this way, it is created based on the default Parameters as specified for the Whole Plot or Parametric Maps (if defined). We will take a look at those later.
 
@@ -85,7 +85,7 @@ Alternatively you can also create Building based on selected closed edge loop. T
 
 Parameters work hierarchically in Modelur. What this means is that an object (Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its superior object, which is Parametric Map. If Parametric map does not exist or it is inactive, it takes the value as defined in Whole Plot, which is superior object to Parametric Map. Whole Plot is the topmost object in Modelur.
 
-Object hierarchy for all Building Parameters in current version of Modelur (Beta) is: _Building > Parametric Map > Whole Plot_.
+Object hierarchy for all Building Parameters in current version of Modelur (Beta) is: _Building --> Parametric Map --> Whole Plot_.
 
 ##### Overloaded Parameters
 

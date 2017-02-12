@@ -15,7 +15,7 @@ pages:
 extra_css:
 - css/fonts.css
 - css/custom.css
-copyright: Copyright 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
+copyright: Copyright (c) 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
 site_favicon: modelur.ico
 site_author: The Modelur Team
 google_analytics: ['UA-8035020-12', 'auto']
@@ -37,3 +37,5 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: True
+  - pymdownx.mark
+  - pymdownx.smartsymbols
