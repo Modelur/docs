@@ -26,11 +26,37 @@
     
 
     
+        
     <url>
-     <loc>/reference/</loc>
+     <loc>/reference/menu/</loc>
      <lastmod>2017-02-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>/reference/whole_plot/</loc>
+     <lastmod>2017-02-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/reference/land_use/</loc>
+     <lastmod>2017-02-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/reference/building/</loc>
+     <lastmod>2017-02-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/reference/survey/</loc>
+     <lastmod>2017-02-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
