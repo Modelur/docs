@@ -211,26 +211,6 @@
     File
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#file-open" title="File &gt; Open" class="md-nav__link">
-    File &gt; Open
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#file-export-urban-design-control-values" title="File &gt; Export Urban Design Control Values…" class="md-nav__link">
-    File &gt; Export Urban Design Control Values…
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -355,26 +335,6 @@
     File
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#file-open" title="File &gt; Open" class="md-nav__link">
-    File &gt; Open
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#file-export-urban-design-control-values" title="File &gt; Export Urban Design Control Values…" class="md-nav__link">
-    File &gt; Export Urban Design Control Values…
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -417,9 +377,9 @@
 <p><img alt="Modelur Menu" src="../../img/modelur_ui_parts_menu_annotated.png" />
 <figcaption>Figure 4.01 - Location of Modelur Menu.</figcaption></p>
 <h2 id="file">File<a class="headerlink" href="#file" title="Permanent link">&para;</a></h2>
-<h4 id="file-open">File &gt; Open<a class="headerlink" href="#file-open" title="Permanent link">&para;</a></h4>
+<p><strong>File &rarr; Open</strong></p>
 <p>Opens a dialog window that allows you to open existing SKP file.</p>
-<h4 id="file-export-urban-design-control-values">File &gt; Export Urban Design Control Values…<a class="headerlink" href="#file-export-urban-design-control-values" title="Permanent link">&para;</a></h4>
+<p><strong>File &rarr; Export Urban Design Control Values…</strong></p>
 <p>This is used to export urban control values (such as Gross Floor Area, FAR, Required number of parking lots, etc.) of currently opened model into CSV file. Before exporting the data, you have an option to choose which values you want to export (Whole Plot, Land Uses, Buildings, Complex Buildings). By default all options are selected for export (Figure 4.02).</p>
 <p>Additionally, when you choose to export data for Complex Buildings, you have an option to export more details about it. This can be done be either exporting its data 1) by Land Use and 2) for each Simple Building that constitutes it, or both.</p>
 <p><img alt="Urban indicators export" src="../../img/export_urban_control_indicators.png" />
@@ -429,6 +389,13 @@
 <p><img alt="Exported urban control values" src="../../img/exported_urban_control_values.png" />
 <figcaption>Figure 4.03 - Example of urban control values exported to raw CSV file (left window) and imported to the spreadsheet software (right window).</figcaption> </p>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h2>
+<p><strong>Randomize Building Heights</strong></p>
+<p>Using this functionality you can randomize selected Buildings number of storeys. Once Buildings are selected, click on this button and you will be presented with two options. If you select Absolute Number of Storeys all buildings will be randomized to number of storeys between min and max value. If you choose Relative Number of Storeys, selected Building's storeys will be randomized <em>based on their current Number of Storeys</em> in the range between min and max values specified.</p>
+<p><strong>Create Terrain</strong></p>
+<p><strong>Calculate Sum of Selected Buildings</strong></p>
+<p>Use this when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned.</p>
+<p><strong>Optimize Buildings for Google Earth</strong></p>
+<p>Once your urban design proposal is finished, you might want to export it to geolocated KMZ file, which can be opened by many programs, including <a href="https://www.google.com/earth/" target="_blank">Google Earth</a>. Using this feature Modelur will automatically optimize all Modelur Buildings by removing all unnecessary faces. If you want, you can also tell it to export floor Edges, so that the Building's storeys are visible inside Google Earth.  </p>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
 <h2 id="help">Help<a class="headerlink" href="#help" title="Permanent link">&para;</a></h2>
               
@@ -480,7 +447,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
+            Copyright (c) 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
           </div>
         
         powered by
