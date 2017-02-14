@@ -1,6 +1,21 @@
 Release notes
 -------------
 
+**0.5.8 R1 (Beta 1)**
+
+ - Enhancement: Added new default Land Use - Parking.
+ - Enhancement: Added calculation of Mean Number of Storeys for the Whole Plot.
+ - Enhancement: Required parking lots changed to parking lots deficit calculation. You can now set negative parking lots in eg. Parking Land Use and Modelur will calculate the difference between required and provided parking lots.
+ - Enhancement: Added options to exclude Land Use from calculating sums for the Whole Plot completely or to include only parking requirements.
+ - Enhancement: Primary and secondary Land Use units can now be set to empty value or 0 and Modelur will not calculate them.
+ - Enhancement: Added Land Use normative to calculate required parking area size.
+ - Enhancement: Disabled Release Network License menu entry for non-floating licenses.
+ - Enhancement: Added Parking Space deficit in sum of selected Buildings.
+ - Enhancement: Improved manual editing of Buildings.
+ - Bugfix: Fixed weird rotation when new Complex Buildings are created based on other Complex Buildings (SketchUp 2017 only).
+ - Bugfix: Complex Buildings optimization for Google Earth.
+ - Bugfix: Updating of selected Building height parameter when using imperial units.
+ 
 **0.5.7 R1 (Beta 1)**
 
  - Enhancement: You can now add loggias/cantilevers to only part of Building's wall.
