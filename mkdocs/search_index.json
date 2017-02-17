@@ -152,12 +152,12 @@
         },
         {
             "location": "/reference/whole_plot/",
-            "text": "Plot Parameters\n\u00b6\n\n\nParametric Maps\n\u00b6\n\n\nDefault Building Parameters\n\u00b6",
+            "text": "Plot Parameters\n\u00b6\n\n\nPlot area\n is the size of the whole development area. This parameter is used to calculate Floor Area Ratio (FAR) and Site Coverage.\n\n\nMin. Distance to Height Ratio\n is used to calculate minimum distance between two Buildings based on their heights. To calculate distance, the Building's height is divided by the parameter value. Example: if parameter is set to 2, the minimum distance will be \u00bd of Building's height, if set to 3, it will be \u2153 of Building's height. If the Buildings are placed closer than the calculated distance, they will be marked red (presuming that \nToo low distance between Buildings\n is active).\n\n\nMin. Dist. Between Buildings\n is the absolute distance (in meters of feet) between any two Buildings. If the Buildings are placed closer than this specified distance, they will be marked red (presuming that \nToo low distance between Buildings\n is active).\n\n\nParametric Maps\n\u00b6\n\n\nDefault Building Parameters\n\u00b6",
             "title": "Whole Plot"
         },
         {
             "location": "/reference/whole_plot/#plot-parameters",
-            "text": "",
+            "text": "Plot area  is the size of the whole development area. This parameter is used to calculate Floor Area Ratio (FAR) and Site Coverage.  Min. Distance to Height Ratio  is used to calculate minimum distance between two Buildings based on their heights. To calculate distance, the Building's height is divided by the parameter value. Example: if parameter is set to 2, the minimum distance will be \u00bd of Building's height, if set to 3, it will be \u2153 of Building's height. If the Buildings are placed closer than the calculated distance, they will be marked red (presuming that  Too low distance between Buildings  is active).  Min. Dist. Between Buildings  is the absolute distance (in meters of feet) between any two Buildings. If the Buildings are placed closer than this specified distance, they will be marked red (presuming that  Too low distance between Buildings  is active).",
             "title": "Plot Parameters"
         },
         {
@@ -222,7 +222,7 @@
         },
         {
             "location": "/reference/survey/",
-            "text": "Urban Control Survey on Screen\n\u00b6\n\n\nWarnings\n\u00b6\n\n\nUrban Control - Selected Building\n\u00b6\n\n\nUrban Control - Plot Area\n\u00b6\n\n\nUrban Control - Land Use\n\u00b6\n\n\nDevelopment Timeline\n\u00b6\n\n\nDevelopment Timeline\n slider is used to show/hide Modelur Buildings based on their construction / demolition year. The range is automatically set to -1/+1 from the min and max construction / demolition year as \nspecified in Buildings\n. If no construction / demolition year is specified in any Building, span will be set to default as specified in \ndefaults.json\n.\n\n\nExample: Say you have modeled 10 Buildings. You specified that the oldest Building in the model was built in 2010 and the newest will be built in 2025. Development Timeline will thus stretch from 2009 (min -1) to 2026 (max +1). If you then set one Building's demolition date to be in 2032, Development Timeline will update its span immediately from 2009 to 2033.\n\n\nUsing the slider you can easily move back and forth in time. Modelur will show only existing buildings at selected time (year) and recalculate all urban control values so they reflect choosen year's state only.",
+            "text": "Urban Control Survey on Screen\n\u00b6\n\n\nWarnings\n\u00b6\n\n\nToo low distance between Buildings\n when checked, this real-time warning system that will let you know if Buildings are placed too close together by coloring the misplaced Buildings in vivid red color. You can set the minimum distance parameters in \nPlot Parameters\n (under Whole Plot tab). Please note that this feature is quite computer intensive so you might want turn it off on older computers or when you don't need this information. \n\n\nUrban Control - Selected Building\n\u00b6\n\n\nUrban Control - Plot Area\n\u00b6\n\n\nUrban Control - Land Use\n\u00b6\n\n\nDevelopment Timeline\n\u00b6\n\n\nDevelopment Timeline\n slider is used to show/hide Modelur Buildings based on their construction / demolition year. The range is automatically set to -1/+1 from the min and max construction / demolition year as \nspecified in Buildings\n. If no construction / demolition year is specified in any Building, span will be set to default as specified in \ndefaults.json\n.\n\n\nExample: Say you have modeled 10 Buildings. You specified that the oldest Building in the model was built in 2010 and the newest will be built in 2025. Development Timeline will thus stretch from 2009 (min -1) to 2026 (max +1). If you then set one Building's demolition date to be in 2032, Development Timeline will update its span immediately from 2009 to 2033.\n\n\nUsing the slider you can easily move back and forth in time. Modelur will show only existing buildings at selected time (year) and recalculate all urban control values so they reflect choosen year's state only.",
             "title": "Survey"
         },
         {
@@ -232,7 +232,7 @@
         },
         {
             "location": "/reference/survey/#warnings",
-            "text": "",
+            "text": "Too low distance between Buildings  when checked, this real-time warning system that will let you know if Buildings are placed too close together by coloring the misplaced Buildings in vivid red color. You can set the minimum distance parameters in  Plot Parameters  (under Whole Plot tab). Please note that this feature is quite computer intensive so you might want turn it off on older computers or when you don't need this information.",
             "title": "Warnings"
         },
         {
