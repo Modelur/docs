@@ -2,6 +2,9 @@ Urban Control Survey on Screen
 ------------------------------
 Warnings
 --------
+
+**Too low distance between Buildings** when checked, this real-time warning system that will let you know if Buildings are placed too close together by coloring the misplaced Buildings in vivid red color. You can set the minimum distance parameters in [Plot Parameters](whole_plot/#plot-parameters) (under Whole Plot tab). Please note that this feature is quite computer intensive so you might want turn it off on older computers or when you don't need this information. 
+
 Urban Control - Selected Building
 ---------------------------------
 Urban Control - Plot Area
