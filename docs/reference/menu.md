@@ -31,7 +31,7 @@ Tools
 
 **Open Urban Control Data Table**
 
-This will open a new, interactive Window with the complete urban control data of your model inside SketchUp (Figure 4.04). By clicking on the appropriate checkboxes at the top of this new Window, you can choose which sets of data are displayed (Whole Plot, Land Uses, Buildings, Complex Buildings). All of the values are refreshed on each model update and you can use this Window to _select specific Buildings_.
+This will open a new, interactive Window with the complete urban control data of your model inside SketchUp (Figure 4.04). By clicking on the appropriate checkboxes at the top of this new Window, you can choose which sets of data are displayed (Whole Plot, Land Uses, Buildings, Complex Buildings). All of the values are refreshed in real-time and you can also use this Window to _select specific Buildings_.
 
 ![Urban control data table](../img/interactive_data_table.png)
 <figcaption>Figure 4.04 - Urban Control Data Window displays all selected sets of data directly inside SketchUp.</figcaption>
