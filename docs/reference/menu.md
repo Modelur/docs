@@ -14,7 +14,7 @@ Opens a dialog window that allows you to open existing SKP file.
 
 This is used to export urban control values (such as Gross Floor Area, FAR, Required number of parking lots, etc.) of currently opened model into CSV file. Before exporting the data, you have an option to choose which values you want to export (Whole Plot, Land Uses, Buildings, Complex Buildings). By default all options are selected for export (Figure 4.02).
 
-Additionally, when you choose to export data for Complex Buildings, you have an option to export more details about it. This can be done be either exporting its data 1) by Land Use and 2) for each Simple Building that constitutes it, or both.
+Additionally, when you choose to export data for Complex Buildings, you have an option to export more details about it. This can be done be either exporting its data 1) by Land Use and 2) for each Simple Building from which it is constructed, or both.
 
 ![Urban indicators export](../img/export_urban_control_indicators.png)
 <figcaption>Figure 4.02 - You can select which data you want to export to CSV file.</figcaption>
@@ -28,6 +28,18 @@ _Tip: When importing the data, make sure you have semicolon marked as separator 
 
 Tools
 -----
+
+**Open Urban Control Data Table**
+
+This will open a new, interactive Window with the complete urban control data of your model inside SketchUp. By clicking on the appropriate checkboxes at the top of this new Window, you can choose which sets of data are displayed (Whole Plot, Land Uses, Buildings, Complex Buildings).
+
+![Urban control data table](../img/interactive_data_table.png)
+
+By clicking on a (Complex) Building row in this Window, Modelur will select its counterpart inside the 3D Window. And vice versa - when you select the (Complex) Building in 3D Window, it will get selected in the data table, too. Rows with selected Buildings are _marked with a light blue color_ (Buildings 1000006 and 1000007 in the image above).
+   
+If needed, (Complex) Buildings can also be _sorted by their values_.
+
+For Complex Buildings there is an option to see more details about it. This can be done be either showing its data 1) by Land Use and 2) for each Simple Building from which it is constructed, or both. Both options are available on the top of the Window if _Complex Building_ option is selected.
 
 **Randomize Building Heights**
 
