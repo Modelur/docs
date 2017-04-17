@@ -1,8 +1,5 @@
 
 <!DOCTYPE html>
-<script type="text/javascript">
-window.lockiProjectId=154,function(){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src="//assets.locki.io/locki.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}();
-</script>
 <html class="no-js">
   <head>
     
@@ -384,7 +381,7 @@ window.lockiProjectId=154,function(){var a=document.createElement("script");a.ty
 <p>Opens a dialog window that allows you to open existing SKP file.</p>
 <p><strong>File &rarr; Export Urban Design Control Values…</strong></p>
 <p>This is used to export urban control values (such as Gross Floor Area, FAR, Required number of parking lots, etc.) of currently opened model into CSV file. Before exporting the data, you have an option to choose which values you want to export (Whole Plot, Land Uses, Buildings, Complex Buildings). By default all options are selected for export (Figure 4.02).</p>
-<p>Additionally, when you choose to export data for Complex Buildings, you have an option to export more details about it. This can be done be either exporting its data 1) by Land Use and 2) for each Simple Building that constitutes it, or both.</p>
+<p>Additionally, when you choose to export data for Complex Buildings, you have an option to export more details about it. This can be done be either exporting its data 1) by Land Use and 2) for each Simple Building from which it is constructed, or both.</p>
 <p><img alt="Urban indicators export" src="../../img/export_urban_control_indicators.png" />
 <figcaption>Figure 4.02 - You can select which data you want to export to CSV file.</figcaption></p>
 <p>Exported CSV file can then be opened by any major spreadsheet software (eg. Excel, Google Sheets or LibreOffice Calc, Figure 4.03).</p>
@@ -392,6 +389,12 @@ window.lockiProjectId=154,function(){var a=document.createElement("script");a.ty
 <p><img alt="Exported urban control values" src="../../img/exported_urban_control_values.png" />
 <figcaption>Figure 4.03 - Example of urban control values exported to raw CSV file (left window) and imported to the spreadsheet software (right window).</figcaption> </p>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h2>
+<p><strong>Open Urban Control Data Table</strong></p>
+<p>This will open a new, interactive Window with the complete urban control data of your model inside SketchUp. By clicking on the appropriate checkboxes at the top of this new Window, you can choose which sets of data are displayed (Whole Plot, Land Uses, Buildings, Complex Buildings).</p>
+<p><img alt="Urban control data table" src="../../img/interactive_data_table.png" /></p>
+<p>By clicking on a (Complex) Building row in this Window, Modelur will select its counterpart inside the 3D Window. And vice versa - when you select the (Complex) Building in 3D Window, it will get selected in the data table, too. Rows with selected Buildings are <em>marked with a light blue color</em> (Buildings 1000006 and 1000007 in the image above).</p>
+<p>If needed, (Complex) Buildings can also be <em>sorted by their values</em>.</p>
+<p>For Complex Buildings there is an option to see more details about it. This can be done be either showing its data 1) by Land Use and 2) for each Simple Building from which it is constructed, or both. Both options are available on the top of the Window if <em>Complex Building</em> option is selected.</p>
 <p><strong>Randomize Building Heights</strong></p>
 <p>Using this functionality you can randomize selected Buildings number of storeys. Once Buildings are selected, click on this button and you will be presented with two options. If you select Absolute Number of Storeys all buildings will be randomized to number of storeys between min and max value. If you choose Relative Number of Storeys, selected Building's storeys will be randomized <em>based on their current Number of Storeys</em> in the range between min and max values specified.</p>
 <p><strong>Create Terrain</strong></p>
