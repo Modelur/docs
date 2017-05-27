@@ -70,7 +70,7 @@ Upon purchase, you should have received a License Key. To license your copy of M
 
 <figcaption>Figure 2.01 - Modelur Activation window.</figcaption>
 
-In case you are not able to obtain your License Key, please contact us at [support@modelur.com](mailto:support@modelur.com).
+In case you are not able to obtain your License Key or if you experience any other problem, please contact us at [support@modelur.com](mailto:support@modelur.com).
 
 ### Trial License
 

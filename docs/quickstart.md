@@ -1,7 +1,7 @@
 This section will quickly introduce you to the structure of Modelur's User Interface. Getting to know its logic will help you easily integrate it into your regular workflow.
 
 Initialize Modelur
------------------------
+------------------
 
 Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 3.01). 
 
