@@ -1,7 +1,47 @@
 Release notes
 -------------
+**0.5.9 R3 (Beta)**
 
-**0.5.8 R1 (Beta 1)**
+ - Enhancement: Newly created Buildings are placed on the Layer of the Face from which they are created.
+ - Enhancement: License moved to Modelur Appdata folder, so only one activation per user account is needed and it can be then used by different versions of SketchUp.
+ - Enhancement: Added option to check License data (Extensions > Modelur > Check License Data).
+ - Enhancement: Sum of selected Buildings data now shows also Gross Floor Area per Land Use.
+ - Bugfix: Added option to set Proxy server for Modelur online validation.
+
+**0.5.9 R2 (Beta)**
+
+ - Enhancement: Improved readability of Whole Plot and Land Use data in Urban Control Data Table.
+ - Enhancement: Manual License update can now be called even if Modelur is not yet initialized.
+ - Enhancement: Materials observer.
+ - Bugfix: Urban Control Data Table Window initialization.
+ - Bugfix: Manual License update.
+ - Bugfix: Observers error when Urban Control Data has not yet been opened.
+ - Bugfix: Observers error when layer is switched in new SKP Model.
+ - Bugfix: Ruby error when image import is cancelled.
+ - Bugfix: Urban Control Data Table checkboxes for SketchUp 2014 and 2015.
+
+**0.5.9 R1 (Beta)**
+
+ - Enhancement: Added Urban Control Data Table, so you can inspect all Building's values inside SketchUp. You can open it in Modelur User Interface > Tools > Open Urban Control Data Table.
+ - Enhancement: Improved Modelur update check.
+ - Bugfix: Sync of Building's first and other storey heights input value.
+
+**0.5.8 R3 (Beta)**
+
+ - Enhancement: Added Modelur update notification.
+ - Enhancement: You can now reactivate Network License Seat even if it was released before without the need to restart SketchUp.
+ - Enhancement: Modelur now issues a warning and stops loading the model if the file was created with version of Modelur that is newer than the version installed.
+ - Enhancement: Added Building Name in Selected Building Survey.
+ - Bugfix: Colons disappearing in Land use panel.
+ - Bugfix: When ComplexBuilding can't be initialized properly, its Building Parts are not added to sum values.
+
+**0.5.8 R2 (Beta)**
+
+ - Enhancement: Added HeadsUp Display of primary and secondary units for selected simple Buildings.
+ - Bugfix: Land Use removal, which reappeared if model was saved and later reopened.
+ - Bugfix: Fixed releasing of network license.
+
+**0.5.8 R1 (Beta)**
 
  - Enhancement: Added new default Land Use - Parking.
  - Enhancement: Added calculation of Mean Number of Storeys for the Whole Plot.
@@ -16,29 +56,29 @@ Release notes
  - Bugfix: Complex Buildings optimization for Google Earth.
  - Bugfix: Updating of selected Building height parameter when using imperial units.
  
-**0.5.7 R1 (Beta 1)**
+**0.5.7 R1 (Beta)**
 
  - Enhancement: You can now add loggias/cantilevers to only part of Building's wall.
  - Enhancement: Added development timeline option. You can set each Building's construction and demolition date. Use Survey --> Development Timeline --> Slider to show different stages of development construction (urban control parameters are also calculated accordingly).
  - Enhancement: Improved Help menu and English translations.
 
-**0.5.6 R3 (Beta 1)**
+**0.5.6 R3 (Beta)**
 
  - Enhancement: Added calculation of required Parking Lots based on Net Floor Area.
  - Enhancement: Improved trial license request.
 
-**0.5.6 R2 (Beta 1)**
+**0.5.6 R2 (Beta)**
 
  - Bugfix: Randomization of Buildings heights.
  - Bugfix: Unlimited Land-uses for Student License.
 
-**0.5.6 R1 (Beta 1)**
+**0.5.6 R1 (Beta)**
 
  - Enhancement: Improved urban control values CSV export.
  - Bugfix: Improved creating and modifying of Complex Buildings when model axes are rotated.
  - Bugfix: Improved calculation of Complex Buildings built areas.
 
-**0.5.5 (Beta 1)**
+**0.5.5 (Beta)**
 
  - Enhancement: Updated French translation.
  - Enhancement: Added floating (network) license option.
@@ -48,7 +88,7 @@ Release notes
  - Bugfix: Fixed upgrading of old Modelur models, which didn't contain Mixed-use buildings.
  - Bugfix: Fixed Trial License activation problem reported by some users.
 
-**0.5.4 (Beta 1)**
+**0.5.4 (Beta)**
 
  - Enhancement: Added an option to request for a trial license during activation.
  - Enhancement: Improved licensing.

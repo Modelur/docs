@@ -7,7 +7,7 @@ In case you use Windows and your username contains non-ascii characters, Modelur
 2. Copy/paste `cd %appdata%\SketchUp\SketchUp ####\SketchUp\Plugins\Modelur ` (replace _####_ with your version of Sketchup where you have installed Modelur) into Command Prompt and press Enter. The path you see in Command Prompt should now point to something like _C:\Users\Username\AppData\Roaming\SketchUp\SketchUp 2017\SketchUp\Plugins\Modelur_.
 3. Copy/paste `for %I in (.) do echo %~sI ` into Command Prompt and press Enter. This will create your current location in <a href="https://en.wikipedia.org/wiki/8.3_filename" target="_blank">short 8.3 format</a> and it will look something like _C:\Users\Userna~1\AppData\Roaming\SketchUp\SK4DAC~1\SketchUp\Plugins\Modelur_.
 4. Copy your short address from the Command Prompt (select it with your mouse and press Control + C or right mouse click).
-5. In SketchUp, go to menu Extensions > Modelur and click on the Set Modelur License Path (this is visible only when Modelur can not find the proper path itself). Once opened, paste (Control + V) your short path from the Command Prompt and press Enter. Once you enter the command and press Enter, Modelur will let you know if license path was set correctly.
+5. In SketchUp, go to menu _Extensions --> Modelur_ and click on the *Set Modelur License Pat*h (this is visible only when Modelur can not find the proper path itself). Once opened, paste (Control + V) your short path from the Command Prompt and press Enter. After you enter the command and press Enter, Modelur will let you know if license path was set correctly.
 6. That should be it. You can now continue licensing you copy of Modelur.
   
 In case Modelur tells you that license path is not set correctly, please read the error and follow the procedure above again, making sure to follow instructions exactly.
@@ -17,11 +17,11 @@ Setting Proxy Server
 
 In case you are trying to use Modelur behind a proxy server, it might sometimes fail to validate its license online. In order to prevent such errors, you need to give Modelur some details about the proxy server. To do so, please do the following:
   
-1. In SketchUp, go to menu Extensions > Modelur > Set Proxy Server. This will open a window in which you need to input your proxy IP address (eg. 100.200.200.100 or proxy.modelur.com) and Port number (eg. 8080).
-2. Once you enter the correct IP address and Port number, click the OK button.
-3. Modelur will then check if it can reach its license server. If yes, it will store Proxy information and you can start using Modelur. If not, please make sure you have entered correct address or [contact us](mailto:support@modelur.com?subject=Modelur proxy problem) if the problem persists.
+1. In SketchUp, go to menu _Extensions --> Modelur --> Set Proxy Server_. This will open a window in which you need to input your proxy IP address (eg. `100.200.200.100` or `proxy.modelur.com`) and Port number (eg. `8080`).
+2. After you enter the correct IP address and Port number, click the OK button.
+3. Modelur will then check if it can reach its license server via specified Proxy. If yes, it will store Proxy information and you can start using Modelur. If not, please make sure you have entered correct address or [contact us](mailto:support@modelur.com?subject=Modelur proxy problem) if the problem persists.
 
-If needed, you can clear up proxy configuration by simply clicking on Extensions > Modelur > Remove Proxy Server.
+If needed, you can clear up proxy configuration by simply clicking on _Extensions --> Modelur --> Remove Proxy Server_.
 
 
 Known Limitations
