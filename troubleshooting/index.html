@@ -245,8 +245,10 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
-      
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        5. Troubleshooting
+      </label>
     
     <a href="./" title="5. Troubleshooting" class="md-nav__link md-nav__link--active">
       5. Troubleshooting
@@ -256,8 +258,32 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setting-license-path-manually" title="Setting License Path Manually" class="md-nav__link">
+    Setting License Path Manually
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-proxy-server" title="Setting Proxy Server" class="md-nav__link">
+    Setting Proxy Server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-limitations" title="Known Limitations" class="md-nav__link">
+    Known Limitations
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
     
@@ -289,8 +315,32 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setting-license-path-manually" title="Setting License Path Manually" class="md-nav__link">
+    Setting License Path Manually
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-proxy-server" title="Setting Proxy Server" class="md-nav__link">
+    Setting Proxy Server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-limitations" title="Known Limitations" class="md-nav__link">
+    Known Limitations
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -303,7 +353,28 @@
                
               
                 
-                <h1 id="known-limitations">Known Limitations<a class="headerlink" href="#known-limitations" title="Permanent link">&para;</a></h1>
+                  <h1>5. Troubleshooting</h1>
+                
+                <h2 id="setting-license-path-manually">Setting License Path Manually<a class="headerlink" href="#setting-license-path-manually" title="Permanent link">&para;</a></h2>
+<p>In case you use Windows and your username contains non-ascii characters, Modelur might sometimes not be able to properly set license path automatically, so you need to do it by hand. This is only needed once and don't worry, it's easy - just follow these steps:</p>
+<ol>
+<li>Open Command Prompt (go to Start menu and type "cmd" then press Enter).</li>
+<li>Copy/paste <code>cd %appdata%\SketchUp\SketchUp ####\SketchUp\Plugins\Modelur</code> (replace <em>####</em> with your version of Sketchup where you have installed Modelur) into Command Prompt and press Enter. The path you see in Command Prompt should now point to something like <em>C:\Users\Username\AppData\Roaming\SketchUp\SketchUp 2017\SketchUp\Plugins\Modelur</em>.</li>
+<li>Copy/paste <code>for %I in (.) do echo %~sI</code> into Command Prompt and press Enter. This will create your current location in <a href="https://en.wikipedia.org/wiki/8.3_filename" target="_blank">short 8.3 format</a> and it will look something like <em>C:\Users\Userna~1\AppData\Roaming\SketchUp\SK4DAC~1\SketchUp\Plugins\Modelur</em>.</li>
+<li>Copy your short address from the Command Prompt (select it with your mouse and press Control + C or right mouse click).</li>
+<li>In SketchUp, go to menu <em>Extensions &rarr; Modelur</em> and click on the <em>Set Modelur License Pat</em>h (this is visible only when Modelur can not find the proper path itself). Once opened, paste (Control + V) your short path from the Command Prompt and press Enter. After you enter the command and press Enter, Modelur will let you know if license path was set correctly.</li>
+<li>That should be it. You can now continue licensing you copy of Modelur.</li>
+</ol>
+<p>In case Modelur tells you that license path is not set correctly, please read the error and follow the procedure above again, making sure to follow instructions exactly.</p>
+<h2 id="setting-proxy-server">Setting Proxy Server<a class="headerlink" href="#setting-proxy-server" title="Permanent link">&para;</a></h2>
+<p>In case you are trying to use Modelur behind a proxy server, it might sometimes fail to validate its license online. In order to prevent such errors, you need to give Modelur some details about the proxy server. To do so, please do the following:</p>
+<ol>
+<li>In SketchUp, go to menu <em>Extensions &rarr; Modelur &rarr; Set Proxy Server</em>. This will open a window in which you need to input your proxy IP address (eg. <code>100.200.200.100</code> or <code>proxy.modelur.com</code>) and Port number (eg. <code>8080</code>).</li>
+<li>After you enter the correct IP address and Port number, click the OK button.</li>
+<li>Modelur will then check if it can reach its license server via specified Proxy. If yes, it will store Proxy information and you can start using Modelur. If not, please make sure you have entered correct address or <a href="mailto:support@modelur.com?subject=Modelur proxy problem">contact us</a> if the problem persists.</li>
+</ol>
+<p>If needed, you can clear up proxy configuration by simply clicking on <em>Extensions &rarr; Modelur &rarr; Remove Proxy Server</em>.</p>
+<h2 id="known-limitations">Known Limitations<a class="headerlink" href="#known-limitations" title="Permanent link">&para;</a></h2>
 <p>Although we strive to make Modelur flawless, there are some problems we can not bypass. We are aware of the following limitations, and we will do our best to improve them in future versions of Modelur:</p>
 <ul>
 <li>
