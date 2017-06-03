@@ -14,7 +14,6 @@ Installation
 There are several ways you can install Modelur:
 
 * Using universal <a href="http://download.modelur.com" target="_blank">.rbz</a> installer.
-* Using Windows <a href="http://download.modelur.com" target="_blank">.exe</a> installer.
 * Via <a href="http://sketchup-ew.modelur.com" target="_blank">Extension Warehouse</a>.
 * Via <a href="http://sketchucation-ps.modelur.com" target="_blank">SketchUcation Plugin Store</a>.
 

@@ -23,6 +23,8 @@ In case you are trying to use Modelur behind a proxy server, it might sometimes 
 
 If needed, you can clear up proxy configuration by simply clicking on _Extensions --> Modelur --> Remove Proxy Server_.
 
+!!! tip
+    Before setting up proxy server, also please make sure to allow Modelur to connect to *.modelur.com in your firewall.
 
 Known Limitations
 -----------------
