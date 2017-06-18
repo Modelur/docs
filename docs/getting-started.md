@@ -13,11 +13,14 @@ Installation
 
 There are several ways you can install Modelur:
 
-* Using universal <a href="http://download.modelur.com" target="_blank">.rbz</a> installer.
+* Using universal <a href="http://download.modelur.com" target="_blank">RBZ</a> installer.
 * Via <a href="http://sketchup-ew.modelur.com" target="_blank">Extension Warehouse</a>.
 * Via <a href="http://sketchucation-ps.modelur.com" target="_blank">SketchUcation Plugin Store</a>.
 
-To install a SketchUp Ruby plugin script with the .rbz format use the standard SketchUp <a href="https://help.sketchup.com/en/article/38583" target="_blank">installation procedure</a>:
+!!! note
+    We recommend you to use option #1 (universal RBZ installer) in order to ensure you install the latest version of Modelur. 
+
+To install a SketchUp Ruby plugin in RBZ format use the standard SketchUp <a href="https://help.sketchup.com/en/article/38583" target="_blank">installation procedure</a>:
 
 > 1. We recommend logging into your computer as an admin before installing any Ruby scripts. This will make the installation go more smoothly and ensure that files get installed in the proper places.
 > 1. **SketchUp 2016 and below:** Select _Window --> Preferences_ (Windows) or _SketchUp --> Preferences_ (OS X).<br>**SketchUp 2017 and above:** Select _Window --> Extension Manager_ (Windows) or _SketchUp --> Extension Manager_ (OS X). The Preferences dialog box is displayed.
