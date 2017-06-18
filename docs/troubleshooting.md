@@ -17,11 +17,9 @@ Setting Proxy Server
 
 In case you are trying to use Modelur behind a proxy server, it might sometimes fail to validate its license online. In order to prevent such errors, you need to give Modelur some details about the proxy server. To do so, please do the following:
   
-1. In SketchUp, go to menu _Extensions --> Modelur --> Set Proxy Server_. This will open a window in which you need to input your proxy IP address (eg. `100.200.200.100` or `proxy.modelur.com`) and Port number (eg. `8080`).
-2. After you enter the correct IP address and Port number, click the OK button.
-3. Modelur will then check if it can reach its license server via specified Proxy. If yes, it will store Proxy information and you can start using Modelur. If not, please make sure you have entered correct address or [contact us](mailto:support@modelur.com?subject=Modelur proxy problem) if the problem persists.
-
-If needed, you can clear up proxy configuration by simply clicking on _Extensions --> Modelur --> Remove Proxy Server_.
+1. In SketchUp, go to menu _Extensions --> Modelur --> Enable/Disable Proxy Server_. This will open a window where you can set your preferred option.
+2. If you click "Yes", Modelur will be validated via proxy server. If you select "No", Modelur will use standard validation procedure.
+3. Once you change your setting, Modelur will ask you to restart SketchUp in order for changes to take effect. Once restarted, Modelur will validate itself using your preferred option.
 
 !!! tip
     Before setting up proxy server, also please make sure to allow Modelur to connect to *.modelur.com in your firewall.
