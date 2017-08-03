@@ -3,7 +3,7 @@ System requirements
 
 In order to run Modelur, you will need:
 
-1. <a href="http://www.sketchup.com" target="_blank">SketchUp</a> 2014 or above,
+1. [SketchUp](http://www.sketchup.com) 2014 or above,
 1. Internet Explorer 10 or above (Windows) / Safari 5 or above (OS X).
 
 Modelur works well with both, Make (free) and Pro (commercial) versions of SketchUp.
@@ -13,14 +13,14 @@ Installation
 
 There are several ways you can install Modelur:
 
-* Using universal <a href="http://download.modelur.com" target="_blank">RBZ</a> installer.
-* Via <a href="http://sketchup-ew.modelur.com" target="_blank">Extension Warehouse</a>.
-* Via <a href="http://sketchucation-ps.modelur.com" target="_blank">SketchUcation Plugin Store</a>.
+* Using universal [RBZ](http://download.modelur.com) installer.
+* Via [Extension Warehouse](http://sketchup-ew.modelur.com).
+* Via [SketchUcation Plugin Store](http://sketchucation-ps.modelur.com).
 
 !!! note
     We recommend you to use option #1 (universal RBZ installer) in order to ensure you install the latest version of Modelur. 
 
-To install a SketchUp Ruby plugin in RBZ format use the standard SketchUp <a href="https://help.sketchup.com/en/article/38583" target="_blank">installation procedure</a>:
+To install a SketchUp Ruby plugin in RBZ format use the standard SketchUp [installation procedure](https://help.sketchup.com/en/article/38583):
 
 > 1. We recommend logging into your computer as an admin before installing any Ruby scripts. This will make the installation go more smoothly and ensure that files get installed in the proper places.
 > 1. **SketchUp 2016 and below:** Select _Window --> Preferences_ (Windows) or _SketchUp --> Preferences_ (OS X).<br>**SketchUp 2017 and above:** Select _Window --> Extension Manager_ (Windows) or _SketchUp --> Extension Manager_ (OS X). The Preferences dialog box is displayed.
@@ -44,7 +44,7 @@ Files containing your Modelur preferences are stored
 * On Windows: `C:\Users\YOUR USERNAME\AppData\Roaming\Modelur`
 * On OS X: `~/Library/Application Support/Modelur`
  
-All preferences are stored using standard <a href="http://www.json.org/" target="_blank">JSON</a> data-interchange format. Upon Modelur upgrade, these files will be automatically updated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions --> Modelur --> Restore default settings.
+All preferences are stored using standard [JSON](http://www.json.org/) data-interchange format. Upon Modelur upgrade, these files will be automatically updated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions --> Modelur --> Restore default settings.
 
 Installation problems
 ---------------------
@@ -55,13 +55,13 @@ If you encounter any problems with your Modelur installation, please do the foll
 
 1. Delete \Modelur folder and modelur.rb file from `C:\Users\YOUR USERNAME\AppData\Roaming\SketchUp\SketchUp ####\SketchUp\Plugins\ `.
 2. Delete \Modelur folder from `C:\Users\YOUR USERNAME\AppData\Roaming\ ` (if it exists).
-3. Install the <a href="http://download.modelur.com" target="_blank">newest .rbz version</a> of Modelur and try to license it (make sure you are online).
+3. Install the [newest RBZ version](http://download.modelur.com) of Modelur and try to license it (make sure you are online).
 
 ### On OS X:
 
 1. Delete \Modelur folder and modelur.rb file from `~/Library/Application Support/SketchUp ####/SketchUp/Plugins/ `.
 2. Delete \Modelur folder from `~/Library/Application Support/Modelur/ ` (if it exists).
-3. Install the <a href="http://download.modelur.com" target="_blank">newest .rbz version</a> of Modelur and try to license it (make sure you are online).
+3. Install the [newest RBZ version](http://download.modelur.com) of Modelur and try to license it (make sure you are online).
 
 Licensing
 ---------

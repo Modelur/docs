@@ -15,6 +15,8 @@ pages:
 extra_css:
 - css/fonts.css
 - css/custom.css
+extra_javascript:
+- javascript/mkdocs.js
 copyright: Copyright (c) 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
 site_favicon: modelur.ico
 site_author: The Modelur Team

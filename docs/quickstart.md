@@ -83,9 +83,9 @@ Alternatively you can also create Building based on selected closed edge loop. T
 
 #### Step 3 - Changing the Parameters
 
-Parameters work hierarchically in Modelur. What this means is that an object (Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its superior object, which is Parametric Map. If Parametric map does not exist or it is inactive, it takes the value as defined in Whole Plot, which is superior object to Parametric Map. Whole Plot is the topmost object in Modelur.
+Parameters work hierarchically in Modelur. What this means is that an object (Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its superior object, which is City Block or Parametric Map. If nor City Block, nor Parametric map exists, it takes the value as defined in Whole Plot, which is superior object to Parametric Map. Whole Plot is the topmost object in Modelur.
 
-Object hierarchy for all Building Parameters in current version of Modelur (Beta) is: _Building --> Parametric Map --> Whole Plot_.
+Object hierarchy for all Building Parameters in current version of Modelur (Beta) is: _Building --> Complex Building --> City Block or Parametric Map --> Whole Plot_.
 
 ##### Overloaded Parameters
 
