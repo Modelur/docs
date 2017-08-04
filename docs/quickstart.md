@@ -24,14 +24,14 @@ User Interface Overview
 Menu is located at the top of the User Interface. It is the place where you go to when you want to save data (e.g. export Urban Control Indicators), change preferences (e.g. Language) or get some help (e.g. open this User Guide). Detailed description is available in the Menu section.
 
 #### Tabs
-Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: Whole Plot tab (a place to set default values for the whole plot), Land Use tab (a place to create and edit Land Uses and their parameters), Building tab (a place to modify selected Buildings) and Survey (a place where you can monitor Urban Control Indicators). Detailed description is available in the Tabs section.
+Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: [Whole Plot](reference/whole_plot) tab (a place to set default values for the whole plot), [City Block](reference/city_block) tab (a place to set values for selected City Blocks), [Land Use](reference/land_use) tab (a place to create and edit Land Uses and their parameters), [Building](reference/building) tab (a place to modify selected Buildings) and [Survey](reference/survey) (a place where you can monitor achieved Urban Parameters, such as FAR, required Parking Spaces, etc.). Detailed description is available in the Reference section.
 
 ![Modelur_User_Interface](img/modelur_ui_annotated.png)
 
 <figcaption>Figure 3.03 -  Structure of Modelur's User Interface.</figcaption>
 
 #### Panels
-Panels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Tabs section.
+Panels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Reference section.
 
 #### Status Bar
 Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu → Options → Show status bar.
