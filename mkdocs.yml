@@ -42,3 +42,4 @@ markdown_extensions:
       permalink: True
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.keys
