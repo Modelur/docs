@@ -16,7 +16,10 @@ Using default Land Use _dropdown menu_ you can set the default Land Use for City
 
 Under General Site Limits you can set the default constraints set by zoning ordinance so that Modelur can warn you if they are exceeded. But it will not prevent you from exceeding them.
 
-In case when your development model exceeds set constraints, they will <span style="color:red">become red</span>, to warn you about it. Once the model is fixed to meet constraints again (or when zoning ordinance constraints themselves are updated), exceeded parameters will turn back to black. These parameters can also be set for each [City Block](city_block/#selected-city-block-parameters) separately. When defined on City Block level, they are valid only for that City Block (including the Buildings Heights).
+In case when your development model exceeds set constraints, they will <span style="color:red">become red</span>, to warn you about it (Figure 4.21). Once the model is fixed to meet constraints again (or when zoning ordinance constraints themselves are updated), exceeded parameters will turn back to black. These parameters can also be set for each [City Block](city_block/#selected-city-block-parameters) separately. When defined on City Block level, they are valid only for that City Block (including the Buildings Heights).
+
+![Exceeded Site Limits](../img/modelur_exceeded_site_limits.png)
+<figcaption>Figure 4.21 - When text color in Modelur user interface turns red, the Parameters in question are exceeded.</figcaption>
 
 **Maximum Permitted FAR** 
 
