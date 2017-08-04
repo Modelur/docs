@@ -59,7 +59,7 @@ Release notes
 **0.5.7 R1 (Beta)**
 
  - Enhancement: You can now add loggias/cantilevers to only part of Building's wall.
- - Enhancement: Added development timeline option. You can set each Building's construction and demolition date. Use Survey --> Development Timeline --> Slider to show different stages of development construction (urban control parameters are also calculated accordingly).
+ - Enhancement: Added development timeline option. You can set each Building's construction and demolition date. Use Survey → Development Timeline → Slider to show different stages of development construction (urban control parameters are also calculated accordingly).
  - Enhancement: Improved Help menu and English translations.
 
 **0.5.6 R3 (Beta)**
@@ -129,7 +129,7 @@ Release notes
  - Enhancement: Added Complex (mixed-use) Buildings.
  - Enhancement: New licensing system, which enables offline use.
  - Enhancement: Buildings can now be created also from edges that form closed loop. You can select one of three options: 1.) don't create Buildings based on selected edges, 2.) create Building if only one edge is selected, 3.) create Building only if complete edges loop is selected.
- - Enhancement: Added randomizing of Building's number of storeys (Tools --> Randomize Buildings Heights).
+ - Enhancement: Added randomizing of Building's number of storeys (Tools → Randomize Buildings Heights).
  - Enhancement: Improved performance when deleting remaining faces after Buildings were exploded.
  - Enhancement: SketchUp 2016 specific - when there are many entities in the model, Buildings were updated slowly when number of storeys have changed. This has been greatly improved.
  - Enhancement: Improved CSV export.
@@ -207,7 +207,7 @@ Release notes
 
 **0.4.1 (Pre-beta 4)**
 
- - Enhancement: If Modelur UI doesn't show up properly, you can now reset Modelur settings by clicking on Extensions (Plugins prior to SU 2015) --> Modelur --> Restore default settings in SketchUp's menu.
+ - Enhancement: If Modelur UI doesn't show up properly, you can now reset Modelur settings by clicking on Extensions (Plugins prior to SU 2015) → Modelur → Restore default settings in SketchUp's menu.
  - Enhancement: Sum of Land Use and Whole Plot values is now calculated only for visible buildings. This way you can now e.g. create different development alternatives and put them on separate layers. Hiding the layer will take all buildings on that layer out of the urban control values calculation for both Land Uses and the Whole Plot.
  - Enhancement: Parametric Maps are saved into SketchUp .skp model.
  - Enhancement: Optimized performance of Modelur Move Tool.
@@ -345,7 +345,7 @@ Release notes
 - Major stability improvement when buildings are being duplicated extensively in 3d view.
 - Enhancement: Dutch translation of user interface. Thank you Gertjan Laurenssen!
 - Enhancement: Spanish translation of user interface. Thank you Diego Rodriguez!
-- Enhancement: 'Invisible' UI scroller. Usage: select a building, click on input field (i.e. Building --> Number of storeys), press Shift key and scroll mouse wheel - selected building will update itself to the new value. Change scroll stepping by holding Ctrl in addition to Shift key.
+- Enhancement: 'Invisible' UI scroller. Usage: select a building, click on input field (i.e. Building → Number of storeys), press Shift key and scroll mouse wheel - selected building will update itself to the new value. Change scroll stepping by holding Ctrl in addition to Shift key.
 - Enhancement: Automatic fixing of rotated floor plans when creating building. Modelur now tries to create orthogonal bounding box for buildings, so they can easily be scaled.
 - Enhancement: Basic optimization of buildings for Google Earth export. Optimized geometry can be found in Modelur2GE layer. This feature is still in development.
 - Enhancement: Improved input parameters handling. User interface can now accept different styles of input data (i.e. decimals written with dot or comma, whitespaces, alphabet characters) and handles them automatically.

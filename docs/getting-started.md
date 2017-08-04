@@ -23,7 +23,7 @@ There are several ways you can install Modelur:
 To install a SketchUp Ruby plugin in RBZ format use the standard SketchUp [installation procedure](https://help.sketchup.com/en/article/38583):
 
 > 1. We recommend logging into your computer as an admin before installing any Ruby scripts. This will make the installation go more smoothly and ensure that files get installed in the proper places.
-> 1. **SketchUp 2016 and below:** Select _Window --> Preferences_ (Windows) or _SketchUp --> Preferences_ (OS X).<br>**SketchUp 2017 and above:** Select _Window --> Extension Manager_ (Windows) or _SketchUp --> Extension Manager_ (OS X). The Preferences dialog box is displayed.
+> 1. **SketchUp 2016 and below:** Select _Window → Preferences_ (Windows) or _SketchUp → Preferences_ (OS X).<br>**SketchUp 2017 and above:** Select _Window → Extension Manager_ (Windows) or _SketchUp → Extension Manager_ (OS X). The Preferences dialog box is displayed.
 > 1. Click on Extensions. The Extensions panel is displayed.
 > 1. Click on the Install Extension button. The Open dialog box is displayed.
 > 1. Locate the Ruby zip file to install (.rbz).
@@ -44,7 +44,7 @@ Files containing your Modelur preferences are stored
 * On Windows: `C:\Users\YOUR USERNAME\AppData\Roaming\Modelur`
 * On OS X: `~/Library/Application Support/Modelur`
  
-All preferences are stored using standard [JSON](http://www.json.org/) data-interchange format. Upon Modelur upgrade, these files will be automatically updated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions --> Modelur --> Restore default settings.
+All preferences are stored using standard [JSON](http://www.json.org/) data-interchange format. Upon Modelur upgrade, these files will be automatically updated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions → Modelur → Restore default settings.
 
 Installation problems
 ---------------------

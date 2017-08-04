@@ -6,11 +6,11 @@ Menu is the topmost part of Modelur's user interface window (Figure 4.01). It co
 File
 ----
 
-**File --> Open**
+**File → Open**
 
 Opens a dialog window that allows you to open existing SKP file.
 
-**File --> Export Urban Design Control Values…**
+**File → Export Urban Design Control Values…**
 
 This is used to export urban control values (such as Gross Floor Area, FAR, Required number of parking lots, etc.) of currently opened model into CSV file. Before exporting the data, you have an option to choose which values you want to export (Whole Plot, Land Uses, Buildings, Complex Buildings). By default all options are selected for export (Figure 4.02).
 
@@ -50,7 +50,7 @@ Using this functionality you can randomize selected Buildings number of storeys.
 
 **Calculate Sum of Selected Buildings**
 
-Use this when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned.
+Use this when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use.
 
 **Optimize Buildings for Google Earth**
 

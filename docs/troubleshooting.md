@@ -7,7 +7,7 @@ In case you use Windows and your username contains non-ascii characters, Modelur
 2. Copy/paste `cd %appdata%\SketchUp\SketchUp ####\SketchUp\Plugins\Modelur ` (replace _####_ with your version of Sketchup where you have installed Modelur) into Command Prompt and press Enter. The path you see in Command Prompt should now point to something like _C:\Users\Username\AppData\Roaming\SketchUp\SketchUp 2017\SketchUp\Plugins\Modelur_.
 3. Copy/paste `for %I in (.) do echo %~sI ` into Command Prompt and press Enter. This will create your current location in <a href="https://en.wikipedia.org/wiki/8.3_filename" target="_blank">short 8.3 format</a> and it will look something like _C:\Users\Userna~1\AppData\Roaming\SketchUp\SK4DAC~1\SketchUp\Plugins\Modelur_.
 4. Copy your short address from the Command Prompt (select it with your mouse and press Control + C or right mouse click).
-5. In SketchUp, go to menu _Extensions --> Modelur_ and click on the *Set Modelur License Pat*h (this is visible only when Modelur can not find the proper path itself). Once opened, paste (Control + V) your short path from the Command Prompt and press Enter. After you enter the command and press Enter, Modelur will let you know if license path was set correctly.
+5. In SketchUp, go to menu _Extensions → Modelur_ and click on the *Set Modelur License Pat*h (this is visible only when Modelur can not find the proper path itself). Once opened, paste (Control + V) your short path from the Command Prompt and press Enter. After you enter the command and press Enter, Modelur will let you know if license path was set correctly.
 6. That should be it. You can now continue licensing you copy of Modelur.
   
 In case Modelur tells you that license path is not set correctly, please read the error and follow the procedure above again, making sure to follow instructions exactly.
@@ -17,7 +17,7 @@ Setting Proxy Server
 
 In case you are trying to use Modelur behind a proxy server, it might sometimes fail to validate its license online. In order to prevent such errors, you need to give Modelur some details about the proxy server. To do so, please do the following:
   
-1. In SketchUp, go to menu _Extensions --> Modelur --> Enable/Disable Proxy Server_. This will open a window where you can set your preferred option.
+1. In SketchUp, go to menu _Extensions → Modelur → Enable/Disable Proxy Server_. This will open a window where you can set your preferred option.
 2. If you click "Yes", Modelur will be validated via proxy server. If you select "No", Modelur will use standard validation procedure.
 3. Once you change your setting, Modelur will ask you to restart SketchUp in order for changes to take effect. Once restarted, Modelur will validate itself using your preferred option.
 
@@ -35,7 +35,7 @@ Although we strive to make Modelur flawless, there are some problems we can not 
  
  - Complex/Mixed-use Buildings currently don't take into account terraces and loggias when calculating Gross Floor Area.
  
- - Using Modelur Move Tool might bugsplat SketchUp if other Extensions using LayersObserver are used. *Proposed solution:* try disabling other plugins in Preferences --> Extensions.
+ - Using Modelur Move Tool might bugsplat SketchUp if other Extensions using LayersObserver are used. *Proposed solution:* try disabling other plugins in Preferences → Extensions.
  
  - Manually edited buildings might behave strange or even get corrupted when changing number of storeys. *Proposed solution:* make manual editing only after you will not be changing Building's number of storeys.
  

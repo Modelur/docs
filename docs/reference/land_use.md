@@ -5,7 +5,7 @@ Basic Settings
 
 **Add _button_** creates new Land Use. When creating new Land Use, Modelur will copy parameters of currently selected Land Use into newly created one. Once new Land Use is created, you can change the parameters as with any other Land Use.
 
-**Remove _button_** removes currently selected Land Use from Modelur model. If some of the Buildings have assigned Land Use that is being deleted, it will be replaced by default Land Use as specified in the _Whole Plot --> Default Building Parameters_.
+**Remove _button_** removes currently selected Land Use from Modelur model. If some of the Buildings have assigned Land Use that is being deleted, it will be replaced by default Land Use as specified in the _Whole Plot → Default Building Parameters_.
 
 **Edit _button_** opens a panel to rename selected Land Use.
 
