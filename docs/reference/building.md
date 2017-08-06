@@ -1,3 +1,9 @@
+![Building tab](../img/modelur_building_tab.png)
+<figcaption>Figure 4.71 - Building tab, which shows Parameters of selected Building.</figcaption>
+
+!!! hint "Compact and Extended View"
+    In case you don't see separators between parameters you can turn them on using the extend icon on the top right corner of each panel: <img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.
+
 Selected Building Parameters
 ----------------------------
 
@@ -19,13 +25,13 @@ Restore button is used to reset all Building parameters to its default values.
 
 #### Name and Land Use ####
 
+**Building Name**
+
+Using Building Name parameter you can change Building's name, which is used to easily track different Buildings. Alternatively you can also rename the Building in the SketchUp's Outliner or in the Entity Info panel the same way as you would rename any other SketchUp Group when selected. 
+
 **Land Use**
 
 Using Land Use _dropdown menu_ you can set the Land Use selected Building(s). Land Uses are used to calculate Building's units (eg. apartments, residents, offices, etc), parking requirements, green area requirements, etc. To learn more about these settings, please visit [Land Use section](land_use) of this page.
-
-**Building Name**
-
-Using Building Name parameter you can change Building's name, which is used to easily track different Buildings. Alternatively you can also rename the Building in the SketchUp's Outliner and Entity Info panels the same way as you would rename any other SketchUp Group. 
 
 #### Building Height ####
 

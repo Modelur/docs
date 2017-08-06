@@ -1,4 +1,10 @@
-Under Land Use tab you can add, edit or remove Land Uses used by Modelur. This is the place to fine-tune all the parameters related to Land Uses which are used to calculate urban control values based on your current design in real-time, eg. Net Floor Area, Number of Apartments, Required Number of Parking Lots, etc.
+Under Land Use tab (Figure 4.61) you can add, edit or remove Land Uses used by Modelur. This is the place to fine-tune all the parameters related to Land Uses which are used to calculate urban control values based on your current design in real-time, eg. Net Floor Area, Number of Apartments, Required Number of Parking Lots, etc.
+
+![Land Use tab](../img/modelur_land_use_tab.png)
+<figcaption>Figure 4.61 - Land Use tab, which shows Parameters of Land Use selected in the dropdown menu Land Use.</figcaption>
+
+!!! hint "Compact and Extended View"
+    In case you don't see separators between parameters you can turn them on using the extend icon on the top right corner of each panel: <img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.
 
 Basic Settings
 --------------

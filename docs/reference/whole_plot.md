@@ -1,3 +1,11 @@
+Under the Whole Plot tab (Figure 4.21) you can define default Zoning constraints and Building Parameters that are applied throughout the development area if not specified otherwise. To understand how Parameters work inside Modelur, please visit [Parameters hierarchy explanation](/quickstart/#step-3-changing-the-parameters).
+
+![Whole Plot tab](../img/modelur_whole_plot_tab.png)
+<figcaption>Figure 4.21 - Whole Plot tab, which shows the default Parameters for the whole development area. If the Parameter in [City Block](city_block) or [Building](building) is not overloaded, the values defined inhere will be used.</figcaption>
+
+!!! hint "Compact and Extended View"
+    In case you don't see separators between parameters you can turn them on using the extend icon on the top right corner of each panel: <img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.
+
 Plot Parameters
 ---------------
 Inside the Plot Parameters panel you can define default parameters that are valid for the _whole development area_ unless they are overloaded by specific [City Blocks](city_block).
@@ -16,10 +24,10 @@ Using default Land Use _dropdown menu_ you can set the default Land Use for City
 
 Under General Site Limits you can set the default constraints set by zoning ordinance so that Modelur can warn you if they are exceeded. But it will not prevent you from exceeding them.
 
-In case when your development model exceeds set constraints, they will <span style="color:red">become red</span>, to warn you about it (Figure 4.21). Once the model is fixed to meet constraints again (or when zoning ordinance constraints themselves are updated), exceeded parameters will turn back to black. These parameters can also be set for each [City Block](city_block/#selected-city-block-parameters) separately. When defined on City Block level, they are valid only for that City Block (including the Buildings Heights).
+In case when your development model exceeds set Zoning Constraints, they will <span style="color:red">become red</span>, to warn you about it (Figure 4.22). Once the model is fixed to meet constraints again (or when zoning ordinance constraints themselves are updated), exceeded parameters will turn back to black. These parameters can also be set for each [City Block](city_block/#selected-city-block-parameters) separately. When defined on City Block level, they are valid only for that City Block (including the Buildings Heights).
 
 ![Exceeded Site Limits](../img/modelur_exceeded_site_limits.png)
-<figcaption>Figure 4.21 - When text color in Modelur user interface turns red, the Parameters in question are exceeded.</figcaption>
+<figcaption>Figure 4.22 - When text color in Modelur user interface turns red, the Parameters in question are exceeded.</figcaption>
 
 **Maximum Permitted FAR** 
 

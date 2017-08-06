@@ -7,6 +7,12 @@ img {
     border: 2px solid #dddddd;
 }
 
+.inline {
+    display: inline;
+    position: relative;
+    top: 6px;
+}
+
 /*IMAGE DESCRIPTION*/
 figcaption {
     font-size: 80%;
@@ -83,6 +89,12 @@ figcaption {
 .admonition {
     margin: 20px -20px 0px;
 }
+
+.admonition.tip {
+    border-color: rgba(255, 0, 0, 0.4);
+    background-color: rgba(255, 131, 131, 0.15);
+}
+
 
 /*HEADERS*/
 h1, h2, h3, h4, h5, h6, legend {
