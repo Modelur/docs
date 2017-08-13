@@ -14,7 +14,7 @@ Inside this panel you can define different parameters and requirements that need
 
 **Create**
 
-Create button is used to create City Block, the same way as if you click on a yellow Create City Block icon in Modelur Toolbar. If no Face or Edge Loop is selected, Modelur will switch to Rotated Rectangel tool and wait until you draw a new Face (you can also change the tool to eg. Line if you need to draw irregular City Block Shape). Once you draw a Face, it will convert it to Modelur City Block.
+Create button is used to create City Block, the same way as if you click on a yellow Create City Block icon in Modelur Toolbar. If no Face or Edge Loop is selected, Modelur will switch to Line Tool and wait until you draw a new Face. Once you draw a Face (closed planar Edge loop), Modelur will convert it to City Block. If you switch to some other SketchUp Tool, Modelur will not create new City Block.
 
 However, if Face(s) or Edge Loop(s) are selected, it will create a new City Block(s) based on selected shape(s). When a City Block is first created, it will contain the default Parameters as specified in the Whole Plot [Plot Parameters](whole_plot/#plot-parameters) and [Default Building Parameters](whole_plot/#default-building-parameters), respectively.
 
