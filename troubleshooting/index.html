@@ -1,10 +1,11 @@
 
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
       
@@ -13,7 +14,7 @@
       
         <link rel="shortcut icon" href="../modelur.ico">
       
-      <meta name="generator" content="mkdocs+mkdocs-material#1.0.3">
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.0">
     
     
       
@@ -21,7 +22,13 @@
       
     
     
-      <script src="../assets/javascripts/modernizr-facb31f4a3.js"></script>
+      <script src="../assets/javascripts/modernizr-1df76c4e58.js"></script>
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-bfecc7305d.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-02c2a4388f.palette.css">
+      
     
     
       
@@ -34,15 +41,9 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/application-f3ab63f78a.css">
-      
-        <link rel="stylesheet" href="../assets/stylesheets/application-02ce7adcc2.palette.css">
-      
-      
-        <link rel="stylesheet" href="../css/fonts.css">
-      
-        <link rel="stylesheet" href="../css/custom.css">
-      
+      <link rel="stylesheet" href="../css/fonts.css">
+    
+      <link rel="stylesheet" href="../css/custom.css">
     
     
   </head>
@@ -62,13 +63,14 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <header class="md-header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href=".." title="Modelur User Guide" class=" md-icon md-icon--home  md-header-nav__button">
-          
-        </a>
+        
+          <a href=".." title="Modelur User Guide" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
@@ -87,32 +89,36 @@
         
           <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
-<div class="md-search" data-md-component="search">
-  <div class="md-search__overlay"></div>
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result"></div>
+        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
       </div>
     </div>
   </div>
 </div>
         
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-          </div>
-      </div>
+      
     </div>
   </nav>
 </header>
     
     <div class="md-container">
+      
+      
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
@@ -120,11 +126,11 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <i class=" md-icon md-icon--home  md-nav__button">
-      
-    </i>
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
     Modelur User Guide
   </label>
   
@@ -132,39 +138,45 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href=".." title="1. Meet Modelur" class="md-nav__link">
-        1. Meet Modelur
-      </a>
-    
+    <a href=".." title="1. Meet Modelur" class="md-nav__link">
+      1. Meet Modelur
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../getting-started/" title="2. Getting Started" class="md-nav__link">
-        2. Getting Started
-      </a>
-    
+    <a href="../getting-started/" title="2. Getting Started" class="md-nav__link">
+      2. Getting Started
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../quickstart/" title="3. Quick Start" class="md-nav__link">
-        3. Quick Start
-      </a>
-    
+    <a href="../quickstart/" title="3. Quick Start" class="md-nav__link">
+      3. Quick Start
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item md-nav__item--nested">
     
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
@@ -172,7 +184,7 @@
     <label class="md-nav__link" for="nav-4">
       4. Reference
     </label>
-    <nav class="md-nav" data-md-component="collapsible">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
         4. Reference
       </label>
@@ -181,56 +193,85 @@
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../reference/menu/" title="Menu" class="md-nav__link">
-        Menu
-      </a>
-    
+    <a href="../reference/menu/" title="Menu" class="md-nav__link">
+      Menu
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../reference/whole_plot/" title="Whole Plot" class="md-nav__link">
-        Whole Plot
-      </a>
-    
+    <a href="../reference/whole_plot/" title="Whole Plot" class="md-nav__link">
+      Whole Plot
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../reference/land_use/" title="Land Use" class="md-nav__link">
-        Land Use
-      </a>
-    
+    <a href="../reference/city_block/" title="City Block" class="md-nav__link">
+      City Block
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../reference/building/" title="Building" class="md-nav__link">
-        Building
-      </a>
-    
+    <a href="../reference/land_use/" title="Land Use" class="md-nav__link">
+      Land Use
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../reference/survey/" title="Survey" class="md-nav__link">
-        Survey
-      </a>
-    
+    <a href="../reference/building/" title="Building" class="md-nav__link">
+      Building
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reference/survey/" title="Survey" class="md-nav__link">
+      Survey
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reference/tools/" title="Tools" class="md-nav__link">
+      Tools
+    </a>
   </li>
 
         
@@ -241,7 +282,12 @@
     
       
       
-  <li class="md-nav__item">
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
@@ -283,6 +329,8 @@
   
 </li>
       
+      
+      
     </ul>
   
 </nav>
@@ -292,12 +340,13 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../appendix/" title="6. Appendix" class="md-nav__link">
-        6. Appendix
-      </a>
-    
+    <a href="../appendix/" title="6. Appendix" class="md-nav__link">
+      6. Appendix
+    </a>
   </li>
 
     
@@ -340,6 +389,8 @@
   
 </li>
       
+      
+      
     </ul>
   
 </nav>
@@ -350,26 +401,26 @@
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
-               
               
+                
                 
                   <h1>5. Troubleshooting</h1>
                 
                 <h2 id="setting-license-path-manually">Setting License Path Manually<a class="headerlink" href="#setting-license-path-manually" title="Permanent link">&para;</a></h2>
 <p>In case you use Windows and your username contains non-ascii characters, Modelur might sometimes not be able to properly set license path automatically, so you need to do it by hand. This is only needed once and don't worry, it's easy - just follow these steps:</p>
 <ol>
-<li>Open Command Prompt (go to Start menu and type "cmd" then press Enter).</li>
-<li>Copy/paste <code>cd %appdata%\SketchUp\SketchUp ####\SketchUp\Plugins\Modelur</code> (replace <em>####</em> with your version of Sketchup where you have installed Modelur) into Command Prompt and press Enter. The path you see in Command Prompt should now point to something like <em>C:\Users\Username\AppData\Roaming\SketchUp\SketchUp 2017\SketchUp\Plugins\Modelur</em>.</li>
-<li>Copy/paste <code>for %I in (.) do echo %~sI</code> into Command Prompt and press Enter. This will create your current location in <a href="https://en.wikipedia.org/wiki/8.3_filename" target="_blank">short 8.3 format</a> and it will look something like <em>C:\Users\Userna~1\AppData\Roaming\SketchUp\SK4DAC~1\SketchUp\Plugins\Modelur</em>.</li>
-<li>Copy your short address from the Command Prompt (select it with your mouse and press Control + C or right mouse click).</li>
-<li>In SketchUp, go to menu <em>Extensions &rarr; Modelur</em> and click on the <em>Set Modelur License Pat</em>h (this is visible only when Modelur can not find the proper path itself). Once opened, paste (Control + V) your short path from the Command Prompt and press Enter. After you enter the command and press Enter, Modelur will let you know if license path was set correctly.</li>
+<li>Open Command Prompt (go to Start menu and type "cmd" then press <span class="keys"><kbd class="key-enter">Enter</kbd></span>).</li>
+<li>Copy/paste <code>cd %appdata%\SketchUp\SketchUp ####\SketchUp\Plugins\Modelur</code> (replace <em>####</em> with your version of Sketchup where you have installed Modelur) into Command Prompt and press <span class="keys"><kbd class="key-enter">Enter</kbd></span>. The path you see in Command Prompt should now point to something like <em>C:\Users\Username\AppData\Roaming\SketchUp\SketchUp 2017\SketchUp\Plugins\Modelur</em>.</li>
+<li>Copy/paste <code>for %I in (.) do echo %~sI</code> into Command Prompt and press <span class="keys"><kbd class="key-enter">Enter</kbd></span>. This will create your current location in <a href="https://en.wikipedia.org/wiki/8.3_filename" target="_blank">short 8.3 format</a> and it will look something like <em>C:\Users\Userna~1\AppData\Roaming\SketchUp\SK4DAC~1\SketchUp\Plugins\Modelur</em>.</li>
+<li>Copy your short address from the Command Prompt (select it with your mouse and press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-c">C</kbd></span> or right mouse click).</li>
+<li>In SketchUp, go to menu <em>Extensions → Modelur</em> and click on the <em>Set Modelur License Path</em> (this is visible only when Modelur can not find the proper path itself). Once opened, paste (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-v">V</kbd></span>) your short path from the Command Prompt and press enter. After you enter the command and press <span class="keys"><kbd class="key-enter">Enter</kbd></span>, Modelur will let you know if license path was set correctly.</li>
 <li>That should be it. You can now continue licensing you copy of Modelur.</li>
 </ol>
 <p>In case Modelur tells you that license path is not set correctly, please read the error and follow the procedure above again, making sure to follow instructions exactly.</p>
 <h2 id="setting-proxy-server">Setting Proxy Server<a class="headerlink" href="#setting-proxy-server" title="Permanent link">&para;</a></h2>
 <p>In case you are trying to use Modelur behind a proxy server, it might sometimes fail to validate its license online. In order to prevent such errors, you need to give Modelur some details about the proxy server. To do so, please do the following:</p>
 <ol>
-<li>In SketchUp, go to menu <em>Extensions &rarr; Modelur &rarr; Enable/Disable Proxy Server</em>. This will open a window where you can set your preferred option.</li>
+<li>In SketchUp, go to menu <em>Extensions → Modelur → Enable/Disable Proxy Server</em>. This will open a window where you can set your preferred option.</li>
 <li>If you click "Yes", Modelur will be validated via proxy server. If you select "No", Modelur will use standard validation procedure.</li>
 <li>Once you change your setting, Modelur will ask you to restart SketchUp in order for changes to take effect. Once restarted, Modelur will validate itself using your preferred option.</li>
 </ol>
@@ -381,16 +432,16 @@
 <p>Although we strive to make Modelur flawless, there are some problems we can not bypass. We are aware of the following limitations, and we will do our best to improve them in future versions of Modelur:</p>
 <ul>
 <li>
-<p>Slow performance and opening of large models when SketchUp's Oultiner panel is opened. <em>Proposed solution</em>: hide the Outliner when opening the model (and when working with Modelur).</p>
+<p>Slow performance and opening of large models when SketchUp's Outliner panel is opened. <em>Proposed solution</em>: hide the Outliner when opening the model (and when working with Modelur).</p>
 </li>
 <li>
-<p>When using Value Control Box to specify exact pushpull distance when manually editing the building to add terrace or loggia, user can input the exact distance only once. <em>Proposed solution:</em> please re-select face and pushpull the face again.</p>
+<p>When using Value Control Box to specify exact Pushpull distance when manually editing the building to add terrace or loggia, user can input the exact distance only once. <em>Proposed solution:</em> please re-select face and Pushpull the face again.</p>
 </li>
 <li>
 <p>Complex/Mixed-use Buildings currently don't take into account terraces and loggias when calculating Gross Floor Area.</p>
 </li>
 <li>
-<p>Using Modelur Move Tool might bugsplat SketchUp if other Extensions using LayersObserver are used. <em>Proposed solution:</em> try disabling other plugins in Preferences &rarr; Extensions.</p>
+<p>Using Modelur Move Tool might bugsplat SketchUp if other Extensions using LayersObserver are used. <em>Proposed solution:</em> try disabling other plugins in Preferences → Extensions.</p>
 </li>
 <li>
 <p>Manually edited buildings might behave strange or even get corrupted when changing number of storeys. <em>Proposed solution:</em> make manual editing only after you will not be changing Building's number of storeys.</p>
@@ -399,6 +450,12 @@
 <p>Modelur License can not be read when user has non-ascii characters in username on Windows. <em>Proposed solution:</em> move modelur.lic to C:/users/.s</p>
 </li>
 </ul>
+                
+                  
+                
+              
+              
+                
               
             </article>
           </div>
@@ -411,7 +468,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../reference/survey/" title="Survey" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../reference/tools/" title="Tools" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -420,7 +477,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Survey
+                Tools
               </span>
             </div>
           </a>
@@ -476,8 +533,12 @@
       
     </div>
     
-      <script src="../assets/javascripts/application-2afe21e0b2.js"></script>
-      <script>var config={url:{base:".."}},app=new Application(config);app.initialize()</script>
+      <script src="../assets/javascripts/application-1d6ee6ee6c.js"></script>
+      
+      
+      <script>app.initialize({url:{base:".."}})</script>
+      
+        <script src="../javascript/mkdocs.js"></script>
       
     
     

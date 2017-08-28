@@ -18,7 +18,7 @@
     
     
       
-        <title>Whole Plot - Modelur User Guide</title>
+        <title>City Block - Modelur User Guide</title>
       
     
     
@@ -85,7 +85,7 @@
                 </span>
               
             
-            Whole Plot
+            City Block
           
         </span>
       </div>
@@ -213,6 +213,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../whole_plot/" title="Whole Plot" class="md-nav__link">
+      Whole Plot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -222,11 +234,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        Whole Plot
+        City Block
       </label>
     
-    <a href="./" title="Whole Plot" class="md-nav__link md-nav__link--active">
-      Whole Plot
+    <a href="./" title="City Block" class="md-nav__link md-nav__link--active">
+      City Block
     </a>
     
       
@@ -238,16 +250,30 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#plot-parameters" title="Plot Parameters" class="md-nav__link">
-    Plot Parameters
+  <a href="#selected-city-block-parameters" title="Selected City Block Parameters" class="md-nav__link">
+    Selected City Block Parameters
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#general-site-limits" title="General Site Limits" class="md-nav__link">
-    General Site Limits
+  <a href="#buttons" title="Buttons" class="md-nav__link">
+    Buttons
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#name-and-land-use" title="Name and Land Use" class="md-nav__link">
+    Name and Land Use
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#city-block-limits" title="City Block Limits" class="md-nav__link">
+    City Block Limits
   </a>
   
 </li>
@@ -265,9 +291,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#default-building-parameters" title="Default Building Parameters" class="md-nav__link">
-    Default Building Parameters
+  <a href="#selected-city-block-building-parameters" title="Selected City Block - Building Parameters" class="md-nav__link">
+    Selected City Block - Building Parameters
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#building-height" title="Building Height" class="md-nav__link">
+    Building Height
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-areas" title="Building Areas" class="md-nav__link">
+    Building Areas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storey-heights" title="Storey Heights" class="md-nav__link">
+    Storey Heights
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -277,18 +330,6 @@
   
 </nav>
     
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../city_block/" title="City Block" class="md-nav__link">
-      City Block
-    </a>
   </li>
 
         
@@ -388,16 +429,30 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#plot-parameters" title="Plot Parameters" class="md-nav__link">
-    Plot Parameters
+  <a href="#selected-city-block-parameters" title="Selected City Block Parameters" class="md-nav__link">
+    Selected City Block Parameters
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#general-site-limits" title="General Site Limits" class="md-nav__link">
-    General Site Limits
+  <a href="#buttons" title="Buttons" class="md-nav__link">
+    Buttons
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#name-and-land-use" title="Name and Land Use" class="md-nav__link">
+    Name and Land Use
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#city-block-limits" title="City Block Limits" class="md-nav__link">
+    City Block Limits
   </a>
   
 </li>
@@ -415,9 +470,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#default-building-parameters" title="Default Building Parameters" class="md-nav__link">
-    Default Building Parameters
+  <a href="#selected-city-block-building-parameters" title="Selected City Block - Building Parameters" class="md-nav__link">
+    Selected City Block - Building Parameters
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#building-height" title="Building Height" class="md-nav__link">
+    Building Height
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-areas" title="Building Areas" class="md-nav__link">
+    Building Areas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storey-heights" title="Storey Heights" class="md-nav__link">
+    Storey Heights
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -436,52 +518,69 @@
               
                 
                 
-                  <h1>Whole Plot</h1>
+                  <h1>City Block</h1>
                 
-                <p>Under the Whole Plot tab (Figure 4.21) you can define default Zoning constraints and Building Parameters that are applied throughout the development area if not specified otherwise. To understand how Parameters work inside Modelur, please visit <a href="../../quickstart/#step-3-changing-the-parameters">Parameters hierarchy explanation</a>.</p>
-<p><img alt="Whole Plot tab" src="../../img/modelur_whole_plot_tab.png" />
-<figcaption>Figure 4.21 - Whole Plot tab, which shows the default Parameters for the whole development area. If the Parameter in <a href="../city_block">City Block</a> or <a href="../building">Building</a> is not overloaded, the values defined inhere will be used.</figcaption></p>
+                <p>Under City Block tab (Figure 4.41) you can add, edit or remove <a href="https://en.wikipedia.org/wiki/City_block">City Blocks</a>, using which you can separate the whole development into smaller parts for which Urban Control Values (eg. FAR) are calculated separately.</p>
+<p><img alt="City Block tab" src="../../img/modelur_city_block_tab.png" />
+<figcaption>Figure 4.41 - City Block tab, which shows Parameters of selected City Block. In this case only Land Use is overloaded (set specifically for selected City Block), while other (non-checked) are taken from the Whole Plot.</figcaption></p>
 <div class="admonition hint">
 <p class="admonition-title">Compact and Extended View</p>
 <p>In case you don't see separators between parameters you can turn them on using the extend icon on the top right corner of each panel: <img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.</p>
 </div>
-<h2 id="plot-parameters">Plot Parameters<a class="headerlink" href="#plot-parameters" title="Permanent link">&para;</a></h2>
-<p>Inside the Plot Parameters panel you can define default parameters that are valid for the <em>whole development area</em> unless they are overloaded by specific <a href="../city_block">City Blocks</a>.</p>
-<p><strong>Plot Area</strong></p>
-<p>Plot area represents the size of the <em>whole development area</em>. This parameter is used to calculate Floor Area Ratio (FAR = Gross Floor Area/Plot Area) and Site Coverage (Built-up Area/Plot Area) of the whole development area.</p>
-<p>In case when you have some <a href="../city_block">City Blocks</a> defined, Modelur will automatically sum up their areas and display it here (and also use it in calculations). However, if you want you can overload sum of City Block's areas by simply entering the area size of your choice. If you then prefer to use calculated value instead, just delete your specified area size and Modelur will place set it back to sum of City Blocks.   </p>
+<h2 id="selected-city-block-parameters">Selected City Block Parameters<a class="headerlink" href="#selected-city-block-parameters" title="Permanent link">&para;</a></h2>
+<p>Inside this panel you can define different parameters and requirements that need to be met in selected City Block(s). If they are left unchanged, City Block will take them from the <a href="../whole_plot/#plot-parameters">Whole Plot</a>. This panel will show information for the last City Block selected in 3D Window. If there are no City Blocks selected, it will show the information for the City Block of last Building selected (assuming it is placed on a City Block).</p>
+<h4 id="buttons">Buttons<a class="headerlink" href="#buttons" title="Permanent link">&para;</a></h4>
+<p><strong>Create</strong></p>
+<p>Create button is used to create City Block, the same way as if you click on a yellow Create City Block icon in Modelur Toolbar. If no Face or Edge Loop is selected, Modelur will switch to Line Tool and wait until you draw a new Face. Once you draw a Face (closed planar Edge loop), Modelur will convert it to City Block. If you switch to some other SketchUp Tool, Modelur will not create new City Block.</p>
+<p>However, if Face(s) or Edge Loop(s) are selected, it will create a new City Block(s) based on selected shape(s). When a City Block is first created, it will contain the default Parameters as specified in the Whole Plot <a href="../whole_plot/#plot-parameters">Plot Parameters</a> and <a href="../whole_plot/#default-building-parameters">Default Building Parameters</a>, respectively.</p>
+<p>When created, City Blocks are locked default. You can change this setting in Modelur menu Options → Lock City Blocks Upon Creation. </p>
+<p><strong>Sync</strong></p>
+<p>If you want to quickly transfer Parameters from one City Block to another, use the <a href="../tools/#sync-city-block-parameters">Sync City Block Parameters</a> tool.</p>
+<p><strong>Restore</strong></p>
+<p>Restore button is used to reset all selected City Block(s) parameters to their default values (as specified by the <a href="../whole_plot">Whole Plot</a>).</p>
+<h4 id="name-and-land-use">Name and Land Use<a class="headerlink" href="#name-and-land-use" title="Permanent link">&para;</a></h4>
+<p><strong>City Block Name</strong></p>
+<p>Using City Block Name parameter you can change City Block's name, which is used to easily track different City Blocks. Alternatively you can also rename the City Block in the SketchUp's Outliner or in the Entity Info panel   the same way as you would rename any other SketchUp Group when selected. </p>
 <p><strong>Default Land Use</strong></p>
-<p>Using default Land Use <em>dropdown menu</em> you can set the default Land Use for City Blocks and Buildings. Land Uses are used to calculate Building's units (eg. apartments, residents, offices, etc), parking requirements, green area requirements, etc. To learn more about these settings, please visit <a href="../land_use">Land Use section</a> of this page.</p>
-<h4 id="general-site-limits">General Site Limits<a class="headerlink" href="#general-site-limits" title="Permanent link">&para;</a></h4>
-<p>Under General Site Limits you can set the default constraints set by zoning ordinance so that Modelur can warn you if they are exceeded. But it will not prevent you from exceeding them.</p>
-<p>In case when your development model exceeds set Zoning Constraints, they will <span style="color:red">become red</span>, to warn you about it (Figure 4.22). Once the model is fixed to meet constraints again (or when zoning ordinance constraints themselves are updated), exceeded parameters will turn back to black. These parameters can also be set for each <a href="../city_block/#selected-city-block-parameters">City Block</a> separately. When defined on City Block level, they are valid only for that City Block (including the Buildings Heights).</p>
-<p><img alt="Exceeded Site Limits" src="../../img/modelur_exceeded_site_limits.png" />
-<figcaption>Figure 4.22 - When text color in Modelur user interface turns red, the Parameters in question are exceeded.</figcaption></p>
+<p>Using Default Land Use <em>dropdown menu</em> you can set the Land Use that will be applied by default to each Building(s) in the City Block. Land Uses are used to calculate Building's units (eg. apartments, residents, offices, etc), parking requirements, green area requirements, etc. To learn more about these settings, please visit <a href="../land_use">Land Use section</a> of this page.</p>
+<h4 id="city-block-limits">City Block Limits<a class="headerlink" href="#city-block-limits" title="Permanent link">&para;</a></h4>
+<p>Under City Block Limits you can set the default constraints set by zoning ordinance for specific City Block so that Modelur can warn you if they are exceeded. But it will not prevent you from exceeding them.</p>
+<p>In case when your development model exceeds set constraints, they will <span style="color:red">become red</span>, to warn you about it (Figure 4.42). Once the model is fixed to meet constraints again (or when zoning ordinance constraints for selected City Blocks themselves are updated), exceeded parameters will turn back to black.</p>
+<p><img alt="Exceeded City Block Limits" src="../../img/modelur_exceeded_city_block_limits.png" />
+<figcaption>Figure 4.42 - When text color in Modelur user interface turns red, the Parameters in question are exceeded.</figcaption></p>
 <p><strong>Maximum Permitted FAR</strong> </p>
-<p>Using maximum permitted Floor Area Ratio you can define allowable FAR for the whole development area. In case FAR value for the Whole Plot is exceeded, this line will become red, to warn you about it. If you don't want Modelur to validate achieved FAR, simply erase this value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
+<p>Using maximum permitted Floor Area Ratio you can define allowable FAR for the selected City Block. In case FAR value of the City Block is exceeded, this line will become red, to warn you about it. If you don't want Modelur to validate achieved FAR for the selected City Block, simply erase this value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
 <p><strong>Max. Permitted Site Coverage</strong> </p>
-<p>Using maximum permitted Site Coverage you can define allowable Site Coverage for the whole development area. In case Site Coverage value for the Whole Plot is exceeded, this line will become red, to warn you about it. If you don't want Modelur to validate achieved Site Coverage, simply erase this value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
+<p>Using maximum permitted Site Coverage you can define allowable Site Coverage for the selected City Block. In case Site Coverage value for the selected City Block is exceeded, this line will become red, to warn you about it. If you don't want Modelur to validate achieved Site Coverage for the selected City Block, simply erase this value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
 <p><strong>Max. Permitted Building Height</strong> </p>
-<p>Using maximum permitted Building Height you can define height restrictions for the whole development area. In case when some Building is higher than specified inhere, this line will become red, to warn you about it. If you don't want Modelur to validate Buildings Heights, simply erase this and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
+<p>Using maximum permitted Building Height you can define height restrictions for the selected City Block. In case when some Building placed on the selected City block is higher than specified inhere, this line will become red, to warn you about it. If you don't want Modelur to validate Buildings Heights for the selected City Block, simply erase this and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
 <h4 id="distances">Distances<a class="headerlink" href="#distances" title="Permanent link">&para;</a></h4>
 <p><strong>Min. Distance to Height Ratio</strong></p>
-<p>Minimum distance to height ratio is used to calculate minimum distance between two Buildings based on their heights. To calculate distance, the Building's height is divided by the parameter value. Example: if parameter is set to 2, the minimum distance will be &frac12; of Building's height, if set to 3, it will be &#8531; of Building's height. If the Buildings are placed closer than the calculated distance, they will be marked red (assuming that <a href="../survey/#warnings">Too low distance between Buildings</a> is active).</p>
+<p>Minimum distance to height ratio is used to calculate minimum distance between two Buildings based on their heights within the selected City Block. To calculate distance, the Building's height is divided by the parameter value. Example: if parameter is set to 2, the minimum distance will be &frac12; of Building's height, if set to 3, it will be &#8531; of Building's height. If the Buildings are placed closer than the calculated distance, they will be marked red (assuming that <a href="../survey/#warnings">Too low distance between Buildings</a> is active).</p>
 <p><strong>Min. Dist. Between Buildings</strong></p>
-<p>Minimum distance between Buildings is the absolute distance (in meters or feet) between any two Buildings. If the Buildings are placed closer than this specified distance, they will be marked red (assuming that <a href="../survey/#warnings">Too low distance between Buildings</a> is active).</p>
-<h2 id="default-building-parameters">Default Building Parameters<a class="headerlink" href="#default-building-parameters" title="Permanent link">&para;</a></h2>
-<p>Default Building Parameters inside the Whole Plot tab are the topmost Building parameters in <a href="../../quickstart/#step-3-changing-the-parameters">Modelur's hierarchy</a>. This means that if the parameter in question is not <a href="../building/#selected-building-parameters">defined by the Building itself</a> (or any object in it's hierarchy, eg. <a href="../city_block">City Block</a>), Modelur will apply the values defined here to the Building. For example, when you create a new Building, it will contain number of storeys, Land Use, etc as defined here.</p>
+<p>Minimum distance between Buildings is the absolute distance (in meters or feet) between any two Buildings within the selected City Block. If the Buildings are placed closer than this specified distance, they will be marked red (assuming that <a href="../survey/#warnings">Too low distance between Buildings</a> is active).</p>
+<p>Note that distances will be verified also between the Buildings that are not within the same City Blocks, but each according to it's parent City Block settings.</p>
+<h2 id="selected-city-block-building-parameters">Selected City Block - Building Parameters<a class="headerlink" href="#selected-city-block-building-parameters" title="Permanent link">&para;</a></h2>
+<p>Default Building Parameters inside the City Block tab are used to overload default parameters as set by the Whole Plot according to <a href="../../quickstart/#step-3-changing-the-parameters">Modelur's hierarchy</a>. This means that if the parameter in question is not <a href="../building/#selected-building-parameters">defined by the Building itself</a>, Modelur will apply the values defined here to the Building. For example, when you create a new Building, it will contain Number of Storeys, Land Use, etc. as specified here or in the Whole Plot.</p>
+<div class="admonition tip">
+<p class="admonition-title">Interactive Zoning</p>
+<p>If you move a Building from one City Block to another, it will update all of its default Parameters to match those in new City Block. This way the Building adjusts itself automatically to the zoning rules of specific City Blocks. </p>
+</div>
+<h4 id="building-height">Building Height<a class="headerlink" href="#building-height" title="Permanent link">&para;</a></h4>
 <p><strong>Building Height</strong></p>
-<p>Building height sets how tall should the Building be in chosen units (metric or imperial). When changing Number of Storeys, First Storey Height and Other Storey Heights this parameter will adapt itself automatically.</p>
+<p>Building height sets how tall should the Building be by default inside selected City Block. When changing Number of Storeys, First Storey Height and Other Storey Heights this parameter will adapt itself automatically.</p>
 <p><strong>Number of Storeys</strong></p>
-<p>Number of storeys sets the number of Building's storeys. When you change this parameter, Building Height (described above) will be adapted automatically to reflect calculated height based on Number of Storeys and First and Other storeys Height (described below).</p>
+<p>Number of storeys sets the default number of Building's storeys inside selected City Block. When you change this parameter, Building Height (described above) will be adapted automatically to reflect calculated height based on Number of Storeys and First and Other storeys Height (described below).</p>
+<h4 id="building-areas">Building Areas<a class="headerlink" href="#building-areas" title="Permanent link">&para;</a></h4>
 <p><strong>Built-up Area</strong></p>
-<p>Built-up area sets the default floor area size of the Building. Please note that this value will be automatically overloaded when creating the Building (to keep drawn floor area size) unless you check the Manually drawn floor plan assumes default Built-up Area under Building tab → Editing Modes of Building. Built-up Area will automatically be adapted if you change Gross Floor Area (described below) to match the division of Gross Floor Area with Number of Storeys. </p>
+<p>Built-up area sets the default floor area size of the Building inside selected City Block. Please note that this value will be automatically overloaded when creating the Building (to keep drawn floor area size) unless you check the Manually drawn floor plan assumes default Built-up Area under Building tab → <a href="../building/#editing-modes-of-building">Editing Modes of Building</a>. Built-up Area will automatically be adapted if you change Gross Floor Area (described below) to match the division of Gross Floor Area with Number of Storeys. </p>
 <p><strong>Gross Floor Area</strong></p>
-<p>Gross floor area parameter is used to define default gross floor area size of the Building. If Building is created from scratch (no horizontal SketchUp Face is selected), this will be used to determine size of the Building (in combination with Number of Storeys).</p>
+<p>Gross floor area parameter is used to define default gross floor area size of the Building inside the selected City Block. If Building is created from scratch (no horizontal SketchUp Face is selected), this will be used to determine size of the Building (in combination with Number of Storeys).</p>
+<h4 id="storey-heights">Storey Heights<a class="headerlink" href="#storey-heights" title="Permanent link">&para;</a></h4>
 <p><strong>First Storey Height</strong></p>
-<p>First storey height is used to set the default height of Building's ground floor. Changing this parameter will change default Building Height, too.</p>
+<p>First storey height is used to set the default height of Building's ground floor inside the selected City Block. Changing this parameter will change default Building Height, too.</p>
 <p><strong>Other Storeys Height</strong></p>
-<p>Other storeys height is used to set the default height of all Building's storeys above ground floor. Changing this parameter will change default Building Height, too.</p>
+<p>Other storeys height is used to set the default height of all Building's storeys above ground floor inside the selected City Block. Changing this parameter will change default Building Height, too.</p>
                 
                   
                 
@@ -500,7 +599,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../menu/" title="Menu" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../whole_plot/" title="Whole Plot" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -509,19 +608,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Menu
+                Whole Plot
               </span>
             </div>
           </a>
         
         
-          <a href="../city_block/" title="City Block" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../land_use/" title="Land Use" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                City Block
+                Land Use
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

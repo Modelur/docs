@@ -1,10 +1,11 @@
 
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
       
@@ -13,7 +14,7 @@
       
         <link rel="shortcut icon" href="../../modelur.ico">
       
-      <meta name="generator" content="mkdocs+mkdocs-material#1.0.3">
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.0">
     
     
       
@@ -21,7 +22,13 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-facb31f4a3.js"></script>
+      <script src="../../assets/javascripts/modernizr-1df76c4e58.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-bfecc7305d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-02c2a4388f.palette.css">
+      
     
     
       
@@ -34,15 +41,9 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application-f3ab63f78a.css">
-      
-        <link rel="stylesheet" href="../../assets/stylesheets/application-02ce7adcc2.palette.css">
-      
-      
-        <link rel="stylesheet" href="../../css/fonts.css">
-      
-        <link rel="stylesheet" href="../../css/custom.css">
-      
+      <link rel="stylesheet" href="../../css/fonts.css">
+    
+      <link rel="stylesheet" href="../../css/custom.css">
     
     
   </head>
@@ -62,13 +63,14 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <header class="md-header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="../.." title="Modelur User Guide" class=" md-icon md-icon--home  md-header-nav__button">
-          
-        </a>
+        
+          <a href="../.." title="Modelur User Guide" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
@@ -91,32 +93,36 @@
         
           <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
-<div class="md-search" data-md-component="search">
-  <div class="md-search__overlay"></div>
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result"></div>
+        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
       </div>
     </div>
   </div>
 </div>
         
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-          </div>
-      </div>
+      
     </div>
   </nav>
 </header>
     
     <div class="md-container">
+      
+      
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
@@ -124,11 +130,11 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <i class=" md-icon md-icon--home  md-nav__button">
-      
-    </i>
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
     Modelur User Guide
   </label>
   
@@ -136,47 +142,55 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../.." title="1. Meet Modelur" class="md-nav__link">
-        1. Meet Modelur
-      </a>
-    
+    <a href="../.." title="1. Meet Modelur" class="md-nav__link">
+      1. Meet Modelur
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../getting-started/" title="2. Getting Started" class="md-nav__link">
-        2. Getting Started
-      </a>
-    
+    <a href="../../getting-started/" title="2. Getting Started" class="md-nav__link">
+      2. Getting Started
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../quickstart/" title="3. Quick Start" class="md-nav__link">
-        3. Quick Start
-      </a>
-    
+    <a href="../../quickstart/" title="3. Quick Start" class="md-nav__link">
+      3. Quick Start
+    </a>
   </li>
 
     
       
       
-  <li class="md-nav__item md-nav__item--nested">
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       4. Reference
     </label>
-    <nav class="md-nav" data-md-component="collapsible">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
         4. Reference
       </label>
@@ -185,29 +199,48 @@
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../menu/" title="Menu" class="md-nav__link">
-        Menu
-      </a>
-    
+    <a href="../menu/" title="Menu" class="md-nav__link">
+      Menu
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../whole_plot/" title="Whole Plot" class="md-nav__link">
-        Whole Plot
-      </a>
-    
+    <a href="../whole_plot/" title="Whole Plot" class="md-nav__link">
+      Whole Plot
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
+    <a href="../city_block/" title="City Block" class="md-nav__link">
+      City Block
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
@@ -229,9 +262,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#basic-settings" title="Basic Settings" class="md-nav__link">
-    Basic Settings
+  <a href="#land-use-requirements" title="Land Use Requirements" class="md-nav__link">
+    Land Use Requirements
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#buttons" title="Buttons" class="md-nav__link">
+    Buttons
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-settings" title="General Settings" class="md-nav__link">
+    General Settings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -270,6 +323,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#investment-calculation" title="Investment calculation" class="md-nav__link">
+    Investment calculation
+  </a>
+  
+</li>
+      
+      
+      
     </ul>
   
 </nav>
@@ -279,23 +341,37 @@
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../building/" title="Building" class="md-nav__link">
-        Building
-      </a>
-    
+    <a href="../building/" title="Building" class="md-nav__link">
+      Building
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="../survey/" title="Survey" class="md-nav__link">
-        Survey
-      </a>
-    
+    <a href="../survey/" title="Survey" class="md-nav__link">
+      Survey
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tools/" title="Tools" class="md-nav__link">
+      Tools
+    </a>
   </li>
 
         
@@ -306,23 +382,25 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../troubleshooting/" title="5. Troubleshooting" class="md-nav__link">
-        5. Troubleshooting
-      </a>
-    
+    <a href="../../troubleshooting/" title="5. Troubleshooting" class="md-nav__link">
+      5. Troubleshooting
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="../../appendix/" title="6. Appendix" class="md-nav__link">
-        6. Appendix
-      </a>
-    
+    <a href="../../appendix/" title="6. Appendix" class="md-nav__link">
+      6. Appendix
+    </a>
   </li>
 
     
@@ -345,9 +423,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#basic-settings" title="Basic Settings" class="md-nav__link">
-    Basic Settings
+  <a href="#land-use-requirements" title="Land Use Requirements" class="md-nav__link">
+    Land Use Requirements
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#buttons" title="Buttons" class="md-nav__link">
+    Buttons
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-settings" title="General Settings" class="md-nav__link">
+    General Settings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -386,6 +484,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#investment-calculation" title="Investment calculation" class="md-nav__link">
+    Investment calculation
+  </a>
+  
+</li>
+      
+      
+      
     </ul>
   
 </nav>
@@ -396,25 +503,69 @@
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
-               
               
+                
                 
                   <h1>Land Use</h1>
                 
-                <p>Under Land Use tab you can add, edit or remove Land Uses used by Modelur. This is the place to fine-tune all the parameters related to Land Uses which are used to calculate urban control values based on your current design in real-time, eg. Net Floor Area, Number of Apartments, Required Number of Parking Lots, etc.</p>
-<h2 id="basic-settings">Basic Settings<a class="headerlink" href="#basic-settings" title="Permanent link">&para;</a></h2>
-<p><strong>Add <em>button</em></strong> creates new Land Use. When creating new Land Use, Modelur will copy parameters of currently selected Land Use into newly created one. Once new Land Use is created, you can change the parameters as with any other Land Use.</p>
-<p><strong>Remove <em>button</em></strong> removes currently selected Land Use from Modelur model. If some of the Buildings have assigned Land Use that is being deleted, it will be replaced by default Land Use as specified in the <em>Whole Plot &rarr; Default Building Parameters</em>.</p>
-<p><strong>Edit <em>button</em></strong> opens a panel to rename selected Land Use.</p>
-<p><strong>Land Use <em>dropdown</em></strong> lists all Land Uses in current model. In order to change Land Use parameters you need to select it here. Once Land Use of your choice is selected, you can start editing all of its parameters.</p>
-<p><strong>Color <em>input field</em></strong> specifies the color that is used to mark all Buildings that use selected Land Use. You can specify it directly as a hex value or your can click on the small color button on the left side of this line. Clicking on the button will open up a color picker s you can easily change the color of selected Land Use. Please note that each Land Use is also connected to respective SketchUp Material and that changing either is synced automatically. So, if you change a color of certain Material in SketchUp, the change will be reflected in Land Use color, too, and vice versa.</p>
-<p><strong>Add this Land Use values to the sum total <em>checkbox</em></strong> tells Modelur if the urban control values (eg. Gross Floor Area, Required Number of Parking Lots, etc.) of selected Land Use should be added to the sum of Whole Plot or not. If checkbox is ticked, selected Land Use urban control values will be added to the sum of Whole Plot. If checkbox is not ticked, urban control values will not be added to the sum of Whole Plot.</p>
-<p><strong>Add only Parking values to the sum total <em>checkbox</em></strong> tells Modelur to add <em>only</em> Parking Spaces related values to the sum of Whole Plot. This is particularly useful if you create for example an underground Garage that is not supposed to be added to the Floor Area Ratio, Gross Floor Area, etc, but you want to take into account its Parking Spaces to calculate potential Parking deficit of the Whole Plot.</p>
+                <p>Under Land Use tab (Figure 4.61) you can add, edit or remove Land Uses used by Modelur. This is the place to fine-tune all the parameters related to Land Uses which are used to calculate urban control values based on your current design in real-time, eg. Net Floor Area, Number of Apartments, Required Number of Parking Lots, etc.</p>
+<p><img alt="Land Use tab" src="../../img/modelur_land_use_tab.png" />
+<figcaption>Figure 4.61 - Land Use tab, which shows Parameters of Land Use selected in the dropdown menu Land Use.</figcaption></p>
+<div class="admonition hint">
+<p class="admonition-title">Compact and Extended View</p>
+<p>In case you don't see separators between parameters you can turn them on using the extend icon on the top right corner of each panel: <img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.</p>
+</div>
+<h2 id="land-use-requirements">Land Use Requirements<a class="headerlink" href="#land-use-requirements" title="Permanent link">&para;</a></h2>
+<h4 id="buttons">Buttons<a class="headerlink" href="#buttons" title="Permanent link">&para;</a></h4>
+<p><strong>Add</strong></p>
+<p>Add <em>button</em> creates new Land Use. When creating new Land Use, Modelur will copy parameters of currently selected Land Use into newly created one. Once new Land Use is created, you can change the parameters as with any other Land Use.</p>
+<p><strong>Remove</strong></p>
+<p>Remove <em>button</em> removes currently selected Land Use from Modelur model. If some of the Buildings have assigned Land Use that is being deleted, it will be replaced by default Land Use as specified in the <em>Whole Plot → Default Building Parameters</em>.</p>
+<p><strong>Edit button</strong></p>
+<p>Edit <em>button</em> opens a panel to rename selected Land Use.</p>
+<h4 id="general-settings">General Settings<a class="headerlink" href="#general-settings" title="Permanent link">&para;</a></h4>
+<p><strong>Land Use</strong></p>
+<p>Land Use <em>dropdown</em> lists all Land Uses in current model. In order to change parameters of specific Land Use, you need to select it here. Once Land Use of your choice is selected, you can start editing all of its parameters.</p>
+<p><strong>Color</strong></p>
+<p>Color specifies the color that is used to mark all Buildings and City Blocks that have selected Land Use applied. You can specify it directly as a hex value or your can click on the small color button on the left side of this line. Clicking on the button will open up a color picker so you can easily change the color of selected Land Use.</p>
+<p>Each Land Use is also connected to respective SketchUp Material and synced automatically. So, if you change a color of Land Use Material in SketchUp, the change will be reflected in Land Use color, too, and vice versa.</p>
+<p><strong>Add this Land Use values to the sum total</strong></p>
+<p>Add this Land Use values to the sum total <em>checkbox</em> tells Modelur if the urban control values (eg. Gross Floor Area, Required Number of Parking Lots, etc.) of selected Land Use should be added to the sum of Whole Plot or not. If checkbox is ticked, selected Land Use urban control values will be added to the sum of Whole Plot. If checkbox is not ticked, urban control values will not be added to the sum of Whole Plot.</p>
+<p><strong>Add only Parking values to the sum total</strong></p>
+<p>Add only Parking values to the sum total <em>checkbox</em> tells Modelur to add <em>only</em> Parking Spaces related values to the sum of Whole Plot. This is particularly useful if you create for example an underground Garage that is not supposed to be added to the Floor Area Ratio, Gross Floor Area, etc, but you want to take into account its Parking Spaces to calculate potential Parking deficit of the Whole Plot.</p>
 <h2 id="units">Units<a class="headerlink" href="#units" title="Permanent link">&para;</a></h2>
+<p><strong>Primary Unit</strong></p>
+<p>Name of Land Use primary unit, which is used in <a href="#units-calculation">GFA per Primary Unit</a> calculation. Eg. Apartment in Residential Land Use, Office in Service Land Use, etc.</p>
+<p><strong>Secondary Unit</strong></p>
+<p>Name of Land Use secondary unit, which is used in <a href="#units-calculation">Secondary Unit per Primary Unit</a> calculations. Eg. Residents par Apartment in Residential Land Use, Workplaces per Office in Service Land Use, etc.</p>
 <h2 id="net-floor-area-calculation">Net Floor Area Calculation<a class="headerlink" href="#net-floor-area-calculation" title="Permanent link">&para;</a></h2>
+<p>Net Floor Area calculation in used to <strong>estimate Building's usable floor area</strong>.</p>
+<p><strong>NFA Factor Internal</strong></p>
+<p>Net Floor Area Factor Internal is an estimated percentage of how much internal (inside Building's walls) Gross Floor Area should be accounted to Net Floor Area of the Building. In contrast to Gross Floor Area, which sums up all floor areas of the Building, Net Floor Area usually doesn't contain walls, staircases, elevator shafts, etc. This way you can quickly estimate how much usable floor area there will be in the building.  </p>
+<p><strong>NFA Factor Terrace</strong></p>
+<p>Net Floor Area Factor Terrace works the same way as NFA Factor Internal, but it is applied to Terrace areas only. Terrace is determined automatically by Modelur when manually editing the Building using the PushPull tool. Terrace is defined as an outside floor which is less then 80% covered.</p>
+<p><strong>NFA Factor Loggia</strong></p>
+<p>Net Floor Area Factor Terrace works the same way as NFA Factor Internal, but it is applied to Terrace areas only. Terrace is determined automatically by Modelur when manually editing the Building using the PushPull tool. Terrace is defined as an outside floor which is more then 80% covered.</p>
+<p>If needed, you can visualize Terraces and Loggias by checking Mark Terraces and Loggias option in Modelur UI → Menu → Options. This will make Terraces green and Loggias violet.</p>
 <h2 id="units-calculation">Units Calculation<a class="headerlink" href="#units-calculation" title="Permanent link">&para;</a></h2>
+<p><strong>GFA per Primary Unit</strong></p>
+<p><strong>Secondary Unit per Primary Unit</strong></p>
 <h2 id="parking-space-calculation">Parking Space Calculation<a class="headerlink" href="#parking-space-calculation" title="Permanent link">&para;</a></h2>
+<p><strong>GFA per Parking Space</strong></p>
+<p><strong>NFA per Parking Space</strong></p>
+<p><strong>PS per Primary Unit</strong></p>
+<p><strong>Secondary Unit per PS</strong></p>
+<p><strong>Average Parking Area Size</strong></p>
 <h2 id="green-areas-calculation">Green Areas Calculation<a class="headerlink" href="#green-areas-calculation" title="Permanent link">&para;</a></h2>
+<p><strong>Required GA per Primary Unit</strong></p>
+<h2 id="investment-calculation">Investment calculation<a class="headerlink" href="#investment-calculation" title="Permanent link">&para;</a></h2>
+<p><strong>Assessed Investment</strong></p>
+                
+                  
+                
+              
+              
+                
               
             </article>
           </div>
@@ -427,7 +578,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../whole_plot/" title="Whole Plot" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../city_block/" title="City Block" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -436,7 +587,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Whole Plot
+                City Block
               </span>
             </div>
           </a>
@@ -492,8 +643,12 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application-2afe21e0b2.js"></script>
-      <script>var config={url:{base:"../.."}},app=new Application(config);app.initialize()</script>
+      <script src="../../assets/javascripts/application-1d6ee6ee6c.js"></script>
+      
+      
+      <script>app.initialize({url:{base:"../.."}})</script>
+      
+        <script src="../../javascript/mkdocs.js"></script>
       
     
     

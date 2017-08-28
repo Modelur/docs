@@ -1,10 +1,11 @@
 
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
   <head>
     
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
       
@@ -13,15 +14,21 @@
       
         <link rel="shortcut icon" href="./modelur.ico">
       
-      <meta name="generator" content="mkdocs+mkdocs-material#1.0.3">
+      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.0">
     
     
       
-        <title>1. Meet Modelur - Modelur User Guide</title>
+        <title>Modelur User Guide</title>
       
     
     
-      <script src="./assets/javascripts/modernizr-facb31f4a3.js"></script>
+      <script src="./assets/javascripts/modernizr-1df76c4e58.js"></script>
+    
+    
+      <link rel="stylesheet" href="./assets/stylesheets/application-bfecc7305d.css">
+      
+        <link rel="stylesheet" href="./assets/stylesheets/application-02c2a4388f.palette.css">
+      
     
     
       
@@ -34,15 +41,9 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="./assets/stylesheets/application-f3ab63f78a.css">
-      
-        <link rel="stylesheet" href="./assets/stylesheets/application-02ce7adcc2.palette.css">
-      
-      
-        <link rel="stylesheet" href="./css/fonts.css">
-      
-        <link rel="stylesheet" href="./css/custom.css">
-      
+      <link rel="stylesheet" href="./css/fonts.css">
+    
+      <link rel="stylesheet" href="./css/custom.css">
     
     
   </head>
@@ -62,13 +63,14 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <header class="md-header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="Modelur User Guide" class=" md-icon md-icon--home  md-header-nav__button">
-          
-        </a>
+        
+          <a href="." title="Modelur User Guide" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
@@ -87,32 +89,36 @@
         
           <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
-<div class="md-search" data-md-component="search">
-  <div class="md-search__overlay"></div>
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result"></div>
+        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
+          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
       </div>
     </div>
   </div>
 </div>
         
       </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-          <div class="md-header-nav__source">
-            
-          </div>
-      </div>
+      
     </div>
   </nav>
 </header>
     
     <div class="md-container">
+      
+      
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
@@ -120,11 +126,11 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    <i class=" md-icon md-icon--home  md-nav__button">
-      
-    </i>
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
     Modelur User Guide
   </label>
   
@@ -132,7 +138,12 @@
     
       
       
-  <li class="md-nav__item">
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
@@ -143,42 +154,38 @@
       1. Meet Modelur
     </a>
     
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-</nav>
-    
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="getting-started/" title="2. Getting Started" class="md-nav__link">
-        2. Getting Started
-      </a>
-    
+    <a href="getting-started/" title="2. Getting Started" class="md-nav__link">
+      2. Getting Started
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="quickstart/" title="3. Quick Start" class="md-nav__link">
-        3. Quick Start
-      </a>
-    
+    <a href="quickstart/" title="3. Quick Start" class="md-nav__link">
+      3. Quick Start
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item md-nav__item--nested">
     
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
@@ -186,7 +193,7 @@
     <label class="md-nav__link" for="nav-4">
       4. Reference
     </label>
-    <nav class="md-nav" data-md-component="collapsible">
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
         4. Reference
       </label>
@@ -195,56 +202,85 @@
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="reference/menu/" title="Menu" class="md-nav__link">
-        Menu
-      </a>
-    
+    <a href="reference/menu/" title="Menu" class="md-nav__link">
+      Menu
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="reference/whole_plot/" title="Whole Plot" class="md-nav__link">
-        Whole Plot
-      </a>
-    
+    <a href="reference/whole_plot/" title="Whole Plot" class="md-nav__link">
+      Whole Plot
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="reference/land_use/" title="Land Use" class="md-nav__link">
-        Land Use
-      </a>
-    
+    <a href="reference/city_block/" title="City Block" class="md-nav__link">
+      City Block
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="reference/building/" title="Building" class="md-nav__link">
-        Building
-      </a>
-    
+    <a href="reference/land_use/" title="Land Use" class="md-nav__link">
+      Land Use
+    </a>
   </li>
 
         
           
           
+          
+
+
   <li class="md-nav__item">
-    
-      <a href="reference/survey/" title="Survey" class="md-nav__link">
-        Survey
-      </a>
-    
+    <a href="reference/building/" title="Building" class="md-nav__link">
+      Building
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/survey/" title="Survey" class="md-nav__link">
+      Survey
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/tools/" title="Tools" class="md-nav__link">
+      Tools
+    </a>
   </li>
 
         
@@ -255,23 +291,25 @@
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="troubleshooting/" title="5. Troubleshooting" class="md-nav__link">
-        5. Troubleshooting
-      </a>
-    
+    <a href="troubleshooting/" title="5. Troubleshooting" class="md-nav__link">
+      5. Troubleshooting
+    </a>
   </li>
 
     
       
       
+      
+
+
   <li class="md-nav__item">
-    
-      <a href="appendix/" title="6. Appendix" class="md-nav__link">
-        6. Appendix
-      </a>
-    
+    <a href="appendix/" title="6. Appendix" class="md-nav__link">
+      6. Appendix
+    </a>
   </li>
 
     
@@ -300,8 +338,8 @@
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
-               
               
+                
                 
                 <h1 id="meet-modelur">Meet Modelur<a class="headerlink" href="#meet-modelur" title="Permanent link">&para;</a></h1>
 <p>Welcome to Modelur User Guide!</p>
@@ -312,6 +350,12 @@
 </div>
 <p>Modelur is implemented as a plug-in for <a href="http://www.sketchup.com">Trimble SketchUp</a>.</p>
 <p><img alt="Modelur screenshot" src="./img/modelur_beta.png" /></p>
+                
+                  
+                
+              
+              
+                
               
             </article>
           </div>
@@ -375,8 +419,12 @@
       
     </div>
     
-      <script src="./assets/javascripts/application-2afe21e0b2.js"></script>
-      <script>var config={url:{base:"."}},app=new Application(config);app.initialize()</script>
+      <script src="./assets/javascripts/application-1d6ee6ee6c.js"></script>
+      
+      
+      <script>app.initialize({url:{base:"."}})</script>
+      
+        <script src="./javascript/mkdocs.js"></script>
       
     
     
