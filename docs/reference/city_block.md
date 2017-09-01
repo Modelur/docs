@@ -1,4 +1,4 @@
-Under City Block tab (Figure 4.41) you can add, edit or remove [City Blocks](https://en.wikipedia.org/wiki/City_block), using which you can separate the whole development into smaller parts for which Urban Control Values (eg. FAR) are calculated separately.
+Under City Block tab (Figure 4.41) you can add, edit or remove [City Blocks](https://en.wikipedia.org/wiki/City_block), using which you can separate the whole development into smaller parts for which Urban Control Values (eg. FAR, Required Parking Spaces, etc.) are calculated separately. Additionally, you can also define different zoning rules and default Building Parameters for each City Block.
 
 ![City Block tab](../img/modelur_city_block_tab.png)
 <figcaption>Figure 4.41 - City Block tab, which shows Parameters of selected City Block. In this case only Land Use is overloaded (set specifically for selected City Block), while other (non-checked) are taken from the Whole Plot.</figcaption>
