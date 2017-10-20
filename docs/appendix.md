@@ -1,5 +1,40 @@
 Release notes
 -------------
+**0.6.0 Technical Preview 2 (Beta)**
+
+- Enhancement: Added Danish translation. Thank you Uffe Gross Nielsen!
+- Bugfix: Fixed City Block material selection (by Land Use or user defined).
+- Bugfix: Loading of Land Use data when it doesn't exist in UI yet.
+- Bugfix: Updating of Whole Plot area size when new City Blocks are added and no Buildings are present in the model.
+- Bugfix: Saving of JSON files which contain strings with commas.
+- Bugfix: Fixed City Block error when assessed investment is not set for selected Land Use.
+
+**0.6.0 Technical Preview 1 (Beta)**
+
+- Major Enhancement: Added City Blocks, which allow you to define default Zoning Parameters and calculate Urban Control Values on City Block level. Learn more at https://modelur.github.io/docs/reference/city_block/
+- Deprecated: Parametric Maps have been removed, use City Blocks instead. In case you have some models with Parametric Maps, you can still turn them on by executing the following code in SketchUp's Ruby Console: "Modelur::disable_parametric_maps". Once executed, you will be asked to restart SketchUp.
+- Enhancement: Added Modelur Context Menu.
+- Enhancement: Heads-up Display of urban control values now shows name of selected Entity (Building and City Block).
+- Enhancement: Descriptions of Modelur commands in SketchUp UI.
+- Enhancement: Overloading of Parameters when multiple objects are selected.
+- Enhancement: Hidden Buildings are not shown in Urban Control Data table and not exported to CSV.
+- Enhancement: Improved editing of Complex Buildings and their Building parts when selected via Urban Control Data Table.
+- Bugfix: Proper conversion of ComplexBuildings heights to number of storeys when base part has non-default first storey height.
+- Bugfix: Exit VCB copying of Buildings when Modelur Parameter is changed.
+- Bugfix: Building names can now start with number.
+- Bugfix: Changing of dimension units when default Land Uses were erased.
+- Bugfix: Updating of Complex Building values when Land Use requirements change.
+- Bugfix: Marking of Terraces and Loggias when editing the Building manually.
+- Bugfix: Creating Complex Building from scratch when default number of storeys is different than defined by default Complex Building itself
+
+0.5.9 R5 (Beta)
+- Bugfix: Opening of Modelur UI when license expires.
+
+0.5.9 R4 (Beta)
+- Enhancement: Added support for validating Modelur behind proxy using NTLM authentication protocol.
+
+
+
 **0.5.9 R3 (Beta)**
 
  - Enhancement: Newly created Buildings are placed on the Layer of the Face from which they are created.
