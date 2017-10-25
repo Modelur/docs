@@ -21,7 +21,7 @@ Remove _button_ removes currently selected Land Use from Modelur model. If some 
 
 **Edit button**
 
-Edit _button_ opens a panel to rename selected Land Use.
+Edit _button_ opens a panel to rename selected Land Use. If you rename Land Use to have the same name as existing one, Modelur will automatically append a 4-digit UID number to it so it can be distinguished by SketchUp Material, too as you can not have two materials with the same name in one SKP model.
 
 #### General Settings ####
 
