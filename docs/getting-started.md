@@ -74,6 +74,23 @@ Upon purchase, you should have received a License Key. To license your copy of M
 
 In case you are not able to obtain your License Key or if you experience any other problem, please contact us at [support@modelur.com](mailto:support@modelur.com).
 
+Updating License
+----------------
+
+Once you renew your Modelur license, you need to update it in case the License Key is different from the one you used before.
+
+In case you encounter some problems when trying to update the license using SketchUp Extensions > Modelur > Update Modelur License or Modelur can't do it automatically (if it is the same Key as before), please do the following: 
+
+### On Windows:
+
+1. Delete modelur.lic file from `C:\Users\YOUR USERNAME\AppData\Roaming\Modelur\ ` folder.
+2. Restart SketchUp and initialize Modelur. It will ask you for your License Key.
+
+### On OS X:
+
+1. Delete modelur.lic file from `~/Library/Application Support/Modelur/ ` folder.
+2. Restart SketchUp and initialize Modelur. It will ask you for your License Key.
+
 ### Trial License
 
 You can request free Trial License directly inside Modelur. To do so, install and initialize Modelur. Once activation window is shown, please click on a _Request a Trial License_ link as shown below (Figure 2.02).
