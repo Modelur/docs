@@ -9,7 +9,7 @@ Once Modelur is installed you have two options to initialize it. First option is
 
 <figcaption>Figure 3.01 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu View → Toolbars → Modelur. To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.</figcaption>
 
-Second option to initialize Modelur is to navigate to it through SketchUp menu Plugins → Modelur → Initialize Modelur (Figure 3.02).
+Second option to initialize Modelur is to navigate to it through SketchUp menu Extensions → Modelur → Initialize Modelur (Figure 3.02).
 
 ![Modelur_menu entry](img/modelur_plugins_menu.png)
 

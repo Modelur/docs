@@ -58,5 +58,10 @@ Once your urban design proposal is finished, you might want to export it to geol
 
 Options
 -------
+
+**Store Land Use changes**
+
+When this option is checked, Modelur will save each Land Use change to temporary Land Use specifications file. Turn this feature on if you want to copy/paste Buildings and City Blocks with non-default Land Uses between different SKP models. The file `stored_land_uses.json`, is saved into your Modelur [Appdata folder](/getting-started/#modelur-location).
+
 Help
 ----
