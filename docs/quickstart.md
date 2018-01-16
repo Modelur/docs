@@ -45,11 +45,11 @@ Make sure you have [installed Modelur](getting-started/#installation) and quickl
 
 #### Step 1 - Initialize Modelur model and configure it
 
-Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu _Extensions → Modelur → Initialize Modelur_ (as shown in [Initialize Modelur](#initialize_modelur) section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).
+Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu _Extensions → Modelur → Initialize Modelur_ (as shown in [Initialize Modelur](quickstart#initialize_modelur) section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).
 
  ![Modelur_options_menu](img/modelur_ui_options_annotated.png)
 
-<figcaption>Figure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options [here](#user-interface-owerview).</figcaption>
+<figcaption>Figure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options in Reference  → Menu  → Options section .</figcaption>
 
 #### Step 2 - Create Modelur Building
 
@@ -83,7 +83,7 @@ Alternatively you can also create Building based on selected closed edge loop. T
 
 #### Step 3 - Changing the Parameters
 
-**Parameters work hierarchically in Modelur**. This means that the object (eg. Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its parent object, which is either a Complex Building (if the Building is part of Complex Building) or City Block. If the Building finds the parameter value in its parent object, it uses it. If not, it looks up further all the way to the Whole Plot, which is a top-most object in Modelur and holds all Parameters needed to define a Building (Figure 3.08).
+**Parameters work hierarchically in Modelur**. This means that the object (eg. Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its parent object, which is either a Complex Building (if the Building is part of Complex Building) or City Block. If the Building finds the parameter value in its parent object, it uses it. If not, it looks further up all the way to the Whole Plot, which is a top-most object in Modelur and holds all Parameters needed to define a Building (Figure 3.08).
 
 ![Modelur objects hierarchy](img/objects_hierarchy.png)
 
