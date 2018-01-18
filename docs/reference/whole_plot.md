@@ -39,7 +39,7 @@ Using maximum permitted Site Coverage you can define allowable Site Coverage for
 
 **Max. Permitted Building Height**
 
-Using maximum permitted Building Height you can define height restrictions for the whole development area. In case some Building is higher than specified inhere, this line will become red, to warn you about it. If you don't want Modelur to validate Buildings Heights, simply erase this and hit ++enter++.
+Using maximum permitted Building Height you can define height restrictions for the whole development area. In case some Building is higher than specified here, this line will become red, to warn you about it. If you don't want Modelur to validate Buildings Heights, simply erase this and hit ++enter++.
 
 #### Distances ####
 
@@ -55,6 +55,8 @@ Default Building Parameters
 ---------------------------
 Default Building Parameters inside the Whole Plot tab are the topmost Building parameters in [Modelur's hierarchy](/quickstart/#step-3-changing-the-parameters). This means that if the parameter in question is not [defined by the Building itself](building/#selected-building-parameters) (or any object in it's hierarchy, eg. [City Block](city_block)), Modelur will apply the values defined here to the Building. For example, when you create a new Building, it will contain number of storeys, Land Use, etc as defined here.
 
+#### Building Height ####
+
 **Building Height**
 
 Building height sets how tall should the Building be in chosen units (metric or imperial). When changing Number of Storeys, First Storey Height and Other Storey Heights this parameter will adapt itself automatically.
@@ -62,6 +64,8 @@ Building height sets how tall should the Building be in chosen units (metric or 
 **Number of Storeys**
 
 Number of storeys sets the number of Building's storeys. When you change this parameter, Building Height (described above) will be adapted automatically to reflect calculated height based on Number of Storeys and First and Other storeys Height (described below).
+
+#### Building Areas ####
 
 **Built-up Area**
 
@@ -71,6 +75,7 @@ Built-up area sets the default floor area size of the Building. Please note that
 
 Gross floor area parameter is used to define default gross floor area size of the Building. If Building is created from scratch (no horizontal SketchUp Face is selected), this will be used to determine size of the Building (in combination with Number of Storeys).
 
+#### Storey Heights ####
 
 **First Storey Height**
 

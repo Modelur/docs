@@ -1,4 +1,4 @@
-Menu is the topmost part of Modelur's user interface window (Figure 4.01). It containts four sub-categories: [File](#file), [Tools](#tools), [Options](#options) and [Help](#help), which are explained in detail below.
+Menu is the topmost part of Modelur's user interface window (Figure 4.01). It contains four sub-categories: [File](#file), [Tools](#tools), [Options](#options) and [Help](#help), which are explained in detail below.
 
 ![Modelur Menu](../img/modelur_ui_parts_menu_annotated.png)
 <figcaption>Figure 4.01 - Location of Modelur Menu.</figcaption>
@@ -6,7 +6,7 @@ Menu is the topmost part of Modelur's user interface window (Figure 4.01). It co
 File
 ----
 
-Here you open existing SKP files or export your data.
+Here you can open existing SKP files or export your data.
 
 **File → Open**
 
@@ -16,7 +16,8 @@ Opens a dialog window that allows you to open existing SKP file.
 
 This is used to export urban control values (such as Gross Floor Area, FAR, Required number of parking lots, etc.) of currently opened model into CSV file. Before exporting the data, you have an option to choose which values you want to export (Whole Plot, Land Uses, Buildings, Complex Buildings). By default all options are selected for export (Figure 4.02).
 
-Additionally, when you choose to export data for Complex Buildings, you have an option to export more details about it. This can be done by exporting its data 1) by Land Use and/or 2) for each Simple Building from which it is constructed.
+For Complex Buildings, details about Land Use and/or each Simple Building from which it is constructed can be exported. Just select _Export also Land Use data
+of Complex Buildings_ and/or _Export also Buildings that form Complex Buildings_.
 
 ![Urban indicators export](../img/export_urban_control_indicators.png)
 <figcaption>Figure 4.02 - You can select which data you want to export to CSV file.</figcaption>
@@ -44,11 +45,13 @@ By clicking on a (Complex) Building row in this Window, Modelur will select its 
 
 If needed, (Complex) Buildings can also be _sorted by their values_. Simply click on the name of the column you want to sort by.
 
-For Complex Buildings, details about Land Use and/or each Simple Building from which it is constructed can be shown. Just select Complex Buildings Land Uses and/or Complex Buildings Parts on top of the Window. These options are available for selection only if _Complex Building_ option is selected.
+For Complex Buildings, details about Land Use and/or each Simple Building from which it is constructed can be shown. Just select _Complex Buildings Land Uses_ and/or _Complex Buildings Parts_ on top of the Window. These options are available for selection only if _Complex Building_ option is selected.
 
 **Randomize Building Heights**
 
 Using this functionality you can randomize selected Buildings number of storeys. Once Buildings are selected, click on this button and you will be presented with two options. If you select Absolute Number of Storeys all buildings will be randomized to number of storeys between min and max value. If you choose Relative Number of Storeys, selected Building's storeys will be randomized _based on their current Number of Storeys_ in the range between min and max values specified.
+
+This option helps create dynamic urban solutions, avoiding too uniform look of the urban area.
 
 **Create Terrain**
 
@@ -69,19 +72,28 @@ Here you can select interface language, units and default building shape. Other 
 
 **Buildings From Edges**
 
-Tell Modelur if and how it should create Buildings when edges are selected.
+Tell Modelur if and how it should create Buildings when edges are selected. There are three options: _Don't Create_, _From One Edge_ and _From Edge Loop_.
+
+_Don't Create_ option means you have to select a whole face or a loop in order to create a Building with such Building Area. If the selected edges don't form a closed loop, Modelur will ignore those edges and create a Building in the middle of the coordinate system and with _Default Building Area_ (as defined in [Default Building Parameters](whole_plot/#default-building-parameters)).
+
+ _From One Edge_ option means you can select just one edge of a loop and a Building will be created based on that loop. In case you have a loop within a loop and you select an edge of the outer loop, Modelur will create a Building based on the outer loop and ignore the inner loop (since it's edges are not in the selection).
+
+ _From Edge Loop_ option means you have to select ALL the edges in a loop. If you have a loop within a loop, you have to select the edges of both loops. Otherwise Modelur will ignore selected edges and create a Building in the middle of the coordinate system and with _Default Building Area_ (as defined in [Default Building Parameters](whole_plot/#default-building-parameters)). But if you select all edges of the inner and outer loop, Modelur will create a Building with a hole (inner loop).
 
 **Lock City Blocks Upon Creation**
 
-Automatically locks City Blocks when they are created.
+Automatically locks City Blocks when they are created. This means a City Block can not be moved around the screen. This way you avoid accidentally moving a
+City Block and spoiling your project.
+
+If you do need to move a City Block, you can unlock it by right-clicking on the City Block and then selecting _Unlock_.
 
 **Apply City Blocks LU Material**
 
-Assign Land Use material to City Blocks.
+Each City Block will be colored according to it's Land use (if the Land use has a specified color). You can specify a color for each Land Use in Land Use tab.
 
 **Synchronize Land Use Panels**
 
-Keep Land Use Panels between Input data and Survey tab in sync.
+Keep Land Use Panels between Input data and Survey tab in sync. This means the Land Use you select in _Land Use_ tab will also become selected (and displayed) in _Urban Control - Land Use_ section of the _Survey_ tab and the other way around.
 
 **Show Status Bar**
 
@@ -93,11 +105,12 @@ Show built-up area face at the bottom of each Modelur Building.
 
 **Mark Terraces and Loggias**
 
-Apply green color to all Terraces and pink color to all Loggias.
+Apply green color to all Terraces and pink color to all Loggias. This way you can easily see how many Terraces and how many Loggias there are in your project.
 
 **Change Currency Symbol**
 
-Opens up a dialog box for specifying new currency symbol.
+Opens up a dialog box for specifying new currency symbol. This currency symbol is shown in section _Investment calculation_ of the _Land use_ tab where
+you define estimated price per square meter for Buildings with the chosen Land Use assigned. This enables Modelur to calculate estimated cost of the whole Building.
 
 **Save Default Settings**
 
