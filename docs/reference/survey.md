@@ -20,7 +20,7 @@ You can choose between three options: _Blank_, _Basic_ and _Full_. _Blank_ means
 
 _Basic_ option displays _Building name_, _Gross Floor Area_, _Built-up Area_, _Building Height_ and _Number of Storeys_.
 
-_Full_ option displays all data included in the _Basic_ option as well as _Required Green Area_, _Required Parking Spaces_, _Required Parking Area_, _Building Volume_, _Net Floor Area_, _Assessed Investment_ and _Number of Primary and Secundary units_. [Primary and Secundary units](land_use#units) are defined in _Land Use tab_ for each Land Use type.
+_Full_ option displays all data included in the _Basic_ option as well as _Required Green Area_, _Required Parking Spaces_, _Required Parking Area_, _Building Volume_, _Net Floor Area_, _Assessed Investment_ and _Number of Primary and Secondary units_. [Primary and Secondary units](land_use#units) are defined in _Land Use tab_ for each Land Use type.
 
 **City Block Survey**
 
@@ -63,7 +63,7 @@ This section displays basic Urban Control Values of the City Block. The same dat
 Urban Control - Land Use
 ------------------------
 
-This section displays _Gross Floor Area_ and _Number of Primary and Secundary units_ for the selected Land Use. [Primary and Secundary units](land_use#units) are defined in _Land Use tab_ for each Land Use type.
+This section displays _Gross Floor Area_ and _Number of Primary and Secondary units_ for the selected Land Use. [Primary and Secondary units](land_use#units) are defined in _Land Use tab_ for each Land Use type.
 
 Development Timeline
 --------------------
