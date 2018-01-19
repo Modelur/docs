@@ -16,7 +16,7 @@ Land Use Requirements
 
 **Add**
 
-Add _button_ creates new Land Use. When creating new Land Use, Modelur will copy parameters of currently selected Land Use into newly created one. Once new Land Use is created, you can change the parameters as with any other Land Use.
+Add _button_ creates a new Land Use. When creating new Land Use, Modelur will copy parameters of currently selected Land Use into newly created one. Once new Land Use is created, you can change the parameters as with any other Land Use.
 
 **Remove**
 
@@ -31,7 +31,7 @@ Edit _button_ opens a panel to rename selected Land Use. If you rename Land Use 
 **Land Use**
 
 Land Use _dropdown_ lists all Land Uses in current model. In order to change parameters of specific Land Use, you need to select it here. Once Land Use of your choice is selected, you can start editing all of its parameters.
-  
+
 **Color**
 
 Color specifies the color that is used to mark all Buildings and City Blocks that have selected Land Use applied. You can specify it directly as a hex value or your can click on the small color button on the left side of this line. Clicking on the button will open up a color picker so you can easily change the color of selected Land Use.
@@ -74,35 +74,56 @@ Net Floor Area Factor Terrace works the same way as NFA Factor Internal, but it 
 
 Net Floor Area Factor Terrace works the same way as NFA Factor Internal, but it is applied to Terrace areas only. Terrace is determined automatically by Modelur when manually editing the Building using the PushPull tool. Terrace is defined as an outside floor which is more then 80% covered.
 
-If needed, you can visualize Terraces and Loggias by checking Mark Terraces and Loggias option in Modelur UI → Menu → Options. This will make Terraces green and Loggias violet.
+If needed, you can visualize Terraces and Loggias by checking Mark Terraces and Loggias option in Modelur UI → Menu → Options. This will make Terraces green and Loggias pink.
 
 Units Calculation
 -----------------
 
 **GFA per Primary Unit**
 
+Define how much Gross Floor Area is needed per Primary Unit. Primary Unit is defined in [Units section](#units)).
+
 **Secondary Unit per Primary Unit**
 
+How many Secondary Units are there per Primary Unit. Eg. How many Residents per Apartment or How many Workplaces per Office. Secondary and Primary Units are defined in the [Units section](#units).
 
 Parking Space Calculation
 -------------------------
 
+Parking Space Calculation in used to estimate the number of Parking Spaces required per Building.
+
 **GFA per Parking Space**
+
+Define how much Gross Floor Area is needed per Parking Space.
 
 **NFA per Parking Space**
 
+Define how much Net Floor Area is needed per Parking Space.
+
 **PS per Primary Unit**
+
+How many Parking Spaces are required per Primary unit. Primary unit is defined in the [Units section](#units).
 
 **Secondary Unit per PS**
 
+How many Secondary Units are there per Parking Space. Secondary Unit is defined in the [Units section](#units).
+
 **Average Parking Area Size**
+
+How big is an average Parking Space.
 
 Green Areas Calculation
 -----------------------
 
 **Required GA per Primary Unit**
 
+How much Green Area is required per Primary Unit. Primary Unit is defined in the [Units section](#units).
+
 Investment calculation
----------------------- 
+----------------------
+
+Having a cost estimate helps you choose between different Urban Plans.
 
 **Assessed Investment**
+
+Define estimated price per square meter for Buildings with the chosen Land Use assigned. This enables Modelur to calculate estimated cost of the whole Building. Currency symbol can be changed under _Options -> Change Currency symbol_.

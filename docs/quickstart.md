@@ -3,7 +3,7 @@ This section will quickly introduce you to the structure of Modelur's User Inter
 Initialize Modelur
 ------------------
 
-Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 3.01). 
+Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur is installed (Figure 3.01).
 
 ![Modelur_toolbar](img/modelur_toolbar_non_initialized.png)
 
@@ -34,7 +34,7 @@ Tabs are located below the Menu. They represent a groups of similar tasks. Curre
 Panels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Reference section.
 
 #### Status Bar
-Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu → Options → Show status bar.
+Statusbar is located at the bottom of the UI. It's task is to explain to you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu → Options → Show status bar.
 
 Quick Start Guide
 -----------------
@@ -45,19 +45,19 @@ Make sure you have [installed Modelur](getting-started/#installation) and quickl
 
 #### Step 1 - Initialize Modelur model and configure it
 
-Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu _Extensions → Modelur → Initialize Modelur_ (as shown in [UI Overview](#ui-overview) section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).
- 
+Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu _Extensions → Modelur → Initialize Modelur_ (as shown in [Initialize Modelur](quickstart#initialize_modelur) section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).
+
  ![Modelur_options_menu](img/modelur_ui_options_annotated.png)
- 
-<figcaption>Figure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside <a href="../user-interface" →User Interface</a> section.</figcaption>
+
+<figcaption>Figure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options in Reference  → Menu  → Options section .</figcaption>
 
 #### Step 2 - Create Modelur Building
 
-Once Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the _Create Building_ (2) entry in SketchUp menu _Extensions → Modelur_ or by clicking on the Create button (3) inside Building tab of Modelur’s user interface (Figure 3.05).
+Once Modelur is initialized and set up, you can create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the _Create Building_ (2) entry in SketchUp menu _Extensions → Modelur_ or by clicking on the Create button (3) inside Building tab of Modelur’s user interface (Figure 3.05).
 
 ![Modelur_options_menu](img/modelur_create_building_annotated.png)
 
-<figcaption>Figure 3.05 - Buttons through which you can create Modelur Buildings.</figcaption>
+<figcaption>Figure 3.05 - Different ways to create Modelur Buildings.</figcaption>
 
 Regardless of which way you choose to create Modelur Buildings, there are always two options - you can create a Building based on a predefined floor plan or based on what you draw. We will take a look at these two in the following paragraphs.
 
@@ -83,14 +83,14 @@ Alternatively you can also create Building based on selected closed edge loop. T
 
 #### Step 3 - Changing the Parameters
 
-**Parameters work hierarchically in Modelur**. This means is that the object (eg. Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its parent object, which is either a Complex Building (if the Building is part of Complex Building) or City Block. If the Building finds the parameter value in its parent object, it uses it. If not, it looks up further all the way to the Whole Plot, which is a top-most object in Modelur and holds all Parameters needed to define a Building (Figure 3.08).
+**Parameters work hierarchically in Modelur**. This means that the object (eg. Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its parent object, which is either a Complex Building (if the Building is part of Complex Building) or City Block. If the Building finds the parameter value in its parent object, it uses it. If not, it looks further up all the way to the Whole Plot, which is a top-most object in Modelur and holds all Parameters needed to define a Building (Figure 3.08).
 
 ![Modelur objects hierarchy](img/objects_hierarchy.png)
 
 <figcaption>Figure 3.08 - Example of Land Use and Number of Storeys parameters hierarchy. Modelur engine works the same way for all Parameters, but it's simplified here for the sake of clarity. For the same reason Complex Building objects are left out, but if they were present in the image, they would be placed between Buildings and City Blocks.<br>
-Explanation: BUILDING 1 has no parameter defined, so it looks up from its parent, CITY BLOCK 1. Since CITY BLOCK 1 also has no parameter specified, it looks it up from the WHOLE PLOT, where it finds both parameters, which are in turn applied to the BUILDING 1. On the other hand, BUILDING 2 has specified Parameter fro Number of Storeys (2) so it looks no further. But it's missing Land Use Parameter which can again be found in the WHOLE PLOT.</figcaption>
+Explanation: BUILDING 1 has no parameter defined, so it looks it up from its parent, CITY BLOCK 1. Since CITY BLOCK 1 also has no parameter specified, it looks it up from the WHOLE PLOT, where it finds both parameters, which are in turn applied to the BUILDING 1. On the other hand, BUILDING 2 has specified Parameter for Number of Storeys (2) so it looks no further. But it's missing Land Use Parameter which can again be found in the WHOLE PLOT.</figcaption>
 
-Now that you understand how objects hierarchy works in Modelur, all you need to remember the hierarchy order itself (bottom-up): _Building → Complex Building → City Block → Whole Plot_.
+Now that you understand how objects hierarchy works in Modelur, all you need to remember is the hierarchy order itself (bottom-up): _Building → Complex Building → City Block → Whole Plot_.
 
 ##### Overloaded Parameters
 
