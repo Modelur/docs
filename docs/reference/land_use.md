@@ -5,7 +5,10 @@ Under Land Use tab (Figure 4.61) you can add, edit or remove Land Uses used by M
 
 !!! hint "Compact and Extended View"
     In case you don't see separators between parameters you can turn them on using the extend icon on the top right corner of each panel: <img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.
-
+    
+!!! hint "Transferring Land Uses from one SKP model to another"
+    Land Use objects are abstract and can not be copied directly between different SKP models directly as they have no 'physical' representation in the model. Nevertheless, you can still transfer Land Uses using the Store and Import Land Use functionality or when copying Buildings and City Blocks from one model to another. For the latter, we advise you to turn on the [Store Land Use changes](/reference/menu/#options) option in Options menu.
+    
 Land Use Requirements
 ---------------------
 

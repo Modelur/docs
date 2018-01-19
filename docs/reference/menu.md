@@ -120,6 +120,10 @@ You can save your preferred settings combination as default by clicking on _Save
 
 Reset Modelur to default settings. When applied please restart SketchUp and Modelur.
 
+=======
+**Store Land Use changes**
+
+When this option is checked, Modelur will save each Land Use change to temporary Land Use specifications file. Turn this feature on if you want to copy/paste Buildings and City Blocks with non-default Land Uses between different SKP models. The file `stored_land_uses.json`, is saved into your Modelur [Appdata folder](/getting-started/#modelur-location).
 
 Help
 ----
