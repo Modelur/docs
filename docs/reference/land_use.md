@@ -81,7 +81,11 @@ Units Calculation
 
 **GFA per Primary Unit**
 
-Define how much Gross Floor Area is needed per Primary Unit. Primary Unit is defined in [Units section](#units)).
+Define average Gross Floor Area of one Primary Unit (eg. Apartment, Office, etc). Primary Unit is defined in [Units section](#units)).
+
+**NFA per Primary Unit**
+
+Define average Net Floor Area of one Primary Unit (eg. Apartment, Office, etc). Primary Unit is defined in [Units section](#units)). Please note that this will take into calculation different factors defined for Terraces and Loggias, too.
 
 **Secondary Unit per Primary Unit**
 
@@ -94,23 +98,23 @@ Parking Space Calculation in used to estimate the number of Parking Spaces requi
 
 **GFA per Parking Space**
 
-Define how much Gross Floor Area is needed per Parking Space.
+Define how much Gross Floor Area accounts for one Parking Space.
 
 **NFA per Parking Space**
 
-Define how much Net Floor Area is needed per Parking Space.
+Define how much Net Floor Area accounts for one Parking Space.
 
 **PS per Primary Unit**
 
-How many Parking Spaces are required per Primary unit. Primary unit is defined in the [Units section](#units).
+How many Parking Spaces are required per Primary unit (eg. Apartment, Office, etc.). Primary unit is defined in the [Units section](#units).
 
 **Secondary Unit per PS**
 
-How many Secondary Units are there per Parking Space. Secondary Unit is defined in the [Units section](#units).
+How many Secondary Units (eg. Residents, Workplaces, etc.) are there per one Parking Space. Secondary Unit is defined in the [Units section](#units).
 
 **Average Parking Area Size**
 
-How big is an average Parking Space.
+The area of an average Parking Space. Used to calculate how much space we need to provide for all parking requirements. 
 
 Green Areas Calculation
 -----------------------

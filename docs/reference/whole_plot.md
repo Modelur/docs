@@ -43,9 +43,11 @@ Using maximum permitted Building Height you can define height restrictions for t
 
 #### Distances ####
 
-**Min. Distance to Height Ratio**
+**Percentage of Building Height:**
 
-Minimum distance to height ratio is used to calculate minimum distance between two Buildings based on their heights. To calculate distance, the Building's height is divided by the parameter value. Example: if parameter is set to 2, the minimum distance will be 1/2 of Building's height, if set to 3, it will be 1/3 of Building's height. If the Buildings are placed closer than the calculated distance, they will be marked red (assuming that [Too low distance between Buildings](survey/#warnings) is active).
+Percentage of Building Height is used to calculate minimum distance between two Buildings based on their heights. Example: if this parameter is set to 50% and Building is 20 meters high, the minimum distance required will be 10 meters (which is 50% from 20 meters).
+
+_Deprecated: In versions of Modelur prior to 2018.1, this option was named Min. Distance to Height Ratio. To calculate distance, the Building's height is divided by the parameter value. Example: if parameter is set to 2, the minimum distance will be 1/2 of Building's height, if set to 3, it will be 1/3 of Building's height. If the Buildings are placed closer than the calculated distance, they will be marked red (assuming that [Too low distance between Buildings](survey/#warnings) is active)._
 
 **Min. Dist. Between Buildings**
 
