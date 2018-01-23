@@ -38,4 +38,6 @@ Although we strive to make Modelur flawless, there are some problems we can not 
 
  - Manually edited buildings might behave strange or even get corrupted when changing number of storeys. *Proposed solution:* make manual editing only after you will not be changing Building's number of storeys.
 
- - Avoid calling undo right after Modelur model is initialized beacuse it will cause an error.
+ - Avoid calling undo right after Modelur model is initialized because it will cause an error.
+ 
+ - On OS X you can work with only one instance of Modelur model at a time.
