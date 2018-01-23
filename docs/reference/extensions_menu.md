@@ -4,14 +4,66 @@ Extensions Menu is the part of SketchUp from which you can initialize Modelur an
 
 <figcaption>Figure 4.7.01 - Location of Modelur in SketchUp menu Extensions (Plugins in older versions).</figcaption>
 
-**Store Land Uses**
+#### Initialize Modelur ####
+Click on this button when you want to start Modelur and open user interface. In order to start Modelur you must be connected to the internet.
+
+#### Create Building ####
+This button will create simple Building (one Land Use type). If a face or a loop is selected, a building will be created based on its shape. If no face or loop is selected, Modelur will create a new Building based on [default Building parameters](whole_plot#default-building-parameters).
+
+#### Create Complex Building ####
+This button will create Complex (Mixed-use) Building.
+
+Complex Building is a group of Buildings (with different Land Use) combined into one Building. You can edit Complex Building as a whole or each part separately. If you want to edit Complex Building as a whole, select the whole Complex Building by clicking on it. It's parameters will be displayed in the [Building tab](building) where you can edit them.
+
+If you want to edit only specific parts of a Complex Building, enter the Complex Building as you would any SketchUp Group by double clicking on it first, then select part of the Complex Building by clicking on it once. Parameters of that part will be displayed in the [Building tab](building) 
+
+#### Create City Block ####
+
+Create _button_ is used to create City Block, the same way as by clicking on the yellow _Create City Block_ icon in Modelur Toolbar. If no Face or Edge Loop is selected, Modelur will switch to Line Tool and wait until you draw a new Face. Once you draw a Face (closed planar Edge loop), Modelur will convert it to City Block. If you switch to some other SketchUp Tool, Modelur will not create new City Block.
+
+However, if Face(s) or Edge Loop(s) are selected, it will create a new City Block(s) based on selected shape(s). When a City Block is first created, it will contain the default Parameters as specified in the Whole Plot [Plot Parameters](whole_plot/#plot-parameters) and [Default Building Parameters](whole_plot/#default-building-parameters), respectively.
+
+When created, City Blocks are locked by default. You can change this setting in Modelur menu Options → Lock City Blocks Upon Creation.
+
+#### Copy Selected Buildings ####
+
+By clicking on this button, Modelur will create copies of all selected Modelur Buildings.
+
+#### Recalculate Urban Control Values ####
+
+In case you want to double check if Urban Control Values are calculated correctly, you might want to use this button to refresh them from scratch.
+
+#### Restore default values ####
+
+This will reset your current Modelur settings to defalut state (the same as when you first install Modelur).
+
+#### Store Land Uses #### 
 
 Use this command to store all Land Uses of current model into external file (`stored_land_uses.json` file located in [Appdata folder](/getting-started/#modelur-location)). This can be useful when you want to transfer Land Uses from one model to another or when copying Buildings and City Blocks with non-default Land Uses from one model to another.
 
 When copying Buildings or City Blocks with non-default Land Use from one SKP model to another, Modelur will take a look at information stored in the above JSON file. If it finds it, it will add new Land Use to existing Model automatically. If not, it will replace it with the default Land Use (and show you a notice about that).  
 
-**Import Land Uses**
+#### Import Land Uses #### 
 
 Use this command to import all Land Uses stored in an external file. Note that this button will be unavailable if you haven't yet stored Land Uses.
 
-Once triggered, a menu will open asking you if you want to update existing Land Uses values. If you choose Yes, Modelur will update all Land Uses with new values. If you choose No, it will skip existing Land Uses and add only new ones (those that are non-existent in the model, but specified in the external file). 
+Once triggered, a menu will open asking you if you want to update existing Land Uses values. If you choose Yes, Modelur will update all Land Uses with new values. If you choose No, it will skip existing Land Uses and add only new ones (those that are non-existent in the model, but specified in the external file).
+
+#### Update Modelur License ####
+
+Click this button to enter your (new) Modelur license key.
+
+#### Release Floating License ####
+
+This button is enabled only when using floating license of Modelur. By clicking on it, you will release your seat for someone else to take and Modelur will close until you request your seat again.
+
+#### Enable/Disable Proxy Server ####
+
+In case you are trying to use Modelur behind a proxy server, it might sometimes fail to validate its license online. In order to prevent such errors, you need to engage validation through proxy server. To do so, click on this button and select Yes. Once enabled, you need to restart SketchUp.
+
+!!! tip "Check your firewall"
+    Before setting up proxy server, also please make sure to allow Modelur to connect to *.modelur.com in your firewall.
+    
+#### Show License Info ####
+
+This will show you basic details about your license: _License Key_, _License Expiration Date_ and _License Type_ you are using.
