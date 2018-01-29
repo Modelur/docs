@@ -1,4 +1,7 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
@@ -12,9 +15,22 @@
         <meta name="author" content="The Modelur Team">
       
       
-        <link rel="shortcut icon" href="../../modelur.ico">
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.0">
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.3.0">
     
     
       
@@ -22,21 +38,16 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-1df76c4e58.js"></script>
-    
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/application-bfecc7305d.css">
-      
-        <link rel="stylesheet" href="../../assets/stylesheets/application-02c2a4388f.palette.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0e9c8aca.css">
       
     
     
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
       
-        
-        
-        
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:300,400,400i,700|Ubuntu+Mono">
-        <style>body,input{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
@@ -48,10 +59,7 @@
     
   </head>
   
-  
-  
-  
-    <body data-md-color-primary="light-blue" data-md-color-accent="cyan">
+    <body>
   
     <svg class="md-svg">
       <defs>
@@ -67,44 +75,46 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        
-          <a href="../.." title="Modelur User Guide" class="md-icon md-icon--home md-header-nav__button">
-          </a>
-        
+        <a href="../.." title="Modelur User Guide" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
-                <span class="md-header-nav__parent">
-                  4. Reference
-                </span>
-              
+              <span class="md-header-nav__topic">
+                Modelur User Guide
+              </span>
+              <span class="md-header-nav__topic">
+                City Block
+              </span>
             
-            City Block
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
             Type to start searching
           </div>
           <ol class="md-search-result__list"></ol>
@@ -113,6 +123,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -121,6 +132,8 @@
 </header>
     
     <div class="md-container">
+      
+        
       
       
       <main class="md-main">
@@ -132,9 +145,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    
-      <i class="md-icon md-icon--home md-nav__button"></i>
-    
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
     Modelur User Guide
   </label>
   
@@ -375,8 +390,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../tools/" title="Tools" class="md-nav__link">
-      Tools
+    <a href="../toolbar/" title="Toolbar" class="md-nav__link">
+      Toolbar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../extensions_menu/" title="Extensions Menu" class="md-nav__link">
+      Extensions Menu
     </a>
   </li>
 
@@ -531,32 +558,33 @@
 <p>Inside this panel you can define different parameters and requirements that need to be met in selected City Block(s). If they are left unchanged, City Block will take them from the <a href="../whole_plot/#plot-parameters">Whole Plot</a>. This panel will show information for the last City Block selected in 3D Window. If there are no City Blocks selected, it will show the information for the City Block of last Building selected (assuming it is placed on a City Block).</p>
 <h4 id="buttons">Buttons<a class="headerlink" href="#buttons" title="Permanent link">&para;</a></h4>
 <p><strong>Create</strong></p>
-<p>Create button is used to create City Block, the same way as if you click on a yellow Create City Block icon in Modelur Toolbar. If no Face or Edge Loop is selected, Modelur will switch to Line Tool and wait until you draw a new Face. Once you draw a Face (closed planar Edge loop), Modelur will convert it to City Block. If you switch to some other SketchUp Tool, Modelur will not create new City Block.</p>
+<p>Create <em>button</em> is used to create City Block, the same way as by clicking on the yellow <em>Create City Block</em> icon in Modelur Toolbar. If no Face or Edge Loop is selected, Modelur will switch to Line Tool and wait until you draw a new Face. Once you draw a Face (closed planar Edge loop), Modelur will convert it to City Block. If you switch to some other SketchUp Tool, Modelur will not create new City Block.</p>
 <p>However, if Face(s) or Edge Loop(s) are selected, it will create a new City Block(s) based on selected shape(s). When a City Block is first created, it will contain the default Parameters as specified in the Whole Plot <a href="../whole_plot/#plot-parameters">Plot Parameters</a> and <a href="../whole_plot/#default-building-parameters">Default Building Parameters</a>, respectively.</p>
-<p>When created, City Blocks are locked default. You can change this setting in Modelur menu Options → Lock City Blocks Upon Creation. </p>
+<p>When created, City Blocks are locked by default. You can change this setting in Modelur menu Options → Lock City Blocks Upon Creation.</p>
 <p><strong>Sync</strong></p>
-<p>If you want to quickly transfer Parameters from one City Block to another, use the <a href="../tools/#sync-city-block-parameters">Sync City Block Parameters</a> tool.</p>
-<p><strong>Restore</strong></p>
-<p>Restore button is used to reset all selected City Block(s) parameters to their default values (as specified by the <a href="../whole_plot">Whole Plot</a>).</p>
+<p>Sync <em>button</em> is used to open the <a href="../tools/#sync-city-block-parameters">Sync City Block Parameters</a> tool. With it you can easily transfer Parameter values from one City Block to another.</p>
+<p><strong>Select All</strong></p>
+<p>Select All <em>button</em> is used to select all City Blocks in your project at the same time. Any changes to City Block parameters will then apply to all City Blocks.</p>
 <h4 id="name-and-land-use">Name and Land Use<a class="headerlink" href="#name-and-land-use" title="Permanent link">&para;</a></h4>
 <p><strong>City Block Name</strong></p>
-<p>Using City Block Name parameter you can change City Block's name, which is used to easily track different City Blocks. Alternatively you can also rename the City Block in the SketchUp's Outliner or in the Entity Info panel   the same way as you would rename any other SketchUp Group when selected. </p>
+<p>Using City Block Name parameter you can change City Block's name, which is used to easily track different City Blocks. Alternatively you can also rename the City Block in the SketchUp's Outliner or in the Entity Info panel   the same way as you would rename any other SketchUp Group when selected.</p>
 <p><strong>Default Land Use</strong></p>
 <p>Using Default Land Use <em>dropdown menu</em> you can set the Land Use that will be applied by default to each Building(s) in the City Block. Land Uses are used to calculate Building's units (eg. apartments, residents, offices, etc), parking requirements, green area requirements, etc. To learn more about these settings, please visit <a href="../land_use">Land Use section</a> of this page.</p>
 <h4 id="city-block-limits">City Block Limits<a class="headerlink" href="#city-block-limits" title="Permanent link">&para;</a></h4>
 <p>Under City Block Limits you can set the default constraints set by zoning ordinance for specific City Block so that Modelur can warn you if they are exceeded. But it will not prevent you from exceeding them.</p>
-<p>In case when your development model exceeds set constraints, they will <span style="color:red">become red</span>, to warn you about it (Figure 4.42). Once the model is fixed to meet constraints again (or when zoning ordinance constraints for selected City Blocks themselves are updated), exceeded parameters will turn back to black.</p>
+<p>In case your development model exceeds set constraints, they will <span style="color:red">become red</span>, to warn you about it (Figure 4.42). Once the model is fixed to meet constraints again (or when zoning ordinance constraints for selected City Blocks themselves are updated), exceeded parameters will turn back to black.</p>
 <p><img alt="Exceeded City Block Limits" src="../../img/modelur_exceeded_city_block_limits.png" />
 <figcaption>Figure 4.42 - When text color in Modelur user interface turns red, the Parameters in question are exceeded.</figcaption></p>
-<p><strong>Maximum Permitted FAR</strong> </p>
+<p><strong>Maximum Permitted FAR</strong></p>
 <p>Using maximum permitted Floor Area Ratio you can define allowable FAR for the selected City Block. In case FAR value of the City Block is exceeded, this line will become red, to warn you about it. If you don't want Modelur to validate achieved FAR for the selected City Block, simply erase this value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
-<p><strong>Max. Permitted Site Coverage</strong> </p>
+<p><strong>Max. Permitted Site Coverage</strong></p>
 <p>Using maximum permitted Site Coverage you can define allowable Site Coverage for the selected City Block. In case Site Coverage value for the selected City Block is exceeded, this line will become red, to warn you about it. If you don't want Modelur to validate achieved Site Coverage for the selected City Block, simply erase this value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
-<p><strong>Max. Permitted Building Height</strong> </p>
-<p>Using maximum permitted Building Height you can define height restrictions for the selected City Block. In case when some Building placed on the selected City block is higher than specified inhere, this line will become red, to warn you about it. If you don't want Modelur to validate Buildings Heights for the selected City Block, simply erase this and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
+<p><strong>Max. Permitted Building Height</strong></p>
+<p>Using maximum permitted Building Height you can define height restrictions for the selected City Block. In case some Building placed on the selected City block is higher than specified inhere, this line will become red, to warn you about it. If you don't want Modelur to validate Buildings Heights for the selected City Block, simply erase this and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
 <h4 id="distances">Distances<a class="headerlink" href="#distances" title="Permanent link">&para;</a></h4>
-<p><strong>Min. Distance to Height Ratio</strong></p>
-<p>Minimum distance to height ratio is used to calculate minimum distance between two Buildings based on their heights within the selected City Block. To calculate distance, the Building's height is divided by the parameter value. Example: if parameter is set to 2, the minimum distance will be &frac12; of Building's height, if set to 3, it will be &#8531; of Building's height. If the Buildings are placed closer than the calculated distance, they will be marked red (assuming that <a href="../survey/#warnings">Too low distance between Buildings</a> is active).</p>
+<p><strong>Percentage of Building Height:</strong></p>
+<p>Percentage of Building Height is used to calculate minimum distance between two Buildings based on their heights. Example: if this parameter is set to 50% and Building is 20 meters high, the minimum distance required will be 10 meters (which is 50% from 20 meters).</p>
+<p><em>Deprecated: In versions of Modelur prior to 2018.1, this option was named Min. Distance to Height Ratio. To calculate distance, the Building's height is divided by the parameter value. Example: if parameter is set to 2, the minimum distance will be &frac12; of Building's height, if set to 3, it will be &#8531; of Building's height. If the Buildings are placed closer than the calculated distance, they will be marked red (assuming that <a href="../survey/#warnings">Too low distance between Buildings</a> is active).</em></p>
 <p><strong>Min. Dist. Between Buildings</strong></p>
 <p>Minimum distance between Buildings is the absolute distance (in meters or feet) between any two Buildings within the selected City Block. If the Buildings are placed closer than this specified distance, they will be marked red (assuming that <a href="../survey/#warnings">Too low distance between Buildings</a> is active).</p>
 <p>Note that distances will be verified also between the Buildings that are not within the same City Blocks, but each according to it's parent City Block settings.</p>
@@ -564,7 +592,7 @@
 <p>Default Building Parameters inside the City Block tab are used to overload default parameters as set by the Whole Plot according to <a href="../../quickstart/#step-3-changing-the-parameters">Modelur's hierarchy</a>. This means that if the parameter in question is not <a href="../building/#selected-building-parameters">defined by the Building itself</a>, Modelur will apply the values defined here to the Building. For example, when you create a new Building, it will contain Number of Storeys, Land Use, etc. as specified here or in the Whole Plot.</p>
 <div class="admonition tip">
 <p class="admonition-title">Interactive Zoning</p>
-<p>If you move a Building from one City Block to another, it will update all of its default Parameters to match those in new City Block. This way the Building adjusts itself automatically to the zoning rules of specific City Blocks. </p>
+<p>If you move a Building from one City Block to another, it will update all of its default Parameters to match those in new City Block. This way the Building adjusts itself automatically to the zoning rules of specific City Blocks.</p>
 </div>
 <h4 id="building-height">Building Height<a class="headerlink" href="#building-height" title="Permanent link">&para;</a></h4>
 <p><strong>Building Height</strong></p>
@@ -573,7 +601,7 @@
 <p>Number of storeys sets the default number of Building's storeys inside selected City Block. When you change this parameter, Building Height (described above) will be adapted automatically to reflect calculated height based on Number of Storeys and First and Other storeys Height (described below).</p>
 <h4 id="building-areas">Building Areas<a class="headerlink" href="#building-areas" title="Permanent link">&para;</a></h4>
 <p><strong>Built-up Area</strong></p>
-<p>Built-up area sets the default floor area size of the Building inside selected City Block. Please note that this value will be automatically overloaded when creating the Building (to keep drawn floor area size) unless you check the Manually drawn floor plan assumes default Built-up Area under Building tab → <a href="../building/#editing-modes-of-building">Editing Modes of Building</a>. Built-up Area will automatically be adapted if you change Gross Floor Area (described below) to match the division of Gross Floor Area with Number of Storeys. </p>
+<p>Built-up area sets the default floor area size of the Building inside selected City Block. Please note that this value will be automatically overloaded when creating the Building (to keep drawn floor area size) unless you check the Manually drawn floor plan assumes default Built-up Area under Building tab → <a href="../building/#editing-modes-of-building">Editing Modes of Building</a>. Built-up Area will automatically be adapted if you change Gross Floor Area (described below) to match the division of Gross Floor Area with Number of Storeys.</p>
 <p><strong>Gross Floor Area</strong></p>
 <p>Gross floor area parameter is used to define default gross floor area size of the Building inside the selected City Block. If Building is created from scratch (no horizontal SketchUp Face is selected), this will be used to determine size of the Building (in combination with Number of Storeys).</p>
 <h4 id="storey-heights">Storey Heights<a class="headerlink" href="#storey-heights" title="Permanent link">&para;</a></h4>
@@ -636,13 +664,13 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright (c) 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
+            Copyright (c) 2018 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
           </div>
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
@@ -664,17 +692,16 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application-1d6ee6ee6c.js"></script>
+      <script src="../../assets/javascripts/application.cae2244d.js"></script>
       
-      
-      <script>app.initialize({url:{base:"../.."}})</script>
+      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
       
         <script src="../../javascript/mkdocs.js"></script>
       
     
     
       
-      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-8035020-12","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-8035020-12","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
       
     
   </body>

@@ -1,4 +1,7 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
@@ -12,9 +15,22 @@
         <meta name="author" content="The Modelur Team">
       
       
-        <link rel="shortcut icon" href="../modelur.ico">
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.0">
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.3.0">
     
     
       
@@ -22,21 +38,16 @@
       
     
     
-      <script src="../assets/javascripts/modernizr-1df76c4e58.js"></script>
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/application-bfecc7305d.css">
-      
-        <link rel="stylesheet" href="../assets/stylesheets/application-02c2a4388f.palette.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.0e9c8aca.css">
       
     
     
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
       
-        
-        
-        
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:300,400,400i,700|Ubuntu+Mono">
-        <style>body,input{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
@@ -48,10 +59,7 @@
     
   </head>
   
-  
-  
-  
-    <body data-md-color-primary="light-blue" data-md-color-accent="cyan">
+    <body>
   
     <svg class="md-svg">
       <defs>
@@ -67,40 +75,46 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        
-          <a href=".." title="Modelur User Guide" class="md-icon md-icon--home md-header-nav__button">
-          </a>
-        
+        <a href=".." title="Modelur User Guide" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
+              <span class="md-header-nav__topic">
+                Modelur User Guide
+              </span>
+              <span class="md-header-nav__topic">
+                6. Appendix
+              </span>
             
-            6. Appendix
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
             Type to start searching
           </div>
           <ol class="md-search-result__list"></ol>
@@ -109,6 +123,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -117,6 +132,8 @@
 </header>
     
     <div class="md-container">
+      
+        
       
       
       <main class="md-main">
@@ -128,9 +145,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    
-      <i class="md-icon md-icon--home md-nav__button"></i>
-    
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
     Modelur User Guide
   </label>
   
@@ -269,8 +288,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../reference/tools/" title="Tools" class="md-nav__link">
-      Tools
+    <a href="../reference/toolbar/" title="Toolbar" class="md-nav__link">
+      Toolbar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reference/extensions_menu/" title="Extensions Menu" class="md-nav__link">
+      Extensions Menu
     </a>
   </li>
 
@@ -379,37 +410,63 @@
                   <h1>6. Appendix</h1>
                 
                 <h2 id="release-notes">Release notes<a class="headerlink" href="#release-notes" title="Permanent link">&para;</a></h2>
+<p><strong>2018.1 Release Candidate 1 (Beta)</strong></p>
+<p>Enhancement: Added option to save and import Land Use specifications.
+Enhancement: Added option to calculate primary units (apartments, offices, etc.) based on Net Floor Area.
+Enhancement: Min. Height to Distance Ratio changed to Percentage of Building Height.
+Enhancement: Show sum of selected Buildings in HeadsUp Display.
+Enhancement: General Modelur performance on OSX.
+Bugfix: Updating City Blocks values when selected via UI "Select All" button.
+Bugfix: Proximity check works correctly even when multiple Buildings are attached together.
+Bugfix: Modelur loading if layout file is corrupt.
+Bugfix: Notice when updating license fails if SketchUp is not connected to internet.
+Bugfix: GE optimized Buildings put on separate layer completely.
+Bugfix: Resetting City Block land use color.
+Bugfix: updating of City Block defined Whole Plot area when all City Blocks are hidden.
+Bugfix: Updating model when City Blocks and Buildings layers are hidden.</p>
+<p><strong>0.6.1 R02 (Beta)</strong></p>
+<p>Enhancement: Improved Floating licensing.
+Bugfix: Improved decimals output in HeadsUp Display and Urban Control Data table.
+Bugfix: Copying of Buildings and City Blocks with non-default Land Use from one model to another.
+Bugfix: Export of Urban Design Control Values when Complex Buildings are not selected for export.
+Bugfix: Opening model with many Land Uses when using Trial license.</p>
+<p><strong>0.6.1 R01 (Beta)</strong></p>
+<p>Enhancement: Improved initialization of Modelur.
+Enhancement: Internal FileUtils library switched to Ruby's Core Lib.
+Enhancement: Added free Modelur Viewer mode.
+Enhancement: Improved handling of City Blocks Layers.
+Bugfix: Automatic license update if it has expired.
+Bugfix: Manual license update if license has already expired.
+Bugfix: Warnings when too high Buildings are hidden or not yet built.</p>
 <p><strong>0.6.0 Technical Preview 2 (Beta)</strong></p>
-<ul>
-<li>Enhancement: Added Danish translation. Thank you Uffe Gross Nielsen!</li>
-<li>Bugfix: Fixed City Block material selection (by Land Use or user defined).</li>
-<li>Bugfix: Loading of Land Use data when it doesn't exist in UI yet.</li>
-<li>Bugfix: Updating of Whole Plot area size when new City Blocks are added and no Buildings are present in the model.</li>
-<li>Bugfix: Saving of JSON files which contain strings with commas.</li>
-<li>Bugfix: Fixed City Block error when assessed investment is not set for selected Land Use.</li>
-</ul>
+<p>Enhancement: Added Danish translation. Thank you Uffe Gross Nielsen!
+Bugfix: Fixed City Block material selection (by Land Use or user defined).
+Bugfix: Loading of Land Use data when it doesn't exist in UI yet.
+Bugfix: Updating of Whole Plot area size when new City Blocks are added and no Buildings are present in the model.
+Bugfix: Saving of JSON files which contain strings with commas.
+Bugfix: Fixed City Block error when assessed investment is not set for selected Land Use.</p>
 <p><strong>0.6.0 Technical Preview 1 (Beta)</strong></p>
 <ul>
 <li>Major Enhancement: Added City Blocks, which allow you to define default Zoning Parameters and calculate Urban Control Values on City Block level. Learn more at https://modelur.github.io/docs/reference/city_block/</li>
-<li>Deprecated: Parametric Maps have been removed, use City Blocks instead. In case you have some models with Parametric Maps, you can still turn them on by executing the following code in SketchUp's Ruby Console: "Modelur::disable_parametric_maps". Once executed, you will be asked to restart SketchUp.</li>
-<li>Enhancement: Added Modelur Context Menu.</li>
-<li>Enhancement: Heads-up Display of urban control values now shows name of selected Entity (Building and City Block).</li>
-<li>Enhancement: Descriptions of Modelur commands in SketchUp UI.</li>
-<li>Enhancement: Overloading of Parameters when multiple objects are selected.</li>
-<li>Enhancement: Hidden Buildings are not shown in Urban Control Data table and not exported to CSV.</li>
-<li>Enhancement: Improved editing of Complex Buildings and their Building parts when selected via Urban Control Data Table.</li>
-<li>Bugfix: Proper conversion of ComplexBuildings heights to number of storeys when base part has non-default first storey height.</li>
-<li>Bugfix: Exit VCB copying of Buildings when Modelur Parameter is changed.</li>
-<li>Bugfix: Building names can now start with number.</li>
-<li>Bugfix: Changing of dimension units when default Land Uses were erased.</li>
-<li>Bugfix: Updating of Complex Building values when Land Use requirements change.</li>
-<li>Bugfix: Marking of Terraces and Loggias when editing the Building manually.</li>
-<li>Bugfix: Creating Complex Building from scratch when default number of storeys is different than defined by default Complex Building itself</li>
+<li>Deprecated: Parametric Maps have been removed, use City Blocks instead. In case you have some models with Parametric Maps, you can still turn them on by executing the following code in SketchUp's Ruby Console: "Modelur::disable_parametric_maps". Once executed, you will be asked to restart SketchUp.
+Enhancement: Added Modelur Context Menu.
+Enhancement: Heads-up Display of urban control values now shows name of selected Entity (Building and City Block).
+Enhancement: Descriptions of Modelur commands in SketchUp UI.
+Enhancement: Overloading of Parameters when multiple objects are selected.
+Enhancement: Hidden Buildings are not shown in Urban Control Data table and not exported to CSV.
+Enhancement: Improved editing of Complex Buildings and their Building parts when selected via Urban Control Data Table.
+Bugfix: Proper conversion of ComplexBuildings heights to number of storeys when base part has non-default first storey height.
+Bugfix: Exit VCB copying of Buildings when Modelur Parameter is changed.
+Bugfix: Building names can now start with number.
+Bugfix: Changing of dimension units when default Land Uses were erased.
+Bugfix: Updating of Complex Building values when Land Use requirements change.
+Bugfix: Marking of Terraces and Loggias when editing the Building manually.
+Bugfix: Creating Complex Building from scratch when default number of storeys is different than defined by default Complex Building itself</li>
 </ul>
-<p>0.5.9 R5 (Beta)
-- Bugfix: Opening of Modelur UI when license expires.</p>
-<p>0.5.9 R4 (Beta)
-- Enhancement: Added support for validating Modelur behind proxy using NTLM authentication protocol.</p>
+<p><strong>0.5.9 R5 (Beta)</strong></p>
+<p>Bugfix: Opening of Modelur UI when license expires.</p>
+<p><strong>0.5.9 R4 (Beta)</strong></p>
+<p>Enhancement: Added support for validating Modelur behind proxy using NTLM authentication protocol.</p>
 <p><strong>0.5.9 R3 (Beta)</strong></p>
 <ul>
 <li>Enhancement: Newly created Buildings are placed on the Layer of the Face from which they are created.</li>
@@ -849,13 +906,13 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright (c) 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
+            Copyright (c) 2018 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
           </div>
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
@@ -877,17 +934,16 @@
       
     </div>
     
-      <script src="../assets/javascripts/application-1d6ee6ee6c.js"></script>
+      <script src="../assets/javascripts/application.cae2244d.js"></script>
       
-      
-      <script>app.initialize({url:{base:".."}})</script>
+      <script>app.initialize({version:"0.17.2",url:{base:".."}})</script>
       
         <script src="../javascript/mkdocs.js"></script>
       
     
     
       
-      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-8035020-12","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-8035020-12","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
       
     
   </body>

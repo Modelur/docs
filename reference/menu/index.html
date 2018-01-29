@@ -1,4 +1,7 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
@@ -12,9 +15,22 @@
         <meta name="author" content="The Modelur Team">
       
       
-        <link rel="shortcut icon" href="../../modelur.ico">
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.0">
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.3.0">
     
     
       
@@ -22,21 +38,16 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr-1df76c4e58.js"></script>
-    
-    
-      <link rel="stylesheet" href="../../assets/stylesheets/application-bfecc7305d.css">
-      
-        <link rel="stylesheet" href="../../assets/stylesheets/application-02c2a4388f.palette.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0e9c8aca.css">
       
     
     
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
       
-        
-        
-        
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:300,400,400i,700|Ubuntu+Mono">
-        <style>body,input{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
@@ -48,10 +59,7 @@
     
   </head>
   
-  
-  
-  
-    <body data-md-color-primary="light-blue" data-md-color-accent="cyan">
+    <body>
   
     <svg class="md-svg">
       <defs>
@@ -67,44 +75,46 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        
-          <a href="../.." title="Modelur User Guide" class="md-icon md-icon--home md-header-nav__button">
-          </a>
-        
+        <a href="../.." title="Modelur User Guide" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
-                <span class="md-header-nav__parent">
-                  4. Reference
-                </span>
-              
+              <span class="md-header-nav__topic">
+                Modelur User Guide
+              </span>
+              <span class="md-header-nav__topic">
+                Menu
+              </span>
             
-            Menu
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
             Type to start searching
           </div>
           <ol class="md-search-result__list"></ol>
@@ -113,6 +123,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -121,6 +132,8 @@
 </header>
     
     <div class="md-container">
+      
+        
       
       
       <main class="md-main">
@@ -132,9 +145,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    
-      <i class="md-icon md-icon--home md-nav__button"></i>
-    
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
     Modelur User Guide
   </label>
   
@@ -328,8 +343,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../tools/" title="Tools" class="md-nav__link">
-      Tools
+    <a href="../toolbar/" title="Toolbar" class="md-nav__link">
+      Toolbar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../extensions_menu/" title="Extensions Menu" class="md-nav__link">
+      Extensions Menu
     </a>
   </li>
 
@@ -426,38 +453,77 @@
                 
                   <h1>Menu</h1>
                 
-                <p>Menu is the topmost part of Modelur's user interface window (Figure 4.01). It containts four sub-categories: <a href="#file">File</a>, <a href="#tools">Tools</a>, <a href="#options">Options</a> and <a href="#help">Help</a>, which are explained in detail below.</p>
+                <p>Menu is the topmost part of Modelur's user interface window (Figure 4.01). It contains four sub-categories: <a href="#file">File</a>, <a href="#tools">Tools</a>, <a href="#options">Options</a> and <a href="#help">Help</a>, which are explained in detail below.</p>
 <p><img alt="Modelur Menu" src="../../img/modelur_ui_parts_menu_annotated.png" />
 <figcaption>Figure 4.01 - Location of Modelur Menu.</figcaption></p>
 <h2 id="file">File<a class="headerlink" href="#file" title="Permanent link">&para;</a></h2>
+<p>Here you can open existing SKP files or export your data.</p>
 <p><strong>File → Open</strong></p>
 <p>Opens a dialog window that allows you to open existing SKP file.</p>
 <p><strong>File → Export Urban Design Control Values…</strong></p>
 <p>This is used to export urban control values (such as Gross Floor Area, FAR, Required number of parking lots, etc.) of currently opened model into CSV file. Before exporting the data, you have an option to choose which values you want to export (Whole Plot, Land Uses, Buildings, Complex Buildings). By default all options are selected for export (Figure 4.02).</p>
-<p>Additionally, when you choose to export data for Complex Buildings, you have an option to export more details about it. This can be done be either exporting its data 1) by Land Use and 2) for each Simple Building from which it is constructed, or both.</p>
+<p>For Complex Buildings, details about Land Use and/or each Simple Building from which it is constructed can be exported. Just select <em>Export also Land Use data
+of Complex Buildings</em> and/or <em>Export also Buildings that form Complex Buildings</em>.</p>
 <p><img alt="Urban indicators export" src="../../img/export_urban_control_indicators.png" />
 <figcaption>Figure 4.02 - You can select which data you want to export to CSV file.</figcaption></p>
 <p>Exported CSV file can then be opened by any major spreadsheet software (eg. Excel, Google Sheets or LibreOffice Calc, Figure 4.03).</p>
 <p><em>Tip: When importing the data, make sure you have semicolon marked as separator sign in the spreadsheet software you are using.</em></p>
 <p><img alt="Exported urban control values" src="../../img/exported_urban_control_values.png" />
-<figcaption>Figure 4.03 - Example of urban control values exported to raw CSV file (left window) and imported to the spreadsheet software (right window).</figcaption> </p>
+<figcaption>Figure 4.03 - Example of urban control values exported to raw CSV file (left window) and imported to the spreadsheet software (right window).</figcaption></p>
 <h2 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h2>
+<p>Here is a set of tools that help you work faster and more efficiently.</p>
 <p><strong>Open Urban Control Data Table</strong></p>
-<p>This will open a new, interactive Window with the complete urban control data of your model inside SketchUp (Figure 4.04). By clicking on the appropriate checkboxes at the top of this new Window, you can choose which sets of data are displayed (Whole Plot, Land Uses, Buildings, Complex Buildings). All of the values are refreshed in real-time and you can also use this Window to <em>select specific Buildings</em>.</p>
+<p>This will open a new, interactive Window with the complete urban control data of your model inside SketchUp (Figure 4.04). By clicking on the appropriate checkboxes at the top of this new Window, you can choose which sets of data are displayed (Whole Plot, Land Uses, Buildings, Complex Buildings ...). All values are refreshed in real-time and you can also use this Window to <em>select specific Buildings</em>.</p>
 <p><img alt="Urban control data table" src="../../img/interactive_data_table.png" />
 <figcaption>Figure 4.04 - Urban Control Data Window displays all selected sets of data directly inside SketchUp.</figcaption></p>
 <p>By clicking on a (Complex) Building row in this Window, Modelur will select its counterpart inside the 3D Window. And vice versa - when you select the Building in 3D Window, it will get selected in the data table, too. Rows with selected Buildings are <em>marked with a light blue color</em> (Buildings 1000006 and 1000007 in the image above).</p>
-<p>If needed, (Complex) Buildings can also be <em>sorted by their values</em>.</p>
-<p>For Complex Buildings there is an option to see more details about it. This can be done be either showing its data 1) by Land Use and 2) for each Simple Building from which it is constructed, or both. Both options are available on the top of the Window if <em>Complex Building</em> option is selected.</p>
+<p>If needed, (Complex) Buildings can also be <em>sorted by their values</em>. Simply click on the name of the column you want to sort by.</p>
+<p>For Complex Buildings, details about Land Use and/or each Simple Building from which it is constructed can be shown. Just select <em>Complex Buildings Land Uses</em> and/or <em>Complex Buildings Parts</em> on top of the Window. These options are available for selection only if <em>Complex Building</em> option is selected.</p>
 <p><strong>Randomize Building Heights</strong></p>
 <p>Using this functionality you can randomize selected Buildings number of storeys. Once Buildings are selected, click on this button and you will be presented with two options. If you select Absolute Number of Storeys all buildings will be randomized to number of storeys between min and max value. If you choose Relative Number of Storeys, selected Building's storeys will be randomized <em>based on their current Number of Storeys</em> in the range between min and max values specified.</p>
+<p>This option helps create dynamic urban solutions, avoiding too uniform look of the urban area.</p>
 <p><strong>Create Terrain</strong></p>
+<p>Modelur allows you to add texture to your buildings and/or landscapes. Select a surface, click on this tool and select a file with appropriate texture from your computer. Valid texture file formats are: .png, .jpg, .psd, .bmp, .tif and .tga.</p>
 <p><strong>Calculate Sum of Selected Buildings</strong></p>
-<p>Use this when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use.</p>
+<p>Use this tool when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use.</p>
 <p><strong>Optimize Buildings for Google Earth</strong></p>
-<p>Once your urban design proposal is finished, you might want to export it to geolocated KMZ file, which can be opened by many programs, including <a href="https://www.google.com/earth/" target="_blank">Google Earth</a>. Using this feature Modelur will automatically optimize all Modelur Buildings by removing all unnecessary faces. If you want, you can also tell it to export floor Edges, so that the Building's storeys are visible inside Google Earth.  </p>
+<p>Once your urban design proposal is finished, you might want to export it to geolocated KMZ file, which can be opened by many programs, including <a href="https://www.google.com/earth/?target=" title="_blank">Google Earth</a>. Using this feature Modelur will automatically optimize all Modelur Buildings by removing all unnecessary faces. If you want, you can also tell it to export floor Edges, so that the Building's storeys are visible inside Google Earth.  </p>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
+<p>Here you can select interface language, units and default building shape. Other options are described below:</p>
+<p><strong>Buildings From Edges</strong></p>
+<p>Tell Modelur if and how it should create Buildings when edges are selected. There are three options: <em>Don't Create</em>, <em>From One Edge</em> and <em>From Edge Loop</em>.</p>
+<p><em>Don't Create</em> option means you have to select a whole face or a loop in order to create a Building with such Building Area. If the selected edges don't form a closed loop, Modelur will ignore those edges and create a Building in the middle of the coordinate system and with <em>Default Building Area</em> (as defined in <a href="../whole_plot/#default-building-parameters">Default Building Parameters</a>).</p>
+<p><em>From One Edge</em> option means you can select just one edge of a loop and a Building will be created based on that loop. In case you have a loop within a loop and you select an edge of the outer loop, Modelur will create a Building based on the outer loop and ignore the inner loop (since it's edges are not in the selection).</p>
+<p><em>From Edge Loop</em> option means you have to select ALL the edges in a loop. If you have a loop within a loop, you have to select the edges of both loops. Otherwise Modelur will ignore selected edges and create a Building in the middle of the coordinate system and with <em>Default Building Area</em> (as defined in <a href="../whole_plot/#default-building-parameters">Default Building Parameters</a>). But if you select all edges of the inner and outer loop, Modelur will create a Building with a hole (inner loop).</p>
+<p><strong>Lock City Blocks Upon Creation</strong></p>
+<p>Automatically locks City Blocks when they are created. This means a City Block can not be moved around the screen. This way you avoid accidentally moving a
+City Block and spoiling your project.</p>
+<p>If you do need to move a City Block, you can unlock it by right-clicking on the City Block and then selecting <em>Unlock</em>.</p>
+<p><strong>Apply City Blocks LU Material</strong></p>
+<p>Each City Block will be colored according to it's Land use (if the Land use has a specified color). You can specify a color for each Land Use in Land Use tab.</p>
+<p><strong>Synchronize Land Use Panels</strong></p>
+<p>Keep Land Use Panels between Input data and Survey tab in sync. This means the Land Use you select in <em>Land Use</em> tab will also become selected (and displayed) in <em>Urban Control - Land Use</em> section of the <em>Survey</em> tab and the other way around.</p>
+<p><strong>Show Status Bar</strong></p>
+<p>Status Bar is located at the bottom of the User Interface. Status Bar shows short descriptions of Modelur options and functionalities when you hover over them.</p>
+<p><strong>Show Building's Built-up Area</strong></p>
+<p>Show built-up area face at the bottom of each Modelur Building.</p>
+<p><strong>Mark Terraces and Loggias</strong></p>
+<p>Apply green color to all Terraces and pink color to all Loggias. This way you can easily see how many Terraces and how many Loggias there are in your project.</p>
+<p><strong>Change Currency Symbol</strong></p>
+<p>Opens up a dialog box for specifying new currency symbol. This currency symbol is shown in section <em>Investment calculation</em> of the <em>Land use</em> tab where
+you define estimated price per square meter for Buildings with the chosen Land Use assigned. This enables Modelur to calculate estimated cost of the whole Building.</p>
+<p><strong>Save Default Settings</strong></p>
+<p>You can save your preferred settings combination as default by clicking on <em>Save Default Settings</em>. This settings will then be used every time you initialize new Modelur model.</p>
+<p><strong>Restore Default Settings</strong></p>
+<p>Reset Modelur to default settings. When applied please restart SketchUp and Modelur.</p>
+<p>=======
+<strong>Store Land Use changes</strong></p>
+<p>When this option is checked, Modelur will save each Land Use change to temporary Land Use specifications file. Turn this feature on if you want to copy/paste Buildings and City Blocks with non-default Land Uses between different SKP models. The file <code>stored_land_uses.json</code>, is saved into your Modelur <a href="../../getting-started/#modelur-location">Appdata folder</a>.</p>
 <h2 id="help">Help<a class="headerlink" href="#help" title="Permanent link">&para;</a></h2>
+<p>Help section contains links to this User guide, Video tutorials, Modelur website and Modelur forum.</p>
+<p>If you want to report a bug or send us a feature request, click on <em>Submit a Ticket</em>.</p>
+<p>You can easily check for updates by clicking on <em>Check for Update ...</em>.</p>
+<p>Enhancements and bugfixes included in your version of Modelur are displayed by clicking on <em>Changelog</em>.</p>
                 
                   
                 
@@ -513,13 +579,13 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright (c) 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
+            Copyright (c) 2018 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
           </div>
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
@@ -541,17 +607,16 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application-1d6ee6ee6c.js"></script>
+      <script src="../../assets/javascripts/application.cae2244d.js"></script>
       
-      
-      <script>app.initialize({url:{base:"../.."}})</script>
+      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
       
         <script src="../../javascript/mkdocs.js"></script>
       
     
     
       
-      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-8035020-12","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-8035020-12","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
       
     
   </body>

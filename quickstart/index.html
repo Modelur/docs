@@ -1,4 +1,7 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
@@ -12,9 +15,22 @@
         <meta name="author" content="The Modelur Team">
       
       
-        <link rel="shortcut icon" href="../modelur.ico">
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.0">
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.3.0">
     
     
       
@@ -22,21 +38,16 @@
       
     
     
-      <script src="../assets/javascripts/modernizr-1df76c4e58.js"></script>
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/application-bfecc7305d.css">
-      
-        <link rel="stylesheet" href="../assets/stylesheets/application-02c2a4388f.palette.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.0e9c8aca.css">
       
     
     
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
       
-        
-        
-        
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:300,400,400i,700|Ubuntu+Mono">
-        <style>body,input{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
@@ -48,10 +59,7 @@
     
   </head>
   
-  
-  
-  
-    <body data-md-color-primary="light-blue" data-md-color-accent="cyan">
+    <body>
   
     <svg class="md-svg">
       <defs>
@@ -67,40 +75,46 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        
-          <a href=".." title="Modelur User Guide" class="md-icon md-icon--home md-header-nav__button">
-          </a>
-        
+        <a href=".." title="Modelur User Guide" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
+              <span class="md-header-nav__topic">
+                Modelur User Guide
+              </span>
+              <span class="md-header-nav__topic">
+                3. Quick Start
+              </span>
             
-            3. Quick Start
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
   <div class="md-search__inner">
     <form class="md-search__form" name="search">
       <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
       <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
             Type to start searching
           </div>
           <ol class="md-search-result__list"></ol>
@@ -109,6 +123,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -117,6 +132,8 @@
 </header>
     
     <div class="md-container">
+      
+        
       
       
       <main class="md-main">
@@ -128,9 +145,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    
-      <i class="md-icon md-icon--home md-nav__button"></i>
-    
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
     Modelur User Guide
   </label>
   
@@ -396,8 +415,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../reference/tools/" title="Tools" class="md-nav__link">
-      Tools
+    <a href="../reference/toolbar/" title="Toolbar" class="md-nav__link">
+      Toolbar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reference/extensions_menu/" title="Extensions Menu" class="md-nav__link">
+      Extensions Menu
     </a>
   </li>
 
@@ -570,11 +601,11 @@
                 
                 <p>This section will quickly introduce you to the structure of Modelur's User Interface. Getting to know its logic will help you easily integrate it into your regular workflow.</p>
 <h2 id="initialize-modelur">Initialize Modelur<a class="headerlink" href="#initialize-modelur" title="Permanent link">&para;</a></h2>
-<p>Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur you install Modelur (Figure 3.01). </p>
+<p>Once Modelur is installed you have two options to initialize it. First option is to click on the blue icon in Modelur Toolbar. This toolbar shows up once Modelur is installed (Figure 3.01).</p>
 <p><img alt="Modelur_toolbar" src="../img/modelur_toolbar_non_initialized.png" /></p>
 <figcaption>Figure 3.01 - Modelur Toolbar. If toolbar is not visible, you can open it via SketchUp menu View → Toolbars → Modelur. To initialize it, click on the blue Modelur icon. This toolbar can be stacked next to other toolbars in SketchUp.</figcaption>
 
-<p>Second option to initialize Modelur is to navigate to it through SketchUp menu Plugins → Modelur → Initialize Modelur (Figure 3.02).</p>
+<p>Second option to initialize Modelur is to navigate to it through SketchUp menu Extensions → Modelur → Initialize Modelur (Figure 3.02).</p>
 <p><img alt="Modelur_menu entry" src="../img/modelur_plugins_menu.png" /></p>
 <figcaption>Figure 3.02 - Alternative way to initialize Modelur through SketchUp menu Plugins → Modelur → Initialize Modelur. Please note that Plugins menu was called Extensions in previous versions of SketchUp.</figcaption>
 
@@ -590,19 +621,19 @@
 <h4 id="panels">Panels<a class="headerlink" href="#panels" title="Permanent link">&para;</a></h4>
 <p>Panels are the windows inside each tab. They represent a group of related parameters (e.g. Plot Parameters or Land Use Requirements). Detailed description is available in each of the corresponding Reference section.</p>
 <h4 id="status-bar">Status Bar<a class="headerlink" href="#status-bar" title="Permanent link">&para;</a></h4>
-<p>Statusbar is located at the bottom of the UI. It's task is to explain you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu → Options → Show status bar.</p>
+<p>Statusbar is located at the bottom of the UI. It's task is to explain to you the meaning of abbreviated text when you hover over it. You can turn Status bar on or of in Menu → Options → Show status bar.</p>
 <h2 id="quick-start-guide">Quick Start Guide<a class="headerlink" href="#quick-start-guide" title="Permanent link">&para;</a></h2>
 <h4 id="before-you-start">Before you start<a class="headerlink" href="#before-you-start" title="Permanent link">&para;</a></h4>
 <p>Make sure you have <a href="../getting-started/#installation">installed Modelur</a> and quickly check out the <a href="#user-interface-overview">structure of Modelur User Interface</a>, so you get acquainted with basic terminology and UI logic. It should not take you more than two and a half minutes. :-)</p>
 <h4 id="step-1-initialize-modelur-model-and-configure-it">Step 1 - Initialize Modelur model and configure it<a class="headerlink" href="#step-1-initialize-modelur-model-and-configure-it" title="Permanent link">&para;</a></h4>
-<p>Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu <em>Extensions → Modelur → Initialize Modelur</em> (as shown in <a href="#ui-overview">UI Overview</a> section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).</p>
+<p>Let's start from the very beginning. With SketchUp open you can initialize Modelur by clicking on a blue Modelur icon in toolbar or via SketchUp menu <em>Extensions → Modelur → Initialize Modelur</em> (as shown in <a href="../quickstart#initialize_modelur">Initialize Modelur</a> section). Once initialized, go to Options menu to set Modelur UI Language and dimension units (meters or feet) according to your needs (Figure 3.04).</p>
 <p><img alt="Modelur_options_menu" src="../img/modelur_ui_options_annotated.png" /></p>
-<figcaption>Figure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options inside <a href="../user-interface" →User Interface</a> section.</figcaption>
+<figcaption>Figure 3.04 -  Inside Options menu you can set preferred language, dimension units, default shape when Buildings are created, etc. You can find detailed information about all Options in Reference  → Menu  → Options section .</figcaption>
 
 <h4 id="step-2-create-modelur-building">Step 2 - Create Modelur Building<a class="headerlink" href="#step-2-create-modelur-building" title="Permanent link">&para;</a></h4>
-<p>Once Modelur is initialized and set up, you can already create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the <em>Create Building</em> (2) entry in SketchUp menu <em>Extensions → Modelur</em> or by clicking on the Create button (3) inside Building tab of Modelur’s user interface (Figure 3.05).</p>
+<p>Once Modelur is initialized and set up, you can create Modelur Building by either clicking on a yellow Modelur Building icon in the Toolbar (1), by clicking on the <em>Create Building</em> (2) entry in SketchUp menu <em>Extensions → Modelur</em> or by clicking on the Create button (3) inside Building tab of Modelur’s user interface (Figure 3.05).</p>
 <p><img alt="Modelur_options_menu" src="../img/modelur_create_building_annotated.png" /></p>
-<figcaption>Figure 3.05 - Buttons through which you can create Modelur Buildings.</figcaption>
+<figcaption>Figure 3.05 - Different ways to create Modelur Buildings.</figcaption>
 
 <p>Regardless of which way you choose to create Modelur Buildings, there are always two options - you can create a Building based on a predefined floor plan or based on what you draw. We will take a look at these two in the following paragraphs.</p>
 <p><strong>Creating Building based on predefined shape</strong></p>
@@ -618,12 +649,12 @@
 <figcaption>Figure 3.07 - You can create Modelur Building based on any floor plan shape. Just make sure Face or Edge is selected and click on the Create Building button.</figcaption>
 
 <h4 id="step-3-changing-the-parameters">Step 3 - Changing the Parameters<a class="headerlink" href="#step-3-changing-the-parameters" title="Permanent link">&para;</a></h4>
-<p><strong>Parameters work hierarchically in Modelur</strong>. This means is that the object (eg. Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its parent object, which is either a Complex Building (if the Building is part of Complex Building) or City Block. If the Building finds the parameter value in its parent object, it uses it. If not, it looks up further all the way to the Whole Plot, which is a top-most object in Modelur and holds all Parameters needed to define a Building (Figure 3.08).</p>
+<p><strong>Parameters work hierarchically in Modelur</strong>. This means that the object (eg. Building) first looks if its parameter in question (eg. Number of Storeys) is defined. If yes, it uses it. If not, it uses the Parameter from its parent object, which is either a Complex Building (if the Building is part of Complex Building) or City Block. If the Building finds the parameter value in its parent object, it uses it. If not, it looks further up all the way to the Whole Plot, which is a top-most object in Modelur and holds all Parameters needed to define a Building (Figure 3.08).</p>
 <p><img alt="Modelur objects hierarchy" src="../img/objects_hierarchy.png" /></p>
 <figcaption>Figure 3.08 - Example of Land Use and Number of Storeys parameters hierarchy. Modelur engine works the same way for all Parameters, but it's simplified here for the sake of clarity. For the same reason Complex Building objects are left out, but if they were present in the image, they would be placed between Buildings and City Blocks.<br>
-Explanation: BUILDING 1 has no parameter defined, so it looks up from its parent, CITY BLOCK 1. Since CITY BLOCK 1 also has no parameter specified, it looks it up from the WHOLE PLOT, where it finds both parameters, which are in turn applied to the BUILDING 1. On the other hand, BUILDING 2 has specified Parameter fro Number of Storeys (2) so it looks no further. But it's missing Land Use Parameter which can again be found in the WHOLE PLOT.</figcaption>
+Explanation: BUILDING 1 has no parameter defined, so it looks it up from its parent, CITY BLOCK 1. Since CITY BLOCK 1 also has no parameter specified, it looks it up from the WHOLE PLOT, where it finds both parameters, which are in turn applied to the BUILDING 1. On the other hand, BUILDING 2 has specified Parameter for Number of Storeys (2) so it looks no further. But it's missing Land Use Parameter which can again be found in the WHOLE PLOT.</figcaption>
 
-<p>Now that you understand how objects hierarchy works in Modelur, all you need to remember the hierarchy order itself (bottom-up): <em>Building → Complex Building → City Block → Whole Plot</em>.</p>
+<p>Now that you understand how objects hierarchy works in Modelur, all you need to remember is the hierarchy order itself (bottom-up): <em>Building → Complex Building → City Block → Whole Plot</em>.</p>
 <h5 id="overloaded-parameters">Overloaded Parameters<a class="headerlink" href="#overloaded-parameters" title="Permanent link">&para;</a></h5>
 <p>From now on we will call the Parameters that are defined for specific Buildings "overloaded" Parameters. This term applies only to the specific Parameters of specific Buildings. Eg. when we define Parameter for Number of Storeys in Building A, but not in Building B, only the Building A has overloaded parameter for Number of Storeys. We can quickly check which Parameters are overloaded by selecting the Building in question and opening Building tab in Modelur User Interface (Figure 3.09). There - under Selected Building Parameters panel - all overloaded Parameters are checked and ready to be changed. This is also the place to initialize overloaded Parameters. If we want to change, eg. Land Use of the Building, go ahead - check it and change its value.</p>
 <p><img alt="Modelur_options_menu" src="../img/overloaded_parameters.png" /></p>
@@ -685,13 +716,13 @@ Explanation: BUILDING 1 has no parameter defined, so it looks up from its parent
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright (c) 2017 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
+            Copyright (c) 2018 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
           </div>
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
@@ -713,17 +744,16 @@ Explanation: BUILDING 1 has no parameter defined, so it looks up from its parent
       
     </div>
     
-      <script src="../assets/javascripts/application-1d6ee6ee6c.js"></script>
+      <script src="../assets/javascripts/application.cae2244d.js"></script>
       
-      
-      <script>app.initialize({url:{base:".."}})</script>
+      <script>app.initialize({version:"0.17.2",url:{base:".."}})</script>
       
         <script src="../javascript/mkdocs.js"></script>
       
     
     
       
-      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-8035020-12","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-8035020-12","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
       
     
   </body>
