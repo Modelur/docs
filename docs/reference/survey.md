@@ -22,7 +22,7 @@ _Basic_ option displays _Building name_, _Gross Floor Area_, _Built-up Area_, _B
 
 _Full_ option displays all data included in the _Basic_ option as well as _Required Green Area_, _Required Parking Spaces_, _Required Parking Area_, _Building Volume_, _Net Floor Area_, _Assessed Investment_ and _Number of Primary and Secondary units_. [Primary and Secondary units](land_use#units) are defined in _Land Use tab_ for each Land Use type.
 
-When _Sum of selected_ is chosen, Modelur will constantly sum up and display the total of all selected Buildings. It will show combined _Gross Floor Area_, _Built-up Area_, _Mean Number of Storeys_, _Required Green Area_, _Required Parking Spaces_, _Required Parking Area_, _Assessed Investment_ and _Sum of Gross Floor Areas of each Land Use_.
+When _Sum of selected_ is chosen, Modelur will constantly sum up and display the total of all selected Buildings. It will show combined _Gross Floor Area_, _Built-up Area_, _Mean Number of Storeys_, _Required Green Area_, _Required Parking Spaces_, _Required Parking Area_, _Assessed Investment_ and _Sum of Gross Floor Areas of each Land Use_ including the ratio of Land Uses.
 
 !!! tip "HeadsUp Display text"
     Sometimes the text that shows urban control values on screen is garbled. If this is the case, you can try selecting it (it's an actual SketchUp object) and change its size (and font) in SketchUp's Entity Info panel. 

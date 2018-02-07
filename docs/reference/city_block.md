@@ -77,6 +77,9 @@ Note that distances will be verified also between the Buildings that are not wit
 Selected City Block - Building Parameters
 -----------------------------------------
 
+!!! hint "Select all Buildings of City Block"
+    When you want to select all Buildings that are inside selected City Block(s), use the Context menu (right mouse click) → Modelur → Select City Blocks Buildings.       
+
 Default Building Parameters inside the City Block tab are used to overload default parameters as set by the Whole Plot according to [Modelur's hierarchy](/quickstart/#step-3-changing-the-parameters). This means that if the parameter in question is not [defined by the Building itself](building/#selected-building-parameters), Modelur will apply the values defined here to the Building. For example, when you create a new Building, it will contain Number of Storeys, Land Use, etc. as specified here or in the Whole Plot.
 
 !!! tip "Interactive Zoning"
