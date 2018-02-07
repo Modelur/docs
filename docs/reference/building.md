@@ -18,6 +18,9 @@ Inside the Selected Building Panel you can modify the Parameters of selected Bui
 
 Create button is used to create simple Building, the same way as by clicking on the yellow _Create Building_ icon in Modelur Toolbar. If no Face or Edge Loop is selected, Modelur will create a new Building based on default Building parameters. However, if Face(s) or Edge Loop(s) are selected, it will create new Building based on selected shape. This way you can create Building of arbitrary floor plan.
 
+!!! hint "Floor plans with hidden Edges or softened coplanar Faces"
+    In case when you import Buildings footprints, they might get triangulated. If this is the case, make sure you hide internal edges or use SketchUp's built-in functionality to hide Edges on coplanar Faces (Window → Default → Tray → Soften Edges → Soften Coplanar) and Modelur will clean it up automatically and create one Building from many faces.   
+
 **Copy**
 
 When some Buildings are selected, you can use Copy button to create their copies. Alternatively you can also use SketchUp's built-in copy methods (eg. by moving the Building around and pressing on the ++ctrl++ key).
