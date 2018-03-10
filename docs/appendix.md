@@ -1,6 +1,38 @@
 Release notes
 -------------
 
+**2018.1 Release Candidate 3 (Beta)**
+
+Enhancement: Using construction lines inside Modelur Buildings is now possible.
+Enhancement: Added Context menu operation that selects all Buildings that are part of selected City Blocks.
+Enhancement: Added Land Use percentage in Sum of selected buildings Heads-up display.
+Enhancement: City Blocks and Whole Plot now calculate also GFA per Land Use.
+Enhancement: Improved refreshing of HeadsUp Display.
+Enhancement: Urban Control Data Table now includes percentages of Land Use GFAs if selected for Complex Buildings.
+Enhancement: Added Net Floor Area for Buildings and Complex Buildings in CSV export and in Urban Control Data Table.
+Enhancement: Added Land Uses Assessed Investment in CSV export and in Urban Control Data Table.
+Enhancement: Loading of Modelur when settings can not be properly updated.
+Enhancement: Improved Randomize Building Heights dialog.
+Bugfix: Preparation of Mean Num. of Storeys for Urban Control Values Data table.
+Bugfix: Updating of Urban Control Values when Land Use sum setting is changed.
+Bugfix: Copying of Building Parts when inside Complex Building.
+Bugfix: Building update when scaled in negative vertical direction using SketchUp's Scale Tool.
+Bugfix: Visual fixes of some dialog elements.
+Bugfix: Verification of zoning constraints when randomize Building heights is used.
+Bugfix: Background of land use color selection field now properly follows selected color value.
+
+**2018.1 Release Candidate 2 (Beta)**
+
+Enhancement: Improved Modelur initialization.
+Enhancement: Creating Buildings and City Blocks from faces that have hidden or soft edges.
+Enhancement: More robust upgrading from old Modelur versions.
+Bugfix: Calculation of Land Use dependent parameters (eg. number of required Parking Spaces) in Complex Building when its Gross Floor Area changes.
+Bugfix: Ruby error when selecting Land Use in Complex Building Urban Control Data Table.
+Bugfix: Fixed SketchUp Entities regression introduced in 2018.1 RC1.
+Bugfix: Updating of Urban Control Values when SketchUp Scene is changed.
+Bugfix: Urban Control Data Table sorting for Buildings and Complex Buildings.
+Bugfix: Creating Buildings and City Blocks from non-horizontal faces with inner holes (eg. atriums).
+
 **2018.1 Release Candidate 1 (Beta)**
 
 Enhancement: Added option to save and import Land Use specifications.
@@ -48,7 +80,7 @@ Bugfix: Fixed City Block error when assessed investment is not set for selected 
 **0.6.0 Technical Preview 1 (Beta)**
 
 - Major Enhancement: Added City Blocks, which allow you to define default Zoning Parameters and calculate Urban Control Values on City Block level. Learn more at https://modelur.github.io/docs/reference/city_block/
-- Deprecated: Parametric Maps have been removed, use City Blocks instead. In case you have some models with Parametric Maps, you can still turn them on by executing the following code in SketchUp's Ruby Console: "Modelur::disable_parametric_maps". Once executed, you will be asked to restart SketchUp.
+- Deprecated: Parametric Maps have been removed, use City Blocks instead. In case you have some models with Parametric Maps, you can still turn them on by executing the following code in SketchUp's Ruby Console: "Modelur::enable_parametric_maps". Once executed, you will be asked to restart SketchUp. To disable Parametric Maps, execute "Modelur::disable_parametric_maps" in Ruby Console.
 Enhancement: Added Modelur Context Menu.
 Enhancement: Heads-up Display of urban control values now shows name of selected Entity (Building and City Block).
 Enhancement: Descriptions of Modelur commands in SketchUp UI.
