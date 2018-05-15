@@ -4,7 +4,7 @@ Release notes
 **2018.1 Release Candidate 4 (Beta)**
 
  - Enhancement: Improved loading time of large models.
- - Enhancement: Keep City Blocks and Buildings sorted when exporting values CSV.
+ - Enhancement: Keep City Blocks and Buildings sorted when exporting values to CSV.
  - Enhancement: Overall improvement of CSV export and Urban Control Data Table.
  - Enhancement: Optimized hiding and showing of Buildings and City Blocks.
  - Enhancement: Optimized moving of Buildings and City Blocks to hidden Layers.

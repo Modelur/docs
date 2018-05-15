@@ -19,12 +19,12 @@ This is used to export urban control values (such as Gross Floor Area, FAR, Requ
 For Complex Buildings, details about Land Use and/or each Simple Building from which it is constructed can be exported. Just select _Export also Land Use data
 of Complex Buildings_ and/or _Export also Buildings that form Complex Buildings_.
 
-!!! note
-
-
 ![Urban indicators export](../img/export_urban_control_indicators.png)
 <figcaption>Figure 4.02 - You can select which data you want to export to CSV file.</figcaption>
 
+!!! hint "Sort Buildings by parameter value in CSV export"
+    In case you have sorted the Buildings by some value in [Urban Control Data Table](#Tools), the order will be preserved when exporting the values to CSV file.
+    
 Exported CSV file can then be opened by any major spreadsheet software (eg. Excel, Google Sheets or LibreOffice Calc, Figure 4.03).
 
 _Tip: When importing the data, make sure you have semicolon marked as separator sign in the spreadsheet software you are using._
