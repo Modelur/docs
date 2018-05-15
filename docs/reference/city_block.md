@@ -22,7 +22,7 @@ When created, City Blocks are locked by default. You can change this setting in 
 
 **Sync**
 
-Sync _button_ is used to open the [Sync City Block Parameters](tools/#sync-city-block-parameters) tool. With it you can easily transfer Parameter values from one City Block to another.
+Sync _button_ is used to open the [Sync City Block Parameters](toolbar/#sync-city-block-parameters) tool. With it you can easily transfer Parameter values from one City Block to another.
 
 **Select All**
 

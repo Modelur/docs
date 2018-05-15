@@ -19,6 +19,9 @@ This is used to export urban control values (such as Gross Floor Area, FAR, Requ
 For Complex Buildings, details about Land Use and/or each Simple Building from which it is constructed can be exported. Just select _Export also Land Use data
 of Complex Buildings_ and/or _Export also Buildings that form Complex Buildings_.
 
+!!! note
+
+
 ![Urban indicators export](../img/export_urban_control_indicators.png)
 <figcaption>Figure 4.02 - You can select which data you want to export to CSV file.</figcaption>
 
@@ -120,7 +123,6 @@ You can save your preferred settings combination as default by clicking on _Save
 
 Reset Modelur to default settings. When applied please restart SketchUp and Modelur.
 
-=======
 **Store Land Use changes**
 
 When this option is checked, Modelur will save each Land Use change to temporary Land Use specifications file. Turn this feature on if you want to copy/paste Buildings and City Blocks with non-default Land Uses between different SKP models. The file `stored_land_uses.json`, is saved into your Modelur [Appdata folder](/getting-started/#modelur-location).

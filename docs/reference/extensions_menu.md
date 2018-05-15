@@ -37,13 +37,13 @@ In case you want to double check if Urban Control Values are calculated correctl
 
 This will reset your current Modelur settings to defalut state (the same as when you first install Modelur).
 
-#### Store Land Uses #### 
+#### Store Land Uses ####
 
 Use this command to store all Land Uses of current model into external file (`stored_land_uses.json` file located in [Appdata folder](/getting-started/#modelur-location)). This can be useful when you want to transfer Land Uses from one model to another or when copying Buildings and City Blocks with non-default Land Uses from one model to another.
 
 When copying Buildings or City Blocks with non-default Land Use from one SKP model to another, Modelur will take a look at information stored in the above JSON file. If it finds it, it will add new Land Use to existing Model automatically. If not, it will replace it with the default Land Use (and show you a notice about that).  
 
-#### Import Land Uses #### 
+#### Import Land Uses ####
 
 Use this command to import all Land Uses stored in an external file. Note that this button will be unavailable if you haven't yet stored Land Uses.
 
