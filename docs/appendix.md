@@ -1,107 +1,137 @@
 Release notes
 -------------
 
+**2018.1 Release Candidate 4 (Beta)**
+
+ - Enhancement: Improved loading time of large models.
+ - Enhancement: Keep City Blocks and Buildings sorted when exporting values CSV.
+ - Enhancement: Overall improvement of CSV export and Urban Control Data Table.
+ - Enhancement: Optimized hiding and showing of Buildings and City Blocks.
+ - Enhancement: Optimized moving of Buildings and City Blocks to hidden Layers.
+ - Enhancement: Added permitted City Blocks values when exporting data to CSV file.
+ - Enhancement: Automatic updating of Modelur license when Proxy Server mode is used.
+ - Enhancement: Let users with annual license know that the license is about to expire when there are 21 days left (or less).
+ - Enhancement: Modelur User Interface tabs and menus improved.
+ - Enhancement: Modelur User Interface Land Use colors improved.
+ - Enhancement: HeadsUp Display number rounding and smaller fixes.
+ - Enhancement: Offer user a preference to not show warning when switching to unofficial language.
+ - Enhancement: 'Selected City Block Parameters' and 'Selected Building parameters' now offer single click selection of multiple checkboxes at once by holding the SHIFT key and clicking on one of the checkboxes.
+ - Enhancement: Smooth edges when changing Building's number of storeys.
+ - Enhancement: Prevent vertical overlapping of Buildings when Complex Building is exploded.
+ - Enhancement: Proper position and alignment when default Building is created if model's origin is moved/rotated.
+ - Bugfix: Opening of Urban Control Data Table after City Blocks have been sorted.
+ - Bugfix: Oversized Bounding Box in rotated Complex Buildings when its parts are modified.
+ - Bugfix: Updating Buildings to City Blocks parameters if they are part of the Layer that changed from hidden to visible.
+ - Bugfix: Dimension units in Urban Control Data Table when opened SKP model uses different dimension units than set by user's preferences.
+ - Bugfix: HeadsUp Display GFA sum of Land Uses in Whole Plot and City Blocks when dimension units are changed.
+ - Bugfix: When creating Complex Building with Ground Floor below zero level (coordinate z<0), the Building is moved up.
+ - Bugfix: Hidden Complex Buildings when saved SKP model is opened.
+ - Bugfix: Updating of Building Height input Parameter when moved to another City Block (if it has non-default Storey Heights).
+ - Bugfix: Changing of Whole Plot or City Block default Building number of storeys when Buildings with default Number of Storeys are hidden.
+ - Bugfix: Prevented entering into Simple Building's built-up area Group which bugsplat SketchUp.
+ - Bugfix: SHIFT + mouse scrolling properly changes values on all fields.
+
 **2018.1 Release Candidate 3 (Beta)**
 
-Enhancement: Using construction lines inside Modelur Buildings is now possible.
-Enhancement: Added Context menu operation that selects all Buildings that are part of selected City Blocks.
-Enhancement: Added Land Use percentage in Sum of selected buildings Heads-up display.
-Enhancement: City Blocks and Whole Plot now calculate also GFA per Land Use.
-Enhancement: Improved refreshing of HeadsUp Display.
-Enhancement: Urban Control Data Table now includes percentages of Land Use GFAs if selected for Complex Buildings.
-Enhancement: Added Net Floor Area for Buildings and Complex Buildings in CSV export and in Urban Control Data Table.
-Enhancement: Added Land Uses Assessed Investment in CSV export and in Urban Control Data Table.
-Enhancement: Loading of Modelur when settings can not be properly updated.
-Enhancement: Improved Randomize Building Heights dialog.
-Bugfix: Preparation of Mean Num. of Storeys for Urban Control Values Data table.
-Bugfix: Updating of Urban Control Values when Land Use sum setting is changed.
-Bugfix: Copying of Building Parts when inside Complex Building.
-Bugfix: Building update when scaled in negative vertical direction using SketchUp's Scale Tool.
-Bugfix: Visual fixes of some dialog elements.
-Bugfix: Verification of zoning constraints when randomize Building heights is used.
-Bugfix: Background of land use color selection field now properly follows selected color value.
+ - Enhancement: Using construction lines inside Modelur Buildings is now possible.
+ - Enhancement: Added Context menu operation that selects all Buildings that are part of selected City Blocks.
+ - Enhancement: Added Land Use percentage in Sum of selected buildings Heads-up display.
+ - Enhancement: City Blocks and Whole Plot now calculate also GFA per Land Use.
+ - Enhancement: Improved refreshing of HeadsUp Display.
+ - Enhancement: Urban Control Data Table now includes percentages of Land Use GFAs if selected for Complex Buildings.
+ - Enhancement: Added Net Floor Area for Buildings and Complex Buildings in CSV export and in Urban Control Data Table.
+ - Enhancement: Added Land Uses Assessed Investment in CSV export and in Urban Control Data Table.
+ - Enhancement: Loading of Modelur when settings can not be properly updated.
+ - Enhancement: Improved Randomize Building Heights dialog.
+ - Bugfix: Preparation of Mean Num. of Storeys for Urban Control Values Data table.
+ - Bugfix: Updating of Urban Control Values when Land Use sum setting is changed.
+ - Bugfix: Copying of Building Parts when inside Complex Building.
+ - Bugfix: Building update when scaled in negative vertical direction using SketchUp's Scale Tool.
+ - Bugfix: Visual fixes of some dialog elements.
+ - Bugfix: Verification of zoning constraints when randomize Building heights is used.
+ - Bugfix: Background of land use color selection field now properly follows selected color value.
 
 **2018.1 Release Candidate 2 (Beta)**
 
-Enhancement: Improved Modelur initialization.
-Enhancement: Creating Buildings and City Blocks from faces that have hidden or soft edges.
-Enhancement: More robust upgrading from old Modelur versions.
-Bugfix: Calculation of Land Use dependent parameters (eg. number of required Parking Spaces) in Complex Building when its Gross Floor Area changes.
-Bugfix: Ruby error when selecting Land Use in Complex Building Urban Control Data Table.
-Bugfix: Fixed SketchUp Entities regression introduced in 2018.1 RC1.
-Bugfix: Updating of Urban Control Values when SketchUp Scene is changed.
-Bugfix: Urban Control Data Table sorting for Buildings and Complex Buildings.
-Bugfix: Creating Buildings and City Blocks from non-horizontal faces with inner holes (eg. atriums).
+ - Enhancement: Improved Modelur initialization.
+ - Enhancement: Creating Buildings and City Blocks from faces that have hidden or soft edges.
+ - Enhancement: More robust upgrading from old Modelur versions.
+ - Bugfix: Calculation of Land Use dependent parameters (eg. number of required Parking Spaces) in Complex Building when its Gross Floor Area changes.
+ - Bugfix: Ruby error when selecting Land Use in Complex Building Urban Control Data Table.
+ - Bugfix: Fixed SketchUp Entities regression introduced in 2018.1 RC1.
+ - Bugfix: Updating of Urban Control Values when SketchUp Scene is changed.
+ - Bugfix: Urban Control Data Table sorting for Buildings and Complex Buildings.
+ - Bugfix: Creating Buildings and City Blocks from non-horizontal faces with inner holes (eg. atriums).
 
 **2018.1 Release Candidate 1 (Beta)**
 
-Enhancement: Added option to save and import Land Use specifications.
-Enhancement: Added option to calculate primary units (apartments, offices, etc.) based on Net Floor Area.
-Enhancement: Min. Height to Distance Ratio changed to Percentage of Building Height.
-Enhancement: Show sum of selected Buildings in HeadsUp Display.
-Enhancement: General Modelur performance on OSX.
-Bugfix: Updating City Blocks values when selected via UI "Select All" button.
-Bugfix: Proximity check works correctly even when multiple Buildings are attached together.
-Bugfix: Modelur loading if layout file is corrupt.
-Bugfix: Notice when updating license fails if SketchUp is not connected to internet.
-Bugfix: GE optimized Buildings put on separate layer completely.
-Bugfix: Resetting City Block land use color.
-Bugfix: updating of City Block defined Whole Plot area when all City Blocks are hidden.
-Bugfix: Updating model when City Blocks and Buildings layers are hidden.
+ - Enhancement: Added option to save and import Land Use specifications.
+ - Enhancement: Added option to calculate primary units (apartments, offices, etc.) based on Net Floor Area.
+ - Enhancement: Min. Height to Distance Ratio changed to Percentage of Building Height.
+ - Enhancement: Show sum of selected Buildings in HeadsUp Display.
+ - Enhancement: General Modelur performance on OSX.
+ - Bugfix: Updating City Blocks values when selected via UI "Select All" button.
+ - Bugfix: Proximity check works correctly even when multiple Buildings are attached together.
+ - Bugfix: Modelur loading if layout file is corrupt.
+ - Bugfix: Notice when updating license fails if SketchUp is not connected to internet.
+ - Bugfix: GE optimized Buildings put on separate layer completely.
+ - Bugfix: Resetting City Block land use color.
+ - Bugfix: updating of City Block defined Whole Plot area when all City Blocks are hidden.
+ - Bugfix: Updating model when City Blocks and Buildings layers are hidden.
 
 
 **0.6.1 R02 (Beta)**
 
-Enhancement: Improved Floating licensing.
-Bugfix: Improved decimals output in HeadsUp Display and Urban Control Data table.
-Bugfix: Copying of Buildings and City Blocks with non-default Land Use from one model to another.
-Bugfix: Export of Urban Design Control Values when Complex Buildings are not selected for export.
-Bugfix: Opening model with many Land Uses when using Trial license.
+ - Enhancement: Improved Floating licensing.
+ - Bugfix: Improved decimals output in HeadsUp Display and Urban Control Data table.
+ - Bugfix: Copying of Buildings and City Blocks with non-default Land Use from one model to another.
+ - Bugfix: Export of Urban Design Control Values when Complex Buildings are not selected for export.
+ - Bugfix: Opening model with many Land Uses when using Trial license.
 
 **0.6.1 R01 (Beta)**
 
-Enhancement: Improved initialization of Modelur.
-Enhancement: Internal FileUtils library switched to Ruby's Core Lib.
-Enhancement: Added free Modelur Viewer mode.
-Enhancement: Improved handling of City Blocks Layers.
-Bugfix: Automatic license update if it has expired.
-Bugfix: Manual license update if license has already expired.
-Bugfix: Warnings when too high Buildings are hidden or not yet built.
+ - Enhancement: Improved initialization of Modelur.
+ - Enhancement: Internal FileUtils library switched to Ruby's Core Lib.
+ - Enhancement: Added free Modelur Viewer mode.
+ - Enhancement: Improved handling of City Blocks Layers.
+ - Bugfix: Automatic license update if it has expired.
+ - Bugfix: Manual license update if license has already expired.
+ - Bugfix: Warnings when too high Buildings are hidden or not yet built.
 
 **0.6.0 Technical Preview 2 (Beta)**
 
-Enhancement: Added Danish translation. Thank you Uffe Gross Nielsen!
-Bugfix: Fixed City Block material selection (by Land Use or user defined).
-Bugfix: Loading of Land Use data when it doesn't exist in UI yet.
-Bugfix: Updating of Whole Plot area size when new City Blocks are added and no Buildings are present in the model.
-Bugfix: Saving of JSON files which contain strings with commas.
-Bugfix: Fixed City Block error when assessed investment is not set for selected Land Use.
+ - Enhancement: Added Danish translation. Thank you Uffe Gross Nielsen!
+ - Bugfix: Fixed City Block material selection (by Land Use or user defined).
+ - Bugfix: Loading of Land Use data when it doesn't exist in UI yet.
+ - Bugfix: Updating of Whole Plot area size when new City Blocks are added and no Buildings are present in the model.
+ - Bugfix: Saving of JSON files which contain strings with commas.
+ - Bugfix: Fixed City Block error when assessed investment is not set for selected Land Use.
 
 **0.6.0 Technical Preview 1 (Beta)**
 
-- Major Enhancement: Added City Blocks, which allow you to define default Zoning Parameters and calculate Urban Control Values on City Block level. Learn more at https://modelur.github.io/docs/reference/city_block/
+- Major  - Enhancement: Added City Blocks, which allow you to define default Zoning Parameters and calculate Urban Control Values on City Block level. Learn more at https://modelur.github.io/docs/reference/city_block/
 - Deprecated: Parametric Maps have been removed, use City Blocks instead. In case you have some models with Parametric Maps, you can still turn them on by executing the following code in SketchUp's Ruby Console: "Modelur::enable_parametric_maps". Once executed, you will be asked to restart SketchUp. To disable Parametric Maps, execute "Modelur::disable_parametric_maps" in Ruby Console.
-Enhancement: Added Modelur Context Menu.
-Enhancement: Heads-up Display of urban control values now shows name of selected Entity (Building and City Block).
-Enhancement: Descriptions of Modelur commands in SketchUp UI.
-Enhancement: Overloading of Parameters when multiple objects are selected.
-Enhancement: Hidden Buildings are not shown in Urban Control Data table and not exported to CSV.
-Enhancement: Improved editing of Complex Buildings and their Building parts when selected via Urban Control Data Table.
-Bugfix: Proper conversion of ComplexBuildings heights to number of storeys when base part has non-default first storey height.
-Bugfix: Exit VCB copying of Buildings when Modelur Parameter is changed.
-Bugfix: Building names can now start with number.
-Bugfix: Changing of dimension units when default Land Uses were erased.
-Bugfix: Updating of Complex Building values when Land Use requirements change.
-Bugfix: Marking of Terraces and Loggias when editing the Building manually.
-Bugfix: Creating Complex Building from scratch when default number of storeys is different than defined by default Complex Building itself
+ - Enhancement: Added Modelur Context Menu.
+ - Enhancement: Heads-up Display of urban control values now shows name of selected Entity (Building and City Block).
+ - Enhancement: Descriptions of Modelur commands in SketchUp UI.
+ - Enhancement: Overloading of Parameters when multiple objects are selected.
+ - Enhancement: Hidden Buildings are not shown in Urban Control Data table and not exported to CSV.
+ - Enhancement: Improved editing of Complex Buildings and their Building parts when selected via Urban Control Data Table.
+ - Bugfix: Proper conversion of ComplexBuildings heights to number of storeys when base part has non-default first storey height.
+ - Bugfix: Exit VCB copying of Buildings when Modelur Parameter is changed.
+ - Bugfix: Building names can now start with number.
+ - Bugfix: Changing of dimension units when default Land Uses were erased.
+ - Bugfix: Updating of Complex Building values when Land Use requirements change.
+ - Bugfix: Marking of Terraces and Loggias when editing the Building manually.
+ - Bugfix: Creating Complex Building from scratch when default number of storeys is different than defined by default Complex Building itself
 
 **0.5.9 R5 (Beta)**
 
-Bugfix: Opening of Modelur UI when license expires.
+ - Bugfix: Opening of Modelur UI when license expires.
 
 **0.5.9 R4 (Beta)**
 
-Enhancement: Added support for validating Modelur behind proxy using NTLM authentication protocol.
+ - Enhancement: Added support for validating Modelur behind proxy using NTLM authentication protocol.
 
 **0.5.9 R3 (Beta)**
 
