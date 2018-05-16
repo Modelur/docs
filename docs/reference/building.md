@@ -79,6 +79,9 @@ By specifying construction year you can define when the selected Building is exp
 
 By specifying demolition year you can define when the selected Building is expected to be demolished. Once demolition year is set, you can use [Development Timeline](survey/#development-timeline) option in _Survey tab_ to change timeline year and see how the development will evolve in time.
 
+!!! hint "Use Shift to check all checkboxes in one click"
+    When you click on one checkbox while Shift key is pressed, you will check (overload) all of the parameters of selected Building(s). 
+
 Editing Modes of Building
 -------------------------
 

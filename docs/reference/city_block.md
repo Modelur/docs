@@ -74,6 +74,9 @@ Minimum distance between Buildings is the absolute distance (in meters or feet) 
 
 Note that distances will be verified also between the Buildings that are not within the same City Blocks, but each according to it's parent City Block settings.
 
+!!! hint "Use Shift to check all checkboxes in one click"
+    When you click on one checkbox while Shift key is pressed, you will check (overload) all of the parameters of selected City Block(s).
+
 Selected City Block - Building Parameters
 -----------------------------------------
 
