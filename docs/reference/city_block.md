@@ -117,3 +117,6 @@ First storey height is used to set the default height of Building's ground floor
 **Other Storeys Height**
 
 Other storeys height is used to set the default height of all Building's storeys above ground floor inside the selected City Block. Changing this parameter will change default Building Height, too.
+
+!!! hint "Enter s(ync) to change both storey height in one step"
+    If you enter ++s++ key before entering number value, Modelur will automatically sync both numbers in first and other storeys height.
