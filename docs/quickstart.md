@@ -92,6 +92,9 @@ Explanation: BUILDING 1 has no parameter defined, so it looks it up from its par
 
 Now that you understand how objects hierarchy works in Modelur, all you need to remember is the hierarchy order itself (bottom-up): _Building → Complex Building → City Block → Whole Plot_.
 
+!!! hint "Hold down ++shift++ key to use mouse scroll"
+    If you press ++shift++ key while hovering over parameter input field, you can also use mouse scroll to change number. Use ++shift+ctrl++ to increase the step by factor 10. 
+
 ##### Overloaded Parameters
 
 From now on we will call the Parameters that are defined for specific Buildings "overloaded" Parameters. This term applies only to the specific Parameters of specific Buildings. Eg. when we define Parameter for Number of Storeys in Building A, but not in Building B, only the Building A has overloaded parameter for Number of Storeys. We can quickly check which Parameters are overloaded by selecting the Building in question and opening Building tab in Modelur User Interface (Figure 3.09). There - under Selected Building Parameters panel - all overloaded Parameters are checked and ready to be changed. This is also the place to initialize overloaded Parameters. If we want to change, eg. Land Use of the Building, go ahead - check it and change its value.
