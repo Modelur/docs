@@ -4,9 +4,9 @@ Setting License Path Manually
 In case you use Windows and your username contains non-ascii characters, Modelur might sometimes not be able to properly set license path automatically, so you need to do it by hand. This is only needed once and don't worry, it's easy - just follow these steps:
 
 1. Open Command Prompt (go to Start menu and type "cmd" then press ++enter++).
-2. Copy/paste `cd %appdata%\SketchUp\SketchUp ####\SketchUp\Plugins\Modelur ` (replace _####_ with your version of Sketchup where you have installed Modelur) into Command Prompt and press ++enter++. The path you see in Command Prompt should now point to something like _C:\Users\Username\AppData\Roaming\SketchUp\SketchUp 2017\SketchUp\Plugins\Modelur_.
-3. Copy/paste `for %I in (.) do echo %~sI ` into Command Prompt and press ++enter++. This will create your current location in <a href="https://en.wikipedia.org/wiki/8.3_filename" target="_blank">short 8.3 format</a> and it will look something like _C:\Users\Userna~1\AppData\Roaming\SketchUp\SK4DAC~1\SketchUp\Plugins\Modelur_.
-4. Copy your short address from the Command Prompt (select it with your mouse and press ++control+c++ or right mouse click).
+2. Copy/paste `cd %appdata%\Modelur ` into Command Prompt and press ++enter++. The path you see in Command Prompt should now point to something like _C:\Users\Username\AppData\Roaming\Modelur_.
+3. Copy/paste `for %I in (.) do echo %~sI ` into Command Prompt and press ++enter++. This will create your current location in <a href="https://en.wikipedia.org/wiki/8.3_filename" target="_blank">short 8.3 format</a> and it will look something like _C:\Users\Userna~1\AppData\Roaming\Modelur_.
+4. Right click on the text and select "Mark" button. Then copy your short address from the Command Prompt (select it with your mouse and press ++control+c++ or right mouse click).
 5. In SketchUp, go to menu _Extensions → Modelur_ and click on the *Set Modelur License Path* (this is visible only when Modelur can not find the proper path itself). Once opened, paste (++control+v++) your short path from the Command Prompt and press enter. After you enter the command and press ++enter++, Modelur will let you know if license path was set correctly.
 6. That should be it. You can now continue licensing you copy of Modelur.
 
