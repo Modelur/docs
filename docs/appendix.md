@@ -1,6 +1,21 @@
 Release notes
 -------------
 
+**2018.1 Release Candidate 6 (Beta)**
+
+ - Enhancement: Improved user interface.
+ - Enhancement: Drop Building Parts to origin when ground Building Part is moved vertically.
+ - Bugfix: Fixed rounding errors when storing default parameters after dimension units are changed.
+ - Bugfix: Changing of Land Use color via Modelur UI.
+ - Bugfix: Update Complex Buildings even when parts are selected via Urban Control Data Table.
+ 
+**2018.1 Release Candidate 5 (Beta)**
+
+ - Change: Modelur expiration date set to December 31st 2019.
+ - Enhancement: Improved Trial registration.
+ - Bugfix: Inconsistent behavior when checking (overloading) Building's parameters.
+ - Bugfix: Changing Building's parameters when menus are opened.
+
 **2018.1 Release Candidate 4 (Beta)**
 
  - Enhancement: Improved loading time of large models.
