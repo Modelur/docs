@@ -1,6 +1,26 @@
 Release notes
 -------------
 
+**2018.1.0**
+
+ - The first fully functional release of Modelur.
+
+**2018.1 Release Candidate 8 (Beta)**
+
+ - Bugfix: Proper handling of zero values in user interface.
+ - Bugfix: Creating Buildings with non-default floor areas.
+ - Bugfix: Updating gross floor area parameter after building is created.
+
+**2018.1 Release Candidate 7 (Beta)**
+
+ - Enhancement: Improved vertical scaling of Complex Building when some parts have different storey heights.
+ - Enhancement: Modelur SKP models can now be opened if they were created using the same Modelur major version (eg. 2018.1)
+ - Enhancement: Warning and model reset when newer version Modelur model is opened.
+ - Bugfix: Copying of Buildings from City Blocks that have overloaded Building parameters.
+ - Bugfix: HeadsUp Display newlines on OSX.
+ - Bugfix: Buildings and City Blocks area calculations if they are skewed.
+ - Bugfix: Built area of Complex Buildings when they are moved after scale on them is undone.
+
 **2018.1 Release Candidate 6 (Beta)**
 
  - Enhancement: Improved user interface.

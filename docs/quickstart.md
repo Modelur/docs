@@ -15,7 +15,7 @@ Second option to initialize Modelur is to navigate to it through SketchUp menu E
 
 <figcaption>Figure 3.02 - Alternative way to initialize Modelur through SketchUp menu Plugins → Modelur → Initialize Modelur. Please note that Plugins menu was called Extensions in previous versions of SketchUp.</figcaption>
 
-Once Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3.03) is composed of four parts: Menu, Tabs, Panels and Statusbar.
+Once Modelur is initialized, its user interface is opened. Modelur's main User Interface (UI, Figure 3.03) is composed of five parts: Menu, Tabs, Panels and Statusbar.
 
 User Interface Overview
 -----------------------
@@ -24,7 +24,7 @@ User Interface Overview
 Menu is located at the top of the User Interface. It is the place where you go to when you want to save data (e.g. export Urban Control Indicators), change preferences (e.g. Language) or get some help (e.g. open this User Guide). Detailed description is available in the Menu section.
 
 #### Tabs
-Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are four of them: [Whole Plot](reference/whole_plot) tab (a place to set default values for the whole plot), [City Block](reference/city_block) tab (a place to set values for selected City Blocks), [Land Use](reference/land_use) tab (a place to create and edit Land Uses and their parameters), [Building](reference/building) tab (a place to modify selected Buildings) and [Survey](reference/survey) (a place where you can monitor achieved Urban Parameters, such as FAR, required Parking Spaces, etc.). Detailed description is available in the Reference section.
+Tabs are located below the Menu. They represent a groups of similar tasks. Currently there are five of them: [Whole Plot](reference/whole_plot) tab (a place to set default values for the whole plot), [City Block](reference/city_block) tab (a place to set values for selected City Blocks), [Land Use](reference/land_use) tab (a place to create and edit Land Uses and their parameters), [Building](reference/building) tab (a place to modify selected Buildings) and [Survey](reference/survey) (a place where you can monitor achieved Urban Parameters, such as FAR, required Parking Spaces, etc.). Detailed description is available in the Reference section.
 
 ![Modelur_User_Interface](img/modelur_ui_annotated.png)
 
