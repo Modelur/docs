@@ -1,6 +1,16 @@
 Release notes
 -------------
 
+**2018.1.1**
+
+ - Enhancement: Better handling of undo when focus is inside Modelur User Interface field.
+ - Enhancement: Manual updating of Modelur License.
+ - Bugfix: Moving Buildings after two City Blocks were entered successively and Building is moved to the first one that was selected.
+ - Bugfix: Copying simple Building to City Block via Ctrl mechanism if Building and City Block have same parameters.
+ - Bugfix: Updating of secondary units after new Land Use is added.
+ - Bugfix: Display of urban control values when deleting object and some of them are locked (thus not erased).
+ - Bugfix: Display of Parking Spaces in Land Uses that are derived from Parking Land Use.
+
 **2018.1.0**
 
  - The first fully functional release of Modelur.
