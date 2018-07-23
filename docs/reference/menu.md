@@ -75,13 +75,13 @@ Here you can select interface language, units and default building shape. Other 
 
 **Buildings From Edges**
 
-Tell Modelur if and how it should create Buildings when edges are selected. There are three options: _Don't Create_, _From One Edge_ and _From Edge Loop_.
+Tell Modelur if and how it should create Buildings or City Blocks when edges are selected. There are three options: _Don't Create_, _From One Edge_ and _From Edge Loop_.
 
-_Don't Create_ option means you have to select a whole face or a loop in order to create a Building with such Building Area. If the selected edges don't form a closed loop, Modelur will ignore those edges and create a Building in the middle of the coordinate system and with _Default Building Area_ (as defined in [Default Building Parameters](whole_plot/#default-building-parameters)).
+_Don't Create_ option means you Modelur will create a Building or City Block only from selected faces, ignoring edge loops. If no face is selected, Modelur will create a Building in the middle of the coordinate system and with _Default Building Area_ (as defined in [Default Building Parameters](whole_plot/#default-building-parameters)).
 
- _From One Edge_ option means you can select just one edge of a loop and a Building will be created based on that loop. In case you have a loop within a loop and you select an edge of the outer loop, Modelur will create a Building based on the outer loop and ignore the inner loop (since it's edges are not in the selection).
+ _From One Edge_ option means you can select just one edge of a closed loop and a Building or City Block will be created based on that loop. In case you have a loop within a loop and you select an edge of the outer loop, Modelur will create a Building/City Blocks based on the outer loop and ignore the inner loop (since it's edges are not in the selection). If you select edges in both loops, Modelur will create two objects - one in the inner loop and one from outer loop and hole in the position of the inner loop.
 
- _From Edge Loop_ option means you have to select ALL the edges in a loop. If you have a loop within a loop, you have to select the edges of both loops. Otherwise Modelur will ignore selected edges and create a Building in the middle of the coordinate system and with _Default Building Area_ (as defined in [Default Building Parameters](whole_plot/#default-building-parameters)). But if you select all edges of the inner and outer loop, Modelur will create a Building with a hole (inner loop).
+ _From Edge Loop_ option means you have to select ALL the Edges of a closed loop in order to create Building or City Block. Of no complete edge loop is selected, Modelur will ignore selected edges and create a Building in the middle of the coordinate system and with _Default Building Area_ (as defined in [Default Building Parameters](whole_plot/#default-building-parameters)) or switch to Line tool so you can draw new City Block.
 
 **Lock City Blocks Upon Creation**
 
