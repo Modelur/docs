@@ -1,6 +1,24 @@
 Release notes
 -------------
 
+**2018.1.4**
+
+ - Enhancement: Added option to calculate FAR based on Gross or Net Floor Area (Options > Calculate FAR Based On).
+ - Enhancement: Improved calculation of Complex Building Built Area.
+ - Enhancement: Improved alignment of Bounding Boxes for rotated Buildings, Complex Buildings and City Blocks.
+ - Bugfix: Collapsed Complex Buildings that are on hidden layers when saved model is opened.
+ - Bugfix: Remove remaining BuiltUp Area Group when creating new Complex Building from existing one.
+
+**2018.1.3**
+
+ - Bugfix: Calculation of Gross Floor Area when Building is scaled negatively in only X or Y direction (but not both).
+
+**2018.1.2**
+
+ - Enhancement: Make sure Land Use names are unique and use GUID for internal representation.
+ - Enhancement: Improved notification of Trial limitations.
+ - Bugfix: Creating of City Blocks in Trial mode.
+
 **2018.1.1**
 
  - Enhancement: Better handling of undo when focus is inside Modelur User Interface field.

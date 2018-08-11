@@ -83,6 +83,10 @@ _Don't Create_ option means you Modelur will create a Building or City Block onl
 
  _From Edge Loop_ option means you have to select ALL the Edges of a closed loop in order to create Building or City Block. Of no complete edge loop is selected, Modelur will ignore selected edges and create a Building in the middle of the coordinate system and with _Default Building Area_ (as defined in [Default Building Parameters](whole_plot/#default-building-parameters)) or switch to Line tool so you can draw new City Block.
 
+**Calculate FAR Based On**
+
+Tell Modelur whether you want to calculate Whole Plot's and City Blocks Floor Area Ratio based on Gross or Net Floor Area of Buildings. _By default this option is set to Gross Floor Area._
+
 **Lock City Blocks Upon Creation**
 
 Automatically locks City Blocks when they are created. This means a City Block can not be moved around the screen. This way you avoid accidentally moving a
