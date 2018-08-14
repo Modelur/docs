@@ -18,11 +18,11 @@ Current Urban Control Values can be displayed in Sketchup modelling area. All da
 
 You can choose between three options: _Blank_, _Basic_, _Full_ and _Sum of selected_. _Blank_ means no data are displayed in Sketchup modelling area.
 
-_Basic_ option displays _Building name_, _Gross Floor Area_, _Built-up Area_, _Building Height_ and _Number of Storeys_.
+_Basic_ option displaysBuilding name, Gross Floor Area, Built-up Area, Building Height and Number of Storeys.
 
-_Full_ option displays all data included in the _Basic_ option as well as _Required Green Area_, _Required Parking Spaces_, _Required Parking Area_, _Building Volume_, _Net Floor Area_, _Assessed Investment_ and _Number of Primary and Secondary units_. [Primary and Secondary units](land_use#units) are defined in _Land Use tab_ for each Land Use type.
+_Full_ option displays all data included in the Basic option as well as Required Green Area, Required Parking Spaces, Required Parking Area, Building Volume, Net Floor Area, Assessed Investment and Number of Primary and Secondary units. [Primary and Secondary units](landuse#units) are defined in Land Use tab for each Land Use type.
 
-When _Sum of selected_ is chosen, Modelur will constantly sum up and display the total of all selected Buildings. It will show combined _Gross Floor Area_, _Built-up Area_, _Mean Number of Storeys_, _Required Green Area_, _Required Parking Spaces_, _Required Parking Area_, _Assessed Investment_ and _Sum of Gross Floor Areas of each Land Use_ including the ratio of Land Uses.
+When _Sum of selected_ is chosen, Modelur will constantly sum up and display the total of all selected Buildings. It will show combined Gross Floor Area, Built-up Area, Mean Number of Storeys, Required Green Area, Required Parking Spaces, Required Parking Area, Assessed Investment and Sum of Gross Floor Areas of each Land Use including the ratio of Land Uses and number of selected Buildings (or Building Parts when selection includes Complex Buildings).
 
 !!! tip "HeadsUp Display text"
     Sometimes the text that shows urban control values on screen is garbled. If this is the case, you can try selecting it (it's an actual SketchUp object) and change its size (and font) in SketchUp's Entity Info panel. 
@@ -31,17 +31,17 @@ When _Sum of selected_ is chosen, Modelur will constantly sum up and display the
 
 You can choose between three options: _Blank_, _Basic_ and _Full_. _Blank_ means no data are displayed in Sketchup modelling area.
 
-_Basic_ option displays _City Block Name_, _City Block Area_, _Gross Floor Area_, _Built-up Area_, _Floor Area Ratio_ and _Site Coverage_.  
+_Basic_ option displays City Block Name, City Block Area, Gross Floor Area, Built-up Area, Floor Area Ratio and Site Coverage.  
 
-_Full_ option displays all data included in the _Basic_ option as well as _Green Area Deficit_, _Parking Spaces Deficit_, _Mean Number of Storeys_, _Net Floor Area_ and _Assessed Investment_.
+_Full_ option displays all data included in the Basic option as well as Green Area Deficit, Parking Spaces Deficit, Mean Number of Storeys, Net Floor Area and Assessed Investment.
 
 **Survey of Plot Area**
 
 You can choose between three options: _Blank_, _Basic_ and _Full_. _Blank_ means no data are displayed in Sketchup modelling area.
 
-_Basic_ option displays _Whole Plot Area_, _Gross Floor Area_, _Built-up Area_,  _Floor Area Ratio_ and _Site Coverage_.  
+_Basic_ option displays Whole Plot Area, Gross Floor Area, Built-up Area,  Floor Area Ratio and Site Coverage.  
 
- _Full_ option displays all data included in the _Basic_ option as well as _Green Area Deficit_, _Parking Spaces Deficit_, _Mean Number of Storeys_, _Net Floor Area_ and _Assessed Investment_.
+_Full_ option displays all data included in the Basic option as well as Green Area Deficit, Parking Spaces Deficit, Mean Number of Storeys, Net Floor Area and Assessed Investment.
 
 Warnings
 --------

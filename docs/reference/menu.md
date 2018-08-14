@@ -62,7 +62,10 @@ Modelur allows you to add texture to your buildings and/or landscapes. Select a 
 
 **Calculate Sum of Selected Buildings**
 
-Use this tool when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use.
+Use this tool when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use including their ratio and number of selected Buildings (or Building Parts when selection includes Complex Buildings).
+
+!!! hint "Updating Sum of Selected Buildings on the fly"
+    Calculate Sum of Selected Buildings can also be done on-the-fly, as you select and deselect buildings if you turn on this option in [Urban Control Survey on Screen](survey#urban-control-survey-on-screen).
 
 **Optimize Buildings for Google Earth**
 

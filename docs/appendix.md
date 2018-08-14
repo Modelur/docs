@@ -4,6 +4,7 @@ Release notes
 **2018.1.4**
 
  - Enhancement: Added option to calculate FAR based on Gross or Net Floor Area (Options > Calculate FAR Based On).
+ - Enhancement: Sum of Selected Buildings now shows also count of Buildings selected per Land Use.
  - Enhancement: Improved calculation of Complex Building Built Area.
  - Enhancement: Improved alignment of Bounding Boxes for rotated Buildings, Complex Buildings and City Blocks.
  - Bugfix: Collapsed Complex Buildings that are on hidden layers when saved model is opened.
