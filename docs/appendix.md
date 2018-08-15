@@ -4,7 +4,9 @@ Release notes
 **2018.1.4**
 
  - Enhancement: Added option to calculate FAR based on Gross or Net Floor Area (Options > Calculate FAR Based On).
+ - Enhancement: Added option to select or filter Buildings based on Land Use (Extensions > Modelur > Select Buildings by Land Use).
  - Enhancement: Sum of Selected Buildings now shows also count of Buildings selected per Land Use.
+ - Enhancement: Urban Control Data Table and CSV export now show also Land Use number of simple Buildings count.
  - Enhancement: Improved calculation of Complex Building Built Area.
  - Enhancement: Improved alignment of Bounding Boxes for rotated Buildings, Complex Buildings and City Blocks.
  - Bugfix: Collapsed Complex Buildings that are on hidden layers when saved model is opened.
