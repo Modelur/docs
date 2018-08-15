@@ -35,7 +35,7 @@ In case you want to double check if Urban Control Values are calculated correctl
 
 #### Restore default values ####
 
-This will reset your current Modelur settings to defalut state (the same as when you first install Modelur).
+This will reset your current Modelur settings to default state (the same as when you first install Modelur).
 
 #### Store Land Uses ####
 
@@ -48,6 +48,16 @@ When copying Buildings or City Blocks with non-default Land Use from one SKP mod
 Use this command to import all Land Uses stored in an external file. Note that this button will be unavailable if you haven't yet stored Land Uses.
 
 Once triggered, a menu will open asking you if you want to update existing Land Uses values. If you choose Yes, Modelur will update all Land Uses with new values. If you choose No, it will skip existing Land Uses and add only new ones (those that are non-existent in the model, but specified in the external file).
+
+#### Select Buildings by Land Use ####
+
+Use this button to _select_ or _filter_ Buildings by their Land Use. Once you click on this button a new window with all model's Land Uses will open. Select the Land Use of your choice and click OK. This function will operate differently based on your selection:
+
+1. If no Buildings or if only Buildings that don't have chosen Land Use selected, Modelur will select _all_ Buildings with selected Land Use.
+1. If there are some Buildings in your selection that have chose Land Use (but also some that don't), Modelur will filter selection to only Land Uses that have selected Land Use.
+
+!!! note "Selecting Buildings by Land Use in Complex Buildings"
+    In case of Complex Buildings, that might have some parts of Selected Land Use (but also some with other Land Uses), Modelur will pick complete Complex Building.
 
 #### Update Modelur License ####
 
