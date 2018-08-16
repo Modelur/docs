@@ -388,6 +388,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#select-buildings-by-land-use" title="Select Buildings by Land Use" class="md-nav__link">
+    Select Buildings by Land Use
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#update-modelur-license" title="Update Modelur License" class="md-nav__link">
     Update Modelur License
   </a>
@@ -535,6 +542,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#select-buildings-by-land-use" title="Select Buildings by Land Use" class="md-nav__link">
+    Select Buildings by Land Use
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#update-modelur-license" title="Update Modelur License" class="md-nav__link">
     Update Modelur License
   </a>
@@ -600,13 +614,23 @@
 <h4 id="recalculate-urban-control-values">Recalculate Urban Control Values<a class="headerlink" href="#recalculate-urban-control-values" title="Permanent link">&para;</a></h4>
 <p>In case you want to double check if Urban Control Values are calculated correctly, you might want to use this button to refresh them from scratch.</p>
 <h4 id="restore-default-values">Restore default values<a class="headerlink" href="#restore-default-values" title="Permanent link">&para;</a></h4>
-<p>This will reset your current Modelur settings to defalut state (the same as when you first install Modelur).</p>
+<p>This will reset your current Modelur settings to default state (the same as when you first install Modelur).</p>
 <h4 id="store-land-uses">Store Land Uses<a class="headerlink" href="#store-land-uses" title="Permanent link">&para;</a></h4>
 <p>Use this command to store all Land Uses of current model into external file (<code>stored_land_uses.json</code> file located in <a href="../../getting-started/#modelur-location">Appdata folder</a>). This can be useful when you want to transfer Land Uses from one model to another or when copying Buildings and City Blocks with non-default Land Uses from one model to another.</p>
 <p>When copying Buildings or City Blocks with non-default Land Use from one SKP model to another, Modelur will take a look at information stored in the above JSON file. If it finds it, it will add new Land Use to existing Model automatically. If not, it will replace it with the default Land Use (and show you a notice about that).  </p>
 <h4 id="import-land-uses">Import Land Uses<a class="headerlink" href="#import-land-uses" title="Permanent link">&para;</a></h4>
 <p>Use this command to import all Land Uses stored in an external file. Note that this button will be unavailable if you haven't yet stored Land Uses.</p>
 <p>Once triggered, a menu will open asking you if you want to update existing Land Uses values. If you choose Yes, Modelur will update all Land Uses with new values. If you choose No, it will skip existing Land Uses and add only new ones (those that are non-existent in the model, but specified in the external file).</p>
+<h4 id="select-buildings-by-land-use">Select Buildings by Land Use<a class="headerlink" href="#select-buildings-by-land-use" title="Permanent link">&para;</a></h4>
+<p>Use this button to <em>select</em> or <em>filter</em> Buildings by their Land Use. Once you click on this button a new window with all model's Land Uses will open. Select the Land Use of your choice and click OK. This function will operate differently based on your selection:</p>
+<ol>
+<li>If no Buildings or if only Buildings that don't have chosen Land Use selected, Modelur will select <em>all</em> Buildings with selected Land Use.</li>
+<li>If there are some Buildings in your selection that have chose Land Use (but also some that don't), Modelur will filter selection to only Land Uses that have selected Land Use.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Selecting Buildings by Land Use in Complex Buildings</p>
+<p>In case of Complex Buildings, that might have some parts of Selected Land Use (but also some with other Land Uses), Modelur will pick complete Complex Building.</p>
+</div>
 <h4 id="update-modelur-license">Update Modelur License<a class="headerlink" href="#update-modelur-license" title="Permanent link">&para;</a></h4>
 <p>Click this button to enter your (new) Modelur license key.</p>
 <h4 id="release-floating-license">Release Floating License<a class="headerlink" href="#release-floating-license" title="Permanent link">&para;</a></h4>

@@ -489,7 +489,11 @@ of Complex Buildings</em> and/or <em>Export also Buildings that form Complex Bui
 <p><strong>Create Terrain</strong></p>
 <p>Modelur allows you to add texture to your buildings and/or landscapes. Select a surface, click on this tool and select a file with appropriate texture from your computer. Valid texture file formats are: .png, .jpg, .psd, .bmp, .tif and .tga.</p>
 <p><strong>Calculate Sum of Selected Buildings</strong></p>
-<p>Use this tool when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use.</p>
+<p>Use this tool when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use including their ratio and number of selected Buildings (or Building Parts when selection includes Complex Buildings).</p>
+<div class="admonition hint">
+<p class="admonition-title">Updating Sum of Selected Buildings on the fly</p>
+<p>Calculate Sum of Selected Buildings can also be done on-the-fly, as you select and deselect buildings if you turn on this option in <a href="../survey#urban-control-survey-on-screen">Urban Control Survey on Screen</a>.</p>
+</div>
 <p><strong>Optimize Buildings for Google Earth</strong></p>
 <p>Once your urban design proposal is finished, you might want to export it to geolocated KMZ file, which can be opened by many programs, including <a href="https://www.google.com/earth/?target=" title="_blank">Google Earth</a>. Using this feature Modelur will automatically optimize all Modelur Buildings by removing all unnecessary faces. If you want, you can also tell it to export floor Edges, so that the Building's storeys are visible inside Google Earth.  </p>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
@@ -499,6 +503,8 @@ of Complex Buildings</em> and/or <em>Export also Buildings that form Complex Bui
 <p><em>Don't Create</em> option means you Modelur will create a Building or City Block only from selected faces, ignoring edge loops. If no face is selected, Modelur will create a Building in the middle of the coordinate system and with <em>Default Building Area</em> (as defined in <a href="../whole_plot/#default-building-parameters">Default Building Parameters</a>).</p>
 <p><em>From One Edge</em> option means you can select just one edge of a closed loop and a Building or City Block will be created based on that loop. In case you have a loop within a loop and you select an edge of the outer loop, Modelur will create a Building/City Blocks based on the outer loop and ignore the inner loop (since it's edges are not in the selection). If you select edges in both loops, Modelur will create two objects - one in the inner loop and one from outer loop and hole in the position of the inner loop.</p>
 <p><em>From Edge Loop</em> option means you have to select ALL the Edges of a closed loop in order to create Building or City Block. Of no complete edge loop is selected, Modelur will ignore selected edges and create a Building in the middle of the coordinate system and with <em>Default Building Area</em> (as defined in <a href="../whole_plot/#default-building-parameters">Default Building Parameters</a>) or switch to Line tool so you can draw new City Block.</p>
+<p><strong>Calculate FAR Based On</strong></p>
+<p>Tell Modelur whether you want to calculate Whole Plot's and City Blocks Floor Area Ratio based on Gross or Net Floor Area of Buildings. <em>By default this option is set to Gross Floor Area.</em></p>
 <p><strong>Lock City Blocks Upon Creation</strong></p>
 <p>Automatically locks City Blocks when they are created. This means a City Block can not be moved around the screen. This way you avoid accidentally moving a
 City Block and spoiling your project.</p>
