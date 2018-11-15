@@ -117,6 +117,10 @@ Show built-up area face at the bottom of each Modelur Building.
 
 Apply green color to all Terraces and pink color to all Loggias. This way you can easily see how many Terraces and how many Loggias there are in your project.
 
+**Sync Building's Layer**
+
+If this option is turned on, Modelur will make sure that all Modelur Building's Entities (Edges and Faces) are placed on the same layer as the Building itself. The same is true for Complex Buildings and City Blocks. By default this option is turned on.
+
 **Change Currency Symbol**
 
 Opens up a dialog box for specifying new currency symbol. This currency symbol is shown in section _Investment calculation_ of the _Land use_ tab where

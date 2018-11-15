@@ -85,7 +85,11 @@ Define average Gross Floor Area of one Primary Unit (eg. Apartment, Office, etc)
 
 **NFA per Primary Unit**
 
-Define average Net Floor Area of one Primary Unit (eg. Apartment, Office, etc). Primary Unit is defined in [Units section](#units)). Please note that this will take into calculation different factors defined for Terraces and Loggias, too.
+Define average Net Floor Area of one Primary Unit (eg. Apartment, Office, etc). Please note that this will take into calculation different factors defined for Terraces and Loggias, too. Primary Unit is defined in [Units section](#units)). 
+
+**Primary Unit per Storey**
+
+Define how many Primary Units (eg. Apartments, Offices, etc) reside on one storey. Use this option if you wan't to fix how many units there are on each storey regarding of its floor area. Primary Unit is defined in [Units section](#units)). 
 
 **Secondary Unit per Primary Unit**
 
