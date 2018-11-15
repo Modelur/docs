@@ -1,6 +1,33 @@
 Release notes
 -------------
 
+**2018.2.4**
+
+ - Enhancement: Added calculation of Primary Units based on Storeys.
+ - Enhancement: Don't force close SKP model when it was created using newer version of Modelur.
+ - Enhancement: Improved alignment of ComplexBuildings bounding box (2018.2.3 regression).
+ - Enhancement: Added filtering for selecting buildings by land uses.
+ - Bugfix: Calculation of ComplexBuilding areas with multiple transformations.
+ - Bugfix: Prevent dropping of ComplexBuildings when they are not at Z = 0.
+ - Bugfix: Complex Building Built-up Area when copied via VCB.
+ - Bugfix: Opening files with hidden Complex Buildings.
+
+**2018.2.3**
+
+ - Enhancement: Added option to choose whether to synchronize Building's Entities layer to Building's Layer or not. On by default.
+ - Enhancement: Improved handling of layers within Complex Buildings Building Parts.
+ - Bugfix: Updating Gross Floor Area when Complex Building is moved to hidden layer.
+ - Bugfix: Negative vertical scale of Buildings.
+
+**2018.2.2**
+
+ - Bugfix: Loading of Modelur UI when trial or project license is used.
+
+**2018.2.1**
+
+ - Enhancement: Improved detection of computer's ID needed to generate license file.
+ - Enhancement: Improved notification when RgLoader problems occur.
+
 **2018.2.0**
 
  - Enhancement: Added option to calculate FAR based on Gross or Net Floor Area (Options > Calculate FAR Based On).
