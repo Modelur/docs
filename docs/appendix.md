@@ -3,6 +3,7 @@ Release notes
 
 **2018.2.4**
 
+ - Enhancement: General improvements to undo/redo mechanism.
  - Enhancement: Added calculation of Primary Units based on Storeys.
  - Enhancement: Don't force close SKP model when it was created using newer version of Modelur.
  - Enhancement: Improved alignment of ComplexBuildings bounding box (2018.2.3 regression).
