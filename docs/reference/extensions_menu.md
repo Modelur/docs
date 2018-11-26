@@ -54,10 +54,17 @@ Once triggered, a menu will open asking you if you want to update existing Land 
 Use this button to _select_ or _filter_ Buildings by their Land Use. Once you click on this button a new window with all model's Land Uses will open. Select the Land Use of your choice and click OK. This function will operate differently based on your selection:
 
 1. If no Buildings or if only Buildings that don't have chosen Land Use selected, Modelur will select _all_ Buildings with selected Land Use.
-1. If there are some Buildings in your selection that have chose Land Use (but also some that don't), Modelur will filter selection to only Land Uses that have selected Land Use.
+1. If there are some Buildings in your selection that have chosen Land Use (but also some that don't), Modelur will filter selection to only those Buildings  that have selected Land Use.
 
 !!! note "Selecting Buildings by Land Use in Complex Buildings"
     In case of Complex Buildings, that might have some parts of Selected Land Use (but also some with other Land Uses), Modelur will pick complete Complex Building.
+    
+#### Select City Blocks by Land Use ####
+
+Use this button to _select_ or _filter_ City Blocks by their Land Use. Once you click on this button a new window with all model's Land Uses will open. Select the Land Use of your choice and click OK. This function will operate differently based on your selection:
+
+1. If no City Blocks or if only City Blocks that don't have chosen Land Use selected, Modelur will select _all_ City Blocks with selected Land Use.
+1. If there are some City Blocks in your selection that have chosen Land Use (but also some that don't), Modelur will filter selection to only those City Blocks that have selected Land Use.
 
 #### Update Modelur License ####
 

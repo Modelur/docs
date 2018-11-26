@@ -3,11 +3,14 @@ Release notes
 
 **2018.2.4**
 
+ - Enhancement: Sum multiple built areas in single Complex Building.
  - Enhancement: General improvements to undo/redo mechanism.
  - Enhancement: Added calculation of Primary Units based on Storeys.
  - Enhancement: Don't force close SKP model when it was created using newer version of Modelur.
  - Enhancement: Improved alignment of ComplexBuildings bounding box (2018.2.3 regression).
  - Enhancement: Added filtering for selecting buildings by land uses.
+ - Enhancement: Improved manual editing of Buildings/Complex Buildings Parts.
+ - Enhancement: Added option select or filter City Blocks by their Land Use.
  - Bugfix: Calculation of ComplexBuilding areas with multiple transformations.
  - Bugfix: Prevent dropping of ComplexBuildings when they are not at Z = 0.
  - Bugfix: Complex Building Built-up Area when copied via VCB.
