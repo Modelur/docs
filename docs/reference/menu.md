@@ -90,6 +90,9 @@ _Don't Create_ option means you Modelur will create a Building or City Block onl
 
 Tell Modelur whether you want to calculate Whole Plot's and City Blocks Floor Area Ratio based on Gross or Net Floor Area of Buildings. _By default this option is set to Gross Floor Area._
 
+!!! note "Relation to Sum of Selected Buildings"
+    Calculate FAR Based On Gross or Net Floor Area preference determines also which value (Gross or Net) is shown when Heads-up Display is showing Sum of Selected Buildings. 
+
 **Lock City Blocks Upon Creation**
 
 Automatically locks City Blocks when they are created. This means a City Block can not be moved around the screen. This way you avoid accidentally moving a
