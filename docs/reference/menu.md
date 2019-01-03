@@ -24,7 +24,7 @@ of Complex Buildings_ and/or _Export also Buildings that form Complex Buildings_
 
 !!! hint "Sort Buildings by parameter value in CSV export"
     In case you have sorted the Buildings by some value in [Urban Control Data Table](#Tools), the order will be preserved when exporting the values to CSV file.
-    
+
 Exported CSV file can then be opened by any major spreadsheet software (eg. Excel, Google Sheets or LibreOffice Calc, Figure 4.03).
 
 _Tip: When importing the data, make sure you have semicolon marked as separator sign in the spreadsheet software you are using._
@@ -60,12 +60,32 @@ This option helps create dynamic urban solutions, avoiding too uniform look of t
 
 Modelur allows you to add texture to your buildings and/or landscapes. Select a surface, click on this tool and select a file with appropriate texture from your computer. Valid texture file formats are: .png, .jpg, .psd, .bmp, .tif and .tga.
 
-**Calculate Sum of Selected Buildings**
+**Calculate Form Factor**
 
-Use this tool when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use including their ratio and number of selected Buildings (or Building Parts when selection includes Complex Buildings).
+*Form Factor* calculation is used to estimate the Building's energy efficiency. The lower the Form Factor, the more compact a Building is. The more compact a Building, the lower are the energy losses for a given floor space.
 
-!!! hint "Updating Sum of Selected Buildings on the fly"
-    Calculate Sum of Selected Buildings can also be done on-the-fly, as you select and deselect buildings if you turn on this option in [Urban Control Survey on Screen](survey#urban-control-survey-on-screen).
+Modelur calculates the Form Factor in two ways that are most commonly used nowadays:
+
+1. *Heat Loss Form Factor* (FF) is the ratio between the Building's envelope area (EA) and it's Net Floor Area (NFA). Form Factor is calculated as FF = EA / NFA.
+
+    Source: [NHBC: Foundation Shape and Form](https://www.nhbcfoundation.org/wp-content/uploads/2016/10/NF-72-NHBC-Foundation_Shape-and-Form.pdf)
+
+1. *Surface to Volume Ratio* (SVR) is the ratio between the Building's envelope area (EA) and it's volume (V). Surface to Volume Ratio is calculated as SVR = EA / V.
+
+    Source: [Researchgate: The Impact of the Shape Factor on Final Energy Demand in Residential Buildings in Nordic Climates](https://www.researchgate.net/publication/268188069_The_Impact_of_the_Shape_Factor_on_Final_Energy_Demand_in_Residential_Buildings_in_Nordic_Climates).
+
+    !!! note "Units are important!"
+        The numeric value of Surface to Volume Ratio is dependent on the units (metric or imperial) that are chosen.
+
+1. *Building's envelope area* is the sum of areas of external faces of the Building (e.g. walls, roofs, terraces).
+
+[//]: # (**Calculate Sum of Selected Buildings**)
+
+[//]: # (Use this tool when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use including their ratio and number of (selected Buildings (or Building Parts when selection includes Complex Buildings). )
+
+[//]: # ()!!! hint "Updating Sum of Selected Buildings on the fly")
+[//]: #   ( Calculate Sum of Selected Buildings can also be done on-the-fly, as you select and deselect buildings if you turn on this option in [Urban Control Survey on Screen](survey#urban-control-survey-on-screen). )
+
 
 **Optimize Buildings for Google Earth**
 
@@ -91,7 +111,7 @@ _Don't Create_ option means you Modelur will create a Building or City Block onl
 Tell Modelur whether you want to calculate Whole Plot's and City Blocks Floor Area Ratio based on Gross or Net Floor Area of Buildings. _By default this option is set to Gross Floor Area._
 
 !!! note "Relation to Sum of Selected Buildings"
-    Calculate FAR Based On Gross or Net Floor Area preference determines also which value (Gross or Net) is shown when Heads-up Display is showing Sum of Selected Buildings. 
+    Calculate FAR Based On Gross or Net Floor Area preference determines also which value (Gross or Net) is shown when Heads-up Display is showing Sum of Selected Buildings.
 
 **Lock City Blocks Upon Creation**
 
