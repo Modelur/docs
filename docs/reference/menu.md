@@ -62,7 +62,7 @@ Modelur allows you to add texture to your buildings and/or landscapes. Select a 
 
 **Calculate Form Factor**
 
-*Form Factor* calculation is used to estimate the Building's energy efficiency. The lower the Form Factor, the more compact a Building is. The more compact a Building, the lower are the energy losses for a given floor space.
+*Form Factor* calculation is used to estimate the potential of Building's energy efficiency. The lower the Form Factor, the more compact a Building is. And the more compact a Building is, the lower are the energy losses for a given floor space.
 
 Modelur calculates the Form Factor in two ways that are most commonly used nowadays:
 
@@ -70,14 +70,14 @@ Modelur calculates the Form Factor in two ways that are most commonly used nowad
 
     Source: [NHBC: Foundation Shape and Form](https://www.nhbcfoundation.org/wp-content/uploads/2016/10/NF-72-NHBC-Foundation_Shape-and-Form.pdf)
 
-1. *Surface to Volume Ratio* (SVR) is the ratio between the Building's envelope area (EA) and it's volume (V). Surface to Volume Ratio is calculated as SVR = EA / V.
+1. *Surface to Volume Ratio* (SVR) is the ratio between the Building's envelope area (EA) and it's volume (V). Surface to Volume Ratio is calculated as SVR = EA / V. _Note:_ The numeric value of Surface to Volume Ratio is dependent on the units (metric or imperial) that are chosen.
 
     Source: [Researchgate: The Impact of the Shape Factor on Final Energy Demand in Residential Buildings in Nordic Climates](https://www.researchgate.net/publication/268188069_The_Impact_of_the_Shape_Factor_on_Final_Energy_Demand_in_Residential_Buildings_in_Nordic_Climates).
 
-    !!! note "Units are important!"
-        The numeric value of Surface to Volume Ratio is dependent on the units (metric or imperial) that are chosen.
-
 1. *Building's envelope area* is the sum of areas of external faces of the Building (e.g. walls, roofs, terraces).
+   
+    !!! hint "Form Factor Calculation is also available through Context menu"
+        You can call Form Factor Calculation also via Context menu. To do so, just right-click on the Building and select Modelur → Calculate Form Factor.
 
 [//]: # (**Calculate Sum of Selected Buildings**)
 
