@@ -1,6 +1,17 @@
 Release notes
 -------------
 
+**2018.2.5**
+
+ - Enhancement: Added option to calculate Building's form factor, envelope area and surface to volume ratio (via Tools > Calculate Building's Form Factor or via Context Menu when Building is selected).
+ - Enhancement: Show sum of Net Floor Area in Sum of Selected Buildings.
+ - Enhancement: Floor Area sum of Land Uses in Sum of Selected Buildings is now based on how FAR is calculated (from GFA or NFA).
+ - Enhancement: Improved deleting of many Buildings from the model in one step (+1k).
+ - Enhancement: Show license reminder only once within 3/1 weeks.
+ - Enhancement: Improved calculation of manually modified Buildings volumes.
+ - Bugfix: Proper display of overloaded Building Parts parameters.
+ - Bugfix: CSV export when Buildings contain Construction or Demolition year.
+
 **2018.2.4**
 
  - Enhancement: Sum multiple built areas in single Complex Building.
