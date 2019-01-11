@@ -70,12 +70,16 @@ Modelur calculates the Form Factor in two ways that are most commonly used nowad
 
     Source: [NHBC: Foundation Shape and Form](https://www.nhbcfoundation.org/wp-content/uploads/2016/10/NF-72-NHBC-Foundation_Shape-and-Form.pdf)
 
+    The Heat Loss Form Factor is a number generally between 0.5 and 5, with a lower number indicating a more compact building. Passivhaus buildings aim to achieve 3 or less ([source](http://www.greenspec.co.uk/building-design/heat-loss-form-factor/)).
+
 1. *Surface to Volume Ratio* (SVR) is the ratio between the Building's envelope area (EA) and it's volume (V). Surface to Volume Ratio is calculated as SVR = EA / V. _Note:_ The numeric value of Surface to Volume Ratio is dependent on the units (metric or imperial) that are chosen.
 
     Source: [Researchgate: The Impact of the Shape Factor on Final Energy Demand in Residential Buildings in Nordic Climates](https://www.researchgate.net/publication/268188069_The_Impact_of_the_Shape_Factor_on_Final_Energy_Demand_in_Residential_Buildings_in_Nordic_Climates).
 
+    The Surface to Volume Ratio for a typical single family house is 0.8 - 1.0 1/m. According to some sources, the recommended Surface to Volume Ratio for a passive house is ≤ 0.8 1/m; according to another source 0.5 1/m ([source](http://www.forum-holzbau.com/pdf/ihf09_Lylykangas.pdf)).
+
 1. *Building's envelope area* is the sum of areas of external faces of the Building (e.g. walls, roofs, terraces).
-   
+
     !!! hint "Form Factor Calculation is also available through Context menu"
         You can call Form Factor Calculation also via Context menu. To do so, just right-click on the Building and select Modelur → Calculate Form Factor.
 
