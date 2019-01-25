@@ -56,9 +56,9 @@ Using this functionality you can randomize selected Buildings number of storeys.
 
 This option helps create dynamic urban solutions, avoiding too uniform look of the urban area.
 
-**Create Terrain**
+[//]: # (**Create Terrain**)
 
-Modelur allows you to add texture to your buildings and/or landscapes. Select a surface, click on this tool and select a file with appropriate texture from your computer. Valid texture file formats are: .png, .jpg, .psd, .bmp, .tif and .tga.
+[//]: # (Modelur allows you to add texture to your buildings and/or landscapes. Select a surface, click on this tool and select a file with appropriate texture from your computer. Valid texture file formats are: .png, .jpg, .psd, .bmp, .tif and .tga.)
 
 **Calculate Form Factor**
 
