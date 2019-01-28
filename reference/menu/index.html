@@ -486,14 +486,28 @@ of Complex Buildings</em> and/or <em>Export also Buildings that form Complex Bui
 <p><strong>Randomize Building Heights</strong></p>
 <p>Using this functionality you can randomize selected Buildings number of storeys. Once Buildings are selected, click on this button and you will be presented with two options. If you select Absolute Number of Storeys all buildings will be randomized to number of storeys between min and max value. If you choose Relative Number of Storeys, selected Building's storeys will be randomized <em>based on their current Number of Storeys</em> in the range between min and max values specified.</p>
 <p>This option helps create dynamic urban solutions, avoiding too uniform look of the urban area.</p>
-<p><strong>Create Terrain</strong></p>
-<p>Modelur allows you to add texture to your buildings and/or landscapes. Select a surface, click on this tool and select a file with appropriate texture from your computer. Valid texture file formats are: .png, .jpg, .psd, .bmp, .tif and .tga.</p>
-<p><strong>Calculate Sum of Selected Buildings</strong></p>
-<p>Use this tool when you need to know the sum of Gross Floor Area and Built-up Area, Mean Number of Storeys, Parking Space Deficit for selected Buildings. Once Buildings are selected and you click this button, a temporary window will appear inside Modelur UI showing you all the numbers mentioned. Additionally, it will also show aggregated Gross Floor Area for selected Buildings by their Land Use including their ratio and number of selected Buildings (or Building Parts when selection includes Complex Buildings).</p>
+<p><strong>Calculate Form Factor</strong></p>
+<p><em>Form Factor</em> calculation is used to estimate the potential of Building's energy efficiency. The lower the Form Factor, the more compact a Building is. And the more compact a Building is, the lower are the energy losses for a given floor space.</p>
+<p>Modelur calculates the Form Factor in two ways that are most commonly used nowadays:</p>
+<ol>
+<li>
+<p><em>Heat Loss Form Factor</em> (FF) is the ratio between the Building's envelope area (EA) and it's Net Floor Area (NFA). Form Factor is calculated as FF = EA / NFA.</p>
+<p>Source: <a href="https://www.nhbcfoundation.org/wp-content/uploads/2016/10/NF-72-NHBC-Foundation_Shape-and-Form.pdf">NHBC: Foundation Shape and Form</a></p>
+<p>The Heat Loss Form Factor is a number generally between 0.5 and 5, with a lower number indicating a more compact building. Passivhaus buildings aim to achieve 3 or less (<a href="http://www.greenspec.co.uk/building-design/heat-loss-form-factor/">source</a>).</p>
+</li>
+<li>
+<p><em>Surface to Volume Ratio</em> (SVR) is the ratio between the Building's envelope area (EA) and it's volume (V). Surface to Volume Ratio is calculated as SVR = EA / V. <em>Note:</em> The numeric value of Surface to Volume Ratio is dependent on the units (metric or imperial) that are chosen.</p>
+<p>Source: <a href="https://www.researchgate.net/publication/268188069_The_Impact_of_the_Shape_Factor_on_Final_Energy_Demand_in_Residential_Buildings_in_Nordic_Climates">Researchgate: The Impact of the Shape Factor on Final Energy Demand in Residential Buildings in Nordic Climates</a>.</p>
+<p>The Surface to Volume Ratio for a typical single family house is 0.8 - 1.0 1/m. According to some sources, the recommended Surface to Volume Ratio for a passive house is ≤ 0.8 1/m; according to another source 0.5 1/m (<a href="http://www.forum-holzbau.com/pdf/ihf09_Lylykangas.pdf">source</a>).</p>
+</li>
+<li>
+<p><em>Building's envelope area</em> is the sum of areas of external faces of the Building (e.g. walls, roofs, terraces).</p>
 <div class="admonition hint">
-<p class="admonition-title">Updating Sum of Selected Buildings on the fly</p>
-<p>Calculate Sum of Selected Buildings can also be done on-the-fly, as you select and deselect buildings if you turn on this option in <a href="../survey#urban-control-survey-on-screen">Urban Control Survey on Screen</a>.</p>
+<p class="admonition-title">Form Factor Calculation is also available through Context menu</p>
+<p>You can call Form Factor Calculation also via Context menu. To do so, just right-click on the Building and select Modelur → Calculate Form Factor.</p>
 </div>
+</li>
+</ol>
 <p><strong>Optimize Buildings for Google Earth</strong></p>
 <p>Once your urban design proposal is finished, you might want to export it to geolocated KMZ file, which can be opened by many programs, including <a href="https://www.google.com/earth/?target=" title="_blank">Google Earth</a>. Using this feature Modelur will automatically optimize all Modelur Buildings by removing all unnecessary faces. If you want, you can also tell it to export floor Edges, so that the Building's storeys are visible inside Google Earth.  </p>
 <h2 id="options">Options<a class="headerlink" href="#options" title="Permanent link">&para;</a></h2>
@@ -505,6 +519,10 @@ of Complex Buildings</em> and/or <em>Export also Buildings that form Complex Bui
 <p><em>From Edge Loop</em> option means you have to select ALL the Edges of a closed loop in order to create Building or City Block. Of no complete edge loop is selected, Modelur will ignore selected edges and create a Building in the middle of the coordinate system and with <em>Default Building Area</em> (as defined in <a href="../whole_plot/#default-building-parameters">Default Building Parameters</a>) or switch to Line tool so you can draw new City Block.</p>
 <p><strong>Calculate FAR Based On</strong></p>
 <p>Tell Modelur whether you want to calculate Whole Plot's and City Blocks Floor Area Ratio based on Gross or Net Floor Area of Buildings. <em>By default this option is set to Gross Floor Area.</em></p>
+<div class="admonition note">
+<p class="admonition-title">Relation to Sum of Selected Buildings</p>
+<p>Calculate FAR Based On Gross or Net Floor Area preference determines also which value (Gross or Net) is shown when Heads-up Display is showing Sum of Selected Buildings.</p>
+</div>
 <p><strong>Lock City Blocks Upon Creation</strong></p>
 <p>Automatically locks City Blocks when they are created. This means a City Block can not be moved around the screen. This way you avoid accidentally moving a
 City Block and spoiling your project.</p>
