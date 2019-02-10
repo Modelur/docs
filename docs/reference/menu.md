@@ -98,7 +98,17 @@ Once your urban design proposal is finished, you might want to export it to geol
 Options
 -------
 
-Here you can select interface language, units and default building shape. Other options are described below:
+**Language**
+
+Set Modelur to your preferred language. Note that Modelur is officially supported in English only for time being.
+
+**Units**
+
+Set chosen units, either metric (meters) or imperial (feet). Switching this option will also switch SketchUp's dimension units.
+
+**Default Building Shape**
+
+When nothing is selected in your model, Modelur can create a Building or Complex Building at model's origin. Here you can set what shape should such default building be (Square, Circle or L-Shape). You can also select empty value and Modelur will not create new (Complex) Building if there are no proper objects (eg. Face) in the selection.
 
 **Buildings From Edges**
 
