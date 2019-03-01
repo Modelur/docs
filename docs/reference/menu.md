@@ -108,7 +108,7 @@ Set chosen units, either metric (meters) or imperial (feet). Switching this opti
 
 **Default Building Shape**
 
-When nothing is selected in your model, Modelur can create a Building or Complex Building at model's origin. Here you can set what shape should such default building be (Square, Circle or L-Shape). You can also select empty value and Modelur will not create new (Complex) Building if there are no proper objects (eg. Face) in the selection.
+When nothing is selected in your model, Modelur can create a Building or Complex Building at model's origin. Here you can set what shape should such default building be (Square, Circle or L-Shape). If you selecte empty value in the dropdown, Modelur will not create new (Complex) Building if there are no proper objects (eg. Face or closed Edge loop) in the selection.
 
 **Buildings From Edges**
 

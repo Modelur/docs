@@ -1,6 +1,16 @@
 Release notes
 -------------
 
+**2019.2.6**
+
+- Enhancement: Disable creating of default Buildings and Complex Buildings if no default shape is selected.
+- Enhancement: Handling of Buildings and City Blocks that were modified outside of Modelur.
+- Bugfix: From Factor calculation for simple Buildings with terraces/loggias.
+- Bugfix: Fix Building's storey heights when opening saved and modified SKP model if some City Blocks exist.
+- Bugfix: Loading Modelur when user's operation system is in non-ascii language and username includes non-ascii characters.
+- Bugfix: Enable release network license button with new licenses.
+- Bugfix: Export Buildings primary units.
+
 **2018.2.5**
 
 - Enhancement: Added option to calculate Building's form factor, envelope area and surface to volume ratio (via Tools > Calculate Building's Form Factor or via Context Menu when Building is selected).
