@@ -3,7 +3,7 @@ System requirements
 
 In order to run Modelur, you will need:
 
-1. [SketchUp](http://www.sketchup.com) 2014 or above,
+1. [SketchUp](http://www.sketchup.com) 2017 or above,
 1. Internet Explorer 10 or above (Windows) / Safari 5 or above (OS X).
 
 Modelur works well with both, Make (free) and Pro (commercial) versions of SketchUp.
@@ -18,7 +18,7 @@ There are several ways you can install Modelur:
 * Via [SketchUcation Plugin Store](http://sketchucation-ps.modelur.com).
 
 !!! note
-    We recommend you to use option #1 (universal RBZ installer) in order to ensure you install the latest version of Modelur. 
+    We recommend you to use option #1 (universal RBZ installer) in order to ensure you install the latest version of Modelur.
 
 To install a SketchUp Ruby plugin in RBZ format use the standard SketchUp [installation procedure](https://help.sketchup.com/en/article/38583):
 
@@ -40,10 +40,10 @@ Upon installation, Modelur is saved to Sketchup's default Plugins folder, which 
 ### Preferences Location
 
 Files containing your Modelur preferences are stored
- 
+
 * On Windows: `C:\Users\YOUR USERNAME\AppData\Roaming\Modelur`
 * On OS X: `~/Library/Application Support/Modelur`
- 
+
 All preferences are stored using standard [JSON](http://www.json.org/) data-interchange format. Upon Modelur upgrade, these files will be automatically updated. In case you edit them manually and something doesn't work, you can always restore them using the command available via SketchUp's menu Extensions → Modelur → Restore default settings.
 
 Installation problems
@@ -79,7 +79,7 @@ Updating License
 
 Once you renew your Modelur license, you need to update it in case the License Key is different from the one you used before.
 
-In case you encounter some problems when trying to update the license using SketchUp Extensions > Modelur > Update Modelur License or Modelur can't do it automatically (if it is the same Key as before), please do the following: 
+In case you encounter some problems when trying to update the license using SketchUp Extensions > Modelur > Update Modelur License or Modelur can't do it automatically (if it is the same Key as before), please do the following:
 
 ### On Windows:
 

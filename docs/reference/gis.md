@@ -1,31 +1,29 @@
 # GIS import
 
-WARNING/TODO: Doesn't work on SketchUp 2016.
-
-GIS import is a brand new Modelur feature, which allows user to import __Shapefiles (shp)__ and __GeoJSON__ files to SketchUp and transform 2D GIS data to 3D image.
+GIS import is a brand new Modelur feature, which allows user to import __Shapefiles (shp)__ and __GeoJSON__ files to SketchUp and transform 2D GIS data to 3D model.
 
 GIS import allows you to __map GIS attributes to Modelur parameters__.
-For example you can map GIS attribute `NUM_OF_STO` to Modelur parameter `Number of storeys` and Modelur will generate building and use value of chosen GIS attribute as its height.
+For example you can map GIS attribute `NUM_OF_STO` to Modelur parameter `Number of storeys`. Modelur will then use the value from GIS attribute when generating buildings.
 
 ## Requirements
 ### Set Geo-location
-Before you can import GIS data or even open GIS dialog in Modelur, you need to have geolocated model. You can set the model's geolocation under `File -> Geo-location` in SketchUp.
+Your SketchUp model needs to have geolocation set before you can import GIS data. You can set the model's geolocation under `File -> Geo-location` in SketchUp.
 
 ### Supported file types
-Modelur supports __Shapefiles (shp)__ and __GeoJSON__ file types. Files need to be saved in __WGS84 coordinate system__.
+You can import GIS data that are saved as __Shapefiles (.shp)__ or __GeoJSON (.geojson)__. Files need to be saved in __WGS84 coordinate system__.
 
 ### Supported data types
-Modelur supports the following data types:
+Modelur supports the following GIS data types:
 - __polygons__ (can be imported as _Modelur Buildings_, _Complex Buildings_ or _Building Volumes_)
 - __points__ (can be imported as _Trees_, _Waste Bins_ or _Terrain_)
 - __polylines__ (can be imported as _Metro_ or _Underground Pipes_)
 
 ## Usage
 ### Open your model in Sketchup
-Open your file in SketchUp. If _geolocation_ is not set, set it under `File -> Geo-location` in SketchUp.
+Open your .skp file in SketchUp. If _geolocation_ is not set, set it under `File -> Geo-location` in SketchUp.
 
 ![Opened model](../img/gis_opened_model.png)
-<figcaption>Figure 1.1 - Opened model in SketchUp.</figcaption>
+<figcaption>Figure 1.1 - .skp model in SketchUp.</figcaption>
 
 ### Open GIS Data Import window
 Initialize Modelur and go to `File -> Import GIS Data ... ` to open __GIS Data Import__ window.
@@ -53,7 +51,14 @@ Determine the offset for your model if needed. The unit for offset is the same a
 <figcaption>Figure 1.5 - Set offset.</figcaption>
 
 ### Import as
-If you import .shp/.geojson file that contains __polygons__, you can import them as _Modelur Buildings_, _Complex Buildings_ or _Building Volumes_. If your .shp/.geojson file contains __points__, they can be imported as _Trees_, _Waste Bins_ or _Terrain_. File containing __polylines__ can be imported as _Metro_ or _Underground Pipes_.
+Set of choices that will be presented in this dropdown depends on the type of data that you imported from your `.shp` or `.geojson` file.
+
+* If the file contains __polygons__, you can import them as _Modelur Buildings_, _Complex Buildings_ or _Building Volumes_.
+* If the file contains __points__, they can be imported as _Trees_, _Waste Bins_ or _Terrain_.
+* File containing __polylines__ can be imported as _Metro_ or _Underground Pipes_.
+
+![Import as](../img/gis_import_as.png)
+<figcaption>Figure 1.6 - Import as.</figcaption>
 
 ### Import Mapping...
 By clicking this button you will import parameter mapping from a mapping (`.mjson`) file. Parameter mapping will be shown in the _Parameter Mapping_ section.
@@ -62,75 +67,126 @@ By clicking this button you will import parameter mapping from a mapping (`.mjso
 By clicking this button you will export current parameter mapping (from _Parameter Mapping_ section) to a mapping (`.mjson`) file.
 
 ### Import GIS layer
-When you finish the mapping you can import GIS layer.
-This will generate Modelur objects and add them to a new SketchUp layer to your model.
+After you set the mapping in the _Parameter Mapping_ section, you use this button. This will generate Modelur objects and add them to a new SketchUp layer to your .skp model.
 
-### Mapping
-For every Modelur parameter field in mapper you can open dropdown and choose GIS attribute. Every dropdown field consists of name of GIS attribute and in bracket there is value of attribute for some object, which can help you select the right attribute.
+![GIS Layer](../img/gis_import_gis_layer.png)
+<figcaption>Figure 1.7 - .skp model with GIS layer.</figcaption>
 
-![Mapping](../img/gis_offset_and_import_as.png)
-<figcaption>Figure 1.6 - Mapping.</figcaption>
+### Parameter Mapping
+Here you connect (map) _Modelur parameters_ with _GIS attributes_. Modelur will use value from mapped GIS attribute for a parameter value. For example, Modelur will use value from GIS attribute `ST_ETAZ` as `Building Height` parameter value when creating Modelur Buildings for GIS layer.
 
-If you don’t map anything, Modelur will assign default attributes to buildings (Default Land Use, Default Number of Storeys etc.)
+TODO: replace image with image containing only english attributes (Amsterdam)
 
-If you map Land Use field, a new Land Use Mapping will be shown below the Parameter mapping.
+![Parameter Mapping](../img/gis_mapping.png)
+<figcaption>Figure 1.8 - Example of GIS attribute to Modelur parameter mapping.</figcaption>
+<br>
 
-#### Parameter
-Parameter mapper is basic and is generated in Modelur.
-Is shown based on chosen import type. It connects GIS attributes with Modelur parameters, based on which Modelur objects are created. Based on some of these fields the new mappers are generated, which use mapped attribute values. On left side are dropdowns with names of all GIS attributes, on the right side is Modelur parameter name.
+Modelur parameters listed on the right (`To` area) depend on the data type in your .shp/.geojson file and on the option you selected in the `Import as` dropdown. For example TODO
 
-#### Land Use
+You map Modelur parameter field to GIS attribute by selecting the GIS attribute from dropdown on the left (`From` area). Dropdown options contain GIS attribute name and a randomly chosen attribute value (e.g. `YEAR_BUILT (1994)`). We included attribute value to give you an example of what each GIS attribute contains. Hopefully, that will make it easier for you to map attributes to parameters.
+
+TODO: replace image with image containing only english attributes (Amsterdam)
+
+![Parameter Mapping](../img/gis_parameter_mapping_from.png)
+<figcaption>Figure 1.8 - Example of GIS attribute to Modelur parameter mapping.</figcaption>
+
+<br>
+
+Some Modelur parameters (e.g `Number of Storeys`) can remain unmapped because Modelur can use default values to create objects for GIS layer. Those parameters that currently do not have default values (and can not remain unmapped) will be listed in the _GIS non-mapped parameter values_ area. See _GIS non-mapped parameter values_ section for more information.
+
+If you map `Land Use` Modelur parameter, a new _Land Use Mapping_ area will appear below the _Parameter mapping_ area. See _Land Use Mapping_ section for more information.
+
+#### GIS Extras
+This section contains Modelur parameters that are not used for creating Modelur objects (Buildings etc.). These parameters just contain some additional information used for placing the objects on the model. For example `Ground to Sea Level` for Buildings.
+
+TODO: add image?
+
+#### Land Use Mapping - TODO
+_Land Use Mapping_ area appears when you map `Land Use` Modelur parameter. _Land Use Mapping_
 Is generated from unique attribute values of chosen attribute, mapped to Land Use parameter field in parameter mapper. It connects attribute values to Modelur Land uses. On left side is value of attribute, on the right side is dropdown with all Land Uses.
 
-#### Color
-Is generated from unique attribute values of chosen attribute, mapped to Pipe or Tube Color parameter field in parameter mapper. It connects attribute values to possible colors. On left side is value of attribute, on the right side is dropdown with possible colors.
+TODO: add image
 
-#### GIS non-mapped parameters
-While some GIS attributes can remain unmapped, some can not. For example, tube diameter for tubes. Without tube diameter, no accurate tube model can be made.
+#### Color Mapping- TODO
+_Color Mapping_ area is generated from unique attribute values of chosen attribute, mapped to Pipe or Tube Color parameter field in parameter mapper. It connects attribute values to possible colors. On left side is value of attribute, on the right side is dropdown with possible colors.
 
-Those parameters will be visible in GIS non-mapped parameters section.
-There user can choose values in dropdowns. It doesn’t offer you list of attributes but actual values that are available for certain parameter. In GIS non-mapped parameter values panel are therefore shown only fields that are not mapped in Parameter Mapping.
+TODO: add image
 
-In GIS non-mapped parameter values panel are therefore shown only fields that are not mapped in Parameter Mapping. Here you can choose value from dropdown. It doesn’t offer you list of attributes but actual values that are available for certain parameter. Those parameters cannot be left unmapped, and if they’re not mapped in Parameter Mapping they will use default option in other mapping.
+#### GIS non-mapped parameter values
+While some Modelur parameters can remain unmapped (because Modelur can use default values), some can not. For example, all _Trees_ and _Tube_ parameters must be mapped.
+
+The parameters that can not remain unmapped and that are not (yet) mapped in the _Parameter Mapping_ area, will be listed in _GIS non-mapped parameter values_ area.
+
+![Non-mapped parameter values area](../img/gis_non-mapped_parameter_values.png)
+<figcaption>Figure 1.8 - Parameters that are not (yet) mapped in the Parameter Mapping area, will be listed in GIS non-mapped parameter values area.</figcaption>
+<br>
+
+If you map the parameters in the _Parameter Mapping_ area, they will disappear from _GIS non-mapped parameter values_ area.
+
+![Parameters will disappear from non-mapped parameter values area](../img/gis_non-mapped_parameter_values_2.png)
+<figcaption>Figure 1.8 - If you map the parameters in the Parameter Mapping area, they will disappear from GIS non-mapped parameter values area.</figcaption>
+<br>
+
+Dropdowns in the _GIS non-mapped parameter values_ area contain actual values that are available for certain parameter. The chosen value will be used for all objects in GIS layer.
+
+TODO: Trees: why can't you set tree species in the parameter mapping section?
 
 ## GIS Preferences
-GIS preferences are general settings that that let you decide how Modelur will perform certain functions. If you don't see them, click on the square icon to expand _GIS Preferences_ window.
+Here you set how Modelur will perform certain GIS related functions.
+
+If you don't see the options, click on the square icon on the right of the  _GIS Preferences_ tittle. This will expand _GIS Preferences_ area.
+
+![GIS Preferences](../img/gis_preferences.png)
+<figcaption>Figure 1.6 - GIS Preferences area.</figcaption>
 
 ### Max number of mapped Land Uses
-Land Use mapper is generated from unique values of selected GIS attribute. If “wrong” attribute is selected Modelur might try to generate mapper with 1000 or more fields which takes a long time and can also broke the program. With this preference you can prevent such errors by setting the limit on mapper size.
+_Land Use mapper_ area (see _Land Use Mapping_ section) is generated from unique values of the GIS attribute that maps to _Land Use_ Modelur parameter.
+
+You might accidentally choose a GIS attribute with e.g. 1000 or more fields. Then the generation of _Land Use Mapper_ will take a long time and can even break the program.
+
+You can prevent such errors by setting the limit on _Land Use mapper_ size. Then the _Land Use Mapper_ will contain only the _Max number of mapped Land Uses_ fields.
 
 ### Max distance from Origin before warning
-When importing GIS file, it might be located away from model’s Geo-location. This might be a mistake or you actually want to import GIS file that is located away from model’s Geo-location. Here you can set max allowed distance before warning. Modelur will not prevent you from importing file that is located far away, but it will warn you if the distance exceeds the allowed location set here.
+Here you can set max allowed distance between model’s geolocation and the geolocation of the GIS file you imported.
+
+Modelur will not prevent you from importing GIS file that exceeds the distance set here, but will show a warning to alert you.
 
 ### Mapping import options
 When importing saved mapping file (`.mjson`) you can choose between following options:
 #### 1. Clear, use imported mapping only
-This will clear all mapping fields that were assigned either manually or by importing other file, and fill it with values from currently selected file.
+All the mapping fields in the _Parameter Mapping_ area will be cleared and filled with values from the imported mapping file.
 
 #### 2. Merge, keep imported mapping for overlapping fields
-This option will take into account also already mapped fields, but if fields are defined in mapper and in mapping file, it will use imported file to overwrite it.
+Values from the imported mapping file will replace values from the _Parameter Mapping_ area. Those fields in the _Parameter Mapping_ area that are not defined in imported file, will remain unchanged.
 
 #### 3. Merge, keep current mapping for overlapping fields
-This option will take into account also already mapped fields, but if fields are defined in mapper and in mapping file, it will use current values and imported mapping file will not be able to overwrite it.
+Values from the _Parameter Mapping_ area will remain unchanged. Only those fields that do not have a value set will be filled with values from imported mapping file.
 
-### Update Land Use values (rename to Update same name Land Uses values?)
-If Land Uses defined in mapping file differ from the same named Land Uses from model, you can choose what Modelur will do about it.
+### Update Land Use values
+If _Land Uses_ defined in mapping file you will import differ from the same named _Land Uses_ from model, you have two options:
 
 #### 1. Skip (use existing)
-This will use Land Uses defined in model.
+Use _Land Uses_ defined in model.
 
 #### 2. Overload (update existing)
-This will update model Land Uses with specification from mapping file.
+Update model _Land Uses_ with specification from mapping file.
 
 ### Generate missing Land Uses
-If true Modelur will create new Land Uses. If not, it will just use Land Uses from model, and leave mapper fields that require Land Use from mapping file empty.
+When you import mapping file, it can happen that the file contains _Land Use_ types that your model does not contain. In that case, `Generate missing Land Uses` option becomes important.
+
+If checked, Modelur will add _Land Uses_ from the mapping file to the model. If not, it will use just _Land Uses_ from the model. Fields that use _Land Uses_ from the mapping file will remain empty.
 
 ### Check if mapping file was modified outside Modelur
-Mapping file is generated when you press the button `Export Mapping`. This file can then be imported later. It’s recommended to only change the mapping or land use values in Modelur and then export file, not to edit the file manually, because the correct form of file can be corrupted and it can cause some troubles while working with it. Therefore Modelur will notice if file was edited outside Modelur and will warn you if this preference is checked.
+When you click the `Export Mapping...` button, you generate a mapping file that can be imported to other Modelur instances or used later.
+
+It is highly recommended not to edit the mapping file outside Modelur GIS Import Interface. Otherwise the file form can become corrupted which can cause trouble.
+
+If you choose this option, Modelur will check if the file was edited outside Modelur and warn you if that is true.
 
 ### Warn on Offset conflict
-Current model and mapping file offsets can differ, which can lead to non-aligned model.
-If you select this option, Modelur will warn you when mapping file offset differs from model offset.
+If checked, Modelur will warn you when mapping file offset differs from model offset.
 
 ### Import mapping automatically if available
-When importing GIS file Modelur will check if there is a mapping file with the same name in that folder. If this preference is checked it will be automatically imported. Otherwise you will have to import mapping separately.
+If you select this option, Modelur will look for a corresponding mapping file when importing the GIS file (Modelur will look in the folder where GIS file is located for a mapping file with the same name as GIS file).
+
+If the corresponding mapping file is found, it will be automatically imported.
