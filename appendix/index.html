@@ -306,6 +306,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../reference/gis/" title="GIS Import (Beta)" class="md-nav__link">
+      GIS Import (Beta)
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -410,6 +422,93 @@
                   <h1>6. Appendix</h1>
                 
                 <h2 id="release-notes">Release notes<a class="headerlink" href="#release-notes" title="Permanent link">&para;</a></h2>
+<p><strong>2020.0.01 (GIS Beta: Tech Preview 1)</strong></p>
+<ul>
+<li>Enhancement: Add default Land Use to City Block's data table / export.</li>
+<li>Enhancement: Improved Trees import options (added basic species).</li>
+<li>Enhancement: Overall GIS import improvements.</li>
+<li>Enhancement: Added tolerance when calculating intersecting Complex Buildings Parts.</li>
+<li>Bugfix: City Block Land Use areas in HeadsUp Display.</li>
+</ul>
+<p><strong>2018.3.6 (GIS Alpha 6)</strong></p>
+<ul>
+<li>Announcement: New GIS version of Modelur only works with SketchUp 2017 and above.</li>
+<li>Enhancement: New UI for GIS import (open it via Modelur menu Open &gt; Import GIS Data).</li>
+<li>Enhancement: Added options to set GIS import preferences.</li>
+<li>Enhancement: Improved messaging when City Blocks errors are found.</li>
+<li>Enhancement: General improvements to SHP file reading.</li>
+<li>Enhancement: Optimized updating when multiple Building's Parameters are changed at once.</li>
+<li>Bugfix: Handle loading of files where CityBlocks are corrupted (their Faces are missing).</li>
+<li>Bugfix: Tick City Blocks checkboxes if their limitation is overloaded with empty values.</li>
+<li>Bugfix: Import City Blocks with undefined limitations (don't create parameters with no values).</li>
+</ul>
+<p><strong>2018.3.5 (GIS Alpha 5)</strong></p>
+<ul>
+<li>Enhancement: Check if SHP and GeoJSON Feature Types can be loaded with Modelur.</li>
+<li>Enhancement: Check distance from origin only if GIS file has been loaded properly.</li>
+<li>Enhancement: Add MultiLineString support for GeoJSON.</li>
+<li>Enhancement: Try to fix Building Parts if they were corrupted outside of Modelur.</li>
+<li>Enhancement: Use own Z scale algorithm to determine height of Buildings.</li>
+<li>Bugfix: Fixed loading when other plugins that use RubyEncoder are present (eg. Skalp).</li>
+<li>Bugfix: Proper import Modelur Buildings from GIS file when some shapes (features) are empty.</li>
+<li>Bugfix: Import Building Volumes when some GeoJSON Features can not be generated in 3D.</li>
+<li>Bugfix: Fix Curve generation.</li>
+<li>Bugfix: Fix Other Storeys Height in manually edited Buildings when First storey height has been already changed.</li>
+<li>Bugfix: Loading of large DEM GIS files.</li>
+</ul>
+<p><strong>2018.3.3 (GIS Alpha 4)</strong></p>
+<ul>
+<li>Enhancement: Include improvements and bugfixes from 2018.2.7.</li>
+<li>Bugfix: Improve erasing of objects when there are many City Blocks in the model.</li>
+</ul>
+<p><strong>2018.3.2 (GIS Alpha 3)</strong></p>
+<ul>
+<li>Enhancement: Import ComplexBuildings (each segment should be imported as separate layer).</li>
+<li>Enhancement: Import PolyLines (Road, Rail, Metro, Underground infrastructure).</li>
+<li>Enhancement: Import 3D terrain from SHP/GEOJson.</li>
+<li>Enhancement: Add imported objects to the Layer with same name.</li>
+<li>Enhancement: Place building to specified height (ground floor height from sea level).</li>
+<li>Bugfix: Import Polygons with holes that touch outer Edge of Polygon.</li>
+<li>Bugfix: Loading of saved Buildings when their UID is missing.</li>
+<li>Bugfix: Undo Erase CityBlock with Buildings.</li>
+</ul>
+<p><strong>2018.3.0 (GIS Alpha 2)</strong></p>
+<ul>
+<li>Optimization: Improved import speed of Modelur Buildings.</li>
+<li>Enhancement: Also drop trees to terrain (if selected).</li>
+<li>Enhancement: Improved storing of attribute mapping within same SketchUp session.</li>
+<li>Enhancement: Enabled Built-up area assignment when importing Buildings or Buildings volumes.</li>
+<li>Enhancement: Buildings and Trees can now be dropped also to Terrains that are Components.</li>
+<li>Bugfix: Import GIS objects that include Z coordinates.</li>
+<li>Bugfix: Warnings about objects being to far when imported GIS file includes Z coordinates.</li>
+<li>Bugfix: Loading of SHP files when some of its attribute records are not valid.</li>
+<li>Bugfix: Create Buildings that have 0 Number of Storeys (assign 1 storey and let user know about it).</li>
+<li>Bugfix: Prevent failure if some Buildings can not be imported, but let user know about that.</li>
+</ul>
+<p><strong>2018.3.0 (GIS Alpha 1)</strong></p>
+<ul>
+<li>Enhancement: Read GIS files relative to mjson file with import settings.</li>
+<li>Enhancement: Modelur Buildings or Buildings Volumes are dropped onto 3D terrain if the terrain is selected at the time of import.</li>
+<li>Enhancement: Improved construction year behaviour.</li>
+<li>Enhancement: Confirm import if GIS file is located more than 2km from model origin.</li>
+<li>Enhancement: Show only object types that can be imported.</li>
+<li>Enhancement: Improved trees layer (default).</li>
+</ul>
+<p><strong>2018.3.0 (GIS Alpha 0)</strong></p>
+<ul>
+<li>First, early Alpha release of Modelur with GIS import capabilities (reading SHP and GeoJSON files).</li>
+</ul>
+<p><strong>2019.2.7</strong></p>
+<ul>
+<li>Enhancement: Added Italian translation (thank you Salvatore Colletti!), improved English translation.</li>
+<li>Enhancement: Vertical clustering of Complex Building's parts.</li>
+<li>Enhancement: Added Land Use sum of Building's Volumes.</li>
+<li>Bugfix: Release network license when license was created before Feb 2019.</li>
+<li>Bugfix: Add Gross Floor Area parameter when Complex Building is created.</li>
+<li>Bugfix: Undo Erase CityBlock with Buildings.</li>
+<li>Bugfix: Loading of saved Buildings when their UID is missing.</li>
+<li>Bugfix: City Block and Whole Plot Heads-up display of GFA per land use.</li>
+</ul>
 <p><strong>2019.2.6</strong></p>
 <ul>
 <li>Enhancement: Disable creating of default Buildings and Complex Buildings if no default shape is selected.</li>
@@ -1103,7 +1202,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright (c) 2018 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
+            Copyright (c) 2019 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
           </div>
         
         powered by
