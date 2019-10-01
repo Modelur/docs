@@ -1,6 +1,93 @@
 Release notes
 -------------
 
+**2020.0.01 (GIS Beta: Tech Preview 1)**
+
+- Enhancement: Add default Land Use to City Block's data table / export.
+- Enhancement: Improved Trees import options (added basic species).
+- Enhancement: Overall GIS import improvements.
+- Enhancement: Added tolerance when calculating intersecting Complex Buildings Parts.
+- Bugfix: City Block Land Use areas in HeadsUp Display.
+
+**2018.3.6 (GIS Alpha 6)**
+
+- Announcement: New GIS version of Modelur only works with SketchUp 2017 and above.
+- Enhancement: New UI for GIS import (open it via Modelur menu Open > Import GIS Data).
+- Enhancement: Added options to set GIS import preferences.
+- Enhancement: Improved messaging when City Blocks errors are found.
+- Enhancement: General improvements to SHP file reading.
+- Enhancement: Optimized updating when multiple Building's Parameters are changed at once.
+- Bugfix: Handle loading of files where CityBlocks are corrupted (their Faces are missing).
+- Bugfix: Tick City Blocks checkboxes if their limitation is overloaded with empty values.
+- Bugfix: Import City Blocks with undefined limitations (don't create parameters with no values).
+
+**2018.3.5 (GIS Alpha 5)**
+
+- Enhancement: Check if SHP and GeoJSON Feature Types can be loaded with Modelur.
+- Enhancement: Check distance from origin only if GIS file has been loaded properly.
+- Enhancement: Add MultiLineString support for GeoJSON.
+- Enhancement: Try to fix Building Parts if they were corrupted outside of Modelur.
+- Enhancement: Use own Z scale algorithm to determine height of Buildings.
+- Bugfix: Fixed loading when other plugins that use RubyEncoder are present (eg. Skalp).
+- Bugfix: Proper import Modelur Buildings from GIS file when some shapes (features) are empty.
+- Bugfix: Import Building Volumes when some GeoJSON Features can not be generated in 3D.
+- Bugfix: Fix Curve generation.
+- Bugfix: Fix Other Storeys Height in manually edited Buildings when First storey height has been already changed.
+- Bugfix: Loading of large DEM GIS files.
+
+**2018.3.3 (GIS Alpha 4)**
+
+- Enhancement: Include improvements and bugfixes from 2018.2.7.
+- Bugfix: Improve erasing of objects when there are many City Blocks in the model.
+
+**2018.3.2 (GIS Alpha 3)**
+
+- Enhancement: Import ComplexBuildings (each segment should be imported as separate layer).
+- Enhancement: Import PolyLines (Road, Rail, Metro, Underground infrastructure).
+- Enhancement: Import 3D terrain from SHP/GEOJson.
+- Enhancement: Add imported objects to the Layer with same name.
+- Enhancement: Place building to specified height (ground floor height from sea level).
+- Bugfix: Import Polygons with holes that touch outer Edge of Polygon.
+- Bugfix: Loading of saved Buildings when their UID is missing.
+- Bugfix: Undo Erase CityBlock with Buildings.
+
+**2018.3.0 (GIS Alpha 2)**
+
+- Optimization: Improved import speed of Modelur Buildings.
+- Enhancement: Also drop trees to terrain (if selected).
+- Enhancement: Improved storing of attribute mapping within same SketchUp session.
+- Enhancement: Enabled Built-up area assignment when importing Buildings or Buildings volumes.
+- Enhancement: Buildings and Trees can now be dropped also to Terrains that are Components.
+- Bugfix: Import GIS objects that include Z coordinates.
+- Bugfix: Warnings about objects being to far when imported GIS file includes Z coordinates.
+- Bugfix: Loading of SHP files when some of its attribute records are not valid.
+- Bugfix: Create Buildings that have 0 Number of Storeys (assign 1 storey and let user know about it).
+- Bugfix: Prevent failure if some Buildings can not be imported, but let user know about that.
+
+**2018.3.0 (GIS Alpha 1)**
+
+- Enhancement: Read GIS files relative to mjson file with import settings.
+- Enhancement: Modelur Buildings or Buildings Volumes are dropped onto 3D terrain if the terrain is selected at the time of import.
+- Enhancement: Improved construction year behaviour.
+- Enhancement: Confirm import if GIS file is located more than 2km from model origin.
+- Enhancement: Show only object types that can be imported.
+- Enhancement: Improved trees layer (default).
+
+**2018.3.0 (GIS Alpha 0)**
+
+- First, early Alpha release of Modelur with GIS import capabilities (reading SHP and GeoJSON files).
+
+**2019.2.7**
+
+- Enhancement: Added Italian translation (thank you Salvatore Colletti!), improved English translation.
+- Enhancement: Vertical clustering of Complex Building's parts.
+- Enhancement: Added Land Use sum of Building's Volumes.
+- Bugfix: Release network license when license was created before Feb 2019.
+- Bugfix: Add Gross Floor Area parameter when Complex Building is created.
+- Bugfix: Undo Erase CityBlock with Buildings.
+- Bugfix: Loading of saved Buildings when their UID is missing.
+- Bugfix: City Block and Whole Plot Heads-up display of GFA per land use.
+
 **2019.2.6**
 
 - Enhancement: Disable creating of default Buildings and Complex Buildings if no default shape is selected.
