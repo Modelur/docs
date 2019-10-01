@@ -13,6 +13,7 @@ pages:
   - 'Survey': 'reference/survey.md'
   - 'Toolbar': 'reference/toolbar.md'
   - 'Extensions Menu': 'reference/extensions_menu.md'
+  - 'GIS Import (Beta)': 'reference/gis.md'
 - 5. Troubleshooting: troubleshooting.md
 - 6. Appendix: appendix.md
 extra_css:
@@ -20,7 +21,7 @@ extra_css:
 - css/custom.css
 extra_javascript:
 - javascript/mkdocs.js
-copyright: Copyright (c) 2018 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
+copyright: Copyright (c) 2019 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o. (LLC)</a>. All Rights Reserved.
 site_author: The Modelur Team
 google_analytics: ['UA-8035020-12', 'auto']
 extra:
