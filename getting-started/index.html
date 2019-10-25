@@ -261,6 +261,19 @@
     Licensing
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation-on-multi-user-computer" title="Installation on multi-user computer" class="md-nav__link">
+    Installation on multi-user computer
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -558,6 +571,19 @@
     Licensing
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation-on-multi-user-computer" title="Installation on multi-user computer" class="md-nav__link">
+    Installation on multi-user computer
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -673,6 +699,32 @@
 <figcaption>Figure 2.01 - Modelur Activation window.</figcaption>
 
 <p>In case you are not able to obtain your License Key or if you experience any other problem, please contact us at <a href="mailto:support@modelur.com">support@modelur.com</a>.</p>
+<h3 id="installation-on-multi-user-computer">Installation on multi-user computer<a class="headerlink" href="#installation-on-multi-user-computer" title="Permanent link">&para;</a></h3>
+<p>Should you need to install Modelur on one computer with multiple users, you can
+use the same license for all of them. To make licensing process  more simple, you
+should take advantage of SketchUp's built-in system of shipped extensions, which
+installs default extensions that come with SketchUp for every user.</p>
+<p>On Windows, the default extensions are stored in <code>C:\Program Files\SketchUp\SketchUp ####\ShippedExtensions\</code>.
+Extract Modelur.RBZ to that location (you should see Modelur.rb and \Modelur folder
+in the root of \ShippedExtensions folder). This way SketchUp will copy Modelur
+installation for every user of the computer when it is initialized.</p>
+<p>By default, Modelur will check it's license in <code>C:\Users\YOUR USERNAME\AppData\Roaming\</code>,
+meaning that each user will need separate license. But you can tell it to look 
+for the license in specific location, let's say in <code>C:\Users\</code> so that the same
+license is visible to all users. In order to let Modelur know where to look for
+license file, you need to update the file <code>local.json</code>, where you need to add
+<code>"licpath": "C:/Users/"</code> entry. This tells Modelur to look for license file in
+<code>C:/Users/</code>. To finish automatic setting of licpath, make sure you have <code>local.json</code>
+stored in <code>C:\Program Files\SketchUp\SketchUp ####\ShippedExtensions\Modelur\user</code>
+as SketchUp will copy its content to every user's <code>AppData</code> folder. And of course
+make sure you have <code>Modelur.lic</code> in <code>C:\Users\</code> folder.</p>
+<p>For your reference, this is how <code>local.json</code> might look like on Windows:</p>
+<pre><code>{
+  &quot;last_news&quot;: 0,
+  &quot;licpath&quot;: &quot;C:/Users&quot;
+}
+</code></pre>
+
 <h2 id="updating-license">Updating License<a class="headerlink" href="#updating-license" title="Permanent link">&para;</a></h2>
 <p>Once you renew your Modelur license, you need to update it in case the License Key is different from the one you used before.</p>
 <p>In case you encounter some problems when trying to update the license using SketchUp Extensions &gt; Modelur &gt; Update Modelur License or Modelur can't do it automatically (if it is the same Key as before), please do the following:</p>
