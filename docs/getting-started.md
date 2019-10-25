@@ -74,6 +74,37 @@ Upon purchase, you should have received a License Key. To license your copy of M
 
 In case you are not able to obtain your License Key or if you experience any other problem, please contact us at [support@modelur.com](mailto:support@modelur.com).
 
+### Installation on multi-user computer
+
+Should you need to install Modelur on one computer with multiple users, you can
+use the same license for all of them. To make licensing process  more simple, you
+should take advantage of SketchUp's built-in system of shipped extensions, which
+installs default extensions that come with SketchUp for every user.
+
+On Windows, the default extensions are stored in `C:\Program Files\SketchUp\SketchUp ####\ShippedExtensions\`.
+Extract Modelur.RBZ to that location (you should see Modelur.rb and \Modelur folder
+in the root of \ShippedExtensions folder). This way SketchUp will copy Modelur
+installation for every user of the computer when it is initialized.
+
+By default, Modelur will check it's license in `C:\Users\YOUR USERNAME\AppData\Roaming\ `,
+meaning that each user will need separate license. But you can tell it to look 
+for the license in specific location, let's say in `C:\Users\` so that the same
+license is visible to all users. In order to let Modelur know where to look for
+license file, you need to update the file `local.json`, where you need to add
+`"licpath": "C:/Users/"` entry. This tells Modelur to look for license file in
+`C:/Users/`. To finish automatic setting of licpath, make sure you have `local.json`
+stored in `C:\Program Files\SketchUp\SketchUp ####\ShippedExtensions\Modelur\user`
+as SketchUp will copy its content to every user's `AppData` folder. And of course
+make sure you have `Modelur.lic` in `C:\Users\` folder.
+
+For your reference, this is how `local.json` might look like on Windows:
+```
+{
+  "last_news": 0,
+  "licpath": "C:/Users"
+}
+```
+
 Updating License
 ----------------
 
