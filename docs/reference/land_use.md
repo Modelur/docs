@@ -72,7 +72,7 @@ Net Floor Area Factor Terrace works the same way as NFA Factor Internal, but it 
 
 **NFA Factor Loggia**
 
-Net Floor Area Factor Loggia works the same way as NFA Factor Internal, but it is applied to Loggia areas only. Loggia is determined automatically by Modelur when manually editing the Building using the PushPull tool. Loggia is defined as an outside floor which is more then 80% covered.
+Net Floor Area Factor Loggia works the same way as NFA Factor Internal, but it is applied to Loggia areas only. Loggia is determined automatically by Modelur when manually editing the Building using the PushPull tool. Loggia is defined as an outside floor which is more then 80% covered by the next floor directly above. An outside floor that is covered by a floor that is 2 or more floors appart is *not* considered loggia.
 
 If needed, you can visualize Terraces and Loggias by checking Mark Terraces and Loggias option in Modelur UI → Menu → Options. This will make Terraces green and Loggias pink.
 
