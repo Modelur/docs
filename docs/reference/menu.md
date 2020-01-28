@@ -6,11 +6,22 @@ Menu is the topmost part of Modelur's user interface window (Figure 4.01). It co
 File
 ----
 
-Here you can open existing SKP files or export your data.
+Here you can open existing files or export your data.
 
 **File → Open**
 
 Opens a dialog window that allows you to open existing SKP file.
+
+**File → Import GIS Data…**
+
+Clicking on this button will bring up [GIS import](gis) window.
+
+**File → Export to GeoJSON…**
+
+Clicking on this button will save your Buildings and City Blocks as WGS84 GeoJSON
+which you can use in GIS software of your choice (eg. QGis, ArcGis, etc.).
+Files are stored next to your SKP file. They have the same base name as your SKP
+file and appended _buildings_##, _complex_buildings_## and _city_blocks_## suffixes. Each time you export the data, number identifier is raised by 1.
 
 **File → Export Urban Design Control Values…**
 

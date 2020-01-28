@@ -34,3 +34,17 @@ If City Blocks are already selected, this Tool will apply the Parameters from th
 When there are some City Blocks in selection while this Tool is active, you can press ++esc++ to deselect them. Note that this will only deselect City Blocks and no other SketchUp Entities in your selection.
 
 Using Sync City Block Parameters you will transfer both, City Block and its Building Parameters, which in turn will also affect all Buildings placed on the City Block to which Parameters are being transferred (according to their [Parameters hierarchy](/quickstart/#step-3-changing-the-parameters)).
+
+#### Split Modelur Building ####
+
+Split Modelur Building Tool is used to divide Modelur Buildings in two parts.  
+The split is done using 'virtual' vertical plane which you define by clicking
+and Edge of a Building (we recommend you start the operation by clicking on one
+of the Roof Edges). To complete the operation, click once again on the opposite
+side of the Building.
+
+Using Split Tool, you can split both, Simple and Complex Building. When inside
+Complex Building, you can also use Split Tool to divide it's parts (5.02).
+
+![Split Complex Building](../img/split_complex_building_part.png)
+<figcaption>Figure 5.02 - You can also split Building Parts.</figcaption>

@@ -1,6 +1,15 @@
 Release notes
 -------------
 
+**2020.0.02 (GIS Beta)**
+
+- Enhancement: Live data connection from Modelur to Excel (Windows only).
+- Enhancement: Added Split Buildings Tool.
+- Enhancement: Export Buildings and City Blocks in GeoJSON format.
+- Enhancement: Display / Export Land Use data in alphabetic order.
+- Bugfix: Fix importing of GIS polygons that have points closer than 1/1000th of an inch.
+- Bugfix: Fix loading of SHP files that contain attribute names with non-ascii characters.
+
 **2020.0.01 (GIS Beta: Tech Preview 1)**
 
 - Enhancement: Add default Land Use to City Block's data table / export.

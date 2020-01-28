@@ -33,9 +33,29 @@ By clicking on this button, Modelur will create copies of all selected Modelur B
 
 In case you want to double check if Urban Control Values are calculated correctly, you might want to use this button to refresh them from scratch.
 
-#### Restore default values ####
+#### Restore Default Settings ####
 
 This will reset your current Modelur settings to default state (the same as when you first install Modelur).
+
+#### Send Modelur Data to Excel (Windows only) ####
+
+Once you click on this button, Modelur will open up Excel (it should already be
+installed on your Windows OS) and populate it with the data from Urban Control
+Data Table. New XLSX file will have the same name as your SKP file and will be
+saved next to it.
+
+Once connection to Excel is established, Modelur will send updated data whenever
+you make a change to your model. By default, Modelur will create and XLSX file
+with one tab, named _Modelur Live Data_. In order for Modelur to recognize this
+tab in the future (once saved and reopened), make sure not to rename this tab.
+
+After XLSX file is populated with values from Modelur, you can add your own sheet
+and refer to it (and its cells) to add your own calculations and graphs.
+
+!!! tip "Setting the data that is sent to Excel"
+The data that is sent to Excel is the same as the data that you see in [Urban
+Control Data Table](menu/#tools). In case you want to change which data is being
+sent to Excel, you can do so there by (un)checking appropriate checkboxes.
 
 #### Store Land Uses ####
 
