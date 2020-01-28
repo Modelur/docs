@@ -7,5 +7,5 @@ Welcome to Modelur User Guide!
 
 Modelur is implemented as a plug-in for [Trimble SketchUp](http://www.sketchup.com).
 
-![Modelur screenshot](img/modelur_beta.png)
+![Modelur screenshot](img/modelur.png)
 
