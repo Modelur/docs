@@ -469,9 +469,16 @@
 <p><img alt="Modelur Menu" src="../../img/modelur_ui_parts_menu_annotated.png" />
 <figcaption>Figure 4.01 - Location of Modelur Menu.</figcaption></p>
 <h2 id="file">File<a class="headerlink" href="#file" title="Permanent link">&para;</a></h2>
-<p>Here you can open existing SKP files or export your data.</p>
+<p>Here you can open existing files or export your data.</p>
 <p><strong>File → Open</strong></p>
 <p>Opens a dialog window that allows you to open existing SKP file.</p>
+<p><strong>File → Import GIS Data…</strong></p>
+<p>Clicking on this button will bring up <a href="../gis">GIS import</a> window.</p>
+<p><strong>File → Export to GeoJSON…</strong></p>
+<p>Clicking on this button will save your Buildings and City Blocks as WGS84 GeoJSON
+which you can use in GIS software of your choice (eg. QGis, ArcGis, etc.).
+Files are stored next to your SKP file. They have the same base name as your SKP
+file and appended <em>buildings</em>##, <em>complex_buildings</em>## and <em>city_blocks</em>## suffixes. Each time you export the data, number identifier is raised by 1.</p>
 <p><strong>File → Export Urban Design Control Values…</strong></p>
 <p>This is used to export urban control values (such as Gross Floor Area, FAR, Required number of parking lots, etc.) of currently opened model into CSV file. Before exporting the data, you have an option to choose which values you want to export (Whole Plot, Land Uses, Buildings, Complex Buildings). By default all options are selected for export (Figure 4.02).</p>
 <p>For Complex Buildings, details about Land Use and/or each Simple Building from which it is constructed can be exported. Just select <em>Export also Land Use data

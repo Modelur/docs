@@ -367,8 +367,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#restore-default-values" title="Restore default values" class="md-nav__link">
-    Restore default values
+  <a href="#restore-default-settings" title="Restore Default Settings" class="md-nav__link">
+    Restore Default Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#send-modelur-data-to-excel-windows-only" title="Send Modelur Data to Excel (Windows only)" class="md-nav__link">
+    Send Modelur Data to Excel (Windows only)
   </a>
   
 </li>
@@ -540,8 +547,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#restore-default-values" title="Restore default values" class="md-nav__link">
-    Restore default values
+  <a href="#restore-default-settings" title="Restore Default Settings" class="md-nav__link">
+    Restore Default Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#send-modelur-data-to-excel-windows-only" title="Send Modelur Data to Excel (Windows only)" class="md-nav__link">
+    Send Modelur Data to Excel (Windows only)
   </a>
   
 </li>
@@ -639,8 +653,25 @@
 <p>By clicking on this button, Modelur will create copies of all selected Modelur Buildings.</p>
 <h4 id="recalculate-urban-control-values">Recalculate Urban Control Values<a class="headerlink" href="#recalculate-urban-control-values" title="Permanent link">&para;</a></h4>
 <p>In case you want to double check if Urban Control Values are calculated correctly, you might want to use this button to refresh them from scratch.</p>
-<h4 id="restore-default-values">Restore default values<a class="headerlink" href="#restore-default-values" title="Permanent link">&para;</a></h4>
+<h4 id="restore-default-settings">Restore Default Settings<a class="headerlink" href="#restore-default-settings" title="Permanent link">&para;</a></h4>
 <p>This will reset your current Modelur settings to default state (the same as when you first install Modelur).</p>
+<h4 id="send-modelur-data-to-excel-windows-only">Send Modelur Data to Excel (Windows only)<a class="headerlink" href="#send-modelur-data-to-excel-windows-only" title="Permanent link">&para;</a></h4>
+<p>Once you click on this button, Modelur will open up Excel (it should already be
+installed on your Windows OS) and populate it with the data from Urban Control
+Data Table. New XLSX file will have the same name as your SKP file and will be
+saved next to it.</p>
+<p>Once connection to Excel is established, Modelur will send updated data whenever
+you make a change to your model. By default, Modelur will create and XLSX file
+with one tab, named <em>Modelur Live Data</em>. In order for Modelur to recognize this
+tab in the future (once saved and reopened), make sure not to rename this tab.</p>
+<p>After XLSX file is populated with values from Modelur, you can add your own sheet
+and refer to it (and its cells) to add your own calculations and graphs.</p>
+<div class="admonition tip">
+<p class="admonition-title">Setting the data that is sent to Excel</p>
+</div>
+<p>The data that is sent to Excel is the same as the data that you see in <a href="../menu/#tools">Urban
+Control Data Table</a>. In case you want to change which data is being
+sent to Excel, you can do so there by (un)checking appropriate checkboxes.</p>
 <h4 id="store-land-uses">Store Land Uses<a class="headerlink" href="#store-land-uses" title="Permanent link">&para;</a></h4>
 <p>Use this command to store all Land Uses of current model into external file (<code>stored_land_uses.json</code> file located in <a href="../../getting-started/#modelur-location">Appdata folder</a>). This can be useful when you want to transfer Land Uses from one model to another or when copying Buildings and City Blocks with non-default Land Uses from one model to another.</p>
 <p>When copying Buildings or City Blocks with non-default Land Use from one SKP model to another, Modelur will take a look at information stored in the above JSON file. If it finds it, it will add new Land Use to existing Model automatically. If not, it will replace it with the default Land Use (and show you a notice about that).  </p>
