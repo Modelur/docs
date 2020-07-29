@@ -29,6 +29,12 @@ Known Limitations
 
 Although we strive to make Modelur flawless, there are some problems we can not bypass. We are aware of the following limitations, and we will do our best to improve them in future versions of Modelur:
 
+ - GIS import is not working well with edge cases, eg. when parts of model are on different sides Equator or when attribute names contain non-ascii characters.
+ 
+ - GIS Data import is limited to WGS84. Area calculation differs for a small amount (usually < 1%) from area calculated with GIS applications as areas are calculated using Cartesian (flat) instead of Spherical method.
+ 
+ - Live connection to Excel only works on Windows OS.
+ 
  - Slow performance and opening of large models when SketchUp's Outliner panel is opened. *Proposed solution*: hide the Outliner when opening the model (and when working with Modelur).
 
  - When using Value Control Box to specify exact Pushpull distance when manually editing the building to add terrace or loggia, user can input the exact distance only once. *Proposed solution:* please re-select face and Pushpull the face again.

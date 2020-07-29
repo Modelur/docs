@@ -1,6 +1,22 @@
 Release notes
 -------------
 
+**2020.0.03 (GIS Release Candidate 1)**
+
+- Enhancement: General improvements to Modelur Parametric Buildings core engine (Clipper).
+- Enhancement: Import Open Street Map 3D Buildings (note that data is community provided so it is not 100% reliable!).
+- Enhancement: Added sum of all City Block's plot areas in Land Uses.
+- Enhancement: Added Land Use Assessed Income parameter.
+- Enhancement: Improved intersection of Complex Building's Parts.
+- Enhancement: Show statusbar information on GIS/OSM import progress.
+- Enhancement: Added function to place all Modelur Buildings onto the terrain (UI > Tools > Place Buildings on Selected Terrain).
+- Bugfix: Fix storey heights of buildings if they are not defined.
+- Bugfix: Cut/paste Building Part from Complex Building to model.
+- Bugfix: Erasing Building Part in Complex Building after undo/redo.
+- Bugfix: Fix min and max storey settings when randomizing buildings height.
+- Bugfix: Licensing Modelur for users with non-Chinese character usernames.
+- Bugfix: Placing GIS imported Complex Buildings onto the 3D terrain.
+
 **2020.0.02 (GIS Beta)**
 
 - Enhancement: Live data connection from Modelur to Excel (Windows only).
