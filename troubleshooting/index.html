@@ -475,6 +475,15 @@
 <p>Although we strive to make Modelur flawless, there are some problems we can not bypass. We are aware of the following limitations, and we will do our best to improve them in future versions of Modelur:</p>
 <ul>
 <li>
+<p>GIS import is not working well with edge cases, eg. when parts of model are on different sides Equator or when attribute names contain non-ascii characters.</p>
+</li>
+<li>
+<p>GIS Data import is limited to WGS84. Area calculation differs for a small amount (usually &lt; 1%) from area calculated with GIS applications as areas are calculated using Cartesian (flat) instead of Spherical method.</p>
+</li>
+<li>
+<p>Live connection to Excel only works on Windows OS.</p>
+</li>
+<li>
 <p>Slow performance and opening of large models when SketchUp's Outliner panel is opened. <em>Proposed solution</em>: hide the Outliner when opening the model (and when working with Modelur).</p>
 </li>
 <li>
