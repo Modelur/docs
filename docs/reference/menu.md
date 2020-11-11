@@ -87,6 +87,12 @@ This option helps create dynamic urban solutions, avoiding too uniform look of t
 
 [//]: # (Modelur allows you to add texture to your buildings and/or landscapes. Select a surface, click on this tool and select a file with appropriate texture from your computer. Valid texture file formats are: .png, .jpg, .psd, .bmp, .tif and .tga.)
 
+**Place Buildings on Selected Terrain** 
+ 
+Using this will "drop" all Modelur Buildings to the terrain of your choice. This is particularly useful when working on 
+sloped terrains and you need the buildings to sit nicely on it. In order to use this functonality, just select the  
+terrain in question and click this button. 
+
 **Calculate Form Factor**
 
 *Form Factor* calculation is used to estimate the potential of Building's energy efficiency. The lower the Form Factor, the more compact a Building is. And the more compact a Building is, the lower are the energy losses for a given floor space.
