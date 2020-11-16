@@ -57,6 +57,15 @@ The data that is sent to Excel is the same as the data that you see in [Urban
 Control Data Table](menu/#tools). In case you want to change which data is being
 sent to Excel, you can do so there by (un)checking appropriate checkboxes.
 
+When you add new Modelur objects (Land Uses, Buildings or City Blocks), Excel rows usually
+change. To overcome problem of referencing wrong data in your formulas when rows change,
+Modelur adds named cells to exported data labels so you can reference specific values based
+on their names.
+
+![Modelur_menu entry](../img/excel_named_cells.png)
+
+<figcaption>Figure 4.7.02 - Example use of Excel named cells.</figcaption>
+
 #### Store Land Uses ####
 
 Use this command to store all Land Uses of current model into external file (`stored_land_uses.json` file located in [Appdata folder](/getting-started/#modelur-location)). This can be useful when you want to transfer Land Uses from one model to another or when copying Buildings and City Blocks with non-default Land Uses from one model to another.
