@@ -115,10 +115,10 @@ h1 {
 }
 
 .md-header-nav__title {
-    font-size: 2rem;
-    line-height: 5.1rem;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
     font-family: "Fira Sans", "Roboto Slab", "Georgia", Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .md-typeset h1 {
