@@ -11,7 +11,7 @@ goto end
 
 :begin
 if not "%1"=="" goto usage
-cd C:/Python27/modelur_user_guide/
+cd C:/Python38/modelur_user_guide/
 start mkdocs serve
 echo MkDocs server started...
 echo.
