@@ -1,6 +1,19 @@
 Release notes
 -------------
 
+**2020.0.04**
+
+- Enhancement: Excel live sync now includes named cells for easier and more dynamic referencing and it is faster.
+- Enhancement: Excel live sync and Urban Control Data Table can now display City Block data aggregated by land uses.
+- Enhancement: Added support for GIS MultiLineString import.
+- Enhancement: Improved GeoJSON export now includes achieved urban control parameters.
+- Enhancement: Added a tool to drop buildings onto the terrain.
+- Enhancement: Display 0% for land uses that don't count in GFA
+- Bugfix: Sum of whole plot and land use values when Complex Building is recreated by adding new part to existing Complex Building.
+- Bugfix: Load GIS data with non-ascii characters.
+- Bugfix: Regression of loading GIS data near the Equator.
+- Bugfix: Handle odd number of rows in excel export.
+
 **2020.0.03 (GIS Release Candidate 1)**
 
 - Enhancement: General improvements to Modelur Parametric Buildings core engine (Clipper).
