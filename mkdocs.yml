@@ -1,4 +1,5 @@
 site_name: Modelur User Guide
+site_url: https://modelur.github.io/docs
 theme: 'material'
 nav:
 - 1. Meet Modelur: index.md
