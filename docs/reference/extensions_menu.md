@@ -54,8 +54,8 @@ and refer to it (and its cells) to add your own calculations and graphs.
 
 !!! tip "Setting the data that is sent to Excel"
 The data that is sent to Excel is the same as the data that you see in [Urban
-Control Data Table](menu/#tools). In case you want to change which data is being
-sent to Excel, you can do so there by (un)checking appropriate checkboxes.
+Control Data Table](/reference/menu/#tools). In case you want to change which data 
+is being sent to Excel, you can do so there by (un)checking appropriate checkboxes.
 
 When you add new Modelur objects (Land Uses, Buildings or City Blocks), Excel rows usually
 change. To overcome problem of referencing wrong data in your formulas when rows change,
@@ -68,32 +68,57 @@ on their names.
 
 #### Store Land Uses ####
 
-Use this command to store all Land Uses of current model into external file (`stored_land_uses.json` file located in [Appdata folder](/getting-started/#modelur-location)). This can be useful when you want to transfer Land Uses from one model to another or when copying Buildings and City Blocks with non-default Land Uses from one model to another.
+Use this command to store all Land Uses of current model into external file 
+(`stored_land_uses.json` file located in [Appdata 
+folder](/getting-started/#modelur-location)). This can be useful when you want to transfer 
+Land Uses from one model to another or when copying Buildings and City Blocks with 
+non-default Land Uses from one model to another.
 
-When copying Buildings or City Blocks with non-default Land Use from one SKP model to another, Modelur will take a look at information stored in the above JSON file. If it finds it, it will add new Land Use to existing Model automatically. If not, it will replace it with the default Land Use (and show you a notice about that).  
+When copying Buildings or City Blocks with non-default Land Use from one SKP model to 
+another, Modelur will take a look at information stored in the above JSON file. If it 
+finds it, it will add new Land Use to existing Model automatically. If not, it will 
+replace it with the default Land Use (and show you a notice about that).  
 
 #### Import Land Uses ####
 
-Use this command to import all Land Uses stored in an external file. Note that this button will be unavailable if you haven't yet stored Land Uses.
+Use this command to import all Land Uses stored in an external file. Note that this 
+button will be unavailable if you haven't yet stored Land Uses.
 
-Once triggered, a menu will open asking you if you want to update existing Land Uses values. If you choose Yes, Modelur will update all Land Uses with new values. If you choose No, it will skip existing Land Uses and add only new ones (those that are non-existent in the model, but specified in the external file).
+Once triggered, a menu will open asking you if you want to update existing Land 
+Uses values. If you choose Yes, Modelur will update all Land Uses with new 
+values. If you choose No, it will skip existing Land Uses and add only new ones 
+(those that are non-existent in the model, but specified in the external file).
 
 #### Select Buildings by Land Use ####
 
-Use this button to _select_ or _filter_ Buildings by their Land Use. Once you click on this button a new window with all model's Land Uses will open. Select the Land Use of your choice and click OK. This function will operate differently based on your selection:
+Use this button to _select_ or _filter_ Buildings by their Land Use. Once you 
+click on this button a new window with all model's Land Uses will open. Select 
+the Land Use of your choice and click OK. This function will operate differently 
+based on your selection:
 
-1. If no Buildings or if only Buildings that don't have chosen Land Use selected, Modelur will select _all_ Buildings with selected Land Use.
-1. If there are some Buildings in your selection that have chosen Land Use (but also some that don't), Modelur will filter selection to only those Buildings  that have selected Land Use.
+1. If no Buildings or if only Buildings that don't have chosen Land Use 
+selected, Modelur will select _all_ Buildings with selected Land Use.
+1. If there are some Buildings in your selection that have chosen Land Use 
+(but also some that don't), Modelur will filter selection to only those 
+Buildings that have selected Land Use assigned to them.
 
 !!! note "Selecting Buildings by Land Use in Complex Buildings"
-    In case of Complex Buildings, that might have some parts of Selected Land Use (but also some with other Land Uses), Modelur will pick complete Complex Building.
+    In case of Complex Buildings, that might have some parts of Selected 
+    Land Use (but also some with other Land Uses), Modelur will pick 
+    complete Complex Building.
     
 #### Select City Blocks by Land Use ####
 
-Use this button to _select_ or _filter_ City Blocks by their Land Use. Once you click on this button a new window with all model's Land Uses will open. Select the Land Use of your choice and click OK. This function will operate differently based on your selection:
+Use this button to _select_ or _filter_ City Blocks by their Land Use. 
+Once you click on this button a new window with all model's Land Uses 
+will open. Select the Land Use of your choice and click OK. This function 
+will operate differently based on your selection:
 
-1. If no City Blocks or if only City Blocks that don't have chosen Land Use selected, Modelur will select _all_ City Blocks with selected Land Use.
-1. If there are some City Blocks in your selection that have chosen Land Use (but also some that don't), Modelur will filter selection to only those City Blocks that have selected Land Use.
+1. If no City Blocks or if only City Blocks that don't have chosen Land 
+Use selected, Modelur will select _all_ City Blocks with selected Land Use.
+1. If there are some City Blocks in your selection that have chosen 
+Land Use (but also some that don't), Modelur will filter selection to 
+only those City Blocks that have selected Land Use.
 
 #### Update Modelur License ####
 
@@ -101,15 +126,22 @@ Click this button to enter your (new) Modelur license key.
 
 #### Release Floating License ####
 
-This button is enabled only when using floating license of Modelur. By clicking on it, you will release your seat for someone else to take and Modelur will close until you request your seat again.
+This button is enabled only when using floating license of Modelur. 
+By clicking on it, you will release your seat for someone else to take 
+and Modelur will close until you request your seat again.
 
 #### Enable/Disable Proxy Server ####
 
-In case you are trying to use Modelur behind a proxy server, it might sometimes fail to validate its license online. In order to prevent such errors, you need to engage validation through proxy server. To do so, click on this button and select Yes. Once enabled, you need to restart SketchUp.
+In case you are trying to use Modelur behind a proxy server, it might 
+sometimes fail to validate its license online. In order to prevent such 
+errors, you need to engage validation through proxy server. To do so, 
+click on this button and select Yes. Once enabled, you need to restart SketchUp.
 
 !!! tip "Check your firewall"
-    Before setting up proxy server, also please make sure to allow Modelur to connect to *.modelur.com in your firewall.
+    Before setting up proxy server, also please make sure to allow 
+    Modelur to connect to *.modelur.com in your firewall.
     
 #### Show License Info ####
 
-This will show you basic details about your license: _License Key_, _License Expiration Date_ and _License Type_ you are using.
+This will show you basic details about your license: _License Key_, _License 
+Expiration Date_ and _License Type_ you are using.
