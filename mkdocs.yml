@@ -23,7 +23,7 @@ extra_javascript:
 - javascript/mkdocs.js
 copyright: Copyright (c) 2020 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o.</a>. All Rights Reserved.
 site_author: The Modelur Team
-google_analytics: ['UA-8035020-12', 'auto']
+google_analytics: ['UA-184154467-1', 'auto']
 extra:
   palette:
       primary: 'light blue'
