@@ -547,67 +547,121 @@
                 
                   <h1>Building</h1>
                 
-                <p>Under Building tab (Figure 4.71) you can create and modify Buildings. Additionally, you can also define different zoning rules and
-default Building Parameters for each Building.</p>
+                <p>Under Building tab (Figure 4.71) you can create and modify Buildings. Additionally, 
+you can also define different zoning rules and default Building Parameters for each Building.</p>
 <p><img alt="Building tab" src="../../img/modelur_building_tab.png" /></p>
 <figcaption>Figure 4.71 - Building tab, which shows Parameters of selected Building.</figcaption>
 
 <div class="admonition hint">
 <p class="admonition-title">Compact and Extended View</p>
-<p>In case you don't see separators between parameters you can turn them on using the extend icon on the top right corner of each panel: <img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.</p>
+<p>In case you don't see separators between parameters you can turn them 
+on using the extend icon on 
+the top right corner of each panel: <img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.</p>
 </div>
 <h2 id="selected-building-parameters">Selected Building Parameters<a class="headerlink" href="#selected-building-parameters" title="Permanent link">&para;</a></h2>
-<p>Inside the Selected Building Panel you can modify the Parameters of selected Building(s).</p>
+<p>Inside the Selected Building Panel you can modify the Parameters of
+ selected Building(s).</p>
 <h4 id="buttons">Buttons<a class="headerlink" href="#buttons" title="Permanent link">&para;</a></h4>
 <p><strong>Create</strong></p>
-<p>Create button is used to create simple Building, the same way as by clicking on the yellow <em>Create Building</em> icon in Modelur Toolbar. If no Face or Edge Loop is selected, Modelur will create a new Building based on default Building parameters. However, if Face(s) or Edge Loop(s) are selected, it will create new Building based on selected shape. This way you can create Building of arbitrary floor plan.</p>
+<p>Create button is used to create simple Building, the same way as by 
+clicking on the yellow <em>Create Building</em> icon in Modelur Toolbar. If no 
+Face or Edge Loop is selected, Modelur will create a new Building based 
+on default Building parameters. However, if Face(s) or Edge Loop(s) are 
+selected, it will create new Building based on selected shape. This way 
+you can create Building of arbitrary floor plan.</p>
 <div class="admonition hint">
 <p class="admonition-title">Floor plans with hidden Edges or softened coplanar Faces</p>
-<p>In case when you import Buildings footprints, they might get triangulated. If this is the case, make sure you hide internal edges or use SketchUp's built-in functionality to hide Edges on coplanar Faces (Window → Default → Tray → Soften Edges → Soften Coplanar) and Modelur will clean it up automatically and create one Building from many faces.   </p>
+<p>In case when you import Buildings footprints, they might get 
+triangulated. If this is the case, make sure you hide internal 
+edges or use SketchUp's built-in functionality to hide Edges on 
+coplanar Faces (Window → Default → Tray → Soften Edges → Soften 
+Coplanar) and Modelur will clean it up automatically and create 
+one Building from many faces.   </p>
 </div>
 <p><strong>Copy</strong></p>
-<p>When some Buildings are selected, you can use Copy button to create their copies. Alternatively you can also use SketchUp's built-in copy methods (eg. by moving the Building around and pressing on the <span class="keys"><kbd class="key-control">Ctrl</kbd></span> key).</p>
+<p>When some Buildings are selected, you can use Copy button to create 
+their copies. Alternatively you can also use SketchUp's built-in copy 
+methods (eg. by moving the Building around and pressing on the <span class="keys"><kbd class="key-control">Ctrl</kbd></span> key).</p>
 <p><strong>Restore</strong></p>
 <p>Restore button is used to reset all Building parameters to its default values.</p>
 <h4 id="name-and-land-use">Name and Land Use<a class="headerlink" href="#name-and-land-use" title="Permanent link">&para;</a></h4>
 <p><strong>Building Name</strong></p>
-<p>Using Building Name parameter you can change Building's name, which is used to easily track different Buildings. Alternatively you can also rename the Building in the SketchUp's Outliner or in the Entity Info panel the same way as you would rename any other SketchUp Group when selected.</p>
+<p>Using Building Name parameter you can change Building's name, which is 
+used to easily track different Buildings. Alternatively you can also 
+rename the Building in the SketchUp's Outliner or in the Entity Info panel 
+the same way as you would rename any other SketchUp Group when selected.</p>
 <p><strong>Land Use</strong></p>
-<p>Using Land Use <em>dropdown menu</em> you can set the Land Use selected Building(s). Land Uses are used to calculate Building's units (eg. apartments, residents, offices, etc), parking requirements, green area requirements, etc. To learn more about these settings, please visit <a href="land_use">Land Use section</a> of this page.</p>
+<p>Using Land Use <em>dropdown menu</em> you can set the Land Use selected Building(s). 
+Land Uses are used to calculate Building's units (eg. apartments, residents, 
+offices, etc), parking requirements, green area requirements, etc. To learn 
+more about these settings, please visit <a href="/reference/land_use">Land Use section</a> 
+of this page.</p>
 <h4 id="building-height">Building Height<a class="headerlink" href="#building-height" title="Permanent link">&para;</a></h4>
 <p><strong>Building Height</strong></p>
-<p>Building height sets how tall should the Building be in chosen units (metric or imperial). When changing Number of Storeys, First Storey Height and Other Storey Heights this parameter will adapt itself automatically.</p>
+<p>Building height sets how tall should the Building be in chosen units (metric 
+or imperial). When changing Number of Storeys, First Storey Height and Other 
+Storey Heights this parameter will adapt itself automatically.</p>
 <p><strong>Number of Storeys</strong></p>
-<p>Number of storeys sets the number of Building's storeys. When you change this parameter, Building Height (described above) will be adapted automatically to reflect calculated height based on Number of Storeys and First and Other storeys Height (described below).</p>
+<p>Number of storeys sets the number of Building's storeys. When you change this 
+parameter, Building Height (described above) will be adapted automatically to 
+reflect calculated height based on Number of Storeys and First and Other 
+storeys Height (described below).</p>
 <h4 id="building-areas">Building Areas<a class="headerlink" href="#building-areas" title="Permanent link">&para;</a></h4>
 <p><strong>Built-up Area</strong></p>
-<p>Built-up area sets the floor area size of the Building. Please note that this value will be automatically overloaded when creating the Building (to keep drawn floor area size) unless you check the <em>Manually drawn floor plan assumes default Built-up Area</em> under <em>Building tab → Editing Modes of Building</em>. Built-up Area will automatically be adapted if you change Gross Floor Area (described below) to match the division of Gross Floor Area with Number of Storeys.</p>
+<p>Built-up area sets the floor area size of the Building. Please note that this 
+value will be automatically overloaded when creating the Building (to keep 
+drawn floor area size) unless you check the <em>Manually drawn floor plan assumes 
+default Built-up Area</em> under <em>Building tab → Editing Modes of Building</em>. Built-up 
+Area will automatically be adapted if you change Gross Floor Area (described below) 
+to match the division of Gross Floor Area with Number of Storeys.</p>
 <p><strong>Gross Floor Area</strong></p>
-<p>Gross floor area parameter is used to define gross floor area size of the Building. If Building is created from scratch (no horizontal SketchUp Face is selected), this will be used to determine size of the Building (in combination with Number of Storeys).</p>
+<p>Gross floor area parameter is used to define gross floor area size of the 
+Building. If Building is created from scratch (no horizontal SketchUp Face 
+is selected), this will be used to determine size of the Building (in 
+combination with Number of Storeys).</p>
 <h4 id="storey-heights">Storey Heights<a class="headerlink" href="#storey-heights" title="Permanent link">&para;</a></h4>
 <p><strong>First Storey Height</strong></p>
-<p>First storey height is used to set the height of Building's ground floor. Changing this parameter will change default Building Height, too.</p>
+<p>First storey height is used to set the height of Building's ground floor. 
+Changing this parameter will change default Building Height, too.</p>
 <p><strong>Other Storeys Height</strong></p>
-<p>Other storeys height is used to set the height of all Building's storeys above ground floor. Changing this parameter will change default Building Height, too.</p>
+<p>Other storeys height is used to set the height of all Building's storeys 
+above ground floor. Changing this parameter will change default Building 
+Height, too.</p>
 <div class="admonition hint">
 <p class="admonition-title">Enter s(ync) to change both storey height in one step</p>
-<p>If you enter <span class="keys"><kbd class="key-s">S</kbd></span> key before entering number value, Modelur will automatically sync both numbers in first and other storeys height.</p>
+<p>If you enter <span class="keys"><kbd class="key-s">S</kbd></span> key before entering number value, Modelur will 
+automatically sync both numbers in first and other storeys height.</p>
 </div>
 <h4 id="development-timeline">Development Timeline<a class="headerlink" href="#development-timeline" title="Permanent link">&para;</a></h4>
 <p><strong>Construction Year</strong></p>
-<p>By specifying construction year you can define when the selected Building is expected to be built. Once construction year is set, you can use <a href="survey/#development-timeline">Development Timeline</a> option in <em>Survey tab</em> to change timeline year and see how the development will evolve in time.</p>
+<p>By specifying construction year you can define when the selected Building 
+is expected to be built. Once construction year is set, you can use 
+<a href="/reference/survey/#development-timeline">Development Timeline</a> option in 
+<em>Survey tab</em> to change timeline year and see how the development will evolve in time.</p>
 <p><strong>Demolition Year</strong></p>
-<p>By specifying demolition year you can define when the selected Building is expected to be demolished. Once demolition year is set, you can use <a href="survey/#development-timeline">Development Timeline</a> option in <em>Survey tab</em> to change timeline year and see how the development will evolve in time.</p>
+<p>By specifying demolition year you can define when the selected Building is 
+expected to be demolished. Once demolition year is set, you can use <a href="/reference/survey/#development-timeline">Development 
+Timeline</a> option in <em>Survey tab</em> to change 
+timeline year and see how the development will evolve in time.</p>
 <div class="admonition hint">
 <p class="admonition-title">Use Shift to check all checkboxes in one click</p>
-<p>When you click on one checkbox while Shift key is pressed, you will check (overload) all of the parameters of selected Building(s). </p>
+<p>When you click on one checkbox while Shift key is pressed, you will check 
+(overload) all of the parameters of selected Building(s). </p>
 </div>
 <h2 id="editing-modes-of-building">Editing Modes of Building<a class="headerlink" href="#editing-modes-of-building" title="Permanent link">&para;</a></h2>
-<p>In this section you can determine behavior of the Building when you create or modify it.</p>
+<p>In this section you can determine behavior of the Building when you create 
+or modify it.</p>
 <p><strong>Manually drawn floor plan assumes default Built-up Area</strong></p>
-<p>Check this option if you want the newly created Buildings to match the size of <a href="#building-areas">Built-up Area</a> when they are created. If this option is unchecked, new Buildings will have the Built-up Area overloaded so they keep drawn floor area size. By default this option is turned off.</p>
+<p>Check this option if you want the newly created Buildings to match the 
+size of <a href="#building-areas">Built-up Area</a> when they are created. If this 
+option is unchecked, new Buildings will have the Built-up Area overloaded so 
+they keep drawn floor area size. By default this option is turned off.</p>
 <p><strong>Keep Built-up Area when scaling Buildings manually</strong></p>
-<p>Check this option if you want to scale Buildings horizontally, but also want to make sure they do not change their Built-up Area. In other words, if you have this option checked and you scale the building in X direction, Modelur will calculate and apply the Y dimension so that the Built-up Area will not change. By default this option is turned off.</p>
+<p>Check this option if you want to scale Buildings horizontally, but also want 
+to make sure they do not change their Built-up Area. In other words, if you 
+have this option checked and you scale the building in X direction, Modelur 
+will calculate and apply the Y dimension so that the Built-up Area will not 
+change. By default this option is turned off.</p>
                 
               
               

@@ -960,27 +960,37 @@
                 
                 
                 <h1 id="gis-import">GIS import<a class="headerlink" href="#gis-import" title="Permanent link">&para;</a></h1>
-<p><em>GIS import</em> is a brand new Modelur feature, which allows you to import <strong>Shapefiles</strong> and <strong>GeoJSON</strong> files to SketchUp and transform 2D GIS data to a 3D model.</p>
-<p><em>GIS import</em> gives you the possibility to <strong>map GIS attributes to Modelur parameters</strong>.
-For example you can map GIS attribute <code>NUM_OF_STO</code> to Modelur parameter <code>Number of storeys</code>. Modelur will then use the value from GIS attribute when generating Modelur Building objects for GIS layer.</p>
+<p><em>GIS import</em> is a brand new Modelur feature, which allows you to import 
+<strong>Shapefiles</strong> and <strong>GeoJSON</strong> files to SketchUp and transform 2D 
+GIS data to a 3D model.</p>
+<p><em>GIS import</em> gives you the possibility to <strong>map GIS attributes to 
+Modelur parameters</strong>.
+For example you can map GIS attribute <code>NUM_OF_STO</code> to Modelur 
+parameter <code>Number of storeys</code>. Modelur will then use the value from 
+GIS attribute when generating Modelur Building objects for GIS layer.</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <h3 id="set-geo-location">Set Geo-location<a class="headerlink" href="#set-geo-location" title="Permanent link">&para;</a></h3>
-<p>Your SketchUp model needs to have geolocation set before you can import GIS data. You can set the model's geolocation under <code>File -&gt; Geo-location</code> in SketchUp.</p>
+<p>Your SketchUp model needs to have geolocation set before you can 
+import GIS data. You can set the model's geolocation under <code>File -&gt; Geo-location</code> in SketchUp.</p>
 <h3 id="supported-file-types">Supported file types<a class="headerlink" href="#supported-file-types" title="Permanent link">&para;</a></h3>
-<p>You can import GIS data that are saved as <strong>GeoJSON (.geojson)</strong> or <strong>Shapefiles (.shp)</strong>. Files need to be saved in <strong>WGS84 coordinate system</strong>.</p>
+<p>You can import GIS data that are saved as <strong>GeoJSON (.geojson)</strong> 
+or <strong>Shapefiles (.shp)</strong>. Files need to be saved in <strong>WGS84 coordinate system</strong>.</p>
 <h3 id="supported-data-types">Supported data types<a class="headerlink" href="#supported-data-types" title="Permanent link">&para;</a></h3>
 <p>Modelur supports the following GIS data types:
-- <strong>polygons</strong> (can be imported as <em>Modelur Buildings</em>, <em>Modelur Complex Buildings</em>, <em>Modelur City Blocks</em> or <em>Simple Building Volumes</em>)
+- <strong>polygons</strong> (can be imported as <em>Modelur Buildings</em>, <em>Modelur Complex 
+Buildings</em>, <em>Modelur City Blocks</em> or <em>Simple Building Volumes</em>)
 - <strong>points</strong> (can be imported as <em>Trees</em>, <em>Waste Bins</em> or <em>Terrain</em>)
 - <strong>polylines</strong> (can be imported as <em>Metro</em> or <em>Underground Pipes</em>)</p>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
 <h3 id="open-your-model-in-sketchup">Open your model in Sketchup<a class="headerlink" href="#open-your-model-in-sketchup" title="Permanent link">&para;</a></h3>
-<p>Open your .skp file in SketchUp. If <em>geolocation</em> is not set, set it under <code>File -&gt; Geo-location</code> in SketchUp.</p>
+<p>Open your .skp file in SketchUp. If <em>geolocation</em> is not set, set it under 
+<code>File -&gt; Geo-location</code> in SketchUp.</p>
 <p><img alt="Opened model" src="../../img/gis_opened_model.png" /></p>
 <figcaption>Figure 1.1 - .skp model in SketchUp.</figcaption>
 
 <h3 id="open-gis-data-import-window">Open GIS Data Import window<a class="headerlink" href="#open-gis-data-import-window" title="Permanent link">&para;</a></h3>
-<p>Initialize Modelur and go to <code>File -&gt; Import GIS Data ...</code> to open <strong>GIS Data Import</strong> window.</p>
+<p>Initialize Modelur and go to <code>File -&gt; Import GIS Data ...</code> to 
+open <strong>GIS Data Import</strong> window.</p>
 <p><img alt="Open GIS Data Import window" src="../../img/gis_open_GIS_data_import.png" /></p>
 <figcaption>Figure 1.2 - Open GIS Data Import window.</figcaption>
 <p><br/></p>
@@ -988,117 +998,203 @@ For example you can map GIS attribute <code>NUM_OF_STO</code> to Modelur paramet
 <p><img alt="GIS Data Import window" src="../../img/gis_data_import_window.png" /></p>
 <figcaption>Figure 1.3 - GIS Data Import window.</figcaption>
 
-<p>Here you will import your <code>.shp</code> or <code>.geojson</code> file and set preferences (see <em>GIS Preferences</em> section).</p>
+<p>Here you will import your <code>.shp</code> or <code>.geojson</code> file and set 
+preferences (see <em>GIS Preferences</em> section).</p>
 <h3 id="import-geojson-or-shapefile">Import GeoJson or Shapefile<a class="headerlink" href="#import-geojson-or-shapefile" title="Permanent link">&para;</a></h3>
-<p>Click the <code>...</code> button at the right side of the <em>File Path</em> field and select <code>.shp</code> or <code>.geojson</code> file that you want to import.</p>
+<p>Click the <code>...</code> button at the right side of the <em>File Path</em> field and 
+select <code>.shp</code> or <code>.geojson</code> file that you want to import.</p>
 <p><img alt="Import file" src="../../img/gis_browse_file_path.png" /></p>
 <figcaption>Figure 1.4 - File Path field.</figcaption>
 
 <h3 id="offset">Offset<a class="headerlink" href="#offset" title="Permanent link">&para;</a></h3>
-<p>Determine the offset for your model if needed. The unit for offset is the same as the currently chosen unit in Modelur (meters or feet).</p>
+<p>Determine the offset for your model if needed. The unit for offset is 
+the same as the currently chosen unit in Modelur (meters or feet).</p>
 <p><img alt="Set offset" src="../../img/gis_set_offset.png" /></p>
 <figcaption>Figure 1.5 - Fields for setting offset.</figcaption>
 
 <h3 id="import-as">Import as<a class="headerlink" href="#import-as" title="Permanent link">&para;</a></h3>
-<p>Set of choices that will be presented in this dropdown depends on the type of data that you imported from your <code>.shp</code> or <code>.geojson</code> file.</p>
+<p>Set of choices that will be presented in this dropdown depends on the 
+type of data that you imported from your <code>.shp</code> or <code>.geojson</code> file.</p>
 <ul>
-<li>If the file contains <strong>polygons</strong>, you can import them as <em>Modelur Buildings</em>, <em>Modelur Complex Buildings</em>, <em>Modelur City Blocks</em> or <em>Simple Building Volumes</em>.</li>
-<li>If the file contains <strong>points</strong>, they can be imported as <em>Trees</em>, <em>Waste Bins</em> or <em>Terrain</em>.</li>
-<li>If the file contains <strong>polylines</strong>, they can be imported as <em>Metro</em> or <em>Underground Pipes</em>.</li>
+<li>If the file contains <strong>polygons</strong>, you can import them as <em>Modelur 
+Buildings</em>, <em>Modelur Complex Buildings</em>, <em>Modelur City Blocks</em> or <em>Simple 
+Building Volumes</em>.</li>
+<li>If the file contains <strong>points</strong>, they can be imported as <em>Trees</em>, 
+<em>Waste Bins</em> or <em>Terrain</em>.</li>
+<li>If the file contains <strong>polylines</strong>, they can be imported as 
+<em>Metro</em> or <em>Underground Pipes</em>.</li>
 </ul>
 <p><img alt="Import as" src="../../img/gis_import_as.png" /></p>
 <figcaption>Figure 1.6 - Import as field.</figcaption>
 
 <h3 id="import-mapping">Import Mapping...<a class="headerlink" href="#import-mapping" title="Permanent link">&para;</a></h3>
-<p>By clicking this button you will import parameter mapping from a mapping (<code>.mjson</code>) file. Parameter mapping will be shown in the <em>Parameter Mapping</em> section.</p>
+<p>By clicking this button you will import parameter mapping from a 
+mapping (<code>.mjson</code>) file. Parameter mapping will be shown in the 
+<em>Parameter Mapping</em> section.</p>
 <h3 id="export-mapping">Export Mapping...<a class="headerlink" href="#export-mapping" title="Permanent link">&para;</a></h3>
-<p>By clicking this button you will export current parameter mapping (from <em>Parameter Mapping</em> section) to a mapping (<code>.mjson</code>) file.</p>
+<p>By clicking this button you will export current parameter mapping 
+(from <em>Parameter Mapping</em> section) to a mapping (<code>.mjson</code>) file.</p>
 <h3 id="import-gis-layer">Import GIS layer<a class="headerlink" href="#import-gis-layer" title="Permanent link">&para;</a></h3>
-<p>After you set the mapping in the <em>Parameter Mapping</em> section, you use this button. This will generate appropriate Modelur objects and add them to a new SketchUp layer to your model.</p>
+<p>After you set the mapping in the <em>Parameter Mapping</em> section, you 
+use this button. This will generate appropriate Modelur objects and 
+add them to a new SketchUp layer to your model.</p>
 <p><img alt="GIS Layer" src="../../img/gis_import_gis_layer.png" /></p>
 <figcaption>Figure 1.7 - SketchUp model with GIS layer.</figcaption>
 
 <h3 id="parameter-mapping">Parameter Mapping<a class="headerlink" href="#parameter-mapping" title="Permanent link">&para;</a></h3>
-<p>Here you connect (map) <em>Modelur parameters</em> with <em>GIS attributes</em>. Modelur will use value from mapped GIS attribute for a parameter value. For example, Modelur will use value from GIS attribute <code>H1</code> as <code>Building Height</code> parameter value when creating Modelur Buildings for GIS layer.</p>
+<p>Here you connect (map) <em>Modelur parameters</em> with <em>GIS attributes</em>. 
+Modelur will use value from mapped GIS attribute for a parameter value. 
+For example, Modelur will use value from GIS attribute <code>H1</code> as <code>Building 
+Height</code> parameter value when creating Modelur Buildings for GIS layer.</p>
 <p><img alt="Parameter Mapping" src="../../img/gis_mapping.png" /></p>
 <figcaption>Figure 1.8 - Parameter Mapping area.</figcaption>
 <p><br></p>
-<p>Options in <code>From</code> dropdowns consist of GIS attribute name and a randomly chosen attribute value (e.g. <code>H1 (93.8)</code>). We included attribute value to give you an example of what each GIS attribute contains. Hopefully, this will make it easier for you to map attributes to parameters.</p>
-<p>Modelur parameters listed on the right (<code>To</code> dropdowns) depend on the type of data in your <code>.shp</code>/<code>.geojson</code> file and on the option you selected in the <code>Import as</code> dropdown. For example, if you import polygons as <em>Modelur Buildings</em>, you will see the parameters <em>Land Use</em>, <em>Name</em>, <em>Building Height</em> etc. If you import points as <em>Trees</em>, you will see the parameters <em>Tree Height</em>, <em>Tree Species</em> etc.</p>
-<p>You map Modelur parameter to GIS attribute by selecting the GIS attribute from dropdown on the left (<code>From</code> area). Image 1.9 shows us choosing GIS attribute <em>Soortnaam</em> to map to Modelur parameter <em>Tree Species</em>.</p>
+<p>Options in <code>From</code> dropdowns consist of GIS attribute name and a randomly 
+chosen attribute value (e.g. <code>H1 (93.8)</code>). We included attribute value to 
+give you an example of what each GIS attribute contains. Hopefully, this 
+will make it easier for you to map attributes to parameters.</p>
+<p>Modelur parameters listed on the right (<code>To</code> dropdowns) depend on the type 
+of data in your <code>.shp</code>/<code>.geojson</code> file and on the option you selected in 
+the <code>Import as</code> dropdown. For example, if you import polygons as <em>Modelur 
+Buildings</em>, you will see the parameters <em>Land Use</em>, <em>Name</em>, <em>Building Height</em> 
+etc. If you import points as <em>Trees</em>, you will see the parameters <em>Tree 
+Height</em>, <em>Tree Species</em> etc.</p>
+<p>You map Modelur parameter to GIS attribute by selecting the GIS attribute 
+from dropdown on the left (<code>From</code> area). Image 1.9 shows us choosing GIS 
+attribute <em>Soortnaam</em> to map to Modelur parameter <em>Tree Species</em>.</p>
 <p><img alt="Parameter Mapping" src="../../img/gis_parameter_mapping_from.png" /></p>
-<figcaption>Figure 1.9 - Example of GIS attribute to Modelur parameter mapping.</figcaption>
+<figcaption>Figure 1.9 - Example of GIS attribute to Modelur parameter 
+mapping.</figcaption>
 
 <p><br></p>
-<p>Some Modelur parameters (e.g <code>Number of Storeys</code>) can remain unmapped because Modelur can use default values to create objects for GIS layer. Those parameters that currently do not have default values (and can not remain unmapped) will be listed in the <em>GIS Non-mapped Parameter Values</em> area. See <em>GIS Non-mapped Parameter Values</em> section for more information.</p>
-<p>Some parameters, for example  <em>Land Use</em>, <em>Tree Species</em> and <em>Pipe Color</em>,  offer additional mapping possibilities. See <em>Additional Parameter Mapping</em> section for more information.</p>
+<p>Some Modelur parameters (e.g <code>Number of Storeys</code>) can remain unmapped 
+because Modelur can use default values to create objects for GIS layer. 
+Those parameters that currently do not have default values (and can not 
+remain unmapped) will be listed in the <em>GIS Non-mapped Parameter Values</em> 
+area. See <em>GIS Non-mapped Parameter Values</em> section for more information.</p>
+<p>Some parameters, for example  <em>Land Use</em>, <em>Tree Species</em> and <em>Pipe Color</em>,<br />
+offer additional mapping possibilities. See <em>Additional Parameter Mapping</em> 
+section for more information.</p>
 <h4 id="gis-extras">GIS Extras<a class="headerlink" href="#gis-extras" title="Permanent link">&para;</a></h4>
-<p>This section contains Modelur parameters that are not used for creating Modelur objects (e.g. Modelur Buildings). These parameters just contain some additional information used for placing the objects on the model. For example <code>Ground to Sea Level</code> for Buildings.</p>
+<p>This section contains Modelur parameters that are not used for creating 
+Modelur objects (e.g. Modelur Buildings). These parameters just contain 
+some additional information used for placing the objects on the model. 
+For example <code>Ground to Sea Level</code> for Buildings.</p>
 <p><img alt="Parameter Mapping" src="../../img/gis_extras.png" /></p>
 <figcaption>Figure 1.10 - Parameters in GIS Extras area.</figcaption>
 
 <h4 id="additional-parameter-mapping">Additional Parameter Mapping<a class="headerlink" href="#additional-parameter-mapping" title="Permanent link">&para;</a></h4>
-<p>Some parameters, for example  <em>Land Use</em>, <em>Tree Species</em> and <em>Pipe Color</em>,  offer additional mapping possibilities.</p>
-<p>When you map such parameter to GIS attribute, additional mapping area will appear under <em>Parameter Mapping</em> area. There you can map for example <em>Tree Species</em> values from GIS to <em>Tree Species</em> values from Modelur.</p>
+<p>Some parameters, for example  <em>Land Use</em>, <em>Tree Species</em> and <em>Pipe 
+Color</em>,  offer additional mapping possibilities.</p>
+<p>When you map such parameter to GIS attribute, additional mapping area 
+will appear under <em>Parameter Mapping</em> area. There you can map for 
+example <em>Tree Species</em> values from GIS to <em>Tree Species</em> values from Modelur.</p>
 <p>Let us look at <em>Land Use</em> additional parameter mapping example:</p>
 <h5 id="land-use-mapping">Land Use Mapping<a class="headerlink" href="#land-use-mapping" title="Permanent link">&para;</a></h5>
-<p><em>Land Use Mapping</em> area appears when you map <code>Land Use</code> Modelur parameter.</p>
-<p>On the left side (<code>From</code>) are listed (unique) values of the GIS attribute that maps to Modelur <code>Land Use</code> parameter. On the right side (<code>To</code>) are dropdowns containing all Modelur <em>Land Use</em> types.</p>
-<p>You map GIS Land Uses to Modelur Land Uses by selecting a Land Use type from the <code>To</code> dropdown. Image 1.11 shows us choosing Modelur Land Use <em>Residential</em> to map to GIS Land Use <em>1122100 - Flat in a multi-apartment building</em>.</p>
+<p><em>Land Use Mapping</em> area appears when you map <code>Land Use</code> Modelur 
+parameter.</p>
+<p>On the left side (<code>From</code>) are listed (unique) values of the GIS 
+attribute that maps to Modelur <code>Land Use</code> parameter. On the right 
+side (<code>To</code>) are dropdowns containing all Modelur <em>Land Use</em> types.</p>
+<p>You map GIS Land Uses to Modelur Land Uses by selecting a Land Use 
+type from the <code>To</code> dropdown. Image 1.11 shows us choosing Modelur 
+Land Use <em>Residential</em> to map to GIS Land Use <em>1122100 - Flat in a 
+multi-apartment building</em>.</p>
 <p><img alt="Parameter Mapping" src="../../img/gis_land_use_mapping.png" /></p>
-<figcaption>Figure 1.11 - Example of GIS Land Use to Modelur Land Use Mapping.</figcaption>
+<figcaption>Figure 1.11 - Example of GIS Land Use to Modelur Land 
+Use Mapping.</figcaption>
 <p><br></p>
 <p>You can map different GIS Land Uses to the same Modelur Land Use.</p>
 <h4 id="gis-non-mapped-parameter-values">GIS Non-mapped Parameter Values<a class="headerlink" href="#gis-non-mapped-parameter-values" title="Permanent link">&para;</a></h4>
-<p>While some Modelur parameters can remain unmapped (because Modelur can use default values), some can not. For example, all <em>Metro</em> parameters must be mapped.</p>
-<p>The parameters that can not remain unmapped and that are not (yet) mapped in the <em>Parameter Mapping</em> area, will be listed in <em>GIS Non-mapped Parameter Values</em> area.</p>
+<p>While some Modelur parameters can remain unmapped (because Modelur 
+can use default values), some can not. For example, all <em>Metro</em> 
+parameters must be mapped.</p>
+<p>The parameters that can not remain unmapped and that are not (yet) 
+mapped in the <em>Parameter Mapping</em> area, will be listed in <em>GIS 
+Non-mapped Parameter Values</em> area.</p>
 <p><img alt="Non-mapped parameter values area" src="../../img/gis_non-mapped_parameter_values.png" /></p>
-<figcaption>Figure 1.12 - Parameters that are not (yet) mapped in the Parameter Mapping area, will be listed in GIS Non-mapped Parameter Values area.</figcaption>
+<figcaption>Figure 1.12 - Parameters that are not (yet) mapped in 
+the Parameter Mapping area, will be listed in GIS Non-mapped 
+Parameter Values area.</figcaption>
 <p><br></p>
-<p>If you map the parameters in the <em>Parameter Mapping</em> area, they will disappear from <em>GIS Non-mapped Parameter Values</em> area.</p>
+<p>If you map the parameters in the <em>Parameter Mapping</em> area, they 
+will disappear from <em>GIS Non-mapped Parameter Values</em> area.</p>
 <p><img alt="Parameters will disappear from non-mapped parameter values area" src="../../img/gis_non-mapped_parameter_values_2.png" /></p>
-<figcaption>Figure 1.13 - If you map the parameters in the Parameter Mapping area, they will disappear from GIS Non-mapped Parameter Values area.</figcaption>
+<figcaption>Figure 1.13 - If you map the parameters in the Parameter
+ Mapping area, they will disappear from GIS Non-mapped Parameter 
+ Values area.</figcaption>
 <p><br></p>
-<p>Dropdowns in the <em>GIS Non-mapped Parameter Values</em> area contain actual values that are available for certain parameter. The chosen value will be used for all objects in GIS layer.</p>
+<p>Dropdowns in the <em>GIS Non-mapped Parameter Values</em> area contain 
+actual values that are available for certain parameter. The chosen 
+value will be used for all objects in GIS layer.</p>
 <h2 id="gis-preferences">GIS Preferences<a class="headerlink" href="#gis-preferences" title="Permanent link">&para;</a></h2>
 <p>Here you set how Modelur will perform certain GIS related functions.</p>
-<p>If you don't see the options, click on the square icon on the right of the  <em>GIS Preferences</em> tittle area. This will expand <em>GIS Preferences</em> area.</p>
+<p>If you don't see the options, click on the square icon on the right 
+of the  <em>GIS Preferences</em> tittle area. This will expand <em>GIS Preferences</em> area.</p>
 <p><img alt="GIS Preferences" src="../../img/gis_preferences.png" /></p>
 <figcaption>Figure 1.14 - GIS Preferences area.</figcaption>
 
 <h3 id="max-number-of-mapped-land-uses">Max number of mapped Land Uses<a class="headerlink" href="#max-number-of-mapped-land-uses" title="Permanent link">&para;</a></h3>
-<p><em>Land Use mapper</em> area (see <em>Land Use Mapping</em> section) is generated with unique values of the GIS attribute that maps to <em>Land Use</em> Modelur parameter.</p>
-<p>You might accidentally choose a GIS attribute with e.g. 1000 or more fields. Then the generation of <em>Land Use Mapper</em> will take a long time and can even break the program.</p>
-<p>You can prevent such errors by setting the limit on <em>Land Use mapper</em> size. Then the <em>Land Use Mapper</em> will contain only the <em>Max number of mapped Land Uses</em> fields.</p>
+<p><em>Land Use mapper</em> area (see <em>Land Use Mapping</em> section) is generated 
+with unique values of the GIS attribute that maps to <em>Land Use</em> Modelur 
+parameter.</p>
+<p>You might accidentally choose a GIS attribute with e.g. 1000 or more 
+fields. Then the generation of <em>Land Use Mapper</em> will take a long 
+time and can even break the program.</p>
+<p>You can prevent such errors by setting the limit on <em>Land Use mapper</em> 
+size. Then the <em>Land Use Mapper</em> will contain only the <em>Max number 
+of mapped Land Uses</em> fields.</p>
 <h3 id="max-distance-from-origin-before-warning">Max distance from Origin before warning<a class="headerlink" href="#max-distance-from-origin-before-warning" title="Permanent link">&para;</a></h3>
-<p>Here you can set max allowed distance between model’s geolocation and the geolocation of the GIS file you imported.</p>
-<p>Modelur will not prevent you from importing GIS file that exceeds the distance set here, but will show a warning to alert you.</p>
+<p>Here you can set max allowed distance between model’s geolocation and 
+the geolocation of the GIS file you imported.</p>
+<p>Modelur will not prevent you from importing GIS file that exceeds the 
+distance set here, but will show a warning to alert you.</p>
 <h3 id="mapping-import-options">Mapping import options<a class="headerlink" href="#mapping-import-options" title="Permanent link">&para;</a></h3>
-<p>When importing saved mapping file (<code>.mjson</code>) you can choose between following options:</p>
+<p>When importing saved mapping file (<code>.mjson</code>) you can choose between 
+following options:</p>
 <h4 id="1-clear-use-imported-mapping-only">1. Clear, use imported mapping only<a class="headerlink" href="#1-clear-use-imported-mapping-only" title="Permanent link">&para;</a></h4>
-<p>All the mapping fields in the <em>Parameter Mapping</em> area will be cleared and filled with values from the imported mapping file.</p>
+<p>All the mapping fields in the <em>Parameter Mapping</em> area will be 
+cleared and filled with values from the imported mapping file.</p>
 <h4 id="2-merge-keep-imported-mapping-for-overlapping-fields">2. Merge, keep imported mapping for overlapping fields<a class="headerlink" href="#2-merge-keep-imported-mapping-for-overlapping-fields" title="Permanent link">&para;</a></h4>
-<p>Values from the imported mapping file will replace values from the <em>Parameter Mapping</em> area. Those fields in the <em>Parameter Mapping</em> area that are not defined in imported file, will remain unchanged.</p>
+<p>Values from the imported mapping file will replace values from 
+the <em>Parameter Mapping</em> area. Those fields in the <em>Parameter Mapping</em> 
+area that are not defined in imported file, will remain unchanged.</p>
 <h4 id="3-merge-keep-current-mapping-for-overlapping-fields">3. Merge, keep current mapping for overlapping fields<a class="headerlink" href="#3-merge-keep-current-mapping-for-overlapping-fields" title="Permanent link">&para;</a></h4>
-<p>Values from the <em>Parameter Mapping</em> area will remain unchanged. Only those fields that do not have a value set will be filled with values from imported mapping file.</p>
+<p>Values from the <em>Parameter Mapping</em> area will remain unchanged. Only 
+those fields that do not have a value set will be filled with values 
+from imported mapping file.</p>
 <h3 id="update-land-use-values">Update Land Use values<a class="headerlink" href="#update-land-use-values" title="Permanent link">&para;</a></h3>
-<p>If <em>Land Uses</em>, defined in mapping file you will import, differ from the same named <em>Land Uses</em> from model, you have two options:</p>
+<p>If <em>Land Uses</em>, defined in mapping file you will import, differ from 
+the same named <em>Land Uses</em> from model, you have two options:</p>
 <h4 id="1-skip-use-existing">1. Skip (use existing)<a class="headerlink" href="#1-skip-use-existing" title="Permanent link">&para;</a></h4>
 <p>Use <em>Land Uses</em> defined in model.</p>
 <h4 id="2-overload-update-existing">2. Overload (update existing)<a class="headerlink" href="#2-overload-update-existing" title="Permanent link">&para;</a></h4>
 <p>Update model <em>Land Uses</em> with specification from mapping file.</p>
 <h3 id="generate-missing-land-uses">Generate missing Land Uses<a class="headerlink" href="#generate-missing-land-uses" title="Permanent link">&para;</a></h3>
-<p>When you import mapping file, it can happen that the file contains <em>Land Use</em> types that your model does not contain. In that case, <code>Generate missing Land Uses</code> option becomes important.</p>
-<p>If checked, Modelur will add <em>Land Uses</em> from the mapping file to the model. If not, it will use just <em>Land Uses</em> from the model. Fields that use <em>Land Uses</em> from the mapping file will remain empty.</p>
+<p>When you import mapping file, it can happen that the file contains 
+<em>Land Use</em> types that your model does not contain. In that case, 
+<code>Generate missing Land Uses</code> option becomes important.</p>
+<p>If checked, Modelur will add <em>Land Uses</em> from the mapping file to the 
+model. If not, it will use just <em>Land Uses</em> from the model. Fields 
+that use <em>Land Uses</em> from the mapping file will remain empty.</p>
 <h3 id="check-if-mapping-file-was-modified-outside-modelur">Check if mapping file was modified outside Modelur<a class="headerlink" href="#check-if-mapping-file-was-modified-outside-modelur" title="Permanent link">&para;</a></h3>
-<p>When you click the <code>Export Mapping...</code> button, you generate a mapping file that can be imported to other Modelur instances or used later.</p>
-<p>It is highly recommended not to edit the mapping file outside Modelur <em>GIS Import</em> Interface. Otherwise the file form can become corrupted which can cause trouble.</p>
-<p>If you choose this option, Modelur will check if the file was edited outside Modelur and warn you if that is true.</p>
+<p>When you click the <code>Export Mapping...</code> button, you generate a mapping 
+file that can be imported to other Modelur instances or used later.</p>
+<p>It is highly recommended not to edit the mapping file outside 
+Modelur <em>GIS Import</em> Interface. Otherwise the file form can become 
+corrupted which can cause trouble.</p>
+<p>If you choose this option, Modelur will check if the file was edited 
+outside Modelur and warn you if that is true.</p>
 <h3 id="warn-on-offset-conflict">Warn on Offset conflict<a class="headerlink" href="#warn-on-offset-conflict" title="Permanent link">&para;</a></h3>
-<p>If checked, Modelur will warn you when mapping file offset differs from model offset.</p>
+<p>If checked, Modelur will warn you when mapping file offset differs 
+from model offset.</p>
 <h3 id="import-mapping-automatically-if-available">Import mapping automatically if available<a class="headerlink" href="#import-mapping-automatically-if-available" title="Permanent link">&para;</a></h3>
-<p>If you select this option, Modelur will look for a corresponding mapping file when importing the GIS file (Modelur will look in the folder where GIS file is located for a mapping file with the same name as GIS file).</p>
-<p>If the corresponding mapping file is found, it will be automatically imported.</p>
+<p>If you select this option, Modelur will look for a corresponding 
+mapping file when importing the GIS file (Modelur will look in the 
+folder where GIS file is located for a mapping file with the same 
+name as GIS file).</p>
+<p>If the corresponding mapping file is found, it will be automatically 
+imported.</p>
                 
               
               

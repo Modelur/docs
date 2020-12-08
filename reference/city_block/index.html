@@ -573,81 +573,189 @@
                 
                   <h1>City Block</h1>
                 
-                <p>Under City Block tab (Figure 4.41) you can add, edit or remove <a href="https://en.wikipedia.org/wiki/City_block">City Blocks</a>, using which you can separate the whole development into smaller parts for which Urban Control Values (eg. FAR, Required Parking Spaces, etc.) are calculated separately. Additionally, you can also define different zoning rules and default Building Parameters for each City Block.</p>
+                <p>Under City Block tab (Figure 4.41) you can add, edit or remove 
+<a href="https://en.wikipedia.org/wiki/City_block">City Blocks</a>, using which you can 
+separate the whole development into smaller parts for which Urban Control 
+Values (eg. FAR, Required Parking Spaces, etc.) are calculated separately. 
+Additionally, you can also define different zoning rules and default Building 
+Parameters for each City Block.</p>
 <p><img alt="City Block tab" src="../../img/modelur_city_block_tab.png" /></p>
-<figcaption>Figure 4.41 - City Block tab, which shows Parameters of selected City Block. In this case only Land Use is overloaded (set specifically for selected City Block), while other (non-checked) are taken from the Whole Plot.</figcaption>
+<figcaption>Figure 4.41 - City Block tab, which shows Parameters of selected 
+City Block. In this case only Land Use is overloaded (set specifically for 
+selected City Block), while other (non-checked) are taken from the Whole Plot.</figcaption>
 
 <div class="admonition hint">
 <p class="admonition-title">Compact and Extended View</p>
-<p>In case you don't see separators between parameters you can turn them on using the extend icon on the top right corner of each panel: <img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.</p>
+<p>In case you don't see separators between parameters you can turn them on 
+using the extend icon on the top right corner of each panel: 
+<img src="../../img/modelur_more_ui_icon.png" alt="extend" class="inline">.</p>
 </div>
 <h2 id="selected-city-block-parameters">Selected City Block Parameters<a class="headerlink" href="#selected-city-block-parameters" title="Permanent link">&para;</a></h2>
-<p>Inside this panel you can define different parameters and requirements that need to be met in selected City Block(s). If they are left unchanged, City Block will take them from the <a href="whole_plot/#plot-parameters">Whole Plot</a>. This panel will show information for the last City Block selected in 3D Window. If there are no City Blocks selected, it will show the information for the City Block of last Building selected (assuming it is placed on a City Block).</p>
+<p>Inside this panel you can define different parameters and requirements that 
+need to be met in selected City Block(s). If they are left unchanged, City 
+Block will take them from the <a href="/reference/whole_plot/#plot-parameters">Whole Plot</a>. 
+This panel will show information for the last City Block selected in 3D Window. 
+If there are no City Blocks selected, it will show the information for the City 
+Block of last Building selected (assuming it is placed on a City Block).</p>
 <h4 id="buttons">Buttons<a class="headerlink" href="#buttons" title="Permanent link">&para;</a></h4>
 <p><strong>Create</strong></p>
-<p>Create <em>button</em> is used to create City Block, the same way as by clicking on the yellow <em>Create City Block</em> icon in Modelur Toolbar. If no Face or Edge Loop is selected, Modelur will switch to Line Tool and wait until you draw a new Face. Once you draw a Face (closed planar Edge loop), Modelur will convert it to City Block. If you switch to some other SketchUp Tool, Modelur will not create new City Block.</p>
-<p>However, if Face(s) or Edge Loop(s) are selected, it will create a new City Block(s) based on selected shape(s). When a City Block is first created, it will contain the default Parameters as specified in the Whole Plot <a href="whole_plot/#plot-parameters">Plot Parameters</a> and <a href="whole_plot/#default-building-parameters">Default Building Parameters</a>, respectively.</p>
-<p>When created, City Blocks are locked by default. You can change this setting in Modelur menu Options → Lock City Blocks Upon Creation.</p>
+<p>Create <em>button</em> is used to create City Block, the same way as by clicking on 
+the yellow <em>Create City Block</em> icon in Modelur Toolbar. If no Face or Edge Loop 
+is selected, Modelur will switch to Line Tool and wait until you draw a new Face. 
+Once you draw a Face (closed planar Edge loop), Modelur will convert it to City 
+Block. If you switch to some other SketchUp Tool, Modelur will not create 
+new City Block.</p>
+<p>However, if Face(s) or Edge Loop(s) are selected, it will create a new City 
+Block(s) based on selected shape(s). When a City Block is first created, it 
+will contain the default Parameters as specified in the Whole Plot 
+<a href="/reference/whole_plot/#plot-parameters">Plot Parameters</a> and 
+<a href="/reference/whole_plot/#default-building-parameters">Default Building Parameters</a>, 
+respectively.</p>
+<p>When created, City Blocks are locked by default. You can change this setting in 
+Modelur menu Options → Lock City Blocks Upon Creation.</p>
 <p><strong>Sync</strong></p>
-<p>Sync <em>button</em> is used to open the <a href="toolbar/#sync-city-block-parameters">Sync City Block Parameters</a> tool. With it you can easily transfer Parameter values from one City Block to another.</p>
+<p>Sync <em>button</em> is used to open the 
+<a href="/reference/toolbar/#sync-city-block-parameters">Sync City Block Parameters</a> 
+tool. With it you can easily transfer Parameter values from one City Block 
+to another.</p>
 <p><strong>Select All</strong></p>
-<p>Select All <em>button</em> is used to select all City Blocks in your project at the same time. Any changes to City Block parameters will then apply to all City Blocks.</p>
+<p>Select All <em>button</em> is used to select all City Blocks in your project at 
+the same time. Any changes to City Block parameters will then apply to 
+all City Blocks.</p>
 <h4 id="name-and-land-use">Name and Land Use<a class="headerlink" href="#name-and-land-use" title="Permanent link">&para;</a></h4>
 <p><strong>City Block Name</strong></p>
-<p>Using City Block Name parameter you can change City Block's name, which is used to easily track different City Blocks. Alternatively you can also rename the City Block in the SketchUp's Outliner or in the Entity Info panel   the same way as you would rename any other SketchUp Group when selected.</p>
+<p>Using City Block Name parameter you can change City Block's name, which 
+is used to easily track different City Blocks. Alternatively you can also 
+rename the City Block in the SketchUp's Outliner or in the Entity Info 
+panel the same way as you would rename any other SketchUp Group when selected.</p>
 <p><strong>Default Land Use</strong></p>
-<p>Using Default Land Use <em>dropdown menu</em> you can set the Land Use that will be applied by default to each Building(s) in the City Block. Land Uses are used to calculate Building's units (eg. apartments, residents, offices, etc), parking requirements, green area requirements, etc. To learn more about these settings, please visit <a href="land_use">Land Use section</a> of this page.</p>
+<p>Using Default Land Use <em>dropdown menu</em> you can set the Land Use that will 
+be applied by default to each Building(s) in the City Block. Land Uses 
+are used to calculate Building's units (eg. apartments, residents, offices, 
+etc), parking requirements, green area requirements, etc. To learn more 
+about these settings, please visit <a href="/reference/land_use">Land Use section</a> 
+of this page.</p>
 <h4 id="city-block-limits">City Block Limits<a class="headerlink" href="#city-block-limits" title="Permanent link">&para;</a></h4>
-<p>Under City Block Limits you can set the default constraints set by zoning ordinance for specific City Block so that Modelur can warn you if they are exceeded. But it will not prevent you from exceeding them.</p>
-<p>In case your development model exceeds set constraints, they will <span style="color:red">become red</span>, to warn you about it (Figure 4.42). Once the model is fixed to meet constraints again (or when zoning ordinance constraints for selected City Blocks themselves are updated), exceeded parameters will turn back to black.</p>
+<p>Under City Block Limits you can set the default constraints set by zoning 
+ordinance for specific City Block so that Modelur can warn you if they are 
+exceeded. But it will not prevent you from exceeding them.</p>
+<p>In case your development model exceeds set constraints, they will 
+<span style="color:red">become red</span>, to warn you about it (Figure 
+4.42). Once the model is fixed to meet constraints again (or when zoning 
+ordinance constraints for selected City Blocks themselves are updated), 
+exceeded parameters will turn back to black.</p>
 <p><img alt="Exceeded City Block Limits" src="../../img/modelur_exceeded_city_block_limits.png" /></p>
-<figcaption>Figure 4.42 - When text color in Modelur user interface turns red, the Parameters in question are exceeded.</figcaption>
+<figcaption>Figure 4.42 - When text color in Modelur user interface turns 
+red, the Parameters in question are exceeded.</figcaption>
 
 <p><strong>Maximum Permitted FAR</strong></p>
-<p>Using maximum permitted Floor Area Ratio you can define allowable FAR for the selected City Block. In case FAR value of the City Block is exceeded, this line will become red, to warn you about it. If you don't want Modelur to validate achieved FAR for the selected City Block, simply erase this value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
+<p>Using maximum permitted Floor Area Ratio you can define allowable FAR for 
+the selected City Block. In case FAR value of the City Block is exceeded, 
+this line will become red, to warn you about it. If you don't want Modelur 
+to validate achieved FAR for the selected City Block, simply erase this 
+value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
 <p><strong>Max. Permitted Site Coverage</strong></p>
-<p>Using maximum permitted Site Coverage you can define allowable Site Coverage for the selected City Block. In case Site Coverage value for the selected City Block is exceeded, this line will become red, to warn you about it. If you don't want Modelur to validate achieved Site Coverage for the selected City Block, simply erase this value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
+<p>Using maximum permitted Site Coverage you can define allowable Site 
+Coverage for the selected City Block. In case Site Coverage value for 
+the selected City Block is exceeded, this line will become red, to warn 
+you about it. If you don't want Modelur to validate achieved Site 
+Coverage for the selected City Block, simply erase this value and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
 <p><strong>Max. Permitted Building Height</strong></p>
-<p>Using maximum permitted Building Height you can define height restrictions for the selected City Block. In case some Building placed on the selected City block is higher than specified inhere, this line will become red, to warn you about it. If you don't want Modelur to validate Buildings Heights for the selected City Block, simply erase this and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
+<p>Using maximum permitted Building Height you can define height restrictions 
+for the selected City Block. In case some Building placed on the selected 
+City block is higher than specified inhere, this line will become red, to 
+warn you about it. If you don't want Modelur to validate Buildings Heights 
+for the selected City Block, simply erase this and hit <span class="keys"><kbd class="key-enter">Enter</kbd></span>.</p>
 <h4 id="distances">Distances<a class="headerlink" href="#distances" title="Permanent link">&para;</a></h4>
 <p><strong>Percentage of Building Height:</strong></p>
-<p>Percentage of Building Height is used to calculate minimum distance between two Buildings based on their heights. Example: if this parameter is set to 50% and Building is 20 meters high, the minimum distance required will be 10 meters (which is 50% from 20 meters).</p>
-<p><em>Deprecated: In versions of Modelur prior to 2018.1, this option was named Min. Distance to Height Ratio. To calculate distance, the Building's height is divided by the parameter value. Example: if parameter is set to 2, the minimum distance will be &frac12; of Building's height, if set to 3, it will be &#8531; of Building's height. If the Buildings are placed closer than the calculated distance, they will be marked red (assuming that <a href="survey/#warnings">Too low distance between Buildings</a> is active).</em></p>
+<p>Percentage of Building Height is used to calculate minimum distance 
+between two Buildings based on their heights. Example: if this parameter 
+is set to 50% and Building is 20 meters high, the minimum distance 
+required will be 10 meters (which is 50% from 20 meters).</p>
+<p><em>Deprecated: In versions of Modelur prior to 2018.1, this option was 
+named Min. Distance to Height Ratio. To calculate distance, the 
+Building's height is divided by the parameter value. Example: if 
+parameter is set to 2, the minimum distance will be &frac12; of Building's 
+height, if set to 3, it will be &#8531; of Building's height. If the 
+Buildings are placed closer than the calculated distance, they will 
+be marked red (assuming that <a href="/reference/survey/#warnings">Too low distance between 
+Buildings</a> is active).</em></p>
 <p><strong>Min. Dist. Between Buildings</strong></p>
-<p>Minimum distance between Buildings is the absolute distance (in meters or feet) between any two Buildings within the selected City Block. If the Buildings are placed closer than this specified distance, they will be marked red (assuming that <a href="survey/#warnings">Too low distance between Buildings</a> is active).</p>
-<p>Note that distances will be verified also between the Buildings that are not within the same City Blocks, but each according to it's parent City Block settings.</p>
+<p>Minimum distance between Buildings is the absolute distance (in meters 
+or feet) between any two Buildings within the selected City Block. If 
+the Buildings are placed closer than this specified distance, they 
+will be marked red (assuming that <a href="/reference/survey/#warnings">Too low distance between 
+Buildings</a> is active).</p>
+<p>Note that distances will be verified also between the Buildings that are 
+not within the same City Blocks, but each according to it's parent City 
+Block settings.</p>
 <div class="admonition hint">
 <p class="admonition-title">Use <span class="keys"><kbd class="key-shift">Shift</kbd></span> to check all checkboxes in one click</p>
-<p>When you click on one checkbox while <span class="keys"><kbd class="key-shift">Shift</kbd></span> key is pressed, you will check (overload) all of the parameters of selected City Block(s).</p>
+<p>When you click on one checkbox while <span class="keys"><kbd class="key-shift">Shift</kbd></span> key is pressed, you 
+will check (overload) all of the parameters of selected City Block(s).</p>
 </div>
 <h2 id="selected-city-block-building-parameters">Selected City Block - Building Parameters<a class="headerlink" href="#selected-city-block-building-parameters" title="Permanent link">&para;</a></h2>
 <div class="admonition hint">
 <p class="admonition-title">Select all Buildings of City Block</p>
-<p>When you want to select all Buildings that are inside selected City Block(s), use the Context menu (right mouse click) → Modelur → Select City Blocks Buildings.       </p>
+<p>When you want to select all Buildings that are inside selected 
+City Block(s), use the Context menu (right mouse click) → 
+Modelur → Select City Blocks Buildings.       </p>
 </div>
-<p>Default Building Parameters inside the City Block tab are used to overload default parameters as set by the Whole Plot according to <a href="/quickstart/#step-3-changing-the-parameters">Modelur's hierarchy</a>. This means that if the parameter in question is not <a href="building/#selected-building-parameters">defined by the Building itself</a>, Modelur will apply the values defined here to the Building. For example, when you create a new Building, it will contain Number of Storeys, Land Use, etc. as specified here or in the Whole Plot.</p>
+<p>Default Building Parameters inside the City Block tab are used to 
+overload default parameters as set by the Whole Plot according to 
+<a href="/quickstart/#step-3-changing-the-parameters">Modelur's hierarchy</a>. 
+This means that if the parameter in question is not 
+<a href="/reference/building/#selected-building-parameters">defined by the Building itself</a>, 
+Modelur will apply the values defined here to the Building. For example, 
+when you create a new Building, it will contain Number of Storeys, Land 
+Use, etc. as specified here or in the Whole Plot.</p>
 <div class="admonition tip">
 <p class="admonition-title">Interactive Zoning</p>
-<p>If you move a Building from one City Block to another, it will update all of its default Parameters to match those in new City Block. This way the Building adjusts itself automatically to the zoning rules of specific City Blocks.</p>
+<p>If you move a Building from one City Block to another, it will update 
+all of its default Parameters to match those in new City Block. This 
+way the Building adjusts itself automatically to the zoning rules of 
+specific City Blocks.</p>
 </div>
 <h4 id="building-height">Building Height<a class="headerlink" href="#building-height" title="Permanent link">&para;</a></h4>
 <p><strong>Building Height</strong></p>
-<p>Building height sets how tall should the Building be by default inside selected City Block. When changing Number of Storeys, First Storey Height and Other Storey Heights this parameter will adapt itself automatically.</p>
+<p>Building height sets how tall should the Building be by default inside 
+selected City Block. When changing Number of Storeys, First Storey Height 
+and Other Storey Heights this parameter will adapt itself automatically.</p>
 <p><strong>Number of Storeys</strong></p>
-<p>Number of storeys sets the default number of Building's storeys inside selected City Block. When you change this parameter, Building Height (described above) will be adapted automatically to reflect calculated height based on Number of Storeys and First and Other storeys Height (described below).</p>
+<p>Number of storeys sets the default number of Building's storeys inside 
+selected City Block. When you change this parameter, Building Height 
+(described above) will be adapted automatically to reflect calculated 
+height based on Number of Storeys and First and Other storeys Height 
+(described below).</p>
 <h4 id="building-areas">Building Areas<a class="headerlink" href="#building-areas" title="Permanent link">&para;</a></h4>
 <p><strong>Built-up Area</strong></p>
-<p>Built-up area sets the default floor area size of the Building inside selected City Block. Please note that this value will be automatically overloaded when creating the Building (to keep drawn floor area size) unless you check the Manually drawn floor plan assumes default Built-up Area under Building tab → <a href="building/#editing-modes-of-building">Editing Modes of Building</a>. Built-up Area will automatically be adapted if you change Gross Floor Area (described below) to match the division of Gross Floor Area with Number of Storeys.</p>
+<p>Built-up area sets the default floor area size of the Building inside 
+selected City Block. Please note that this value will be automatically 
+overloaded when creating the Building (to keep drawn floor area size) 
+unless you check the Manually drawn floor plan assumes default Built-up 
+Area under Building tab → <a href="/reference/building/#editing-modes-of-building">Editing Modes of 
+Building</a>. Built-up Area 
+will automatically be adapted if you change Gross Floor Area (described 
+below) to match the division of Gross Floor Area with Number of Storeys.</p>
 <p><strong>Gross Floor Area</strong></p>
-<p>Gross floor area parameter is used to define default gross floor area size of the Building inside the selected City Block. If Building is created from scratch (no horizontal SketchUp Face is selected), this will be used to determine size of the Building (in combination with Number of Storeys).</p>
+<p>Gross floor area parameter is used to define default gross floor area 
+size of the Building inside the selected City Block. If Building is 
+created from scratch (no horizontal SketchUp Face is selected), this 
+will be used to determine size of the Building (in combination with 
+Number of Storeys).</p>
 <h4 id="storey-heights">Storey Heights<a class="headerlink" href="#storey-heights" title="Permanent link">&para;</a></h4>
 <p><strong>First Storey Height</strong></p>
-<p>First storey height is used to set the default height of Building's ground floor inside the selected City Block. Changing this parameter will change default Building Height, too.</p>
+<p>First storey height is used to set the default height of Building's 
+ground floor inside the selected City Block. Changing this parameter 
+will change default Building Height, too.</p>
 <p><strong>Other Storeys Height</strong></p>
-<p>Other storeys height is used to set the default height of all Building's storeys above ground floor inside the selected City Block. Changing this parameter will change default Building Height, too.</p>
+<p>Other storeys height is used to set the default height of all Building's 
+storeys above ground floor inside the selected City Block. Changing this 
+parameter will change default Building Height, too.</p>
 <div class="admonition hint">
 <p class="admonition-title">Enter s(ync) to change both storey height in one step</p>
-<p>If you enter <span class="keys"><kbd class="key-s">S</kbd></span> key before entering number value, Modelur will automatically sync both numbers in first and other storeys height.</p>
+<p>If you enter <span class="keys"><kbd class="key-s">S</kbd></span> key before entering number value, Modelur will 
+automatically sync both numbers in first and other storeys height.</p>
 </div>
                 
               
