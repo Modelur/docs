@@ -14,7 +14,7 @@
         <meta name="author" content="The Modelur Team">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.5">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
     
     
       
@@ -22,7 +22,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.21aed14c.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19753c6b.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
@@ -550,11 +550,11 @@
                 <p>Under the Whole Plot tab (Figure 4.21) you can define default Zoning constraints 
 and Building Parameters that are applied throughout the development area if not 
 specified otherwise. To understand how Parameters work inside Modelur, please 
-visit <a href="/quickstart/#step-3-changing-the-parameters">Parameters hierarchy explanation</a>.</p>
+visit <a href="../../quickstart/#step-3-changing-the-parameters">Parameters hierarchy explanation</a>.</p>
 <p><img alt="Whole Plot tab" src="../../img/modelur_whole_plot_tab.png" /></p>
 <figcaption>Figure 4.21 - Whole Plot tab, which shows the default Parameters 
-for the whole development area. If the Parameter in [City Block](city_block) 
-or [Building](building) is not overloaded, the values defined here will be used.</figcaption>
+for the whole development area. If the Parameter in <a href="../city_block">City Block</a> 
+or <a href="../building">Building</a> is not overloaded, the values defined here will be used.</figcaption>
 
 <div class="admonition hint">
 <p class="admonition-title">Compact and Extended View</p>
@@ -564,13 +564,13 @@ using the extend icon on the top right corner of each panel:
 </div>
 <h2 id="plot-parameters">Plot Parameters<a class="headerlink" href="#plot-parameters" title="Permanent link">&para;</a></h2>
 <p>Inside the Plot Parameters panel you can define default parameters that are 
-valid for the <em>whole development area</em> unless they are overloaded by specific <a href="/reference/city_block">City 
+valid for the <em>whole development area</em> unless they are overloaded by specific <a href="../city_block">City 
 Blocks</a>.</p>
 <p><strong>Plot Area</strong></p>
 <p>Plot area represents the size of the <em>whole development area</em>. This parameter is 
 used to calculate Floor Area Ratio (FAR = Gross Floor Area/Plot Area) and Site 
 Coverage (Built-up Area/Plot Area) of the whole development area.</p>
-<p>In case you have any <a href="/reference/city_block">City Blocks</a> defined, Modelur will automatically 
+<p>In case you have any <a href="../city_block">City Blocks</a> defined, Modelur will automatically 
 sum up their areas and display it here (and also use it in calculations). However, 
 if you want you can overload sum of City Block's areas by simply entering the 
 area size of your choice. If you then prefer to use calculated value instead, 
@@ -579,7 +579,7 @@ just delete your specified area size and Modelur will set it back to sum of City
 <p>Using default Land Use <em>dropdown menu</em> you can set the default Land Use for 
 City Blocks and Buildings. Land Uses are used to calculate Building's units 
 (eg. apartments, residents, offices, etc), parking requirements, green area 
-requirements, etc. To learn more about these settings, please visit <a href="/reference/land_use">Land Use 
+requirements, etc. To learn more about these settings, please visit <a href="../land_use">Land Use 
 section</a> of this page.</p>
 <h4 id="general-site-limits">General Site Limits<a class="headerlink" href="#general-site-limits" title="Permanent link">&para;</a></h4>
 <p>Under General Site Limits you can set the default constraints set by zoning ordinance
@@ -589,7 +589,7 @@ section</a> of this page.</p>
 <span style="color:red">become red</span>, to warn you about it (Figure 4.22). 
 Once the model is fixed to meet constraints again (or when zoning ordinance 
 constraints themselves are updated), exceeded parameters will turn back to black. 
-These parameters can also be set for each <a href="/reference/city_block/#selected-city-block-parameters">City 
+These parameters can also be set for each <a href="../city_block/#selected-city-block-parameters">City 
 Block</a> separately. When 
 defined on City Block level, they are valid only for that City Block (including 
 the Buildings Heights).</p>
@@ -624,20 +624,20 @@ Min. Distance to Height Ratio. To calculate distance, the Building's height
 is divided by the parameter value. Example: if parameter is set to 2, the 
 minimum distance will be &frac12; of Building's height, if set to 3, it will be 
 &#8531; of Building's height. If the Buildings are placed closer than the 
-calculated distance, they will be marked red (assuming that <a href="/reference/survey/#warnings">Too low distance 
+calculated distance, they will be marked red (assuming that <a href="../survey/#warnings">Too low distance 
 between Buildings</a> is active).</em></p>
 <p><strong>Min. Dist. Between Buildings</strong></p>
 <p>Minimum distance between Buildings is the absolute distance (in meters 
 or feet) between any two Buildings. If the Buildings are placed closer 
-than this specified distance, they will be marked red (assuming that <a href="/reference/survey/#warnings">Too low 
+than this specified distance, they will be marked red (assuming that <a href="../survey/#warnings">Too low 
 distance between Buildings</a> is active).</p>
 <h2 id="default-building-parameters">Default Building Parameters<a class="headerlink" href="#default-building-parameters" title="Permanent link">&para;</a></h2>
 <p>Default Building Parameters inside the Whole Plot tab are the topmost 
-Building parameters in <a href="/quickstart/#step-3-changing-the-parameters">Modelur's 
+Building parameters in <a href="../../quickstart/#step-3-changing-the-parameters">Modelur's 
 hierarchy</a>. This means that if 
 the parameter in question is not 
-<a href="/reference/building/#selected-building-parameters">defined by the Building itself</a> 
-(or any object in it's hierarchy, eg. <a href="/reference/city_block">City Block</a>), 
+<a href="../building/#selected-building-parameters">defined by the Building itself</a> 
+(or any object in it's hierarchy, eg. <a href="../city_block">City Block</a>), 
 Modelur will apply the values defined here to the Building. For example, when 
 you create a new Building, it will contain number of storeys, Land Use, etc 
 as defined here.</p>
@@ -765,8 +765,8 @@ Building Height, too.</p>
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.7e0ee788.min.js"></script>
-      <script src="../../assets/javascripts/bundle.b3a72adc.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({

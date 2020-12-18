@@ -14,7 +14,7 @@
         <meta name="author" content="The Modelur Team">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.5">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
     
     
       
@@ -22,7 +22,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.21aed14c.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19753c6b.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
@@ -583,8 +583,8 @@ Additionally, you can also define different zoning rules and default Building
 Parameters for each City Block.</p>
 <p><img alt="City Block tab" src="../../img/modelur_city_block_tab.png" /></p>
 <figcaption>Figure 4.41 - City Block tab, which shows Parameters of selected 
-City Block. In this case only Land Use is overloaded (set specifically for 
-selected City Block), while other (non-checked) are taken from the Whole Plot.</figcaption>
+City Block. In this case only <a href="../land_use">Land Use</a> is overloaded (set specifically for 
+selected City Block), while other (non-checked) are taken from the <a href="../whole_plot">Whole Plot</a>.</figcaption>
 
 <div class="admonition hint">
 <p class="admonition-title">Compact and Extended View</p>
@@ -595,7 +595,7 @@ using the extend icon on the top right corner of each panel:
 <h2 id="selected-city-block-parameters">Selected City Block Parameters<a class="headerlink" href="#selected-city-block-parameters" title="Permanent link">&para;</a></h2>
 <p>Inside this panel you can define different parameters and requirements that 
 need to be met in selected City Block(s). If they are left unchanged, City 
-Block will take them from the <a href="/reference/whole_plot/#plot-parameters">Whole Plot</a>. 
+Block will take them from the <a href="../whole_plot/#plot-parameters">Whole Plot</a>. 
 This panel will show information for the last City Block selected in 3D Window. 
 If there are no City Blocks selected, it will show the information for the City 
 Block of last Building selected (assuming it is placed on a City Block).</p>
@@ -610,14 +610,14 @@ new City Block.</p>
 <p>However, if Face(s) or Edge Loop(s) are selected, it will create a new City 
 Block(s) based on selected shape(s). When a City Block is first created, it 
 will contain the default Parameters as specified in the Whole Plot 
-<a href="/reference/whole_plot/#plot-parameters">Plot Parameters</a> and 
-<a href="/reference/whole_plot/#default-building-parameters">Default Building Parameters</a>, 
+<a href="../whole_plot/#plot-parameters">Plot Parameters</a> and 
+<a href="../whole_plot/#default-building-parameters">Default Building Parameters</a>, 
 respectively.</p>
 <p>When created, City Blocks are locked by default. You can change this setting in 
 Modelur menu Options → Lock City Blocks Upon Creation.</p>
 <p><strong>Sync</strong></p>
 <p>Sync <em>button</em> is used to open the 
-<a href="/reference/toolbar/#sync-city-block-parameters">Sync City Block Parameters</a> 
+<a href="../toolbar/#sync-city-block-parameters">Sync City Block Parameters</a> 
 tool. With it you can easily transfer Parameter values from one City Block 
 to another.</p>
 <p><strong>Select All</strong></p>
@@ -635,7 +635,7 @@ panel the same way as you would rename any other SketchUp Group when selected.</
 be applied by default to each Building(s) in the City Block. Land Uses 
 are used to calculate Building's units (eg. apartments, residents, offices, 
 etc), parking requirements, green area requirements, etc. To learn more 
-about these settings, please visit <a href="/reference/land_use">Land Use section</a> 
+about these settings, please visit <a href="../land_use">Land Use section</a> 
 of this page.</p>
 <h4 id="city-block-limits">City Block Limits<a class="headerlink" href="#city-block-limits" title="Permanent link">&para;</a></h4>
 <p>Under City Block Limits you can set the default constraints set by zoning 
@@ -680,13 +680,13 @@ Building's height is divided by the parameter value. Example: if
 parameter is set to 2, the minimum distance will be &frac12; of Building's 
 height, if set to 3, it will be &#8531; of Building's height. If the 
 Buildings are placed closer than the calculated distance, they will 
-be marked red (assuming that <a href="/reference/survey/#warnings">Too low distance between 
+be marked red (assuming that <a href="../survey/#warnings">Too low distance between 
 Buildings</a> is active).</em></p>
 <p><strong>Min. Dist. Between Buildings</strong></p>
 <p>Minimum distance between Buildings is the absolute distance (in meters 
 or feet) between any two Buildings within the selected City Block. If 
 the Buildings are placed closer than this specified distance, they 
-will be marked red (assuming that <a href="/reference/survey/#warnings">Too low distance between 
+will be marked red (assuming that <a href="../survey/#warnings">Too low distance between 
 Buildings</a> is active).</p>
 <p>Note that distances will be verified also between the Buildings that are 
 not within the same City Blocks, but each according to it's parent City 
@@ -705,9 +705,9 @@ Modelur → Select City Blocks Buildings.       </p>
 </div>
 <p>Default Building Parameters inside the City Block tab are used to 
 overload default parameters as set by the Whole Plot according to 
-<a href="/quickstart/#step-3-changing-the-parameters">Modelur's hierarchy</a>. 
+<a href="../../quickstart/#step-3-changing-the-parameters">Modelur's hierarchy</a>. 
 This means that if the parameter in question is not 
-<a href="/reference/building/#selected-building-parameters">defined by the Building itself</a>, 
+<a href="../building/#selected-building-parameters">defined by the Building itself</a>, 
 Modelur will apply the values defined here to the Building. For example, 
 when you create a new Building, it will contain Number of Storeys, Land 
 Use, etc. as specified here or in the Whole Plot.</p>
@@ -731,17 +731,17 @@ height based on Number of Storeys and First and Other storeys Height
 (described below).</p>
 <h4 id="building-areas">Building Areas<a class="headerlink" href="#building-areas" title="Permanent link">&para;</a></h4>
 <p><strong>Built-up Area</strong></p>
-<p>Built-up area sets the default floor area size of the Building inside 
+<p>Built-up area sets the default floor area size of the <a href="../building">Building</a> inside 
 selected City Block. Please note that this value will be automatically 
 overloaded when creating the Building (to keep drawn floor area size) 
 unless you check the Manually drawn floor plan assumes default Built-up 
-Area under Building tab → <a href="/reference/building/#editing-modes-of-building">Editing Modes of 
+Area under Building tab → <a href="../building/#editing-modes-of-building">Editing Modes of 
 Building</a>. Built-up Area 
 will automatically be adapted if you change Gross Floor Area (described 
 below) to match the division of Gross Floor Area with Number of Storeys.</p>
 <p><strong>Gross Floor Area</strong></p>
 <p>Gross floor area parameter is used to define default gross floor area 
-size of the Building inside the selected City Block. If Building is 
+size of the <a href="../building">Building</a> inside the selected City Block. If Building is 
 created from scratch (no horizontal SketchUp Face is selected), this 
 will be used to determine size of the Building (in combination with 
 Number of Storeys).</p>
@@ -851,8 +851,8 @@ automatically sync both numbers in first and other storeys height.</p>
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.7e0ee788.min.js"></script>
-      <script src="../../assets/javascripts/bundle.b3a72adc.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
