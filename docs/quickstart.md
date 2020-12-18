@@ -36,11 +36,11 @@ in the Menu section.
 
 #### Tabs
 Tabs are located below the Menu. They represent a groups of similar tasks. Currently 
-there are five of them: [Whole Plot](/reference/whole_plot) tab (a place to set default 
-values for the whole plot), [City Block](/reference/city_block) tab (a place to set 
-values for selected City Blocks), [Land Use](/reference/land_use) tab (a place to create 
-and edit Land Uses and their parameters), [Building](/reference/building) tab (a place 
-to modify selected Buildings) and [Survey](/reference/survey) (a place where you can 
+there are five of them: [Whole Plot](../reference/whole_plot) tab (a place to set default 
+values for the whole plot), [City Block](../reference/city_block) tab (a place to set 
+values for selected City Blocks), [Land Use](../reference/land_use) tab (a place to create 
+and edit Land Uses and their parameters), [Building](../reference/building) tab (a place 
+to modify selected Buildings) and [Survey](../reference/survey) (a place where you can 
 monitor achieved Urban Parameters, such as FAR, required Parking Spaces, etc.). 
 Detailed description is available in the Reference section.
 
@@ -63,7 +63,7 @@ Quick Start Guide
 
 #### Before you start
 
-Make sure you have [installed Modelur](/getting-started/#installation) and quickly 
+Make sure you have [installed Modelur](../getting-started#installation) and quickly 
 check out the [structure of Modelur User Interface](#user-interface-overview), so 
 you get acquainted with basic terminology and UI logic. It should not take you more 
 than two and a half minutes. :-)
@@ -72,7 +72,7 @@ than two and a half minutes. :-)
 
 Let's start from the very beginning. With SketchUp open you can initialize Modelur 
 by clicking on a blue Modelur icon in toolbar or via SketchUp menu _Extensions → 
-Modelur → Initialize Modelur_ (as shown in [Initialize Modelur](/quickstart#initialize_modelur) 
+Modelur → Initialize Modelur_ (as shown in [Initialize Modelur](#initialize-modelur) 
 section). Once initialized, go to Options menu to set Modelur UI Language and dimension units 
 (meters or feet) according to your needs (Figure 3.04).
 

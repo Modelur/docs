@@ -58,7 +58,7 @@ the same way as you would rename any other SketchUp Group when selected.
 Using Land Use _dropdown menu_ you can set the Land Use selected Building(s). 
 Land Uses are used to calculate Building's units (eg. apartments, residents, 
 offices, etc), parking requirements, green area requirements, etc. To learn 
-more about these settings, please visit [Land Use section](/reference/land_use) 
+more about these settings, please visit [Land Use section](../land_use) 
 of this page.
 
 #### Building Height ####
@@ -117,14 +117,14 @@ Height, too.
 
 By specifying construction year you can define when the selected Building 
 is expected to be built. Once construction year is set, you can use 
-[Development Timeline](/reference/survey/#development-timeline) option in 
+[Development Timeline](../survey/#development-timeline) option in 
 _Survey tab_ to change timeline year and see how the development will evolve in time.
 
 **Demolition Year**
 
 By specifying demolition year you can define when the selected Building is 
 expected to be demolished. Once demolition year is set, you can use [Development 
-Timeline](/reference/survey/#development-timeline) option in _Survey tab_ to change 
+Timeline](../survey/#development-timeline) option in _Survey tab_ to change 
 timeline year and see how the development will evolve in time.
 
 !!! hint "Use Shift to check all checkboxes in one click"

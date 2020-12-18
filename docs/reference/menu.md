@@ -16,7 +16,7 @@ Opens a dialog window that allows you to open existing SKP file.
 
 **File → Import GIS Data…**
 
-Clicking on this button will bring up [GIS import](/reference/gis) window.
+Clicking on this button will bring up [GIS import](../gis) window.
 
 **File → Export to GeoJSON…**
 
@@ -220,7 +220,7 @@ are selected. There are three options: _Don't Create_, _From One Edge_ and _From
 _Don't Create_ option means you Modelur will create a Building or City Block 
 only from selected faces, ignoring edge loops. If no face is selected, Modelur 
 will create a Building in the middle of the coordinate system and with 
-_Default Building Area_ (as defined in [Default Building Parameters](/reference/whole_plot/#default-building-parameters)).
+_Default Building Area_ (as defined in [Default Building Parameters](../whole_plot/#default-building-parameters)).
 
  _From One Edge_ option means you can select just one edge of a closed loop 
  and a Building or City Block will be created based on that loop. In case you 
@@ -234,7 +234,7 @@ _Default Building Area_ (as defined in [Default Building Parameters](/reference/
  loop in order to create Building or City Block. Of no complete edge loop is 
  selected, Modelur will ignore selected edges and create a Building in the 
  middle of the coordinate system and with _Default Building Area_ (as defined 
- in [Default Building Parameters](/reference/whole_plot/#default-building-parameters)) 
+ in [Default Building Parameters](../whole_plot/#default-building-parameters)) 
  or switch to Line tool so you can draw new City Block.
 
 **Calculate FAR Based On**
@@ -313,7 +313,7 @@ When this option is checked, Modelur will save each Land Use change to
 temporary Land Use specifications file. Turn this feature on if you want 
 to copy/paste Buildings and City Blocks with non-default Land Uses between 
 different SKP models. The file `stored_land_uses.json`, is saved into 
-your Modelur [Appdata folder](/getting-started/#modelur-location).
+your Modelur [Appdata folder](../../getting-started#modelur-location).
 
 Help
 ----

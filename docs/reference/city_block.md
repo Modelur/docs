@@ -7,8 +7,8 @@ Parameters for each City Block.
 
 ![City Block tab](../img/modelur_city_block_tab.png)
 <figcaption>Figure 4.41 - City Block tab, which shows Parameters of selected 
-City Block. In this case only Land Use is overloaded (set specifically for 
-selected City Block), while other (non-checked) are taken from the Whole Plot.</figcaption>
+City Block. In this case only <a href="../land_use">Land Use</a> is overloaded (set specifically for 
+selected City Block), while other (non-checked) are taken from the <a href="../whole_plot">Whole Plot</a>.</figcaption>
 
 !!! hint "Compact and Extended View"
     In case you don't see separators between parameters you can turn them on 
@@ -19,7 +19,7 @@ Selected City Block Parameters
 ----------------------------
 Inside this panel you can define different parameters and requirements that 
 need to be met in selected City Block(s). If they are left unchanged, City 
-Block will take them from the [Whole Plot](/reference/whole_plot/#plot-parameters). 
+Block will take them from the [Whole Plot](../whole_plot/#plot-parameters). 
 This panel will show information for the last City Block selected in 3D Window. 
 If there are no City Blocks selected, it will show the information for the City 
 Block of last Building selected (assuming it is placed on a City Block).
@@ -38,8 +38,8 @@ new City Block.
 However, if Face(s) or Edge Loop(s) are selected, it will create a new City 
 Block(s) based on selected shape(s). When a City Block is first created, it 
 will contain the default Parameters as specified in the Whole Plot 
-[Plot Parameters](/reference/whole_plot/#plot-parameters) and 
-[Default Building Parameters](/reference/whole_plot/#default-building-parameters), 
+[Plot Parameters](../whole_plot/#plot-parameters) and 
+[Default Building Parameters](../whole_plot/#default-building-parameters), 
 respectively.
 
 When created, City Blocks are locked by default. You can change this setting in 
@@ -48,7 +48,7 @@ Modelur menu Options → Lock City Blocks Upon Creation.
 **Sync**
 
 Sync _button_ is used to open the 
-[Sync City Block Parameters](/reference/toolbar/#sync-city-block-parameters) 
+[Sync City Block Parameters](../toolbar/#sync-city-block-parameters) 
 tool. With it you can easily transfer Parameter values from one City Block 
 to another.
 
@@ -73,7 +73,7 @@ Using Default Land Use _dropdown menu_ you can set the Land Use that will
 be applied by default to each Building(s) in the City Block. Land Uses 
 are used to calculate Building's units (eg. apartments, residents, offices, 
 etc), parking requirements, green area requirements, etc. To learn more 
-about these settings, please visit [Land Use section](/reference/land_use) 
+about these settings, please visit [Land Use section](../land_use) 
 of this page.
 
 
@@ -133,7 +133,7 @@ parameter is set to 2, the minimum distance will be 1/2 of Building's
 height, if set to 3, it will be 1/3 of Building's height. If the 
 Buildings are placed closer than the calculated distance, they will 
 be marked red (assuming that [Too low distance between 
-Buildings](/reference/survey/#warnings) is active)._
+Buildings](../survey/#warnings) is active)._
 
 **Min. Dist. Between Buildings**
 
@@ -141,7 +141,7 @@ Minimum distance between Buildings is the absolute distance (in meters
 or feet) between any two Buildings within the selected City Block. If 
 the Buildings are placed closer than this specified distance, they 
 will be marked red (assuming that [Too low distance between 
-Buildings](/reference/survey/#warnings) is active).
+Buildings](../survey/#warnings) is active).
 
 Note that distances will be verified also between the Buildings that are 
 not within the same City Blocks, but each according to it's parent City 
@@ -161,9 +161,9 @@ Selected City Block - Building Parameters
 
 Default Building Parameters inside the City Block tab are used to 
 overload default parameters as set by the Whole Plot according to 
-[Modelur's hierarchy](/quickstart/#step-3-changing-the-parameters). 
+[Modelur's hierarchy](../../quickstart/#step-3-changing-the-parameters). 
 This means that if the parameter in question is not 
-[defined by the Building itself](/reference/building/#selected-building-parameters), 
+[defined by the Building itself](../building/#selected-building-parameters), 
 Modelur will apply the values defined here to the Building. For example, 
 when you create a new Building, it will contain Number of Storeys, Land 
 Use, etc. as specified here or in the Whole Plot.
@@ -194,19 +194,19 @@ height based on Number of Storeys and First and Other storeys Height
 
 **Built-up Area**
 
-Built-up area sets the default floor area size of the Building inside 
+Built-up area sets the default floor area size of the [Building](../building) inside 
 selected City Block. Please note that this value will be automatically 
 overloaded when creating the Building (to keep drawn floor area size) 
 unless you check the Manually drawn floor plan assumes default Built-up 
 Area under Building tab → [Editing Modes of 
-Building](/reference/building/#editing-modes-of-building). Built-up Area 
+Building](../building/#editing-modes-of-building). Built-up Area 
 will automatically be adapted if you change Gross Floor Area (described 
 below) to match the division of Gross Floor Area with Number of Storeys.
 
 **Gross Floor Area**
 
 Gross floor area parameter is used to define default gross floor area 
-size of the Building inside the selected City Block. If Building is 
+size of the [Building](../building) inside the selected City Block. If Building is 
 created from scratch (no horizontal SketchUp Face is selected), this 
 will be used to determine size of the Building (in combination with 
 Number of Storeys).

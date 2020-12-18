@@ -1,12 +1,12 @@
 Under the Whole Plot tab (Figure 4.21) you can define default Zoning constraints 
 and Building Parameters that are applied throughout the development area if not 
 specified otherwise. To understand how Parameters work inside Modelur, please 
-visit [Parameters hierarchy explanation](/quickstart/#step-3-changing-the-parameters).
+visit [Parameters hierarchy explanation](../../quickstart/#step-3-changing-the-parameters).
 
 ![Whole Plot tab](../img/modelur_whole_plot_tab.png)
 <figcaption>Figure 4.21 - Whole Plot tab, which shows the default Parameters 
-for the whole development area. If the Parameter in [City Block](city_block) 
-or [Building](building) is not overloaded, the values defined here will be used.</figcaption>
+for the whole development area. If the Parameter in <a href="../city_block">City Block</a> 
+or <a href="../building">Building</a> is not overloaded, the values defined here will be used.</figcaption>
 
 !!! hint "Compact and Extended View"
     In case you don't see separators between parameters you can turn them on 
@@ -17,7 +17,7 @@ Plot Parameters
 ---------------
 Inside the Plot Parameters panel you can define default parameters that are 
 valid for the _whole development area_ unless they are overloaded by specific [City 
-Blocks](/reference/city_block).
+Blocks](../city_block).
 
 **Plot Area**
 
@@ -25,7 +25,7 @@ Plot area represents the size of the _whole development area_. This parameter is
 used to calculate Floor Area Ratio (FAR = Gross Floor Area/Plot Area) and Site 
 Coverage (Built-up Area/Plot Area) of the whole development area.
 
-In case you have any [City Blocks](/reference/city_block) defined, Modelur will automatically 
+In case you have any [City Blocks](../city_block) defined, Modelur will automatically 
 sum up their areas and display it here (and also use it in calculations). However, 
 if you want you can overload sum of City Block's areas by simply entering the 
 area size of your choice. If you then prefer to use calculated value instead, 
@@ -37,7 +37,7 @@ Using default Land Use _dropdown menu_ you can set the default Land Use for
 City Blocks and Buildings. Land Uses are used to calculate Building's units 
 (eg. apartments, residents, offices, etc), parking requirements, green area 
 requirements, etc. To learn more about these settings, please visit [Land Use 
-section](/reference/land_use) of this page.
+section](../land_use) of this page.
 
 #### General Site Limits ####
 
@@ -50,7 +50,7 @@ In case your development model exceeds set Zoning Constraints, they will
 Once the model is fixed to meet constraints again (or when zoning ordinance 
 constraints themselves are updated), exceeded parameters will turn back to black. 
 These parameters can also be set for each [City 
-Block](/reference/city_block/#selected-city-block-parameters) separately. When 
+Block](../city_block/#selected-city-block-parameters) separately. When 
 defined on City Block level, they are valid only for that City Block (including 
 the Buildings Heights).
 
@@ -95,23 +95,23 @@ is divided by the parameter value. Example: if parameter is set to 2, the
 minimum distance will be 1/2 of Building's height, if set to 3, it will be 
 1/3 of Building's height. If the Buildings are placed closer than the 
 calculated distance, they will be marked red (assuming that [Too low distance 
-between Buildings](/reference/survey/#warnings) is active)._
+between Buildings](../survey/#warnings) is active)._
 
 **Min. Dist. Between Buildings**
 
 Minimum distance between Buildings is the absolute distance (in meters 
 or feet) between any two Buildings. If the Buildings are placed closer 
 than this specified distance, they will be marked red (assuming that [Too low 
-distance between Buildings](/reference/survey/#warnings) is active).
+distance between Buildings](../survey/#warnings) is active).
 
 Default Building Parameters
 ---------------------------
 Default Building Parameters inside the Whole Plot tab are the topmost 
 Building parameters in [Modelur's 
-hierarchy](/quickstart/#step-3-changing-the-parameters). This means that if 
+hierarchy](../../quickstart/#step-3-changing-the-parameters). This means that if 
 the parameter in question is not 
-[defined by the Building itself](/reference/building/#selected-building-parameters) 
-(or any object in it's hierarchy, eg. [City Block](/reference/city_block)), 
+[defined by the Building itself](../building/#selected-building-parameters) 
+(or any object in it's hierarchy, eg. [City Block](../city_block)), 
 Modelur will apply the values defined here to the Building. For example, when 
 you create a new Building, it will contain number of storeys, Land Use, etc 
 as defined here.

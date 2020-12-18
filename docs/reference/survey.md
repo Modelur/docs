@@ -34,7 +34,7 @@ Building Height and Number of Storeys.
 _Full_ option displays all data included in the Basic option as well as 
 Required Green Area, Required Parking Spaces, Required Parking Area, 
 Building Volume, Net Floor Area, Assessed Investment and Number of Primary 
-and Secondary units. [Primary and Secondary units](/reference/land_use/#units) 
+and Secondary units. [Primary and Secondary units](../land_use/#units) 
 are defined in Land Use tab for each Land Use type.
 
 When _Sum of Selected_ is chosen, Modelur will constantly sum up and 
@@ -46,7 +46,7 @@ Land Uses and number of selected Buildings (or Building Parts when
 selection includes Complex Buildings).
 
 Display of either Gross or Net Floor Areas per Land Use in Sum of 
-Selected is defined implicitly by **Calculate FAR Based On** [Option](land_use/menu/#options).
+Selected is defined implicitly by **Calculate FAR Based On** [Option](../menu#options).
 
 !!! tip "HeadsUp Display text"
     Sometimes the text that shows urban control values on screen is 
@@ -86,8 +86,8 @@ Warnings
 When checked, this real-time warning system will let you know if Buildings 
 are placed too close together by coloring the misplaced Buildings in vivid 
 red color. You can set the minimum distance parameters in [Plot 
-Parameters](/reference/whole_plot/#distances) and in [City Block 
-Parameters](/reference/city_block/#distances). Please note that this feature 
+Parameters](../whole_plot/#distances) and in [City Block 
+Parameters](../city_block/#distances). Please note that this feature 
 is quite computer intensive so you might want turn it off on older computers 
 or when you don't need this information.
 
@@ -120,7 +120,7 @@ Urban Control - Land Use
 
 This section displays _Gross Floor Area_ and _Number of Primary and 
 Secondary units_ for the selected Land Use. [Primary and Secondary 
-units](land_use#units) are defined in _Land Use tab_ for each Land Use type.
+units](../land_use#units) are defined in _Land Use tab_ for each Land Use type.
 
 Development Timeline
 --------------------
@@ -128,9 +128,9 @@ Development Timeline
 **Development Timeline** slider is used to show/hide Modelur 
 Buildings based on their construction / demolition year. The range 
 is automatically set to -1/+1 from the min and max construction / 
-demolition year as [specified in Buildings](/reference/building/#selected-building-parameters). 
+demolition year as [specified in Buildings](../building/#selected-building-parameters). 
 If no construction / demolition year is specified in any Building, span will be 
-set to default as specified in [defaults.json](/getting-started/#preferences-location).
+set to default as specified in [defaults.json](../../getting-started/#preferences-location).
 
 _Example: Say you have modeled 10 Buildings. You specified that the 
 oldest Building in the model was built in 2010 and the newest will be 

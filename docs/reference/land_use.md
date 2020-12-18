@@ -14,13 +14,12 @@ Use selected in the dropdown menu Land Use.</figcaption>
     in the model. Nevertheless, you can still transfer Land Uses using the 
     Store and Import Land Use functionality or when copying Buildings and 
     City Blocks from one model to another. For the latter, we advise you 
-    to turn on the [Store Land Use changes](/reference/menu/#options) 
+    to turn on the [Store Land Use changes](../menu/#options) 
     option in Options menu.
     
 !!! note "Selecting Buildings by Land Use"
     If you need to select Buildings based on specific Land Use, you can 
-    use [Select Buildings by Land 
-    Use](/reference/extensions_menu/#select-buildings-by-land-use) option.
+    use [Select Buildings by Land Use](../extensions_menu/#select-buildings-by-land-use) option.
     
 Land Use Requirements
 ---------------------
@@ -39,7 +38,7 @@ the parameters as with any other Land Use.
 Remove _button_ removes currently selected Land Use from Modelur 
 model. If some of the Buildings have assigned Land Use that is 
 being deleted, it will be replaced by default Land Use as 
-specified in the _Whole Plot → Default Building Parameters_.
+specified in the _Whole Plot → [Default Building Parameters](../whole_plot/#default-building-parameters)_.
 
 **Edit button**
 
