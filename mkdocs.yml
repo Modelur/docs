@@ -1,5 +1,6 @@
 site_name: Modelur User Guide
-site_url: https://modelur.github.io/docs
+site_url: https://agilicity.gitlab.io/docs/modelur-sketchup
+site_dir: public
 theme:
   name: 'material'
   custom_dir: 'modelur_theme/'
