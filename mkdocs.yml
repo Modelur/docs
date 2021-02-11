@@ -1,6 +1,8 @@
 site_name: Modelur User Guide
 site_url: https://modelur.github.io/docs
-theme: 'material'
+theme:
+  name: 'material'
+  custom_dir: 'modelur_theme/'
 nav:
 - 1. Meet Modelur: index.md
 - 2. Getting Started: getting-started.md
@@ -24,7 +26,7 @@ extra_javascript:
 - javascript/mkdocs.js
 copyright: Copyright (c) 2020 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o.</a>. All Rights Reserved.
 site_author: The Modelur Team
-google_analytics: ['UA-184154467-1', 'auto']
+google_analytics: ['GTM-PX3KMCP', 'auto']
 extra:
   palette:
       primary: 'light blue'
