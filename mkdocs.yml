@@ -6,7 +6,7 @@ theme:
   custom_dir: 'modelur_theme/'
 nav:
 - 1. Meet Modelur: index.md
-- 2. Getting Started: getting-started.md
+- 2. Getting Started: installation.md
 - 3. Quick Start: quickstart.md
 - 4. Reference:
   - 'Menu': 'reference/menu.md'

@@ -69,7 +69,7 @@ on their names.
 #### Store Land Uses ####
 
 Use this command to store all Land Uses of current model into external file 
-(`stored_land_uses.json` file located in [Appdata folder](../../getting-started/#modelur-location)).
+(`stored_land_uses.json` file located in [Appdata folder](../../installation/#modelur-location)).
 This can be useful when you want to transfer 
 Land Uses from one model to another or when copying Buildings and City Blocks with 
 non-default Land Uses from one model to another.

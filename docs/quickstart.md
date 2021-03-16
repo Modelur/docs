@@ -63,7 +63,7 @@ Quick Start Guide
 
 #### Before you start
 
-Make sure you have [installed Modelur](../getting-started#installation) and quickly 
+Make sure you have [installed Modelur](../installation#installation) and quickly 
 check out the [structure of Modelur User Interface](#user-interface-overview), so 
 you get acquainted with basic terminology and UI logic. It should not take you more 
 than two and a half minutes. :-)

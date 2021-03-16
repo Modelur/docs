@@ -130,7 +130,7 @@ Buildings based on their construction / demolition year. The range
 is automatically set to -1/+1 from the min and max construction / 
 demolition year as [specified in Buildings](../building/#selected-building-parameters). 
 If no construction / demolition year is specified in any Building, span will be 
-set to default as specified in [defaults.json](../../getting-started/#preferences-location).
+set to default as specified in [defaults.json](../../installation/#preferences-location).
 
 _Example: Say you have modeled 10 Buildings. You specified that the 
 oldest Building in the model was built in 2010 and the newest will be 
