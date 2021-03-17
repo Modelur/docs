@@ -52,11 +52,9 @@ Sync _button_ is used to open the
 tool. With it you can easily transfer Parameter values from one City Block 
 to another.
 
-**Select All**
+**Generate**
 
-Select All _button_ is used to select all City Blocks in your project at 
-the same time. Any changes to City Block parameters will then apply to 
-all City Blocks.
+Generate _button_ is used to quickly populate selected empty City Blocks with randomly generated buildings so that the [Maximal permitted FAR](#city-block-limits) is achieved. To set options for the [massing generator](../massing_generator) use *Tools -> Massing Generator* in the [menu](../menu).
 
 #### Name and Land Use ####
 
