@@ -35,7 +35,7 @@ Clicking *Generate* button will run the generator. A warning will be issued if n
 
 #### Clear Button
 
-When clicking the *Clear* button, the buildings will be deleted on all of the selected city blocks. A warning will be issued if no city blocks are selected or if selected city blocks are empty.
+When clicking the *Clear* button, the buildings will be deleted on all of the selected city blocks. A warning will be issued if no city blocks are selected or if the selected city blocks are not empty.
 
 ## Generator options
 
