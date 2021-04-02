@@ -1,5 +1,6 @@
 .idea/
 site/
+public/
 Tmp/
 run_mkDocs.bat
 docs/css/custom_temp.css

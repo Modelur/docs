@@ -5,20 +5,19 @@ four sub-categories: [File](#file), [Tools](#tools), [Options](#options) and
 ![Modelur Menu](../img/modelur_ui_parts_menu_annotated.png)
 <figcaption>Figure 4.01 - Location of Modelur Menu.</figcaption>
 
-File
-----
+## File
 
 Here you can open existing files or export your data.
 
-**File → Open**
+#### Open
 
 Opens a dialog window that allows you to open existing SKP file.
 
-**File → Import GIS Data…**
+#### Import GIS Data…
 
 Clicking on this button will bring up [GIS import](../gis) window.
 
-**File → Export to GeoJSON…**
+#### Export to GeoJSON…
 
 Clicking on this button will save your Buildings and City Blocks as WGS84 GeoJSON
 which you can use in GIS software of your choice (eg. QGis, ArcGis, etc.).
@@ -26,7 +25,7 @@ Files are stored next to your SKP file. They have the same base name as your SKP
 file and appended _buildings_##, _complex_buildings_## and _city_blocks_## 
 suffixes. Each time you export the data, number identifier is raised by 1.
 
-**File → Export Urban Design Control Values…**
+#### Export Urban Design Control Values…
 
 This is used to export urban control values (such as Gross Floor Area, FAR, 
 Required number of parking lots, etc.) of currently opened model into CSV file. 
@@ -58,7 +57,7 @@ sign in the spreadsheet software you are using._
 file (left window) and imported to the spreadsheet software (right window).
 </figcaption>
 
-**File → Download OSM 3D Buildings**
+#### Download OSM 3D Buildings
 
 In order to generate Open Street Map (OSM) 3D Building's volumes 
 (Figure 4.04), you first need to geolocate your model using SketchUp's 
@@ -81,7 +80,7 @@ your model via OSM data import.</figcaption>
     defined. When this is the case, Modelur will take default building 
     parameter from Whole Plot or City Block at the time of creation.
 
-**File → Download OSM 2D Urban Morphology**
+#### Download OSM 2D Urban Morphology
 
 In order to generate OSM 2D Urban Morphology, you first need to geolocate 
 your model using SketchUp's geolocation feature (File -> Geo-location -> 
@@ -90,12 +89,11 @@ Urban Morphology button will create you floor plans of buildings for selected
 area. The new floor plans will be placed into a separate group and placed on 
 separate layer.
 
-Tools
------
+## Tools
 
 Here is a set of tools that help you work faster and more efficiently.
 
-**Open Urban Control Data Table**
+#### Open Urban Control Data Table
 
 This will open a new, interactive Window with the complete urban control data of 
 your model inside SketchUp (Figure 4.04). By clicking on the appropriate checkboxes 
@@ -120,7 +118,7 @@ it is constructed can be shown. Just select _Complex Buildings Land Uses_ and/or
 _Complex Buildings Parts_ on top of the Window. These options are available for 
 selection only if _Complex Building_ option is selected.
 
-**Randomize Building Heights**
+#### Randomize Building Heights
 
 Using this functionality you can randomize selected Buildings number of storeys. Once 
 Buildings are selected, click on this button and you will be presented with two options. 
@@ -139,14 +137,14 @@ Select a surface, click on this tool and select a file with appropriate texture
 from your computer. Valid texture file formats are: .png, .jpg, .psd, .bmp, 
 .tif and .tga.)
 
-**Place Buildings on Selected Terrain** 
+#### Place Buildings on Selected Terrain
  
 Using this will "drop" all Modelur Buildings to the terrain of your choice. 
 This is particularly useful when working on sloped terrains and you need the 
 buildings to sit nicely on it. In order to use this functonality, just select the  
 terrain in question and click this button. 
 
-**Calculate Form Factor**
+#### Calculate Form Factor
 
 *Form Factor* calculation is used to estimate the potential of Building's energy 
 efficiency. The lower the Form Factor, the more compact a Building is. And the 
@@ -182,7 +180,7 @@ Building (e.g. walls, roofs, terraces).
         You can call Form Factor Calculation also via Context menu. To do so, 
         just right-click on the Building and select Modelur → Calculate Form Factor.
 
-**Optimize Buildings for Google Earth**
+#### Optimize Buildings for Google Earth
 
 Once your urban design proposal is finished, you might want to export it to 
 geolocated KMZ file, which can be opened by many programs, including [Google 
@@ -191,20 +189,23 @@ Modelur will automatically optimize all Modelur Buildings by removing all
 unnecessary faces. If you want, you can also tell it to export floor Edges, 
 so that the Building's storeys are visible inside Google Earth.  
 
-Options
--------
+#### Massing Generator
 
-**Language**
+This entry will open [Massing Generator](../massing_generator) window that enables you to quickly populate existing [City blocks](../city_block).
+
+## Options
+
+#### Language
 
 Set Modelur to your preferred language. Note that Modelur is officially 
 supported in English only for time being.
 
-**Units**
+#### Units
 
 Set chosen units, either metric (meters) or imperial (feet). Switching this 
 option will also switch SketchUp's dimension units.
 
-**Default Building Shape**
+#### Default Building Shape
 
 When nothing is selected in your model, Modelur can create a Building or 
 Complex Building at model's origin. Here you can set what shape should such 
@@ -212,7 +213,7 @@ default building be (Square, Circle or L-Shape). If you selecte empty value
 in the dropdown, Modelur will not create new (Complex) Building if there are 
 no proper objects (eg. Face or closed Edge loop) in the selection.
 
-**Buildings From Edges**
+#### Buildings From Edges
 
 Tell Modelur if and how it should create Buildings or City Blocks when edges 
 are selected. There are three options: _Don't Create_, _From One Edge_ and _From Edge Loop_.
@@ -237,7 +238,7 @@ _Default Building Area_ (as defined in [Default Building Parameters](../whole_pl
  in [Default Building Parameters](../whole_plot/#default-building-parameters)) 
  or switch to Line tool so you can draw new City Block.
 
-**Calculate FAR Based On**
+#### Calculate FAR Based On
 
 Tell Modelur whether you want to calculate Whole Plot's and City Blocks Floor Area 
 Ratio based on Gross or Net Floor Area of Buildings. _By default this option is 
@@ -248,7 +249,7 @@ set to Gross Floor Area._
     which value (Gross or Net) is shown when Heads-up Display is showing Sum 
     of Selected Buildings.
 
-**Lock City Blocks Upon Creation**
+#### Lock City Blocks Upon Creation
 
 Automatically locks City Blocks when they are created. This means a City Block 
 can not be moved around the screen. This way you avoid accidentally moving a
@@ -257,57 +258,57 @@ City Block and spoiling your project.
 If you do need to move a City Block, you can unlock it by right-clicking on 
 the City Block and then selecting _Unlock_.
 
-**Apply City Blocks LU Material**
+#### Apply City Blocks LU Material
 
 Each City Block will be colored according to it's Land use (if the Land use has 
 a specified color). You can specify a color for each Land Use in Land Use tab.
 
-**Synchronize Land Use Panels**
+#### Synchronize Land Use Panels
 
 Keep Land Use Panels between Input data and Survey tab in sync. This means 
 the Land Use you select in _Land Use_ tab will also become selected (and 
 displayed) in _Urban Control - Land Use_ section of the _Survey_ tab and the other way around.
 
-**Show Status Bar**
+#### Show Status Bar
 
 Status Bar is located at the bottom of the User Interface. Status Bar shows 
 short descriptions of Modelur options and functionalities when you hover over them.
 
-**Show Building's Built-up Area**
+#### Show Building's Built-up Area
 
 Show built-up area face at the bottom of each Modelur Building.
 
-**Mark Terraces and Loggias**
+#### Mark Terraces and Loggias
 
 Apply green color to all Terraces and pink color to all Loggias. This way you can 
 easily see how many Terraces and how many Loggias there are in your project.
 
-**Sync Building's Layer**
+#### Sync Building's Layer
 
 If this option is turned on, Modelur will make sure that all Modelur Building's 
 Entities (Edges and Faces) are placed on the same layer as the Building itself. 
 The same is true for Complex Buildings and City Blocks. By default this option 
 is turned on.
 
-**Change Currency Symbol**
+#### Change Currency Symbol
 
 Opens up a dialog box for specifying new currency symbol. This currency symbol 
 is shown in section _Investment calculation_ of the _Land use_ tab where
 you define estimated price per square meter for Buildings with the chosen 
 Land Use assigned. This enables Modelur to calculate estimated cost of the whole Building.
 
-**Save Default Settings**
+#### Save Default Settings
 
 You can save your preferred settings combination as default by clicking on 
 _Save Default Settings_. This settings will then be used every time you 
 initialize new Modelur model.
 
-**Restore Default Settings**
+#### Restore Default Settings
 
 Reset Modelur to default settings. When applied please restart SketchUp 
 and Modelur.
 
-**Store Land Use changes**
+#### Store Land Use changes
 
 When this option is checked, Modelur will save each Land Use change to 
 temporary Land Use specifications file. Turn this feature on if you want 
@@ -315,8 +316,7 @@ to copy/paste Buildings and City Blocks with non-default Land Uses between
 different SKP models. The file `stored_land_uses.json`, is saved into 
 your Modelur [Appdata folder](../../getting-started#modelur-location).
 
-Help
-----
+## Help
 
 Help section contains links to this User guide, Video tutorials, 
 Modelur website and Modelur forum.
