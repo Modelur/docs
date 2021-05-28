@@ -113,10 +113,22 @@ are _marked with a light blue color_ (Buildings 1000006 and 1000007 in the image
 If needed, (Complex) Buildings can also be _sorted by their values_. Simply click 
 on the name of the column you want to sort by.
 
-For Complex Buildings, details about Land Use and/or each Simple Building from which 
-it is constructed can be shown. Just select _Complex Buildings Land Uses_ and/or 
-_Complex Buildings Parts_ on top of the Window. These options are available for 
-selection only if _Complex Building_ option is selected.
+For Complex Buildings, the details about Land Use and/or each Simple Building from which 
+it is constructed can be shown. Select:
+
+* _Complex Buildings Land Uses_: additional lines will be shown for each Land Use that is present in the Complex Building
+* _Complex Buildings Parts_: additional lines will be shown for each simple building that is part of the complex building.
+
+These options are available only if _Complex Building_ option is selected.
+
+For City Blocks, the details about the Land Uses present on that City Block can be shown. Select:
+
+* _City Blocks Land Uses_: additional lines will be shown for each Land Use that is present on the City Block. 
+* _City Blocks Land Use Summary(Excel Sync Only)_: additional fields with land use summary will be added to [Excel Live Sync](../extensions_menu#send-modelur-data-to-excel-windows-only).
+
+These options are available only if _City Blocks_ option is selected.
+
+By selecting the option _Building Storey Gross Floor Areas (Excel Sync Only)_ the gross floor area for each storey (floor level) will be displayed for each (Complex) Building in [Excel Live Sync](../extensions_menu#send-modelur-data-to-excel-windows-only).
 
 #### Randomize Building Heights
 
@@ -129,13 +141,6 @@ the range between min and max values specified.
 
 This option helps create dynamic urban solutions, avoiding too uniform look of 
 the urban area.
-
-[//]: # (**Create Terrain**)
-
-[//]: # (Modelur allows you to add texture to your buildings and/or landscapes. 
-Select a surface, click on this tool and select a file with appropriate texture 
-from your computer. Valid texture file formats are: .png, .jpg, .psd, .bmp, 
-.tif and .tga.)
 
 #### Place Buildings on Selected Terrain
  
@@ -289,6 +294,11 @@ If this option is turned on, Modelur will make sure that all Modelur Building's
 Entities (Edges and Faces) are placed on the same layer as the Building itself. 
 The same is true for Complex Buildings and City Blocks. By default this option 
 is turned on.
+
+#### Show City Block Virtual Envelope
+
+If this option is turned on, the [City Block Virtual Envelope](../city_block#envelope) will be displayed for all 
+of the city blocks. You can turn the *City Block Envelope* on and off for the selected city blocks with [Envelope Button](../city_block) on the [City Block Tab](../city_block).
 
 #### Change Currency Symbol
 
