@@ -26,7 +26,7 @@ Block of last Building selected (assuming it is placed on a City Block).
 
 #### Buttons ####
 
-**Create**
+##### Create
 
 Create _button_ is used to create City Block, the same way as by clicking on 
 the yellow _Create City Block_ icon in Modelur Toolbar. If no Face or Edge Loop 
@@ -45,27 +45,29 @@ respectively.
 When created, City Blocks are locked by default. You can change this setting in 
 Modelur menu Options → Lock City Blocks Upon Creation.
 
-**Sync**
+##### Envelope
 
-Sync _button_ is used to open the 
-[Sync City Block Parameters](../toolbar/#sync-city-block-parameters) 
-tool. With it you can easily transfer Parameter values from one City Block 
-to another.
+Envelope _button_ is used to toggle virtual *City Block Envelope* for the currently selected city blocks. 
 
-**Generate**
+![City Block Envelope](../img/envelope.png)
+<figcaption>Figure 4.42 - <strong>City Block Envelope</strong> is a transparent surface that visually represent <a href="#city-block-limits">city block limits</a>, namely <strong>the setback</strong> and 
+<strong>the maximal allowed building height</strong>.</figcaption>
+
+
+##### Generate
 
 Generate _button_ is used to quickly populate selected empty City Blocks with randomly generated buildings so that the [Maximal permitted FAR](#city-block-limits) is achieved. To set options for the [massing generator](../massing_generator) use *Tools -> Massing Generator* in the [menu](../menu).
 
-#### Name and Land Use ####
+#### Name and Land Use
 
-**City Block Name**
+##### City Block Name
 
 Using City Block Name parameter you can change City Block's name, which 
 is used to easily track different City Blocks. Alternatively you can also 
 rename the City Block in the SketchUp's Outliner or in the Entity Info 
 panel the same way as you would rename any other SketchUp Group when selected.
 
-**Default Land Use**
+##### Default Land Use
 
 Using Default Land Use _dropdown menu_ you can set the Land Use that will 
 be applied by default to each Building(s) in the City Block. Land Uses 
@@ -75,7 +77,7 @@ about these settings, please visit [Land Use section](../land_use)
 of this page.
 
 
-#### City Block Limits ####
+#### City Block Limits
 
 Under City Block Limits you can set the default constraints set by zoning 
 ordinance for specific City Block so that Modelur can warn you if they are 
@@ -83,15 +85,15 @@ exceeded. But it will not prevent you from exceeding them.
 
 In case your development model exceeds set constraints, they will 
 <span style="color:red">become red</span>, to warn you about it (Figure 
-4.42). Once the model is fixed to meet constraints again (or when zoning 
+4.43). Once the model is fixed to meet constraints again (or when zoning 
 ordinance constraints for selected City Blocks themselves are updated), 
 exceeded parameters will turn back to black.
 
 ![Exceeded City Block Limits](../img/modelur_exceeded_city_block_limits.png)
-<figcaption>Figure 4.42 - When text color in Modelur user interface turns 
+<figcaption>Figure 4.43 - When text color in Modelur user interface turns 
 red, the Parameters in question are exceeded.</figcaption>
 
-**Maximum Permitted FAR**
+##### Maximum Permitted FAR
 
 Using maximum permitted Floor Area Ratio you can define allowable FAR for 
 the selected City Block. In case FAR value of the City Block is exceeded, 
@@ -99,7 +101,7 @@ this line will become red, to warn you about it. If you don't want Modelur
 to validate achieved FAR for the selected City Block, simply erase this 
 value and hit ++enter++.
 
-**Max. Permitted Site Coverage**
+##### Max. Permitted Site Coverage
 
 Using maximum permitted Site Coverage you can define allowable Site 
 Coverage for the selected City Block. In case Site Coverage value for 
@@ -107,7 +109,7 @@ the selected City Block is exceeded, this line will become red, to warn
 you about it. If you don't want Modelur to validate achieved Site 
 Coverage for the selected City Block, simply erase this value and hit ++enter++.
 
-**Max. Permitted Building Height**
+##### Max. Permitted Building Height
 
 Using maximum permitted Building Height you can define height restrictions 
 for the selected City Block. In case some Building placed on the selected 
@@ -115,9 +117,25 @@ City block is higher than specified inhere, this line will become red, to
 warn you about it. If you don't want Modelur to validate Buildings Heights 
 for the selected City Block, simply erase this and hit ++enter++.
 
+##### Setback
+
+Setback can define limits on the City Block area, where buildings can be placed. Any building that is not within the
+setback will trigger warnings. The setback can have any positive value or it can be empty. If the value for the setback is *empty*, the setback warning is disabled.  If you don't want Modelur to validate setback 
+for the selected City Block, simply erase the value of the parameter and hit ++enter++.
+
+Users can also change area inside the setback manually. These are the steps to manually change the setback
+
+* unlock the Sektchup group of the city block
+* toggle the [city block envelope](#buttons) to be visible
+* enter the city block group and change the envelope group
+
+!!! warning
+
+    All manual changes of the setback area will be lost, if you set the *setback parameter* to a new value.
+
 #### Distances ####
 
-**Percentage of Building Height:**
+##### Percentage of Building Height
 
 Percentage of Building Height is used to calculate minimum distance 
 between two Buildings based on their heights. Example: if this parameter 
@@ -133,7 +151,7 @@ Buildings are placed closer than the calculated distance, they will
 be marked red (assuming that [Too low distance between 
 Buildings](../survey/#warnings) is active)._
 
-**Min. Dist. Between Buildings**
+##### Min. Dist. Between Buildings
 
 Minimum distance between Buildings is the absolute distance (in meters 
 or feet) between any two Buildings within the selected City Block. If 
@@ -174,13 +192,13 @@ Use, etc. as specified here or in the Whole Plot.
 
 #### Building Height ####
 
-**Building Height**
+##### Building Height
 
 Building height sets how tall should the Building be by default inside 
 selected City Block. When changing Number of Storeys, First Storey Height 
 and Other Storey Heights this parameter will adapt itself automatically.
 
-**Number of Storeys**
+##### Number of Storeys
 
 Number of storeys sets the default number of Building's storeys inside 
 selected City Block. When you change this parameter, Building Height 
@@ -188,9 +206,9 @@ selected City Block. When you change this parameter, Building Height
 height based on Number of Storeys and First and Other storeys Height 
 (described below).
 
-#### Building Areas ####
+#### Building Areas
 
-**Built-up Area**
+##### Built-up Area
 
 Built-up area sets the default floor area size of the [Building](../building) inside 
 selected City Block. Please note that this value will be automatically 
@@ -201,7 +219,7 @@ Building](../building/#editing-modes-of-building). Built-up Area
 will automatically be adapted if you change Gross Floor Area (described 
 below) to match the division of Gross Floor Area with Number of Storeys.
 
-**Gross Floor Area**
+##### Gross Floor Area
 
 Gross floor area parameter is used to define default gross floor area 
 size of the [Building](../building) inside the selected City Block. If Building is 
@@ -211,13 +229,13 @@ Number of Storeys).
 
 #### Storey Heights ####
 
-**First Storey Height**
+##### First Storey Height
 
 First storey height is used to set the default height of Building's 
 ground floor inside the selected City Block. Changing this parameter 
 will change default Building Height, too.
 
-**Other Storeys Height**
+##### Other Storeys Height
 
 Other storeys height is used to set the default height of all Building's 
 storeys above ground floor inside the selected City Block. Changing this 
