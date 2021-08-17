@@ -93,43 +93,6 @@ separate layer.
 
 Here is a set of tools that help you work faster and more efficiently.
 
-#### Open Urban Control Data Table
-
-This will open a new, interactive Window with the complete urban control data of 
-your model inside SketchUp (Figure 4.04). By clicking on the appropriate checkboxes 
-at the top of this new Window, you can choose which sets of data are displayed (Whole Plot, 
-Land Uses, Buildings, Complex Buildings ...). All values are refreshed in real-time 
-and you can also use this Window to _select specific Buildings_.
-
-![Urban control data table](../img/interactive_data_table.png)
-<figcaption>Figure 4.04 - Urban Control Data Window displays all selected sets of 
-data directly inside SketchUp.</figcaption>
-
-By clicking on a (Complex) Building row in this Window, Modelur will select its 
-counterpart inside the 3D Window. And vice versa - when you select the Building in 
-3D Window, it will get selected in the data table, too. Rows with selected Buildings 
-are _marked with a light blue color_ (Buildings 1000006 and 1000007 in the image above).
-
-If needed, (Complex) Buildings can also be _sorted by their values_. Simply click 
-on the name of the column you want to sort by.
-
-For Complex Buildings, the details about Land Use and/or each Simple Building from which 
-it is constructed can be shown. Select:
-
-* _Complex Buildings Land Uses_: additional lines will be shown for each Land Use that is present in the Complex Building
-* _Complex Buildings Parts_: additional lines will be shown for each simple building that is part of the complex building.
-
-These options are available only if _Complex Building_ option is selected.
-
-For City Blocks, the details about the Land Uses present on that City Block can be shown. Select:
-
-* _City Blocks Land Uses_: additional lines will be shown for each Land Use that is present on the City Block. 
-* _City Blocks Land Use Summary(Excel Sync Only)_: additional fields with land use summary will be added to [Excel Live Sync](../extensions_menu#send-modelur-data-to-excel-windows-only).
-
-These options are available only if _City Blocks_ option is selected.
-
-By selecting the option _Building Storey Gross Floor Areas (Excel Sync Only)_ the gross floor area for each storey (floor level) will be displayed for each (Complex) Building in [Excel Live Sync](../extensions_menu#send-modelur-data-to-excel-windows-only).
-
 #### Randomize Building Heights
 
 Using this functionality you can randomize selected Buildings number of storeys. Once 
@@ -198,6 +161,58 @@ so that the Building's storeys are visible inside Google Earth.
 
 This entry will open [Massing Generator](../massing_generator) window that enables you to quickly populate existing [City blocks](../city_block).
 
+## Data
+
+Here are tools to help display urban data.
+
+#### Open Urban Control Data Table
+
+This will open a new, interactive Window with the complete urban control data of 
+your model inside SketchUp (Figure 4.04). By clicking on the appropriate checkboxes 
+at the top of this new Window, you can choose which sets of data are displayed (Whole Plot, 
+Land Uses, Buildings, Complex Buildings ...). All values are refreshed in real-time 
+and you can also use this Window to _select specific Buildings_.
+
+![Urban control data table](../img/interactive_data_table.png)
+<figcaption>Figure 4.04 - Urban Control Data Window displays all selected sets of 
+data directly inside SketchUp.</figcaption>
+
+By clicking on a (Complex) Building row in this Window, Modelur will select its 
+counterpart inside the 3D Window. And vice versa - when you select the Building in 
+3D Window, it will get selected in the data table, too. Rows with selected Buildings 
+are _marked with a light blue color_ (Buildings 1000006 and 1000007 in the image above).
+
+If needed, (Complex) Buildings can also be _sorted by their values_. Simply click 
+on the name of the column you want to sort by.
+
+For Complex Buildings, the details about Land Use and/or each Simple Building from which 
+it is constructed can be shown. Select:
+
+* _Complex Buildings Land Uses_: additional lines will be shown for each Land Use that is present in the Complex Building
+* _Complex Buildings Parts_: additional lines will be shown for each simple building that is part of the complex building.
+
+These options are available only if _Complex Building_ option is selected.
+
+For City Blocks, the details about the Land Uses present on that City Block can be shown. Select:
+
+* _City Blocks Land Uses_: additional lines will be shown for each Land Use that is present on the City Block. 
+* _City Blocks Land Use Summary(Excel Sync Only)_: additional fields with land use summary will be added to [Excel Live Sync](../extensions_menu#send-modelur-data-to-excel-windows-only).
+
+These options are available only if _City Blocks_ option is selected.
+
+By selecting the option _Building Storey Gross Floor Areas (Excel Sync Only)_ the gross floor area for each storey (floor level) will be displayed for each (Complex) Building in [Excel Live Sync](../extensions_menu#send-modelur-data-to-excel-windows-only).
+
+#### Send Modelur Data to Excel (Windows only)
+
+Once you select this entry, Modelur will open up Excel (it should already be
+installed on your Windows OS) and populate it with the data from Urban Control
+Data Table. This entry is available through [extensions menu](../extensions_menu#send-modelur-data-to-excel-windows-only)
+where you can read [more about it](../extensions_menu#send-modelur-data-to-excel-windows-only).
+#### City Block Dashboard
+
+This entry will open *City Block Dashboard* that displays key information about the last selected city block:
+
+![City Block Dashboard](../img/city_block_dashboard.png)
 ## Options
 
 #### Language
