@@ -70,12 +70,18 @@ In length of the generated buildings will be smaller than this amount. The defau
 
 The generator can cover different amount of area, depending on the selected strategy. We provide two strategies.
 
-** Max. Heights / Min. Site Coverage **
+##### Max. Heights / Min. Site Coverage
 
 The generator will try to achieve minimal site coverage.
 
 To allow some variance in building heights, the site coverage will actually not be minimal possible. If the generator would cover the minimal amount of area, all of the generated buildings would have the [maximal allowed height](../city_block#city-block-limits). To avoid that, the achieved site coverage will not be the least possible for the [maximal allowed FAR](../city_block#city-block-limits), but it will be a bit higher.
 
-** Min. Heights / Max. Site Coverage **
+##### Min. Heights / Max. Site Coverage
 
 When using this strategy, the generator will cover as much area as it is permitted by the [Maximal Site Coverage](../city_block#city-block-limits). The average height of the buildings will therefore be minimal, but the generator will try to add at least some buildings of [maximal allowed height](../city_block#city-block-limits).
+
+##### Min. Heights / Max. Site Coverage
+
+This strategy will generate buildings on the perimeter of the City Block. The strategy will aim to achieve both [maximal allowed FAR](../city_block#city-block-limits) as well as [maximal site coverage](../city_block#city-block-limits). The height distribution will be more uniform than in other strategies.
+
+![Perimeter massing](../img/perimeter_generator.png)
