@@ -146,8 +146,8 @@ automatically (if it is the same Key as before), please do the following:
 ### Trial License
 
 You can request free Trial License directly inside Modelur. To do so, install and 
-initialize Modelur. Once activation window is shown, please click on a 
-_Request a Trial License_ link as shown below (Figure 2.02).
+initialize Modelur. Once activation window is shown, please enter your data 
+and click on `Start My Free Trial` button (Figure 2.02).
 
 ![Request trial](img/modelur_request_trial.png)
 <figcaption>Figure 2.02 - Request Trial button.</figcaption>
