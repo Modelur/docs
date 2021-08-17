@@ -28,8 +28,10 @@ extra_javascript:
 - javascript/mkdocs.js
 copyright: Copyright (c) 2020 by <a href="http://agilicity.com" target="_blank">AgiliCity d.o.o.</a>. All Rights Reserved.
 site_author: The Modelur Team
-google_analytics: ['GTM-PX3KMCP', 'auto']
 extra:
+  analytics:
+    provider: custom
+    property: GTM-PX3KMCP
   palette:
       primary: 'light blue'
       accent: 'cyan'
